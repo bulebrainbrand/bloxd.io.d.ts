@@ -180,5 +180,5 @@ declare global {
   var api:Api
   var thisPos:Coordinate | null | undefined
   var myId:PlayerId | null | undefined
-  var Date:BloxdDate
+  /* var Date:BloxdDate */
 }

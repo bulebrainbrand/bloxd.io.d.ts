@@ -1,0 +1,24 @@
+{
+  "name": "bloxd.io.d.ts",
+  "version": "1.0.0",
+  "description": "yo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulebrainbrand/bloxd.io.d.ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bulebrainbrand/bloxd.io.d.ts/issues"
+  },
+  "homepage": "https://github.com/bulebrainbrand/bloxd.io.d.ts#readme",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}

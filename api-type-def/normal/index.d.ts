@@ -9,6 +9,7 @@ import GetBlockCoordinatesPlayerStandingOnInterface from "./getBlockCoordinatesP
 import GetBlockTypesPlayerStandingOnInterface from "./getBlockTypesPlayerStandingOn";
 import GetUnitCoordinatesLifeformWithinInterface from "./getUnitCoordinatesLifeformWithin";
 import ShowShopTutorialInterface from "./showShopTutorial";
+import GetShieldAmountInterface from "./getShieldAmount";
 import { MargeObject } from "../../type";
 
 type AllNormalApiIntersection = GetPositionInterface &
@@ -21,6 +22,7 @@ type AllNormalApiIntersection = GetPositionInterface &
   GetBlockCoordinatesPlayerStandingOnInterface &
   GetBlockTypesPlayerStandingOnInterface &
   GetUnitCoordinatesLifeformWithinInterface &
-  ShowShopTutorialInterface;
+  ShowShopTutorialInterface &
+  GetShieldAmountInterface;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

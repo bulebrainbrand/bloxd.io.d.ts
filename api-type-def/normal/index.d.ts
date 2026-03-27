@@ -5,6 +5,7 @@ import PlayerIsInGameInterface from "./playerIsInGame";
 import PlayerIsLoggedInInterface from "./playerIsLoggedIn";
 import GetPlayerPartyWhenJoinedInterface from "./getPlayerPartyWhenJoined";
 import GetNumPlayersInterface from "./getNumPlayers";
+import GetBlockCoordinatesPlayerStandingOnInterface from "./getBlockCoordinatesPlayerStandingOn";
 import { MargeObject } from "../../type";
 
 type AllNormalApiIntersection = GetPositionInterface &
@@ -13,6 +14,7 @@ type AllNormalApiIntersection = GetPositionInterface &
   PlayerIsInGameInterface &
   PlayerIsLoggedInInterface &
   GetPlayerPartyWhenJoinedInterface &
-  GetNumPlayersInterface;
+  GetNumPlayersInterface &
+  GetBlockCoordinatesPlayerStandingOnInterface;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

@@ -8,6 +8,7 @@ import { ShopApis } from "./shops";
 import { ShieldApis } from "./shields";
 import { PositionApis } from "./positions";
 import { StandingOnApis } from "./standingOns";
+import { HealthApis } from "./health";
 import { MargeObject } from "../../type";
 
 type AllNormalApiIntersection = PositionApis &
@@ -19,6 +20,7 @@ type AllNormalApiIntersection = PositionApis &
   StandingOnApis &
   GetUnitCoordinatesLifeformWithinInterface &
   ShopApis &
-  ShieldApis;
+  ShieldApis &
+  HealthApis;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

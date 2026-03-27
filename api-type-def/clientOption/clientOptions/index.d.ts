@@ -1,4 +1,4 @@
-import { MargeObject } from "../../../utilType";
+import { MargeObject } from "../../../type/utilType";
 import canChange from "./canChange";
 import crouchingSpeed from "./crouchingSpeed";
 import walkingSpeed from "./walkingSpeed";

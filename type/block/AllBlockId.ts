@@ -1,1 +1,1 @@
-export type AllBlockID = "1" | "2";
+export type AllBlockID = string; // burh

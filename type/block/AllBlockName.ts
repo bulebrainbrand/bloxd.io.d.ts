@@ -1,1 +1,1 @@
-export type AllBlockName = "Dirt" | "Sand";
+export type AllBlockName = string; // burh

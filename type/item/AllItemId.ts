@@ -1,1 +1,4 @@
-export type AllItemId = "1" | "2";
+/**
+ * i give up union this :|
+ */
+export type AllItemId = string;

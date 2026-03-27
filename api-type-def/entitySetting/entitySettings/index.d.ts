@@ -1,5 +1,6 @@
 import { EntityId, MargeObject, PlayerId } from "../../../type";
 import Opacity from "./opacity";
+import ZIndex from "./zIndex";
 
 type EntitySettingExportFormat = {
   name: string;
@@ -37,7 +38,7 @@ type EntitySettingExportFormat = {
   };
 };
 
-type AllEntitySettingUnion = Opacity;
+type AllEntitySettingUnion = Opacity | ZIndex;
 
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

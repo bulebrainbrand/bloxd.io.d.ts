@@ -1,41 +1,44 @@
 import { PlayerId } from "../../type";
-import { ClientOptions } from "./clientOptions";
+import { MargeObject } from "../../utilType";
+import {
+  ClientOptions,
+  SetClientOption,
+  GetClientOption,
+  SetClientOptionToDefault,
+} from "./clientOptions";
 export * from "./clientOptions";
 
-type AllGetClientOptionFuncTypeIncludeObject = {
-  [PassedOption in keyof ClientOptions]: (
+interface RootSetClientOption {
+  setClientOption<TOption extends keyof ClientOptions>(
     playerId: PlayerId,
-    option: PassedOption,
-  ) => ClientOptions[PassedOption];
-};
+    option: TOption,
+    value: ClientOptions[TOption],
+  ): void;
+}
+interface SetClientOptions {
+  setClientOptions(playerId: PlayerId, options: Partial<ClientOptions>): void;
+}
 
-type GetClientOption =
-  AllGetClientOptionFuncTypeIncludeObject[keyof AllGetClientOptionFuncTypeIncludeObject];
-
-type AllSetClientOptionFuncTypeIncludeObject = {
-  [PassedOption in keyof ClientOptions]: (
+interface RootGetClientOption {
+  getClientOption<TOption extends keyof ClientOptions>(
     playerId: PlayerId,
-    option: PassedOption,
-    value: ClientOptions[PassedOption],
-  ) => void;
-};
+    option: TOption,
+  ): ClientOptions[TOption];
+}
 
-type SetClientOption =
-  AllSetClientOptionFuncTypeIncludeObject[keyof AllSetClientOptionFuncTypeIncludeObject];
+interface RootSetClientOptionToDefault {
+  setClientOptionToDefault<TOption extends keyof ClientOptions>(
+    playerId: PlayerId,
+    option: TOption,
+  ): void;
+}
 
-type SetClientOptions = (
-  aplyerId: PlayerId,
-  optionsObj: Partial<ClientOptions>,
-) => void;
-
-type SetClientOptionToDefault = (
-  PlayerId: PlayerId,
-  option: keyof ClientOptions,
-) => void;
-
-export type ClientOptionApi = {
-  setClientOption: SetClientOption;
-  getClientOption: GetClientOption;
-  setClientOptions: SetClientOptions;
-  setClientOptionToDefault: SetClientOptionToDefault;
-};
+export type ClientOptionApi = MargeObject<
+  SetClientOption &
+    RootSetClientOption &
+    GetClientOption &
+    RootGetClientOption &
+    SetClientOptions &
+    SetClientOptionToDefault &
+    RootSetClientOptionToDefault
+>;

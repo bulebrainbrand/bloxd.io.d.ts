@@ -1,15 +1,6 @@
 import { EntityId, PlayerId } from "../../type";
-import { AllValue } from "../../utilType";
 import { EntitySettings } from "./entitySettings";
 type Setting = keyof EntitySettings;
-type AllSetTargetedPlayerSettingForEveryoneFuncTypeIncludeObject = {
-  [Setting in keyof EntitySettings]: (
-    targetedPlayerId: PlayerId,
-    settingName: Setting,
-    settingvalue: EntitySettings[Setting],
-    includeNewJoiners?: boolean,
-  ) => void;
-};
 
 /**
  * Set every player's other-entity setting to a specific value for a particular player.
@@ -21,17 +12,15 @@ type AllSetTargetedPlayerSettingForEveryoneFuncTypeIncludeObject = {
  * @param {boolean} [includeNewJoiners]
  * @returns {void}
  */
-type SetTargetedPlayerSettingForEveryone =
-  AllValue<AllSetTargetedPlayerSettingForEveryoneFuncTypeIncludeObject>;
+type SetTargetedPlayerSettingForEveryone = <
+  Setting extends keyof EntitySettings,
+>(
+  targetedPlayerId: PlayerId,
+  settingName: Setting,
+  settingValue: EntitySettings[Setting],
+  includeNewJoiners?: boolean,
+) => void;
 
-type AllSetEveryoneSettingForPlayerFuncTypeIncludeObject = {
-  [Setting in keyof EntitySettings]: (
-    playerId: PlayerId,
-    settingName: Setting,
-    settingvalue: EntitySettings[Setting],
-    includeNewJoiners?: boolean,
-  ) => void;
-};
 /**
  * Set a player's other-entity setting for every lifeform in the game.
  * includeNewJoiners=true means that the player will have the setting applied to new joiners.
@@ -42,28 +31,28 @@ type AllSetEveryoneSettingForPlayerFuncTypeIncludeObject = {
  * @param {boolean} [includeNewJoiners]
  * @returns {void}
  */
-type SetEveryoneSettingForPlayer =
-  AllValue<AllSetEveryoneSettingForPlayerFuncTypeIncludeObject>;
+type SetEveryoneSettingForPlayer = <Setting extends keyof EntitySettings>(
+  playerId: PlayerId,
+  settingName: Setting,
+  settingValue: EntitySettings[Setting],
+  includeNewJoiners?: boolean,
+) => void;
 
-type AllSetOtherEntitySettingFuncTypeIncludeObject = {
-  [Setting in keyof EntitySettings]: (
-    relevantPlayerId: PlayerId,
-    targetedEntityId: EntityId,
-    settingName: Setting,
-    settingvalue: EntitySettings[Setting],
-  ) => void;
-};
 /**
  * Set a player's other-entity setting for a specific entity.
  *
  * @param {PlayerId} relevantPlayerId
  * @param {EntityId} targetedEntityId
  * @param {Setting} settingName
- * @param {OtherEntitySettings[Setting]} settingValue
+ * @param {EntitySettings[Setting]} settingValue
  * @returns {void}
  */
-type SetOtherEntitySetting =
-  AllValue<AllSetOtherEntitySettingFuncTypeIncludeObject>;
+type SetOtherEntitySetting = <Setting extends keyof EntitySettings>(
+  relevantPlayerId: PlayerId,
+  targetedEntityId: EntityId,
+  settingName: Setting,
+  settingValue: EntitySettings[Setting],
+) => void;
 
 /**
  * Set many of a player's other-entity settings for a specific entity.
@@ -79,24 +68,19 @@ type SetOtherEntitySettings = (
   settingsObject: Partial<EntitySettings>,
 ) => void;
 
-type AllGetOtherEntitySettingFuncTypeIncludeObject = {
-  [Setting in keyof EntitySettings]: (
-    relevantPlayerId: PlayerId,
-    targetedEntityId: EntityId,
-    settingName: Setting,
-  ) => EntitySettings[Setting];
-};
-
 /**
  * Get the value of a player's other-entity setting for a specific entity.
  *
  * @param {PlayerId} relevantPlayerId
  * @param {EntityId} targetedEntityId
  * @param {Setting} settingName
- * @returns {OtherEntitySettings[Setting]}
+ * @returns {EntitySettings[Setting]}
  */
-type GetOtherEntitySetting =
-  AllValue<AllGetOtherEntitySettingFuncTypeIncludeObject>;
+type GetOtherEntitySetting = <Setting extends keyof EntitySettings>(
+  relevantPlayerId: PlayerId,
+  targetedEntityId: EntityId,
+  settingName: Setting,
+) => EntitySettings[Setting];
 
 export type EntitySettingApi = {
   setTargetedPlayerSettingForEveryone: SetTargetedPlayerSettingForEveryone;
@@ -107,6 +91,7 @@ export type EntitySettingApi = {
 };
 
 export {
+  SetTargetedPlayerSettingForEveryone,
   SetEveryoneSettingForPlayer,
   SetOtherEntitySetting,
   SetOtherEntitySettings,

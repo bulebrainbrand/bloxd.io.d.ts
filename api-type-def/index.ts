@@ -7,3 +7,8 @@ import { MargeObject } from "../utilType";
 export type Api = MargeObject<
   NormalApi & ClientOptionApi & EntitySettingApi & MobSettingApi
 >;
+
+export * from "./normal";
+export * from "./clientOption";
+export * from "./entitySetting";
+export * from "./mobSetting";

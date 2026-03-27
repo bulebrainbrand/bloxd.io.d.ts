@@ -7,6 +7,7 @@ import GetPlayerPartyWhenJoinedInterface from "./getPlayerPartyWhenJoined";
 import GetNumPlayersInterface from "./getNumPlayers";
 import GetBlockCoordinatesPlayerStandingOnInterface from "./getBlockCoordinatesPlayerStandingOn";
 import GetBlockTypesPlayerStandingOnInterface from "./getBlockTypesPlayerStandingOn";
+import GetUnitCoordinatesLifeformWithinInterface from "./getUnitCoordinatesLifeformWithin";
 import { MargeObject } from "../../type";
 
 type AllNormalApiIntersection = GetPositionInterface &
@@ -17,6 +18,7 @@ type AllNormalApiIntersection = GetPositionInterface &
   GetPlayerPartyWhenJoinedInterface &
   GetNumPlayersInterface &
   GetBlockCoordinatesPlayerStandingOnInterface &
-  GetBlockTypesPlayerStandingOnInterface;
+  GetBlockTypesPlayerStandingOnInterface &
+  GetUnitCoordinatesLifeformWithinInterface;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

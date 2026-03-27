@@ -1,4 +1,4 @@
-import { Coordinate, PlayerId } from "../../type";
+import { Coordinate, PlayerId } from "../../../type";
 
 interface GetBlockCoordinatesPlayerStandingOnInterface {
   /**

@@ -1,7 +1,8 @@
 import { EntityId, PlayerId } from "../../../type";
 
 /**
- *
+ * Rendering order of the entity, higher zIndex renders on top of lower ones.
+ * @type {0 | 1}
  */
 type ValueType = 0 | 1;
 

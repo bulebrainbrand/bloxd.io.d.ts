@@ -1,8 +1,14 @@
-import { GetPosition } from "./getPosition";
-import { SetPosition } from "./setPosition";
-import { GetPlayerIds } from "./getPlayerIds";
-export type NormalApi = {
-  getPosition: GetPosition;
-  setPosition: SetPosition;
-  getPlayerIds: GetPlayerIds;
-};
+import GetPositionInterface from "./getPosition";
+import SetPositionInterface from "./setPosition";
+import GetPlayerIdsInterface from "./getPlayerIds";
+import PlayerIsInGameInterface from "./playerIsInGame";
+import PlayerIsLoggedInInterface from "./playerIsLoggedIn";
+import { MargeObject } from "../../type";
+
+type AllNormalApiIntersection = GetPositionInterface &
+  SetPositionInterface &
+  GetPlayerIdsInterface &
+  PlayerIsInGameInterface &
+  PlayerIsLoggedInInterface;
+
+export type NormalApi = MargeObject<AllNormalApiIntersection>;

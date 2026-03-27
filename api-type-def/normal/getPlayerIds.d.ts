@@ -1,8 +1,12 @@
 import { PlayerId } from "../../type";
 
-/**
- * Get all the player ids.
- *
- * @returns {PlayerId[]}
- */
-export type GetPlayerIds = () => PlayerId[];
+interface GetPlayerIdsInterface {
+  /**
+   * Get all the player ids.
+   *
+   * @returns {PlayerId[]}
+   */
+  getPlayerIds(): PlayerId[];
+}
+
+export default GetPlayerIdsInterface;

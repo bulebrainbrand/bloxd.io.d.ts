@@ -1,5 +1,4 @@
-import { PlayerId } from "../../type";
-import { MargeObject } from "../../utilType";
+import { PlayerId, MargeObject } from "../../type";
 import {
   ClientOptions,
   SetClientOption,

@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "yo",
   "types": "bloxd-api.d.ts",
-  "scripts": {},
+  "exports": {
+    "./global": {
+      "types": "./bloxd-api.d.ts"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bulebrainbrand/bloxd.io.d.ts.git"

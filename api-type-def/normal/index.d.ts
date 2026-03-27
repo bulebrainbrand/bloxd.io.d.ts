@@ -4,7 +4,7 @@ import PlayerIsLoggedInInterface from "./playerIsLoggedIn";
 import GetPlayerPartyWhenJoinedInterface from "./getPlayerPartyWhenJoined";
 import GetNumPlayersInterface from "./getNumPlayers";
 import GetUnitCoordinatesLifeformWithinInterface from "./getUnitCoordinatesLifeformWithin";
-import ShowShopTutorialInterface from "./showShopTutorial";
+import { ShopApis } from "./shops";
 import { ShieldApis } from "./shields";
 import { PositionApis } from "./positions";
 import { StandingOnApis } from "./standingOns";
@@ -18,7 +18,7 @@ type AllNormalApiIntersection = PositionApis &
   GetNumPlayersInterface &
   StandingOnApis &
   GetUnitCoordinatesLifeformWithinInterface &
-  ShowShopTutorialInterface &
+  ShopApis &
   ShieldApis;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

@@ -1,5 +1,3 @@
-import GetPositionInterface from "./getPosition";
-import SetPositionInterface from "./setPosition";
 import GetPlayerIdsInterface from "./getPlayerIds";
 import PlayerIsInGameInterface from "./playerIsInGame";
 import PlayerIsLoggedInInterface from "./playerIsLoggedIn";
@@ -10,10 +8,10 @@ import GetBlockTypesPlayerStandingOnInterface from "./getBlockTypesPlayerStandin
 import GetUnitCoordinatesLifeformWithinInterface from "./getUnitCoordinatesLifeformWithin";
 import ShowShopTutorialInterface from "./showShopTutorial";
 import { ShieldApis } from "./shields";
+import { PositionApis } from "./positions";
 import { MargeObject } from "../../type";
 
-type AllNormalApiIntersection = GetPositionInterface &
-  SetPositionInterface &
+type AllNormalApiIntersection = PositionApis &
   GetPlayerIdsInterface &
   PlayerIsInGameInterface &
   PlayerIsLoggedInInterface &

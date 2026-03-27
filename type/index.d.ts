@@ -14,3 +14,4 @@ export * from "./PlayerAttemptDamageOtherPlayerOpts";
 export * from "./ShieldAmount";
 export * from "./WhoDidDamage";
 export * from "./WhoKilled";
+export * from "./utilType";

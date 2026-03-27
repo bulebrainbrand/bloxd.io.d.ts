@@ -1,28 +1,23 @@
 import { EntityId, PlayerId } from "../../../type";
 
 /**
- * Opacity of the entity
- * Fractional values will use dithering
- * 0 opacity will hide the entity but not its name tag
- * @type {number}
- * @default 1
+ *
  */
-type ValueType = number;
+type ValueType = never;
+
+declare const name: "example";
 
 interface SetTargetedPlayerSettingForEveryone {
   /**
    *
-   * @overload
-   *
    * @param {PlayerId} targetedPlayerId
-   * @param {"opacity"} settingName
-   * @param {Opacity} settingValue
-   * @param {boolean} [includeNewJoiners]
-   * @returns {void}
+   * @param {"example"} settingName
+   * @param {!!--never--!!} settingValue
+   * @param {boolean} includeNewJoiners
    */
   setTargetedPlayerSettingForEveryone(
     targetedPlayerId: PlayerId,
-    settingName: "opacity",
+    settingName: typeof name,
     settingValue: ValueType,
     includeNewJoiners?: boolean,
   ): void;
@@ -34,14 +29,14 @@ interface SetEveryoneSettingForPlayer {
    * @overload
    *
    * @param {PlayerId} playerId
-   * @param {"opacity"} settingName
-   * @param {Opacity} settingValue
+   * @param {"example"} settingName
+   * @param {!!--never--!!} settingValue
    * @param {boolean} [includeNewJoiners]
    * @returns {void}
    */
   setEveryoneSettingForPlayer(
     playerId: PlayerId,
-    settingName: "opacity",
+    settingName: typeof name,
     settingValue: ValueType,
     includeNewJoiners?: boolean,
   ): void;
@@ -53,8 +48,8 @@ interface SetOtherEntitySetting {
    * @overload
    *
    * @param {PlayerId}
-   * @param {"opacity"} settingName
-   * @param {Opacity} settingValue
+   * @param {"example"} settingName
+   * @param {!!--never--!!} settingValue
    * @param {boolean} [includeNewJoiners]
    * @returns {void}
    */
@@ -62,7 +57,7 @@ interface SetOtherEntitySetting {
   setOtherEntitySetting(
     relevantPlayerId: PlayerId,
     targetedEntityId: EntityId,
-    settingName: "opacity",
+    settingName: typeof name,
     settingValue: ValueType,
   ): void;
 }
@@ -74,18 +69,17 @@ interface GetOtherEntitySetting {
    *
    * @param {PlayerId} relevantPlayerId
    * @param {EntityId} targetedEntityId
-   * @param {"opacity"} settingName
-   * @returns {void}
+   * @param {"example"} settingName
+   * @returns {!!--never--!!}
    */
   getOtherEntitySetting(
     relevantPlayerId: PlayerId,
     targetedEntityId: EntityId,
-    settingName: "opacity",
+    settingName: typeof name,
   ): ValueType;
 }
-
 type ExportTypes = {
-  name: "opacity";
+  name: typeof name;
   ValueType: ValueType;
   SetTargetedPlayerSettingForEveryone: SetTargetedPlayerSettingForEveryone;
   SetEveryoneSettingForPlayer: SetEveryoneSettingForPlayer;

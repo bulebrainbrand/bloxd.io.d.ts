@@ -9,10 +9,12 @@ import { PlayerId } from "../../../type";
  * @type {number}
  * @default 1
  */
-export type SpeedMultiplierValue = number;
+type ValueType = number;
 
-export interface SetClientOptionSpeedMultiplier {
+interface SetClientOption {
   /**
+   *
+   * @overload
    *
    * @param {PlayerId} playerId
    * @param {"speedMultiplier"} option
@@ -26,8 +28,10 @@ export interface SetClientOptionSpeedMultiplier {
   ): void;
 }
 
-export interface GetClientOptionSpeedMultiplier {
+interface GetClientOption {
   /**
+   *
+   * @overload
    *
    * @param {PlayerId} playerId
    * @param {"speedMultiplier"} option
@@ -36,8 +40,10 @@ export interface GetClientOptionSpeedMultiplier {
   getClientOption(playerId: PlayerId, option: "speedMultiplier"): number;
 }
 
-export interface SetClientOptionToDefaultSpeedMultiplier {
+interface SetClientOptionToDefault {
   /**
+   *
+   * @overload
    *
    * @param {PlayerId} playerId
    * @param {"speedMultiplier"} option
@@ -45,3 +51,11 @@ export interface SetClientOptionToDefaultSpeedMultiplier {
    */
   setClientOptionToDefault(playerId: PlayerId, option: "speedMultiplier"): void;
 }
+type ExportTypes = {
+  SetClientOption: SetClientOption;
+  SetClientOptionToDefault: SetClientOptionToDefault;
+  GetClientOption: GetClientOption;
+  name: "speedMultiplier";
+  ValueType: ValueType;
+};
+export default ExportTypes;

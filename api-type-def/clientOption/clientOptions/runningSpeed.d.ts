@@ -13,9 +13,9 @@ import { PlayerId } from "../../../type";
  * @type {number}
  * @default 7
  */
-export type RunningSpeedValue = number;
+type ValueType = number;
 
-export interface SetClientOptionRunningSpeed {
+interface SetClientOption {
   /**
    *
    * @param {PlayerId} playerId
@@ -30,7 +30,7 @@ export interface SetClientOptionRunningSpeed {
   ): void;
 }
 
-export interface GetClientOptionRunningSpeed {
+interface GetClientOption {
   /**
    *
    * @param {PlayerId} playerId
@@ -40,7 +40,7 @@ export interface GetClientOptionRunningSpeed {
   getClientOption(playerId: PlayerId, option: "runningSpeed"): number;
 }
 
-export interface SetClientOptionToDefaultRunningSpeed {
+interface SetClientOptionToDefault {
   /**
    *
    * @param {PlayerId} playerId
@@ -49,3 +49,12 @@ export interface SetClientOptionToDefaultRunningSpeed {
    */
   setClientOptionToDefault(playerId: PlayerId, option: "runningSpeed"): void;
 }
+
+type ExportTypes = {
+  SetClientOption: SetClientOption;
+  SetClientOptionToDefault: SetClientOptionToDefault;
+  GetClientOption: GetClientOption;
+  name: "runningSpeed";
+  ValueType: ValueType;
+};
+export default ExportTypes;

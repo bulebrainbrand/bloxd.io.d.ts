@@ -8,9 +8,9 @@ import { PlayerId } from "../../../type";
  * @type {number}
  * @default 2
  */
-export type CrouchingSpeedValue = number;
+type ValueType = number;
 
-export interface SetClientOptionCrouchingSpeed {
+interface SetClientOption {
   /**
    *
    * @param {PlayerId} playerId
@@ -25,7 +25,7 @@ export interface SetClientOptionCrouchingSpeed {
   ): void;
 }
 
-export interface GetClientOptionCrouchingSpeed {
+interface GetClientOption {
   /**
    *
    * @param {PlayerId} playerId
@@ -35,7 +35,7 @@ export interface GetClientOptionCrouchingSpeed {
   getClientOption(playerId: PlayerId, option: "crouchingSpeed"): number;
 }
 
-export interface SetClientOptionToDefaultCrouchingSpeed {
+interface SetClientOptionToDefault {
   /**
    *
    * @param {PlayerId} playerId
@@ -44,3 +44,12 @@ export interface SetClientOptionToDefaultCrouchingSpeed {
    */
   setClientOptionToDefault(playerId: PlayerId, option: "crouchingSpeed"): void;
 }
+
+type ExportTypes = {
+  SetClientOption: SetClientOption;
+  SetClientOptionToDefault: SetClientOptionToDefault;
+  GetClientOption: GetClientOption;
+  name: "crouchingSpeed";
+  ValueType: ValueType;
+};
+export default ExportTypes;

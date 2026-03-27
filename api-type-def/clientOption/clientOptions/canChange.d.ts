@@ -5,14 +5,16 @@ import { PlayerId } from "../../../type";
  * @type {boolean}
  * @default true
  */
-export type CanChangeValue = boolean;
+type ValueType = boolean;
 
-export interface SetClientOptionCanChange {
+interface SetClientOption {
   /**
    * set status player who can changing block
    *
    * option docment:
    * Whether the player can change blocks
+   *
+   * @overload
    *
    * @param {PlayerId} playerId
    * @param {"canchange"} option
@@ -25,6 +27,8 @@ export interface SetClientOptionCanChange {
    * option docment:
    * Whether the player can change blocks
    *
+   * @overload
+   *
    * @param {PlayerId} playerId
    * @param {"canchange"} option
    * @param {false} value
@@ -33,12 +37,14 @@ export interface SetClientOptionCanChange {
   setClientOption(playerId: PlayerId, option: "canChange", value: false): void;
 }
 
-export interface GetClientOptionCanChange {
+interface GetClientOption {
   /**
    * get player can change block
    *
    * option docment:
    * Whether the player can change blocks
+   *
+   * @overload
    *
    * @param {PlayerId} playerId
    * @param {"canChange"} option
@@ -47,7 +53,7 @@ export interface GetClientOptionCanChange {
   getClientOption(playerId: PlayerId, option: "canChange"): boolean;
 }
 
-export interface SetClientOptionToDefaultCanChange {
+interface SetClientOptionToDefault {
   /**
    * set canChange option to default
    * canChange default is `true`
@@ -55,9 +61,19 @@ export interface SetClientOptionToDefaultCanChange {
    * option docment:
    * Whether the player can change blocks
    *
+   * @overload
+   *
    * @param {PlayerId} playerId
    * @param {"canChange"} option
    * @returns {void}
    */
   setClientOptionToDefault(playerId: PlayerId, option: "canChange"): void;
 }
+type ExportTypes = {
+  SetClientOption: SetClientOption;
+  SetClientOptionToDefault: SetClientOptionToDefault;
+  GetClientOption: GetClientOption;
+  name: "canChange";
+  ValueType: ValueType;
+};
+export default ExportTypes;

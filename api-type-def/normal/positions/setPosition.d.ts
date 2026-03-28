@@ -1,4 +1,4 @@
-import { Coordinate, EntityId } from "../../type";
+import { Coordinate, EntityId } from "../../../type";
 
 interface SetPositionInterface {
   /**
@@ -18,7 +18,7 @@ interface SetPositionInterface {
    * @param {Coordinate} position
    * @returns {void}
    */
-  setPosition(entityId: EntityId, position: Coordinate): void;
+  setPosition(entityId: EntityId, position: Readonly<Coordinate>): void;
 }
 
 export default SetPositionInterface;

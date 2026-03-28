@@ -15,3 +15,5 @@ export * from "./ShieldAmount";
 export * from "./WhoDidDamage";
 export * from "./WhoKilled";
 export * from "./utilType";
+export * from "./ApplyMeleeHitOverrides";
+export * from "./message";

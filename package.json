@@ -1,6 +1,6 @@
 {
   "name": "bloxd.io.d.ts",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "yo",
   "types": "bloxd-api.d.ts",
   "exports": {

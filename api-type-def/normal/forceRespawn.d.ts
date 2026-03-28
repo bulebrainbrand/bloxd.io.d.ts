@@ -8,5 +8,5 @@ interface ForceRespawnInterface {
    * @param {Coordinate} [respawnPos]
    * @returns {void}
    */
-  forceRespawn(playerId: PlayerId, respawnPos?: Coordinate): void;
+  forceRespawn(playerId: PlayerId, respawnPos?: Readonly<Coordinate>): void;
 }

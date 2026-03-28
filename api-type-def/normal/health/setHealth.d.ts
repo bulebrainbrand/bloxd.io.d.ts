@@ -16,8 +16,8 @@ interface SetHealthinterface {
   setHealth(
     entityId: EntityId,
     newHealth: Health | null,
-    whoDidDamage: WhoDidDamage,
-    increaseMaxHealthIfNeeded: boolean,
+    whoDidDamage?: Readonly<WhoDidDamage>,
+    increaseMaxHealthIfNeeded?: boolean,
   ): boolean;
 }
 export default SetHealthinterface;

@@ -24,9 +24,9 @@ interface ApplyMeleeHitInterface {
   applyMeleeHit(
     hittingEId: LifeformId,
     hitEId: LifeformId,
-    dirFacing: Direcrion,
+    dirFacing: Readonly<Direcrion>,
     bodyPartHit?: LifeformBodyPart | null,
-    overrides?: applyMeleeHitOverrides,
+    overrides?: Readonly<applyMeleeHitOverrides>,
   ): boolean;
 }
 

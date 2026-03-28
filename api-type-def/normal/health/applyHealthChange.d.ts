@@ -11,7 +11,7 @@ interface ApplyHealthChangeInterface {
   applyHealthChange(
     lifeformId: LifeformId,
     changeAmount: number,
-    whoDidDamage?: WhoDidDamage,
+    whoDidDamage?: Readonly<WhoDidDamage>,
     broadcastLifeformHurt?: boolean,
   ): boolean;
 }

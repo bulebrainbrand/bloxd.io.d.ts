@@ -27,7 +27,9 @@ interface AttemptApplyDamageInterface {
    * }
    * @returns {boolean} - whether the attack damaged the lifeform
    */
-  attemptApplyDamage(options: PlayerAttemptDamageOtherPlayerOpts): boolean;
+  attemptApplyDamage(
+    options: Readonly<PlayerAttemptDamageOtherPlayerOpts>,
+  ): boolean;
 }
 
 export default AttemptApplyDamageInterface;

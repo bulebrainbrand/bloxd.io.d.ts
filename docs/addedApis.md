@@ -1,0 +1,25 @@
+## done
+
+- getPosition
+- setPosition
+- getPlayerIds
+- playerIsInGame
+- palyerIsLoggedIn
+- getPlayerPartyWhenJoined
+- getNumPlayers
+- getBlockCoordinatesPlayerStandingOn
+- getBlockTypesPlayerStandingOn
+- getUnitCoordinatesLifeformWithin
+- showShopTutorial
+- getShieldAmount
+- setShieldAmount
+- getHealth
+- applyHealthChange
+- setHealth
+- applyMeleeHit
+- attemptApplyDamage
+- forceRespawn
+- killLifeform
+- getCurrentKillstreak
+- clearKillstreak
+- isAlive

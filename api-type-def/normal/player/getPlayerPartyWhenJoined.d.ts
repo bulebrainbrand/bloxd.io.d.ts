@@ -1,4 +1,4 @@
-import { Party, PlayerId } from "../../type";
+import { Party, PlayerId } from "../../..";
 
 interface GetPlayerPartyWhenJoinedInterface {
   /**

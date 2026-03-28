@@ -1,4 +1,4 @@
-import { PlayerId } from "../../type";
+import { PlayerId } from "../../..";
 
 interface PlayerIsLoggedInInterface {
   /**

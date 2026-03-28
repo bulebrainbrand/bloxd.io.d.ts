@@ -1,0 +1,14 @@
+import { NormalApi } from "./normal/index";
+import { ClientOptionApi } from "./clientOption/index";
+import { EntitySettingApi } from "./entitySetting/index";
+import { MobSettingApi } from "./mobSetting/index";
+import { MargeObject } from "@type";
+
+export type Api = MargeObject<
+  NormalApi & ClientOptionApi & EntitySettingApi & MobSettingApi
+>;
+
+export * from "./normal/index";
+export * from "./clientOption/index";
+export * from "./entitySetting/index";
+export * from "./mobSetting/index";

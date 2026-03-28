@@ -1,0 +1,1 @@
+export type ShopCategoryKey = string;

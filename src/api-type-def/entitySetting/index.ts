@@ -1,5 +1,5 @@
-import { EntityId, PlayerId } from "../../type";
-import { EntitySettings } from "./entitySettings";
+import { EntityId, PlayerId } from "@type";
+import { EntitySettings } from "./entitySettings/index";
 type Setting = keyof EntitySettings;
 
 /**
@@ -98,4 +98,4 @@ export {
   GetOtherEntitySetting,
 };
 
-export * from "./entitySettings";
+export * from "./entitySettings/index";

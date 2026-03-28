@@ -1,4 +1,4 @@
-import { LifeformId } from "../../../type";
+import { LifeformId } from "@type";
 
 interface IsAliveInterface {
   /**

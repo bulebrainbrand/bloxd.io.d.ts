@@ -1,13 +1,13 @@
 import GetUnitCoordinatesLifeformWithinInterface from "./getUnitCoordinatesLifeformWithin";
-import { ShopApis } from "./shops";
-import { ShieldApis } from "./shields";
-import { PositionApis } from "./positions";
-import { StandingOnApis } from "./standingOns";
-import { HealthApis } from "./health";
-import { KillstreakApis } from "./killstreak";
-import { MessageApis } from "./message";
-import { PlayerApis } from "./player";
-import { MargeObject } from "../../type";
+import { ShopApis } from "./shops/index";
+import { ShieldApis } from "./shields/index";
+import { PositionApis } from "./positions/index";
+import { StandingOnApis } from "./standingOns/index";
+import { HealthApis } from "./health/index";
+import { KillstreakApis } from "./killstreak/index";
+import { MessageApis } from "./message/index";
+import { PlayerApis } from "./player/index";
+import { MargeObject } from "@type";
 
 type AllNormalApiIntersection = PositionApis &
   PlayerApis &

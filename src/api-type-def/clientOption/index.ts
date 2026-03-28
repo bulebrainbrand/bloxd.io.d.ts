@@ -1,11 +1,11 @@
-import { PlayerId, MargeObject } from "../../type";
+import { PlayerId, MargeObject } from "@type";
 import {
   ClientOptions,
   SetClientOption,
   GetClientOption,
   SetClientOptionToDefault,
-} from "./clientOptions";
-export * from "./clientOptions";
+} from "./clientOptions/index";
+export * from "./clientOptions/index";
 
 interface RootSetClientOption {
   setClientOption<TOption extends keyof ClientOptions>(

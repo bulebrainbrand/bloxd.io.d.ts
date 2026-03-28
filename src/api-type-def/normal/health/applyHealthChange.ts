@@ -1,4 +1,4 @@
-import { LifeformId, WhoDidDamage } from "../../../type";
+import { LifeformId, WhoDidDamage } from "@type";
 
 interface ApplyHealthChangeInterface {
   /**

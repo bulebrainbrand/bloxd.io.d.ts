@@ -1,4 +1,4 @@
-import { Coordinate, LifeformId } from "../../type";
+import { Coordinate, LifeformId } from "@type";
 
 interface GetUnitCoordinatesLifeformWithinInterface {
   /**

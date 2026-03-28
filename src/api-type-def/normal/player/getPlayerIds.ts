@@ -1,4 +1,4 @@
-import { PlayerId } from "../../..";
+import { PlayerId } from "@type";
 
 interface GetPlayerIdsInterface {
   /**

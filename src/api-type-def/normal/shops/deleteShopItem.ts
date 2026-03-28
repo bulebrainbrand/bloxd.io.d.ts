@@ -1,4 +1,4 @@
-import { ShopCategoryKey, ShopItemKey } from "../../../type";
+import { ShopCategoryKey, ShopItemKey } from "@type";
 
 interface DeleteShopItemInterface {
   /**

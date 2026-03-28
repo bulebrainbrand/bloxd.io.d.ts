@@ -1,4 +1,4 @@
-import { LifeformId, WhoKilled } from "../../../type";
+import { LifeformId, WhoKilled } from "@type";
 
 interface killLifeformInterface {
   /**

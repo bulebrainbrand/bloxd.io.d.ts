@@ -1,4 +1,4 @@
-import { PlayerAttemptDamageOtherPlayerOpts } from "../../../type";
+import { PlayerAttemptDamageOtherPlayerOpts } from "@type";
 
 interface AttemptApplyDamageInterface {
   /**

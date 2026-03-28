@@ -1,4 +1,4 @@
-import { EntityId, Health, WhoDidDamage } from "../../../type";
+import { EntityId, Health, WhoDidDamage } from "@type";
 
 interface SetHealthinterface {
   /**

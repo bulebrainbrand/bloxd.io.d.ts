@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type";
+import { PlayerId } from "@type";
 
 /**
  * Whether the player can change blocks

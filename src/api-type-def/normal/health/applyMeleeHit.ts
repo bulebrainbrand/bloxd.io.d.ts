@@ -3,7 +3,7 @@ import {
   Direcrion,
   LifeformBodyPart,
   LifeformId,
-} from "../../../type";
+} from "@type";
 
 interface ApplyMeleeHitInterface {
   /**

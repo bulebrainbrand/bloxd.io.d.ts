@@ -1,4 +1,4 @@
-import { ShopCategoryKey, ShopItem, ShopItemKey } from "../../../type";
+import { ShopCategoryKey, ShopItem, ShopItemKey } from "@type";
 
 interface CreateShopItemInterface {
   /**

@@ -6,7 +6,12 @@
     "emitDeclarationOnly": true,
     "outDir": "./dist",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "paths": {
+      "@index": ["./src/index"],
+      "@type": ["./src/type/index"]
+    }
   },
   "include": ["src/**/*.ts"]
 }

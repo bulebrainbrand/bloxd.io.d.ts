@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type";
+import { PlayerId } from "@type";
 
 /**
  * Walking speed for the player.

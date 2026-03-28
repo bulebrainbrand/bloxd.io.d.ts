@@ -1,5 +1,5 @@
-import { MobSettings } from "./mobSettings";
-import { MobId, MobType } from "../../type";
+import { MobSettings } from "./mobSettings/index";
+import { MobId, MobType } from "@type";
 
 /**
  * Returns the current default value for a mob setting.
@@ -68,4 +68,4 @@ export type MobSettingApi = {
   setMobSetting: SetMobSetting;
 };
 
-export * from "./mobSettings";
+export * from "./mobSettings/index";

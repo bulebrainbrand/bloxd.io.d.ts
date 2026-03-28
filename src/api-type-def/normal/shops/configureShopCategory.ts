@@ -1,4 +1,4 @@
-import { ShopCategoryConfig, ShopCategoryKey } from "../../../type";
+import { ShopCategoryConfig, ShopCategoryKey } from "@type";
 
 interface ConfigureShopCategory {
   /**

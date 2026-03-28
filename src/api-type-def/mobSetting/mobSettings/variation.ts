@@ -1,4 +1,4 @@
-import { MobType } from "../../../type";
+import { MobType } from "@type";
 
 type VariationDictionary = {
   /**

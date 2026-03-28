@@ -1,4 +1,4 @@
-import { CustomTextStyling, PlayerId } from "../../../type";
+import { CustomTextStyling, PlayerId } from "@type";
 
 interface SendFlyingMiddleMessage {
   /**

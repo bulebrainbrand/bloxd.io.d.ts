@@ -1,4 +1,4 @@
-import { Coordinate, EntityId } from "../../../type";
+import { Coordinate, EntityId } from "@type";
 
 interface SetPositionInterface {
   /**

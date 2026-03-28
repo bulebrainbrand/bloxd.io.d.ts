@@ -1,5 +1,5 @@
-import { Api } from "./api-type-def";
-import { Coordinate, PlayerId } from "./type";
+import { Api } from "./api-type-def/index";
+import { Coordinate, PlayerId } from "./type/index";
 
 declare global {
   var api: Api;
@@ -7,6 +7,6 @@ declare global {
   var thisPos: Coordinate | undefined;
 }
 
-export * from "./type";
+export * from "./type/index";
 
-export * from "./api-type-def";
+export * from "./api-type-def/index";

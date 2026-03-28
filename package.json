@@ -20,9 +20,6 @@
     "url": "https://github.com/bulebrainbrand/bloxd.io.d.ts/issues"
   },
   "homepage": "https://github.com/bulebrainbrand/bloxd.io.d.ts#readme",
-  "devDependencies": {
-    "typescript": "^6.0.2"
-  },
   "files": [
     "bloxd-api.d.ts",
     "type/",

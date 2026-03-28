@@ -1,3 +1,6 @@
 import ShowShopTutorialInterface from "./showShopTutorial";
 import CreateShopItemInterface from "./createShopItem";
-export type ShopApis = ShowShopTutorialInterface & CreateShopItemInterface;
+import UpdateShopItemInterface from "./updateShopItem";
+export type ShopApis = ShowShopTutorialInterface &
+  CreateShopItemInterface &
+  UpdateShopItemInterface;

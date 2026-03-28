@@ -1,4 +1,4 @@
-import { ShopCategoryKey, ShopItem, ShopItemKey } from "@type";
+import { ShopCategoryKey, ShopItem, ShopItemKey } from "../../../type/index";
 interface CreateShopItemInterface {
     /**
      * Create a new shop item under the given category.

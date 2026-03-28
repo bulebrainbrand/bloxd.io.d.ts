@@ -1,4 +1,4 @@
-import { LifeformId } from "@type";
+import { LifeformId } from "../../../type/index";
 interface IsAliveInterface {
     /**
      * Whether a lifeform is alive or dead (or on the respawn screen, in a player's case).

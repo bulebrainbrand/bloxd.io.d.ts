@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "@type";
+import { EntityId, PlayerId } from "../../../type/index";
 /**
  * Opacity of the entity
  * Fractional values will use dithering

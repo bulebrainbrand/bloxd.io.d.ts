@@ -1,4 +1,4 @@
-import { PlayerId } from "@type";
+import { PlayerId } from "../../../type/index";
 /**
  * Running speed for the player.
  * STRONGLY recommend using `speedMultiplier` unless you have a specific use case for this, runningSpeed doesn't make UX sense on mobile.

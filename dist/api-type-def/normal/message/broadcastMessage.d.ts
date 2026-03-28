@@ -1,4 +1,4 @@
-import { CustomTextStyling } from "@type";
+import { CustomTextStyling } from "../../../type/index";
 interface BroadcastMessageInterface {
     /**
      * Send a message to everyone

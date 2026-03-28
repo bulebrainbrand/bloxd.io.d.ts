@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "@type";
+import { EntityId, PlayerId } from "../../../type/index";
 /**
  * Rendering order of the entity, higher zIndex renders on top of lower ones.
  * @type {0 | 1}

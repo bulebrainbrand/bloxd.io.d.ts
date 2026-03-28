@@ -7,7 +7,7 @@ import { HealthApis } from "./health/index";
 import { KillstreakApis } from "./killstreak/index";
 import { MessageApis } from "./message/index";
 import { PlayerApis } from "./player/index";
-import { MargeObject } from "@type";
+import { MargeObject } from "../../type/index";
 type AllNormalApiIntersection = PositionApis & PlayerApis & StandingOnApis & GetUnitCoordinatesLifeformWithinInterface & ShopApis & ShieldApis & HealthApis & KillstreakApis & MessageApis;
 export type NormalApi = MargeObject<AllNormalApiIntersection>;
 export {};

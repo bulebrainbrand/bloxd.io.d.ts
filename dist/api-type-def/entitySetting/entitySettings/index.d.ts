@@ -1,4 +1,4 @@
-import { EntityId, MargeObject, PlayerId } from "@type";
+import { EntityId, MargeObject, PlayerId } from "../../../type/index";
 import Opacity from "./opacity";
 import ZIndex from "./zIndex";
 import OverlayColour from "./overlayColour";

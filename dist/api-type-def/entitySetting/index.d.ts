@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "@type";
+import { EntityId, PlayerId } from "../../type/index";
 import { EntitySettings } from "./entitySettings/index";
 /**
  * Set every player's other-entity setting to a specific value for a particular player.

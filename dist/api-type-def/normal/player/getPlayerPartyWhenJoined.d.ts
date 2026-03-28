@@ -1,4 +1,4 @@
-import { Party, PlayerId } from "@type";
+import { Party, PlayerId } from "../../../type/index";
 interface GetPlayerPartyWhenJoinedInterface {
     /**
      * Returns the party that the player was in when they joined the game. The returned object contains the playerDbIds, as well

@@ -1,2 +1,2 @@
-import { WhoDidDamage } from "@type";
+import { WhoDidDamage } from "./index";
 export type WhoKilled = WhoDidDamage;

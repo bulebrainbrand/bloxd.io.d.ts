@@ -1,4 +1,4 @@
-import { MargeObject } from "@type";
+import { MargeObject } from "../../../type/index";
 import canChange from "./canChange";
 import crouchingSpeed from "./crouchingSpeed";
 import walkingSpeed from "./walkingSpeed";

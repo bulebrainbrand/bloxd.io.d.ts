@@ -1,4 +1,4 @@
-import { applyMeleeHitOverrides, Direcrion, LifeformBodyPart, LifeformId } from "@type";
+import { applyMeleeHitOverrides, Direcrion, LifeformBodyPart, LifeformId } from "../../../type/index";
 interface ApplyMeleeHitInterface {
     /**
      * Make it as if hittingEId hit hitEId

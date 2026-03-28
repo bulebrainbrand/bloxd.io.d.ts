@@ -1,4 +1,4 @@
-import { LifeformId, ShieldAmount } from "@type";
+import { LifeformId, ShieldAmount } from "../../../type/index";
 interface SetShieldAmountInterface {
     /**
      * Set the current shield of a lifeform.

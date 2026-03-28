@@ -1,5 +1,5 @@
 import { MobSettings } from "./mobSettings/index";
-import { MobId, MobType } from "@type";
+import { MobId, MobType } from "../../type/index";
 /**
  * Returns the current default value for a mob setting.
  *

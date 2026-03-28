@@ -1,4 +1,4 @@
-import { Coordinate, LifeformId } from "@type";
+import { Coordinate, LifeformId } from "../../type/index";
 interface GetUnitCoordinatesLifeformWithinInterface {
     /**
      * Get the up to 12 unit co-ordinates the lifeform is located within

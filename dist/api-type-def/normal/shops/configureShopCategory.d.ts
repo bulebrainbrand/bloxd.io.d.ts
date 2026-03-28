@@ -1,4 +1,4 @@
-import { ShopCategoryConfig, ShopCategoryKey } from "@type";
+import { ShopCategoryConfig, ShopCategoryKey } from "../../../type/index";
 interface ConfigureShopCategory {
     /**
      * Set properties of a shop category.

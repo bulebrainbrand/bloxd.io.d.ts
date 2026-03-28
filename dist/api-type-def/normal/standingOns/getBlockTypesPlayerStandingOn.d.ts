@@ -1,4 +1,4 @@
-import { BlockName, PlayerId } from "@type";
+import { BlockName, PlayerId } from "../../../type/index";
 interface GetBlockTypesPlayerStandingOnInterface {
     /**
      * Get the types of block the player is standing on

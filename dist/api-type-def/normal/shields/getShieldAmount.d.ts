@@ -1,4 +1,4 @@
-import { EntityId, ShieldAmount } from "@type";
+import { EntityId, ShieldAmount } from "../../../type/index";
 interface GetShieldAmountInterface {
     /**
      * Get the current shield of an entity.

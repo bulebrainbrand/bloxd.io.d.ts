@@ -1,4 +1,4 @@
-import { EntityId, Health, WhoDidDamage } from "@type";
+import { EntityId, Health, WhoDidDamage } from "../../../type/index";
 interface SetHealthinterface {
     /**
      * Set the current health of an entity.

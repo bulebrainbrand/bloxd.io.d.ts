@@ -1,4 +1,4 @@
-import { ShopCategoryKey, ShopItem, ShopItemKey } from "@type";
+import { ShopCategoryKey, ShopItem, ShopItemKey } from "../../../type/index";
 interface UpdateShopItemInterface {
     /**
      * Update selected properties of an existing shop item.

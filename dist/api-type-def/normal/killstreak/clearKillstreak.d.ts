@@ -1,4 +1,4 @@
-import { PlayerId } from "@type";
+import { PlayerId } from "../../../type/index";
 interface ClearKillstreakInterface {
     /**
      * Clears the player's current killstreak

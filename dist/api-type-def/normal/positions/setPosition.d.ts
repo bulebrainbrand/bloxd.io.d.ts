@@ -1,4 +1,4 @@
-import { Coordinate, EntityId } from "@type";
+import { Coordinate, EntityId } from "../../../type/index";
 interface SetPositionInterface {
     /**
      * Set position of a player / entity.

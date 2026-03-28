@@ -20,9 +20,10 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && tsc-alias"
   },
   "devDependencies": {
+    "tsc-alias": "^1.8.16",
     "typescript": "^6.0.2"
   }
 }

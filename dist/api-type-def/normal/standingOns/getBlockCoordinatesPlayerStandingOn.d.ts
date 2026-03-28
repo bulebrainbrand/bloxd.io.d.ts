@@ -1,4 +1,4 @@
-import { Coordinate, PlayerId } from "@type";
+import { Coordinate, PlayerId } from "../../../type/index";
 interface GetBlockCoordinatesPlayerStandingOnInterface {
     /**
      * Get the co-ordinates of the blocks the player is standing on as a list. For example, if the center of the player is at 0,0,0

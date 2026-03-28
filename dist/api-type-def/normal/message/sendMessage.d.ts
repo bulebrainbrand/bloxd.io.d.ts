@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "@type";
+import { PlayerId, CustomTextStyling } from "../../../type/index";
 interface SendMessageInterface {
     /**
      * Send a message to a specific player

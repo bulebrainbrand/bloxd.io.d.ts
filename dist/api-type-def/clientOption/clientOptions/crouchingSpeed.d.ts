@@ -1,4 +1,4 @@
-import { PlayerId } from "@type";
+import { PlayerId } from "../../../type/index";
 /**
  * Speed multiplier for the player when crouching.
  * Players are used to the default bloxd movement behaviour and speed,

@@ -1,4 +1,4 @@
-import { PlayerAttemptDamageOtherPlayerOpts } from "@type";
+import { PlayerAttemptDamageOtherPlayerOpts } from "../../../type/index";
 interface AttemptApplyDamageInterface {
     /**
      * Apply damage to a lifeform.

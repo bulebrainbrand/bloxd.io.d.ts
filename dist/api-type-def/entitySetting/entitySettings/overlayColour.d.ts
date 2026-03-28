@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "@type";
+import { EntityId, PlayerId } from "../../../type/index";
 /**
  * Applies a colour tint to the entity when set, like the red tint when an entity gets hurt.
  * @type {string | null}

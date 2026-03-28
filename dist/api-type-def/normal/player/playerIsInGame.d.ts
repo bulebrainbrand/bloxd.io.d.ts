@@ -1,4 +1,4 @@
-import { PlayerId } from "@type";
+import { PlayerId } from "../../../type/index";
 interface PlayerIsInGameInterface {
     /**
      * Whether a player is currently in the game

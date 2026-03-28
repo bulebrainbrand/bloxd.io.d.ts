@@ -10,6 +10,7 @@ import { PositionApis } from "./positions";
 import { StandingOnApis } from "./standingOns";
 import { HealthApis } from "./health";
 import { KillstreakApis } from "./killstreak";
+import { MessageApis } from "./message";
 import { MargeObject } from "../../type";
 
 type AllNormalApiIntersection = PositionApis &
@@ -23,6 +24,7 @@ type AllNormalApiIntersection = PositionApis &
   ShopApis &
   ShieldApis &
   HealthApis &
-  KillstreakApis;
+  KillstreakApis &
+  MessageApis;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

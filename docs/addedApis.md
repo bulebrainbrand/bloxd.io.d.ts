@@ -23,14 +23,12 @@
 - getCurrentKillstreak
 - clearKillstreak
 - isAlive
-
-## coming soon
-
 - broadcastMessage
 - sendMessage
 - sendFlyingMiddleMessage
-- setClientOption
-- getClientOption
+
+## coming soon
+
 - createShopItem
 - updateShopItem
 - deleteShopItem
@@ -39,13 +37,6 @@
 - updateShopItemForPlayer
 - resetShopItemForPlayer
 - configureShopCategoryForPlayer
-- setClientOptions
-- setClientOptionToDefault
-- setTargetedPlayerSettingForEveryone
-- setEveryoneSettingForPlayer
-- setOtherEntitySetting
-- setOtherEntitySettings
-- getOtherEntitySetting
 - playParticleEffect
 - getEntityName
 - getPlayerId
@@ -94,3 +85,15 @@
 - setItemSlot
 - removeItemName
 - getItemSlot
+
+## almost
+
+- setClientOption
+- getClientOption
+- setClientOptions
+- setClientOptionToDefault
+- setTargetedPlayerSettingForEveryone
+- setEveryoneSettingForPlayer
+- setOtherEntitySetting
+- setOtherEntitySettings
+- getOtherEntitySetting

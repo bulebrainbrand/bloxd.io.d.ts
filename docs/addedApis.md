@@ -34,9 +34,6 @@
 - updateShopItemForPlayer
 - resetShopItemForPlayer
 - configureShopCategoryForPlayer
-
-## coming soon
-
 - playParticleEffect
 - getEntityName
 - getPlayerId
@@ -63,6 +60,9 @@
 - createItemDrop
 - setCantPickUpItem
 - deleteItemDrop
+
+## coming soon
+
 - getInitialItemMetadata
 - getItemStat
 - setCameraDirection

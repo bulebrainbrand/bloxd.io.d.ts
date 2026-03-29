@@ -8,6 +8,7 @@ import { HealthApis } from "./health/index";
 import { KillstreakApis } from "./killstreak/index";
 import { MessageApis } from "./message/index";
 import { PlayerApis } from "./player/index";
+import { EntityApis } from "./entity/index";
 import { MargeObject } from "@type";
 
 type AllNormalApiIntersection = PositionApis &
@@ -19,6 +20,7 @@ type AllNormalApiIntersection = PositionApis &
   HealthApis &
   KillstreakApis &
   MessageApis &
-  PlayParticleEffectInterface;
+  PlayParticleEffectInterface &
+  EntityApis;
 
 export type NormalApi = MargeObject<AllNormalApiIntersection>;

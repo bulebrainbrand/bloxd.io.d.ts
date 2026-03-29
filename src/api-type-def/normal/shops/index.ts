@@ -3,8 +3,16 @@ import CreateShopItemInterface from "./createShopItem";
 import UpdateShopItemInterface from "./updateShopItem";
 import DeleteShopItemInterface from "./deleteShopItem";
 import ConfigureShopCategory from "./configureShopCategory";
+import CreateShopItemForPlayerInterface from "./createShopItemForPlayer";
+import UpdateShopItemForPlayerInterface from "./updateShopItemForPlayer";
+import ResetShopItemForPlayerInterface from "./resetShopItemForPlayer";
+import ConfigureShopCategoryForPlayerInterface from "./configureShopCategoryForPlayer";
 export type ShopApis = ShowShopTutorialInterface &
   CreateShopItemInterface &
   UpdateShopItemInterface &
   DeleteShopItemInterface &
-  ConfigureShopCategory;
+  ConfigureShopCategory &
+  CreateShopItemForPlayerInterface &
+  UpdateShopItemForPlayerInterface &
+  ResetShopItemForPlayerInterface &
+  ConfigureShopCategoryForPlayerInterface;

@@ -30,13 +30,13 @@
 - updateShopItem
 - deleteShopItem
 - configureShopCategory
-
-## coming soon
-
 - createShopItemForPlayer
 - updateShopItemForPlayer
 - resetShopItemForPlayer
 - configureShopCategoryForPlayer
+
+## coming soon
+
 - playParticleEffect
 - getEntityName
 - getPlayerId

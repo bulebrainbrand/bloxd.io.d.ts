@@ -1,5 +1,5 @@
-import { ItemId } from "@type";
+import { ItemEntityId } from "@type";
 
-declare const deleteItemDrop: (itemId: ItemId) => void;
+declare const deleteItemDrop: (itemId: ItemEntityId) => void;
 
 export { deleteItemDrop };

@@ -1,4 +1,10 @@
-import { EntityId, ItemAttributes, ItemId, ItemName, LifeformId } from "@type";
+import {
+  EntityId,
+  ItemAttributes,
+  ItemEntityId,
+  ItemName,
+  LifeformId,
+} from "@type";
 /**
  * Create a dropped item.
  *
@@ -27,6 +33,6 @@ declare const createItemDrop: (
   timeTillDespawn?: number,
   dropperId?: LifeformId | null,
   options?: never,
-) => null | ItemId;
+) => null | ItemEntityId;
 
 export { createItemDrop };

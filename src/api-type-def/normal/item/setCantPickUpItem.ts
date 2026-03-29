@@ -1,5 +1,8 @@
-import { ItemId, PlayerId } from "@type";
+import { ItemEntityId, PlayerId } from "@type";
 
-declare const setCantPickUpItem: (playerId: PlayerId, itemId: ItemId) => void;
+declare const setCantPickUpItem: (
+  playerId: PlayerId,
+  itemId: ItemEntityId,
+) => void;
 
 export { setCantPickUpItem };

@@ -7,7 +7,9 @@ import GetPlayerIdInterface from "./getPlayerId";
 import GetPlayerDbIdInterface from "./getPlayerDbId";
 import GetPlayerIdFromDbIdInterface from "./getPlayerIdFromDbId";
 import KickPlayerInterface from "./kickPlayer";
-export type PlayerApis = GetNumPlayersInterface &
+import IsMobile from "./isMobile";
+export type PlayerApis = IsMobile &
+  GetNumPlayersInterface &
   GetPlayerIdsInterface &
   GetPlayerPartyWhenJoinedInterface &
   PlayerIsInGameInterface &

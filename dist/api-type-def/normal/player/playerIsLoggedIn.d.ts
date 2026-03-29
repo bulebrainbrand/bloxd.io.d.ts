@@ -1,9 +1,7 @@
 import { PlayerId } from "../../../type/index";
-interface PlayerIsLoggedInInterface {
-    /**
-     * @param {PlayerId} playerId
-     * @returns {boolean}
-     */
-    playerIsLoggedIn(playerId: PlayerId): boolean;
-}
-export default PlayerIsLoggedInInterface;
+/**
+ * @param {PlayerId} playerId
+ * @returns {boolean}
+ */
+declare const playerIsLoggedIn: (playerId: PlayerId) => boolean;
+export { playerIsLoggedIn };

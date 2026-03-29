@@ -1,10 +1,11 @@
-import ShowShopTutorialInterface from "./showShopTutorial";
-import CreateShopItemInterface from "./createShopItem";
-import UpdateShopItemInterface from "./updateShopItem";
-import DeleteShopItemInterface from "./deleteShopItem";
-import ConfigureShopCategory from "./configureShopCategory";
-import CreateShopItemForPlayerInterface from "./createShopItemForPlayer";
-import UpdateShopItemForPlayerInterface from "./updateShopItemForPlayer";
-import ResetShopItemForPlayerInterface from "./resetShopItemForPlayer";
-import ConfigureShopCategoryForPlayerInterface from "./configureShopCategoryForPlayer";
-export type ShopApis = ShowShopTutorialInterface & CreateShopItemInterface & UpdateShopItemInterface & DeleteShopItemInterface & ConfigureShopCategory & CreateShopItemForPlayerInterface & UpdateShopItemForPlayerInterface & ResetShopItemForPlayerInterface & ConfigureShopCategoryForPlayerInterface;
+export declare const ShopApis: {
+    showShopTutorial: (playerId: import("../../..").PlayerId) => void;
+    createShopItem: (categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey, item: import("../../..").ShopItem) => void;
+    updateShopItem: (categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey, changes: Partial<import("../../..").ShopItem>) => void;
+    deleteShopItem: (categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey) => void;
+    configureShopCategory: (categoryKey: import("../../..").ShopCategoryKey, config: import("../../..").ShopCategoryConfig) => void;
+    createShopItemForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey, item: import("../../..").ShopItem) => void;
+    updateShopItemForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey, changes: Partial<import("../../..").ShopItem>) => void;
+    resetShopItemForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey) => void;
+    configureShopCategoryForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, config: import("../../..").ShopCategoryConfig) => void;
+};

@@ -1,3 +1,7 @@
-import GetPositionInterface from "./getPosition";
-import SetPositionInterface from "./setPosition";
-export type PositionApis = GetPositionInterface & SetPositionInterface;
+export declare const PositionApis: {
+    getPosition: (entityId: import("../../..").EntityId) => import("../../..").Coordinate;
+    setPosition: {
+        (entityId: import("../../..").EntityId, x: number, y: number, z: number): void;
+        (entityId: import("../../..").EntityId, position: Readonly<import("../../..").Coordinate>): void;
+    };
+};

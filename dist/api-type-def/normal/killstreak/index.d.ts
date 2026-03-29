@@ -1,3 +1,4 @@
-import GetCurrentKillsreakInterface from "./getCurrentKillstreak";
-import ClearKillstreakInterface from "./clearKillstreak";
-export type KillstreakApis = GetCurrentKillsreakInterface & ClearKillstreakInterface;
+export declare const KillstreakApis: {
+    readonly getCurrentKillstreak: (playerId: import("../../..").PlayerId) => number;
+    readonly clearKillstreak: (playerId: import("../../..").PlayerId) => void;
+};

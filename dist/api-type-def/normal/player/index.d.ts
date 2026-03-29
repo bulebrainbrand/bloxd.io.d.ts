@@ -1,11 +1,12 @@
-import GetPlayerIdsInterface from "./getPlayerIds";
-import GetNumPlayersInterface from "./getNumPlayers";
-import GetPlayerPartyWhenJoinedInterface from "./getPlayerPartyWhenJoined";
-import PlayerIsInGameInterface from "./playerIsInGame";
-import PlayerIsLoggedInInterface from "./playerIsLoggedIn";
-import GetPlayerIdInterface from "./getPlayerId";
-import GetPlayerDbIdInterface from "./getPlayerDbId";
-import GetPlayerIdFromDbIdInterface from "./getPlayerIdFromDbId";
-import KickPlayerInterface from "./kickPlayer";
-import IsMobile from "./isMobile";
-export type PlayerApis = IsMobile & GetNumPlayersInterface & GetPlayerIdsInterface & GetPlayerPartyWhenJoinedInterface & PlayerIsInGameInterface & PlayerIsLoggedInInterface & GetPlayerIdInterface & GetPlayerDbIdInterface & GetPlayerIdFromDbIdInterface & KickPlayerInterface;
+export declare const PlayerApis: {
+    getPlayerIds: () => import("../../..").PlayerId[];
+    getNumPlayers: () => number;
+    getPlayerPartyWhenJoined: (playerId: import("../../..").PlayerId) => import("../../..").Party | null;
+    playerIsInGame: (playerId: import("../../..").PlayerId) => boolean;
+    playerIsLoggedIn: (playerId: import("../../..").PlayerId) => boolean;
+    getPlayerId: (playerName: string) => null | import("../../..").PlayerId;
+    getPlayerDbId: (playerId: import("../../..").PlayerId) => import("../../..").PlayerDbId;
+    getPlayerIdFromDbId: (dbId: import("../../..").PlayerDbId) => null | import("../../..").PlayerId;
+    kickPlayer: (playerId: import("../../..").PlayerId, reason: string) => void;
+    isMobile: (playerId: import("../../..").PlayerId) => boolean;
+};

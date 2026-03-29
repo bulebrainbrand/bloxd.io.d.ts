@@ -1,12 +1,10 @@
 import { LifeformId, ShieldAmount } from "../../../type/index";
-interface SetShieldAmountInterface {
-    /**
-     * Set the current shield of a lifeform.
-     *
-     * @param {LifeformId} lifeformId
-     * @param {number} newShieldAmount - on d.ts,this arg type is marking `ShieldAmount` which is `number` alias
-     * @returns {void}
-     */
-    setShieldAmount(lifeformId: LifeformId, newShieldAmount: ShieldAmount): void;
-}
-export default SetShieldAmountInterface;
+/**
+ * Set the current shield of a lifeform.
+ *
+ * @param {LifeformId} lifeformId
+ * @param {number} newShieldAmount - on d.ts,this arg type is marking `ShieldAmount` which is `number` alias
+ * @returns {void}
+ */
+declare const setShieldAmount: (lifeformId: LifeformId, newShieldAmount: ShieldAmount) => void;
+export { setShieldAmount };

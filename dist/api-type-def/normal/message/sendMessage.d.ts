@@ -22,4 +22,5 @@ interface SendMessageInterface {
      */
     sendMessage(playerId: PlayerId, message: CustomTextStyling): void;
 }
-export default SendMessageInterface;
+declare const sendMessage: SendMessageInterface["sendMessage"];
+export { sendMessage };

@@ -1,7 +1,7 @@
-import { Api } from "./api-type-def/index";
+import { Apis } from "./api-type-def/index";
 import { Coordinate, PlayerId } from "./type/index";
 declare global {
-    var api: Api;
+    var api: typeof Apis;
     var myId: PlayerId | null;
     var thisPos: Coordinate | undefined;
 }

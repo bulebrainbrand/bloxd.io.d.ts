@@ -1,11 +1,9 @@
 import { PlayerDbId, PlayerId } from "../../../type/index";
-interface GetPlayerDbIdInterface {
-    /**
-     * Given a player, get their permanent identifier that doesn't change when leaving and re-entering
-     *
-     * @param {PlayerId} playerId
-     * @returns {PlayerDbId}
-     */
-    getPlayerDbId(playerId: PlayerId): PlayerDbId;
-}
-export default GetPlayerDbIdInterface;
+/**
+ * Given a player, get their permanent identifier that doesn't change when leaving and re-entering
+ *
+ * @param {PlayerId} playerId
+ * @returns {PlayerDbId}
+ */
+declare const getPlayerDbId: (playerId: PlayerId) => PlayerDbId;
+export { getPlayerDbId };

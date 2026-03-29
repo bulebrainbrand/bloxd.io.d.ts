@@ -1,4 +1,4 @@
-import GetShieldAmountInterface from "./getShieldAmount";
-import SetShieldAmountInterface from "./setShieldAmount";
-type ShieldApis = GetShieldAmountInterface & SetShieldAmountInterface;
-export { ShieldApis };
+export declare const ShieldApis: {
+    getShieldAmount: (entityId: import("../../..").EntityId) => import("../../..").ShieldAmount;
+    setShieldAmount: (lifeformId: import("../../..").LifeformId, newShieldAmount: import("../../..").ShieldAmount) => void;
+};

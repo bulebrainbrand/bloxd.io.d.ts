@@ -3,8 +3,16 @@ import GetNumPlayersInterface from "./getNumPlayers";
 import GetPlayerPartyWhenJoinedInterface from "./getPlayerPartyWhenJoined";
 import PlayerIsInGameInterface from "./playerIsInGame";
 import PlayerIsLoggedInInterface from "./playerIsLoggedIn";
+import GetPlayerIdInterface from "./getPlayerId";
+import GetPlayerDbIdInterface from "./getPlayerDbId";
+import GetPlayerIdFromDbIdInterface from "./getPlayerIdFromDbId";
+import KickPlayerInterface from "./kickPlayer";
 export type PlayerApis = GetNumPlayersInterface &
   GetPlayerIdsInterface &
   GetPlayerPartyWhenJoinedInterface &
   PlayerIsInGameInterface &
-  PlayerIsLoggedInInterface;
+  PlayerIsLoggedInInterface &
+  GetPlayerIdInterface &
+  GetPlayerDbIdInterface &
+  GetPlayerIdFromDbIdInterface &
+  KickPlayerInterface;

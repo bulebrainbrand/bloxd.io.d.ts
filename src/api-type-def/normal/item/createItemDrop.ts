@@ -1,10 +1,4 @@
-import {
-  EntityId,
-  ItemAttributes,
-  ItemEntityId,
-  ItemName,
-  LifeformId,
-} from "@type";
+import { ItemAttributes, ItemEntityId, ItemName, LifeformId } from "@type";
 /**
  * Create a dropped item.
  *

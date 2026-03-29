@@ -1,12 +1,10 @@
 import { PlayerId } from "@type";
 
-interface KickPlayerInterface {
-  /**
-   * @param {PlayerId} playerId
-   * @param {string} reason
-   * @returns {void}
-   */
-  kickPlayer(playerId: PlayerId, reason: string): void;
-}
+/**
+ * @param {PlayerId} playerId
+ * @param {string} reason
+ * @returns {void}
+ */
+declare const kickPlayer: (playerId: PlayerId, reason: string) => void;
 
-export default KickPlayerInterface;
+export { kickPlayer };

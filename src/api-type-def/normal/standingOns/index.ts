@@ -1,5 +1,7 @@
-import GetBlockCoordinatesPlayerStandingOnInterface from "./getBlockCoordinatesPlayerStandingOn";
-import GetBlockTypesPlayerStandingOnInterface from "./getBlockTypesPlayerStandingOn";
+import { getBlockCoordinatesPlayerStandingOn } from "./getBlockCoordinatesPlayerStandingOn";
+import { getBlockTypesPlayerStandingOn } from "./getBlockTypesPlayerStandingOn";
 
-export type StandingOnApis = GetBlockCoordinatesPlayerStandingOnInterface &
-  GetBlockTypesPlayerStandingOnInterface;
+export const StandingOnApis = {
+  getBlockCoordinatesPlayerStandingOn,
+  getBlockTypesPlayerStandingOn,
+};

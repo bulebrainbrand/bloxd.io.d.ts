@@ -1,3 +1,5 @@
-import GetEntityNameInterface from "./getEntityName";
+import { getEntityName } from "./getEntityName";
 
-export type EntityApis = GetEntityNameInterface;
+export const EntityApis = {
+  getEntityName,
+};

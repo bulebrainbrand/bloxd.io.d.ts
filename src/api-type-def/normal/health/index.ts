@@ -1,15 +1,17 @@
-import GetHealthInterface from "./getHealth";
-import SetHealthinterface from "./setHealth";
-import AttemptApplyDamageInterface from "./attemptApplyDamage";
-import ApplyMeleeHitInterface from "./applyMeleeHit";
-import ApplyHealthChangeInterface from "./applyHealthChange";
-import killLifeformInterface from "./killLifeform";
-import IsAliveInterface from "./isAlive";
+import { getHealth } from "./getHealth";
+import { setHealth } from "./setHealth";
+import { attemptApplyDamage } from "./attemptApplyDamage";
+import { applyMeleeHit } from "./applyMeleeHit";
+import { applyHealthChange } from "./applyHealthChange";
+import { killLifeform } from "./killLifeform";
+import { isAlive } from "./isAlive";
 
-export type HealthApis = GetHealthInterface &
-  SetHealthinterface &
-  AttemptApplyDamageInterface &
-  ApplyMeleeHitInterface &
-  ApplyHealthChangeInterface &
-  killLifeformInterface &
-  IsAliveInterface;
+export const HealthApis = {
+  getHealth,
+  setHealth,
+  attemptApplyDamage,
+  applyMeleeHit,
+  applyHealthChange,
+  killLifeform,
+  isAlive,
+};

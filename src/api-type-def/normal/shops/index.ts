@@ -1,18 +1,20 @@
-import ShowShopTutorialInterface from "./showShopTutorial";
-import CreateShopItemInterface from "./createShopItem";
-import UpdateShopItemInterface from "./updateShopItem";
-import DeleteShopItemInterface from "./deleteShopItem";
-import ConfigureShopCategory from "./configureShopCategory";
-import CreateShopItemForPlayerInterface from "./createShopItemForPlayer";
-import UpdateShopItemForPlayerInterface from "./updateShopItemForPlayer";
-import ResetShopItemForPlayerInterface from "./resetShopItemForPlayer";
-import ConfigureShopCategoryForPlayerInterface from "./configureShopCategoryForPlayer";
-export type ShopApis = ShowShopTutorialInterface &
-  CreateShopItemInterface &
-  UpdateShopItemInterface &
-  DeleteShopItemInterface &
-  ConfigureShopCategory &
-  CreateShopItemForPlayerInterface &
-  UpdateShopItemForPlayerInterface &
-  ResetShopItemForPlayerInterface &
-  ConfigureShopCategoryForPlayerInterface;
+import { showShopTutorial } from "./showShopTutorial";
+import { createShopItem } from "./createShopItem";
+import { updateShopItem } from "./updateShopItem";
+import { deleteShopItem } from "./deleteShopItem";
+import { configureShopCategory } from "./configureShopCategory";
+import { createShopItemForPlayer } from "./createShopItemForPlayer";
+import { updateShopItemForPlayer } from "./updateShopItemForPlayer";
+import { resetShopItemForPlayer } from "./resetShopItemForPlayer";
+import { configureShopCategoryForPlayer } from "./configureShopCategoryForPlayer";
+export const ShopApis = {
+  showShopTutorial,
+  createShopItem,
+  updateShopItem,
+  deleteShopItem,
+  configureShopCategory,
+  createShopItemForPlayer,
+  updateShopItemForPlayer,
+  resetShopItemForPlayer,
+  configureShopCategoryForPlayer,
+};

@@ -21,4 +21,6 @@ interface SetPositionInterface {
   setPosition(entityId: EntityId, position: Readonly<Coordinate>): void;
 }
 
-export default SetPositionInterface;
+declare const setPosition: SetPositionInterface["setPosition"];
+
+export { setPosition };

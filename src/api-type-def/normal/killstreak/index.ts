@@ -1,5 +1,7 @@
-import GetCurrentKillsreakInterface from "./getCurrentKillstreak";
-import ClearKillstreakInterface from "./clearKillstreak";
+import { getCurrentKillstreak } from "./getCurrentKillstreak";
+import { clearKillstreak } from "./clearKillstreak";
 
-export type KillstreakApis = GetCurrentKillsreakInterface &
-  ClearKillstreakInterface;
+export const KillstreakApis = {
+  getCurrentKillstreak,
+  clearKillstreak,
+} as const;

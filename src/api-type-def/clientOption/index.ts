@@ -32,12 +32,17 @@ interface RootSetClientOptionToDefault {
   ): void;
 }
 
-export type ClientOptionApi = MargeObject<
-  SetClientOption &
-    RootSetClientOption &
-    GetClientOption &
-    RootGetClientOption &
-    SetClientOptions &
-    SetClientOptionToDefault &
-    RootSetClientOptionToDefault
->;
+declare const setClientOption: RootSetClientOption["setClientOption"] &
+  SetClientOption["setClientOption"];
+declare const getClientOption: RootGetClientOption["getClientOption"] &
+  GetClientOption["getClientOption"];
+declare const setClientOptionToDefault: RootSetClientOptionToDefault["setClientOptionToDefault"] &
+  SetClientOptionToDefault["setClientOptionToDefault"];
+declare const setClientOptions: SetClientOptions["setClientOptions"];
+
+export const ClientOptionApis = {
+  setClientOption,
+  getClientOption,
+  setClientOptionToDefault,
+  setClientOptions,
+};

@@ -1,13 +1,11 @@
 import { PlayerId } from "@type";
 
-interface GetPlayerIdInterface {
-  /**
-   * Given the name of a player, get their id
-   *
-   * @param {string} playerName
-   * @returns {null | PlayerId}
-   */
-  getPlayerId(playerName: string): null | PlayerId;
-}
+/**
+ * Given the name of a player, get their id
+ *
+ * @param {string} playerName
+ * @returns {null | PlayerId}
+ */
+declare const getPlayerId: (playerName: string) => null | PlayerId;
 
-export default GetPlayerIdInterface;
+export { getPlayerId };

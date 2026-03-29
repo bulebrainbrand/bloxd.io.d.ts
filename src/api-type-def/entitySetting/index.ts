@@ -1,5 +1,11 @@
 import { EntityId, PlayerId } from "@type";
-import { EntitySettings } from "./entitySettings/index";
+import {
+  EntitySettings,
+  SetTargetedPlayerSettingForEveryone,
+  SetOtherEntitySetting,
+  GetOtherEntitySetting,
+  SetEveryoneSettingForPlayer,
+} from "./entitySettings/index";
 type Setting = keyof EntitySettings;
 
 /**
@@ -12,7 +18,7 @@ type Setting = keyof EntitySettings;
  * @param {boolean} [includeNewJoiners]
  * @returns {void}
  */
-type SetTargetedPlayerSettingForEveryone = <
+type RootSetTargetedPlayerSettingForEveryone = <
   Setting extends keyof EntitySettings,
 >(
   targetedPlayerId: PlayerId,
@@ -31,7 +37,7 @@ type SetTargetedPlayerSettingForEveryone = <
  * @param {boolean} [includeNewJoiners]
  * @returns {void}
  */
-type SetEveryoneSettingForPlayer = <Setting extends keyof EntitySettings>(
+type RootSetEveryoneSettingForPlayer = <Setting extends keyof EntitySettings>(
   playerId: PlayerId,
   settingName: Setting,
   settingValue: EntitySettings[Setting],
@@ -47,7 +53,7 @@ type SetEveryoneSettingForPlayer = <Setting extends keyof EntitySettings>(
  * @param {EntitySettings[Setting]} settingValue
  * @returns {void}
  */
-type SetOtherEntitySetting = <Setting extends keyof EntitySettings>(
+type RootSetOtherEntitySetting = <Setting extends keyof EntitySettings>(
   relevantPlayerId: PlayerId,
   targetedEntityId: EntityId,
   settingName: Setting,
@@ -62,7 +68,7 @@ type SetOtherEntitySetting = <Setting extends keyof EntitySettings>(
  * @param {Partial<EntitySettings>} settingsObject
  * @returns {void}
  */
-type SetOtherEntitySettings = (
+type RootSetOtherEntitySettings = (
   relevantPlayerId: PlayerId,
   targetedEntityId: EntityId,
   settingsObject: Partial<EntitySettings>,
@@ -76,26 +82,31 @@ type SetOtherEntitySettings = (
  * @param {Setting} settingName
  * @returns {EntitySettings[Setting]}
  */
-type GetOtherEntitySetting = <Setting extends keyof EntitySettings>(
+type RootGetOtherEntitySetting = <Setting extends keyof EntitySettings>(
   relevantPlayerId: PlayerId,
   targetedEntityId: EntityId,
   settingName: Setting,
 ) => EntitySettings[Setting];
 
-export type EntitySettingApi = {
-  setTargetedPlayerSettingForEveryone: SetTargetedPlayerSettingForEveryone;
-  setEveryoneSettingForPlayer: SetEveryoneSettingForPlayer;
-  setOtherEntitySetting: SetOtherEntitySetting;
-  setOtherEntitySettings: SetOtherEntitySettings;
-  getOtherEntitySetting: GetOtherEntitySetting;
-};
+type SetEveryoneSettingForPlayerType = RootSetEveryoneSettingForPlayer &
+  SetEveryoneSettingForPlayer["setEveryoneSettingForPlayer"];
+type SetTargetedPlayerSettingForEveryoneType =
+  RootSetTargetedPlayerSettingForEveryone &
+    SetTargetedPlayerSettingForEveryone["setTargetedPlayerSettingForEveryone"];
+type SetOtherEntitySettingType = RootSetOtherEntitySetting &
+  SetOtherEntitySetting["setOtherEntitySetting"];
+type GetOtherEntitySettingType = RootGetOtherEntitySetting &
+  GetOtherEntitySetting["getOtherEntitySetting"];
 
-export {
-  SetTargetedPlayerSettingForEveryone,
-  SetEveryoneSettingForPlayer,
-  SetOtherEntitySetting,
-  SetOtherEntitySettings,
-  GetOtherEntitySetting,
-};
+declare const setEveryoneSettingForPlayer: SetEveryoneSettingForPlayerType;
+declare const setTargetedPlayerSettingForEveryone: SetTargetedPlayerSettingForEveryoneType;
+declare const setOtherEntitySetting: SetOtherEntitySettingType;
+declare const getOtherEntitySetting: GetOtherEntitySettingType;
 
+export const EntitySettingApis = {
+  setEveryoneSettingForPlayer,
+  setTargetedPlayerSettingForEveryone,
+  setOtherEntitySetting,
+  getOtherEntitySetting,
+};
 export * from "./entitySettings/index";

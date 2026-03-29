@@ -1,4 +1,4 @@
-import { StringColor } from "..";
+import { StringColor } from "../index";
 export type EntityName = {
     entityName: string;
     style?: {

@@ -1,4 +1,5 @@
 import GetUnitCoordinatesLifeformWithinInterface from "./getUnitCoordinatesLifeformWithin";
+import PlayParticleEffectInterface from "./playParticleEffect";
 import { ShopApis } from "./shops/index";
 import { ShieldApis } from "./shields/index";
 import { PositionApis } from "./positions/index";
@@ -7,7 +8,8 @@ import { HealthApis } from "./health/index";
 import { KillstreakApis } from "./killstreak/index";
 import { MessageApis } from "./message/index";
 import { PlayerApis } from "./player/index";
+import { EntityApis } from "./entity/index";
 import { MargeObject } from "../../type/index";
-type AllNormalApiIntersection = PositionApis & PlayerApis & StandingOnApis & GetUnitCoordinatesLifeformWithinInterface & ShopApis & ShieldApis & HealthApis & KillstreakApis & MessageApis;
+type AllNormalApiIntersection = PositionApis & PlayerApis & StandingOnApis & GetUnitCoordinatesLifeformWithinInterface & ShopApis & ShieldApis & HealthApis & KillstreakApis & MessageApis & PlayParticleEffectInterface & EntityApis;
 export type NormalApi = MargeObject<AllNormalApiIntersection>;
 export {};

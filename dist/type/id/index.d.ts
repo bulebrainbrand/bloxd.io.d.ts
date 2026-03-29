@@ -3,3 +3,4 @@ export * from "./Id";
 export * from "./LifeFormId";
 export * from "./MobId";
 export * from "./PlayerId";
+export * from "./ItemEntityId";

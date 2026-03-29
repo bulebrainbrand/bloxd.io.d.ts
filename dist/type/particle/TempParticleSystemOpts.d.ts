@@ -1,5 +1,5 @@
-import { Texture, ParticleSystemBlendMode } from ".";
-import { Array255Color, Array255ColorWithA, Coordinate, Direcrion } from "..";
+import { Texture, ParticleSystemBlendMode } from "../index";
+import { Array255Color, Array255ColorWithA, Coordinate, Direcrion } from "../index";
 export type TempParticleSystemOpts = {
     texture: Texture;
     minLifeTime: number;

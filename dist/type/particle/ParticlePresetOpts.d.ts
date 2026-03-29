@@ -1,5 +1,5 @@
-import { Coordinate } from "../Coordinate";
-import { PresetId } from "./PresetId";
+import { Coordinate } from "../index";
+import { PresetId } from "./index";
 /**
  * You can also use a presetId instead to use a pre-defined particle effect, to replicate effects we use in-engine. Here is the code for an example of using a presetId
  * @example

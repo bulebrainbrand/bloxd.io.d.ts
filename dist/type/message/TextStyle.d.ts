@@ -1,4 +1,4 @@
-import { StringColor } from "../color";
+import { StringColor } from "../index";
 export type TextStyle = {
     color?: StringColor;
     colour?: StringColor;

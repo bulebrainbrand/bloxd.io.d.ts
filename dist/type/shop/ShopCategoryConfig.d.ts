@@ -1,4 +1,4 @@
-import { CustomTextStyling } from "..";
+import { CustomTextStyling } from "../index";
 export type ShopCategoryConfig = Partial<{
     autoSelectCategory: boolean;
     customTitle: string;

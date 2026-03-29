@@ -1,5 +1,5 @@
-import { ShopItemBadgeType, ShopItemUserInput } from ".";
-import { CustomTextStyling, StringColor } from "..";
+import { ShopItemBadgeType, ShopItemUserInput } from "../index";
+import { CustomTextStyling, StringColor } from "../index";
 export type ShopItem = {
     image: string;
     cost?: number;

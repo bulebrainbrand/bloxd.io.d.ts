@@ -1,4 +1,4 @@
-import { PlayerId } from "..";
+import { PlayerId } from "../index";
 export type ShopItemUserInput = {
     type: "text";
     placeholderText?: string;

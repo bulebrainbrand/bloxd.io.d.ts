@@ -18,3 +18,4 @@ export * from "./utilType";
 export * from "./ApplyMeleeHitOverrides";
 export * from "./message/index";
 export * from "./shop/index";
+export * from "./particle/index";

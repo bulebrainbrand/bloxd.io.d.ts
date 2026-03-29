@@ -13,7 +13,7 @@ import { blockNameToBlockId } from "./blockNameToBlockId";
 import { blockIdToBlockName } from "./blockIdToBlockName";
 import { blockCoordToChunkId } from "./blockCoordToChunkId";
 import { chunkIdToBotLeftCoord } from "./chunkIdToBotLeftCoord";
-const BlockApiObject = {
+export const BlockApis = {
   isBlockInLoadedChunk,
   getBlock,
   getBlockId,
@@ -29,5 +29,4 @@ const BlockApiObject = {
   blockIdToBlockName,
   blockCoordToChunkId,
   chunkIdToBotLeftCoord,
-} as const;
-export type BlockApis = typeof BlockApiObject;
+};

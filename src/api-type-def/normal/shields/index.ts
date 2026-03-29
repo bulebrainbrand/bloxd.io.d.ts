@@ -1,6 +1,7 @@
-import GetShieldAmountInterface from "./getShieldAmount";
-import SetShieldAmountInterface from "./setShieldAmount";
+import { getShieldAmount } from "./getShieldAmount";
+import { setShieldAmount } from "./setShieldAmount";
 
-type ShieldApis = GetShieldAmountInterface & SetShieldAmountInterface;
-
-export { ShieldApis };
+export const ShieldApis = {
+  getShieldAmount,
+  setShieldAmount,
+};

@@ -1,12 +1,15 @@
-import { NormalApi } from "./normal/index";
-import { ClientOptionApi } from "./clientOption/index";
-import { EntitySettingApi } from "./entitySetting/index";
-import { MobSettingApi } from "./mobSetting/index";
+import { NormalApis } from "./normal/index";
+import { ClientOptionApis } from "./clientOption/index";
+import { EntitySettingApis } from "./entitySetting/index";
+import { MobSettingApis } from "./mobSetting/index";
 import { MargeObject } from "@type";
 
-export type Api = MargeObject<
-  NormalApi & ClientOptionApi & EntitySettingApi & MobSettingApi
->;
+export const Apis = {
+  ...NormalApis,
+  ...ClientOptionApis,
+  ...EntitySettingApis,
+  ...MobSettingApis,
+} as const;
 
 export * from "./normal/index";
 export * from "./clientOption/index";

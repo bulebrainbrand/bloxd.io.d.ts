@@ -8,7 +8,7 @@ import { MobId, MobType } from "@type";
  * @param {TMobSetting} setting
  * @returns {MobSettings<TMobType>[TMobSetting]}
  */
-type GetDefaultMobSetting = <
+type RootGetDefaultMobSetting = <
   TMobType extends MobType,
   TMobSetting extends keyof MobSettings<TMobType>,
 >(
@@ -24,7 +24,7 @@ type GetDefaultMobSetting = <
  * @param {MobSettings<TMobType>[TMobSetting]} value
  * @returns {void}
  */
-type SetDefaultMobSetting = <
+type RootSetDefaultMobSetting = <
   TMobType extends MobType,
   TMobSetting extends keyof MobSettings<TMobType>,
 >(
@@ -41,7 +41,7 @@ type SetDefaultMobSetting = <
  * @param {boolean} [returnDefaultIfNotOverridden] - If true, return the default setting if not overridden.
  * @returns {MobSettings<MobType>[TMobSetting]}
  */
-type GetMobSetting = <TMobSetting extends keyof MobSettings<MobType>>(
+type RootGetMobSetting = <TMobSetting extends keyof MobSettings<MobType>>(
   mobId: MobId,
   setting: TMobSetting,
   returnDefaultIfNotOverridden?: boolean,
@@ -55,17 +55,22 @@ type GetMobSetting = <TMobSetting extends keyof MobSettings<MobType>>(
  * @param {MobSettings<MobType>[TMobSetting]} value
  * @returns {void}
  */
-type SetMobSetting = <TMobSetting extends keyof MobSettings<MobType>>(
+type RootSetMobSetting = <TMobSetting extends keyof MobSettings<MobType>>(
   mobId: MobId,
   setting: TMobSetting,
   value: MobSettings<MobType>[TMobSetting],
 ) => void;
 
-export type MobSettingApi = {
-  getDefaultMobSetting: GetDefaultMobSetting;
-  setDefaultMobSetting: SetDefaultMobSetting;
-  getMobSetting: SetMobSetting;
-  setMobSetting: SetMobSetting;
+declare const getDefaultMobSetting: RootGetDefaultMobSetting;
+declare const setDefaultMobSetting: RootSetDefaultMobSetting;
+declare const getMobSetting: RootGetMobSetting;
+declare const setMobSetting: RootSetMobSetting;
+
+export const MobSettingApis = {
+  getDefaultMobSetting,
+  setDefaultMobSetting,
+  getMobSetting,
+  setMobSetting,
 };
 
 export * from "./mobSettings/index";

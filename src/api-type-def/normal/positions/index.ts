@@ -1,4 +1,7 @@
-import GetPositionInterface from "./getPosition";
-import SetPositionInterface from "./setPosition";
+import { getPosition } from "./getPosition";
+import { setPosition } from "./setPosition";
 
-export type PositionApis = GetPositionInterface & SetPositionInterface;
+export const PositionApis = {
+  getPosition,
+  setPosition,
+};

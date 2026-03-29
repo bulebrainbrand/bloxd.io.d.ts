@@ -1,4 +1,4 @@
-import { Direcrion, EntityId, Item, LifeformBodyPart, SoundName } from ".";
+import { Direcrion, EntityId, Item, LifeformBodyPart, SoundName } from "@type";
 
 export interface PlayerAttemptDamageOtherPlayerOpts {
   eId: EntityId;

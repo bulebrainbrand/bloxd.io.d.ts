@@ -1,2 +1,1 @@
-declare const PlayerDbIdSymbol: unique symbol;
-export type PlayerDbId = string & { readonly [PlayerDbIdSymbol]: unknown };
+export type PlayerDbId = string;

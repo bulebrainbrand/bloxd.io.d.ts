@@ -1,2 +1,2 @@
-import { PlayerDbId } from ".";
+import { PlayerDbId } from "@type";
 export type Party = { partyCode: string; playerDbIds: PlayerDbId[] };

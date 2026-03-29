@@ -1,4 +1,4 @@
-import { EntityName } from ".";
+import { EntityName } from "./index";
 
 export type TranslatedText = {
   translationKey: string;

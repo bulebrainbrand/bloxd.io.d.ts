@@ -1,4 +1,4 @@
-import { StringColor } from "..";
+import { StringColor } from "@type";
 
 export type EntityName = {
   entityName: string;

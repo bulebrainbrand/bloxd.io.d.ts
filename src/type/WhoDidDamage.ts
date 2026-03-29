@@ -1,4 +1,4 @@
-import { Item, LifeformId } from ".";
+import { Item, LifeformId } from "@type";
 
 export type WhoDidDamage =
   | LifeformId

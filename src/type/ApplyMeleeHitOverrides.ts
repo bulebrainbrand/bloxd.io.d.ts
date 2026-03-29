@@ -1,4 +1,4 @@
-import { Item } from "./item";
+import { Item } from "@type";
 
 export type applyMeleeHitOverrides = {
   damage?: number | null;

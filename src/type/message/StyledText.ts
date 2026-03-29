@@ -1,4 +1,4 @@
-import { EntityName, TextStyle, TranslatedText } from ".";
+import { EntityName, TextStyle, TranslatedText } from "./index";
 
 export type StyledText = {
   str: string | EntityName | TranslatedText;

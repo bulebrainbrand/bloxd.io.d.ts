@@ -1,5 +1,5 @@
-import { ShopItemBadgeType, ShopItemUserInput } from ".";
-import { CustomTextStyling, StringColor } from "..";
+import { ShopItemBadgeType, ShopItemUserInput } from "@type";
+import { CustomTextStyling, StringColor } from "@type";
 
 export type ShopItem = {
   image: string;

@@ -1,13 +1,11 @@
 import { PlayerId } from "@type";
 
-interface IsMobile {
-  /**
-   * Whether the player is on a mobile device or a computer.
-   *
-   * @param {PlayerId} playerId
-   * @returns {boolean}
-   */
-  isMobile(playerId: PlayerId): boolean;
-}
+/**
+ * Whether the player is on a mobile device or a computer.
+ *
+ * @param {PlayerId} playerId
+ * @returns {boolean}
+ */
+declare const isMobile: (playerId: PlayerId) => boolean;
 
-export default IsMobile;
+export { isMobile };

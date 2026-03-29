@@ -1,8 +1,10 @@
-import BroadcastMessageInterface from "./broadcastMessage";
-import SendMessageInterface from "./sendMessage";
-import SendFlyingMiddleMessage from "./sendFlyingMiddleMessage";
-import SendTopRightHelper from "./sendTopRightHelper";
-export type MessageApis = BroadcastMessageInterface &
-  SendMessageInterface &
-  SendFlyingMiddleMessage &
-  SendTopRightHelper;
+import { broadcastMessage } from "./broadcastMessage";
+import { sendMessage } from "./sendMessage";
+import { sendFlyingMiddleMessage } from "./sendFlyingMiddleMessage";
+import { sendTopRightHelper } from "./sendTopRightHelper";
+export const MessageApis = {
+  broadcastMessage,
+  sendMessage,
+  sendFlyingMiddleMessage,
+  sendTopRightHelper,
+};

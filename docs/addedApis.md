@@ -26,13 +26,13 @@
 - broadcastMessage
 - sendMessage
 - sendFlyingMiddleMessage
-
-## coming soon
-
 - createShopItem
 - updateShopItem
 - deleteShopItem
 - configureShopCategory
+
+## coming soon
+
 - createShopItemForPlayer
 - updateShopItemForPlayer
 - resetShopItemForPlayer

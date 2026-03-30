@@ -64,11 +64,6 @@
 - setPlayerOpacity
 - setPlayerOpacityForOnePlayer
 - now
-
-## coming soon
-
-- getInitialItemMetadata
-- getItemStat
 - checkValid
 - setCanChangeBlock
 - setCantChangeBlock
@@ -76,6 +71,11 @@
 - setCantChangeBlockType
 - resetCanChangeBlockType
 - setCanChangeBlockRect
+
+## coming soon
+
+- getInitialItemMetadata
+- getItemStat
 - setCantChangeBlockRect
 - resetCanChangeBlockRect
 - setWalkThroughType

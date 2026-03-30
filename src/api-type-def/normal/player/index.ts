@@ -11,10 +11,7 @@ import { isMobile } from "./isMobile";
 import { setCameraDirection } from "./setCameraDirection";
 import { setPlayerOpacity } from "./setPlayerOpacity";
 import { setPlayerOpacityForOnePlayer } from "./setPlayerOpacityForOnePlayer";
-import { setCanChangeBlock } from "./setCanChangeBlock";
-import { setCantChangeBlock } from "./setCantChangeBlock";
-import { setCanChangeBlockType } from "./setCanChangeBlockType";
-import { setCantChangeBlockType } from "./setCantChangeBlockType";
+
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,
@@ -29,8 +26,4 @@ export const PlayerApis = {
   setCameraDirection,
   setPlayerOpacity,
   setPlayerOpacityForOnePlayer,
-  setCanChangeBlock,
-  setCantChangeBlock,
-  setCanChangeBlockType,
-  setCantChangeBlockType,
 };

@@ -12,7 +12,7 @@ import { MessageApis } from "./message/index";
 import { PlayerApis } from "./player/index";
 import { EntityApis } from "./entity/index";
 import { now } from "./now";
-import { MargeObject } from "@type";
+import { SetCanChangeApis } from "./canChangeBlockOption/index";
 
 export const NormalApis = {
   getUnitCoordinatesLifeformWithin,
@@ -27,6 +27,7 @@ export const NormalApis = {
   ...MessageApis,
   ...PlayerApis,
   ...EntityApis,
+  ...SetCanChangeApis,
   forceRespawn,
   now,
 } as const;

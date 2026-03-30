@@ -76,15 +76,8 @@
 
 - getInitialItemMetadata
 - getItemStat
-- setCantChangeBlockRect
-- resetCanChangeBlockRect
 - setWalkThroughType
 - setWalkThroughRect
-- giveItem
-- inventoryIsFull
-- setItemSlot
-- removeItemName
-- getItemSlot
 
 ## almost
 

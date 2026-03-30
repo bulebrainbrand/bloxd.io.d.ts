@@ -5,8 +5,10 @@ export declare const NormalApis: {
     readonly setCanChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
     readonly setCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").Block) => void;
     readonly setCantChangeBlock: (playerId: import("../..").PlayerId, x: number, y: number, z: number) => void;
+    readonly setCantChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
     readonly setCantChangeBlockType: (playerId: import("../..").PlayerId, block: import("../..").Block) => void;
     readonly resetCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").Block) => void;
+    readonly resetCanChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
     readonly getEntityName: (entityId: import("../..").EntityId) => string;
     readonly checkValid: (entityId: import("../..").EntityId | null) => boolean;
     readonly getPlayerIds: () => import("../..").PlayerId[];
@@ -48,6 +50,11 @@ export declare const NormalApis: {
     readonly createItemDrop: (x: number, y: number, z: number, itemName: import("../..").ItemName, amount?: number | null, margeItems?: boolean, attributes?: import("../..").ItemAttributes, timeTillDespawn?: number, dropperId?: import("../..").LifeformId | null, options?: never) => null | import("../..").ItemEntityId;
     readonly setCantPickUpItem: (playerId: import("../..").PlayerId, itemId: import("../..").ItemEntityId) => void;
     readonly deleteItemDrop: (itemId: import("../..").ItemEntityId) => void;
+    readonly giveItem: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName, itemAmount: number, attributes: import("../..").ItemAttributes) => void;
+    readonly inventoryIsFull: (playerId: import("../..").PlayerId) => boolean;
+    readonly setItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number, itemName: import("../..").ItemName, itemAmount: number, attributes: import("../..").ItemAttributes, tellClient: boolean) => void;
+    readonly removeItemName: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName, amount: number) => void;
+    readonly getItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number) => any;
     readonly getHealth: (entityId: import("../..").EntityId) => import("../..").Health;
     readonly setHealth: (entityId: import("../..").EntityId, newHealth: import("../..").Health | null, whoDidDamage?: Readonly<import("../..").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
     readonly attemptApplyDamage: (options: Readonly<import("../..").PlayerAttemptDamageOtherPlayerOpts>) => boolean;

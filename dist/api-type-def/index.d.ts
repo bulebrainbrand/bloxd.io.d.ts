@@ -20,8 +20,10 @@ export declare const Apis: {
     readonly setCanChangeBlockRect: (playerId: import("../type/index").PlayerId, pos1: import("../type/index").Coordinate, pos2: import("../type/index").Coordinate) => void;
     readonly setCanChangeBlockType: (playerId: import("../type/index").PlayerId, blockName: import("../type/index").Block) => void;
     readonly setCantChangeBlock: (playerId: import("../type/index").PlayerId, x: number, y: number, z: number) => void;
+    readonly setCantChangeBlockRect: (playerId: import("../type/index").PlayerId, pos1: import("../type/index").Coordinate, pos2: import("../type/index").Coordinate) => void;
     readonly setCantChangeBlockType: (playerId: import("../type/index").PlayerId, block: import("../type/index").Block) => void;
     readonly resetCanChangeBlockType: (playerId: import("../type/index").PlayerId, blockName: import("../type/index").Block) => void;
+    readonly resetCanChangeBlockRect: (playerId: import("../type/index").PlayerId, pos1: import("../type/index").Coordinate, pos2: import("../type/index").Coordinate) => void;
     readonly getEntityName: (entityId: import("../type/index").EntityId) => string;
     readonly checkValid: (entityId: import("../type/index").EntityId | null) => boolean;
     readonly getPlayerIds: () => import("../type/index").PlayerId[];
@@ -63,6 +65,11 @@ export declare const Apis: {
     readonly createItemDrop: (x: number, y: number, z: number, itemName: import("../type/index").ItemName, amount?: number | null, margeItems?: boolean, attributes?: import("../type/index").ItemAttributes, timeTillDespawn?: number, dropperId?: import("../type/index").LifeformId | null, options?: never) => null | import("../type/index").ItemEntityId;
     readonly setCantPickUpItem: (playerId: import("../type/index").PlayerId, itemId: import("../type/index").ItemEntityId) => void;
     readonly deleteItemDrop: (itemId: import("../type/index").ItemEntityId) => void;
+    readonly giveItem: (playerId: import("../type/index").PlayerId, itemName: import("../type/index").ItemName, itemAmount: number, attributes: import("../type/index").ItemAttributes) => void;
+    readonly inventoryIsFull: (playerId: import("../type/index").PlayerId) => boolean;
+    readonly setItemSlot: (playerId: import("../type/index").PlayerId, itemSlotIndex: number, itemName: import("../type/index").ItemName, itemAmount: number, attributes: import("../type/index").ItemAttributes, tellClient: boolean) => void;
+    readonly removeItemName: (playerId: import("../type/index").PlayerId, itemName: import("../type/index").ItemName, amount: number) => void;
+    readonly getItemSlot: (playerId: import("../type/index").PlayerId, itemSlotIndex: number) => any;
     readonly getHealth: (entityId: import("../type/index").EntityId) => import("../type/index").Health;
     readonly setHealth: (entityId: import("../type/index").EntityId, newHealth: import("../type/index").Health | null, whoDidDamage?: Readonly<import("../type/index").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
     readonly attemptApplyDamage: (options: Readonly<import("../type/index").PlayerAttemptDamageOtherPlayerOpts>) => boolean;

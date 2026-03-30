@@ -13,6 +13,8 @@ import { setPlayerOpacity } from "./setPlayerOpacity";
 import { setPlayerOpacityForOnePlayer } from "./setPlayerOpacityForOnePlayer";
 import { setCanChangeBlock } from "./setCanChangeBlock";
 import { setCantChangeBlock } from "./setCantChangeBlock";
+import { setCanChangeBlockType } from "./setCanChangeBlockType";
+import { setCantChangeBlockType } from "./setCantChangeBlockType";
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,
@@ -29,4 +31,6 @@ export const PlayerApis = {
   setPlayerOpacityForOnePlayer,
   setCanChangeBlock,
   setCantChangeBlock,
+  setCanChangeBlockType,
+  setCantChangeBlockType,
 };

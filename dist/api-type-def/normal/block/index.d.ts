@@ -9,7 +9,7 @@ export declare const BlockApis: {
         (x: number, y: number, z: number, blockName: import("../../..").BlockName): void;
         (pos: import("../../..").Coordinate, blockName: import("../../..").BlockName): void;
     };
-    attemptWorldChangeBlock: (initatorDbId: null | import("../../..").PlayerDbId, x: number, y: number, z: number, blockName: import("../../..").BlockName, extraInfo?: import("../../..").WorldBlockChangedInfo) => "preventChange" | "preventDrop" | void;
+    attemptWorldChangeBlock: (initiatorDbId: null | import("../../..").PlayerDbId, x: number, y: number, z: number, blockName: import("../../..").BlockName, extraInfo?: import("../../..").WorldBlockChangedInfo) => "preventChange" | "preventDrop" | void;
     getBlockSolidity: {
         (x: number, y: number, z: number): boolean;
         (pos: import("../../..").Coordinate): boolean;

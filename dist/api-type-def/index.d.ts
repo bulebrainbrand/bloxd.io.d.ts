@@ -15,7 +15,15 @@ export declare const Apis: {
     readonly setClientOptionToDefault: (<TOption extends keyof import(".").ClientOptions>(playerId: import("../type/index").PlayerId, option: TOption) => void) & ((playerId: import("../type/index").PlayerId, option: "canChange") => void) & ((playerId: import("../type/index").PlayerId, option: "crouchingSpeed") => void) & ((playerId: import("../type/index").PlayerId, option: "walkingSpeed") => void) & ((playerId: import("../type/index").PlayerId, option: "runningSpeed") => void) & ((playerId: import("../type/index").PlayerId, option: "speedMultiplier") => void);
     readonly setClientOptions: (playerId: import("../type/index").PlayerId, options: Partial<import(".").ClientOptions>) => void;
     readonly forceRespawn: (playerId: import("../type/index").PlayerId, respawnPos?: Readonly<import("../type/index").Coordinate>) => void;
+    readonly now: () => number;
+    readonly setCanChangeBlock: (playerId: import("../type/index").PlayerId, x: number, y: number, z: null) => void;
+    readonly setCanChangeBlockRect: (playerId: import("../type/index").PlayerId, pos1: import("../type/index").Coordinate, pos2: import("../type/index").Coordinate) => void;
+    readonly setCanChangeBlockType: (playerId: import("../type/index").PlayerId, blockName: import("../type/index").Block) => void;
+    readonly setCantChangeBlock: (playerId: import("../type/index").PlayerId, x: number, y: number, z: number) => void;
+    readonly setCantChangeBlockType: (playerId: import("../type/index").PlayerId, block: import("../type/index").Block) => void;
+    readonly resetCanChangeBlockType: (playerId: import("../type/index").PlayerId, blockName: import("../type/index").Block) => void;
     readonly getEntityName: (entityId: import("../type/index").EntityId) => string;
+    readonly checkValid: (entityId: import("../type/index").EntityId | null) => boolean;
     readonly getPlayerIds: () => import("../type/index").PlayerId[];
     readonly getNumPlayers: () => number;
     readonly getPlayerPartyWhenJoined: (playerId: import("../type/index").PlayerId) => import("../type/index").Party | null;
@@ -26,6 +34,9 @@ export declare const Apis: {
     readonly getPlayerIdFromDbId: (dbId: import("../type/index").PlayerDbId) => null | import("../type/index").PlayerId;
     readonly kickPlayer: (playerId: import("../type/index").PlayerId, reason: string) => void;
     readonly isMobile: (playerId: import("../type/index").PlayerId) => boolean;
+    readonly setCameraDirection: (playerId: import("../type/index").PlayerId, direction: import("../type/index").Direcrion) => void;
+    readonly setPlayerOpacity: (playerId: import("../type/index").PlayerId, opacity: number) => void;
+    readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: import("../type/index").PlayerId, playerIdOfOpacityPlayer: import("../type/index").PlayerId, opacity: number) => void;
     readonly broadcastMessage: (message: string | import("../type/index").CustomTextStyling, style?: {
         fontWeight?: number | string;
         color?: string;

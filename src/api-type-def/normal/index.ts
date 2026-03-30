@@ -11,6 +11,7 @@ import { KillstreakApis } from "./killstreak/index";
 import { MessageApis } from "./message/index";
 import { PlayerApis } from "./player/index";
 import { EntityApis } from "./entity/index";
+import { now } from "./now";
 import { MargeObject } from "@type";
 
 export const NormalApis = {
@@ -27,4 +28,5 @@ export const NormalApis = {
   ...PlayerApis,
   ...EntityApis,
   forceRespawn,
+  now,
 } as const;

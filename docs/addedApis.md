@@ -60,15 +60,15 @@
 - createItemDrop
 - setCantPickUpItem
 - deleteItemDrop
+- setCameraDirection
+- setPlayerOpacity
+- setPlayerOpacityForOnePlayer
+- now
 
 ## coming soon
 
 - getInitialItemMetadata
 - getItemStat
-- setCameraDirection
-- setPlayerOpacity
-- setPlayerOpacityForOnePlayer
-- now
 - checkValid
 - setCanChangeBlock
 - setCantChangeBlock

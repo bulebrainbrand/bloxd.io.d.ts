@@ -8,6 +8,9 @@ import { getPlayerDbId } from "./getPlayerDbId";
 import { getPlayerIdFromDbId } from "./getPlayerIdFromDbId";
 import { kickPlayer } from "./kickPlayer";
 import { isMobile } from "./isMobile";
+import { setCameraDirection } from "./setCameraDirection";
+import { setPlayerOpacity } from "./setPlayerOpacity";
+import { setPlayerOpacityForOnePlayer } from "./setPlayerOpacityForOnePlayer";
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,
@@ -19,4 +22,7 @@ export const PlayerApis = {
   getPlayerIdFromDbId,
   kickPlayer,
   isMobile,
+  setCameraDirection,
+  setPlayerOpacity,
+  setPlayerOpacityForOnePlayer,
 };

@@ -11,6 +11,7 @@ import { isMobile } from "./isMobile";
 import { setCameraDirection } from "./setCameraDirection";
 import { setPlayerOpacity } from "./setPlayerOpacity";
 import { setPlayerOpacityForOnePlayer } from "./setPlayerOpacityForOnePlayer";
+
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,

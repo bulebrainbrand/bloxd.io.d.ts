@@ -46,5 +46,5 @@ src/
   type/ # use type define e.g.`PlayerId`
   index.ts # top level file
 
-dist/ # d.ts result of tsc.npm package install target
+dist/ # tsc result and npm package install target
 ```

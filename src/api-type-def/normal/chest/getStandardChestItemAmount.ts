@@ -1,0 +1,16 @@
+import { Coordinate, ItemName } from "@type";
+
+/**
+ * The amount of an itemName a standard chest has.
+ * Returns 0 if the standard chest has none, and a negative number if infinite.
+ *
+ * @param {Coordinate} chestPos
+ * @param {ItemName} itemName
+ * @returns {number}
+ */
+declare const getStandardChestItemAmount: (
+  chestPos: Coordinate,
+  itemName: ItemName,
+) => number;
+
+export { getStandardChestItemAmount };

@@ -16,6 +16,12 @@ export declare const Apis: {
     readonly setClientOptions: (playerId: import("../type/index").PlayerId, options: Partial<import(".").ClientOptions>) => void;
     readonly forceRespawn: (playerId: import("../type/index").PlayerId, respawnPos?: Readonly<import("../type/index").Coordinate>) => void;
     readonly now: () => number;
+    readonly canOpenStandardChest: (playerId: import("../type/index").PlayerId, chestX: number, chestY: number, chestZ: number) => boolean | null;
+    readonly openChestForPlayer: (playerId: import("../type/index").PlayerId, x: number, y: number, z: number) => void;
+    readonly closeChestForPlayer: (playerId: import("../type/index").PlayerId) => void;
+    readonly giveStandardChestItem: (chestPos: import("../type/index").Coordinate, itemName: import("../type/index").ItemName, itemAmount?: number, playerId?: import("../type/index").PlayerId, attributes?: import("../type/index").ItemAttributes) => number;
+    readonly getStandardChestFreeSlotCount: (chestPos: import("../type/index").Coordinate) => number | null;
+    readonly getStandardChestItemAmount: (chestPos: import("../type/index").Coordinate, itemName: import("../type/index").ItemName) => number;
     readonly setWalkThroughRect: (playerId: import("../type/index").PlayerId, pos1: import("../type/index").Coordinate, pos2: import("../type/index").Coordinate, updateType: import("../type/index").WalkThroughType) => void;
     readonly setWalkThroughType: (playerId: import("../type/index").PlayerId, blockName: import("../type/index").BlockName, disable?: boolean) => void;
     readonly setCanChangeBlock: (playerId: import("../type/index").PlayerId, x: number, y: number, z: null) => void;

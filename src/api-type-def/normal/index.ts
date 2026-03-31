@@ -14,6 +14,7 @@ import { EntityApis } from "./entity/index";
 import { now } from "./now";
 import { SetCanChangeApis } from "./canChangeBlockOption/index";
 import { SetWalkOptionsApis } from "./setWalkOptions/index";
+import { ChestApis } from "./chest/index";
 
 export const NormalApis = {
   getUnitCoordinatesLifeformWithin,
@@ -30,6 +31,7 @@ export const NormalApis = {
   ...EntityApis,
   ...SetCanChangeApis,
   ...SetWalkOptionsApis,
+  ...ChestApis,
   forceRespawn,
   now,
 } as const;

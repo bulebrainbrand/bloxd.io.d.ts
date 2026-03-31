@@ -1,4 +1,4 @@
-import { PlayerId } from "@type";
+import { ItemObject, PlayerId } from "@type";
 
 /**
  * Get the item at a specific index
@@ -10,10 +10,6 @@ import { PlayerId } from "@type";
 declare const getItemSlot: (
   playerId: PlayerId,
   itemSlotIndex: number,
-) => {
-  name: string;
-  amount: number;
-  attributes: Record<string, unknown>;
-} | null;
+) => ItemObject;
 
 export { getItemSlot };

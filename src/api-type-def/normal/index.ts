@@ -13,6 +13,7 @@ import { PlayerApis } from "./player/index";
 import { EntityApis } from "./entity/index";
 import { now } from "./now";
 import { SetCanChangeApis } from "./canChangeBlockOption/index";
+import { SetWalkOptionsApis } from "./setWalkOptions/index";
 
 export const NormalApis = {
   getUnitCoordinatesLifeformWithin,
@@ -28,6 +29,7 @@ export const NormalApis = {
   ...PlayerApis,
   ...EntityApis,
   ...SetCanChangeApis,
+  ...SetWalkOptionsApis,
   forceRespawn,
   now,
 } as const;

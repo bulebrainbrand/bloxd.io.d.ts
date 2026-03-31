@@ -1,6 +1,8 @@
 export declare const NormalApis: {
     readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
     readonly now: () => number;
+    readonly setWalkThroughRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate, updateType: import("../..").WalkThroughType) => void;
+    readonly setWalkThroughType: (playerId: import("../..").PlayerId, blockName: import("../..").BlockName, disable?: boolean) => void;
     readonly setCanChangeBlock: (playerId: import("../..").PlayerId, x: number, y: number, z: null) => void;
     readonly setCanChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
     readonly setCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").Block) => void;

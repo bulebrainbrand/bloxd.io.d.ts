@@ -22,3 +22,4 @@ export * from "./particle/index";
 export * from "./WorldBlockChangedInfo";
 export * from "./ItemMetaInfo";
 export * from "./ChunkId";
+export * from "./WalkThroughType";

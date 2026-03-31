@@ -78,13 +78,13 @@
 - setItemSlot
 - removeItemName
 - getItemSlot
+- setWalkThroughType
+- setWalkThroughRect
 
 ## coming soon
 
 - getInitialItemMetadata
 - getItemStat
-- setWalkThroughType
-- setWalkThroughRect
 - hasItem
 - getInventoryItemAmount
 - getSelectedInventorySlotI

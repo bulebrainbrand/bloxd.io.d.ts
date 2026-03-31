@@ -1,4 +1,4 @@
-import { PlayerId, TempParticleSystemOpts } from "@type";
+import { ParticlePresetOpts, PlayerId, TempParticleSystemOpts } from "@type";
 
 /**
  * Play particle effect on all clients, or only on some clients if clientPredictedBy is specified
@@ -9,7 +9,7 @@ import { PlayerId, TempParticleSystemOpts } from "@type";
  * @returns {void}
  */
 declare const playParticleEffect: (
-  opts: TempParticleSystemOpts,
+  opts: TempParticleSystemOpts | ParticlePresetOpts,
   clientPredictedBy?: PlayerId,
 ) => void;
 

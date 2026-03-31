@@ -57,6 +57,11 @@ export declare const NormalApis: {
     readonly setItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number, itemName: import("../..").ItemName, itemAmount: number, attributes: import("../..").ItemAttributes, tellClient: boolean) => void;
     readonly removeItemName: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName, amount: number) => void;
     readonly getItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number) => import("../..").ItemObject;
+    readonly hasItem: (playerId: import("../..").PlayerId, itemName: import("../..").Item) => boolean;
+    readonly getInventoryItemAmount: (playerId: import("../..").PlayerId, itemName: import("../..").Item) => number;
+    readonly getSelectedInventorySlotI: (playerId: import("../..").PlayerId) => number;
+    readonly getHeldItem: (playerId: import("../..").PlayerId) => import("../..").ItemObject;
+    readonly getInventoryFreeSlotCount: (playerId: import("../..").PlayerId) => number;
     readonly getHealth: (entityId: import("../..").EntityId) => import("../..").Health;
     readonly setHealth: (entityId: import("../..").EntityId, newHealth: import("../..").Health | null, whoDidDamage?: Readonly<import("../..").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
     readonly attemptApplyDamage: (options: Readonly<import("../..").PlayerAttemptDamageOtherPlayerOpts>) => boolean;

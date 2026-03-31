@@ -80,16 +80,16 @@
 - getItemSlot
 - setWalkThroughType
 - setWalkThroughRect
-
-## coming soon
-
-- getInitialItemMetadata
-- getItemStat
 - hasItem
 - getInventoryItemAmount
 - getSelectedInventorySlotI
 - getHeldItem
 - getInventoryFreeSlotCount
+
+## coming soon
+
+- getInitialItemMetadata
+- getItemStat
 - canOpenStandardChest
 - openChestForPlayer
 - closeChestForPlayer

@@ -20,3 +20,16 @@ declare const setHealth: (
 ) => boolean;
 
 export { setHealth };
+
+/**
+ * Set the current health of an entity.
+ * If you want to set their health to more than their current max health, the optional increaseMaxHealthIfNeeded must be true.
+ *
+ * @param {EntityId} entityId
+ * @param {PNull<number>} newHealth - Can be null to make the player not have health
+ * @param { LifeformId | { lifeformId: LifeformId; withItem: string } } [whoDidDamage] - Optional
+ * @param {boolean} [increaseMaxHealthIfNeeded] - Optional
+ * @returns {boolean} - Whether this change in health killed the player
+ *
+ * setHealth(entityId, newHealth, whoDidDamage, increaseMaxHealthIfNeeded)
+ */

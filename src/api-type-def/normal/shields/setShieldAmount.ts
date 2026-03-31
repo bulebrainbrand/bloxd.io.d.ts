@@ -13,3 +13,13 @@ declare const setShieldAmount: (
 ) => void;
 
 export { setShieldAmount };
+
+/**
+ * Set the current shield of a lifeform.
+ *
+ * @param {LifeformId} lifeformId
+ * @param {number} newShieldAmount
+ * @returns {void}
+ *
+ * setShieldAmount(lifeformId, newShieldAmount)
+ */

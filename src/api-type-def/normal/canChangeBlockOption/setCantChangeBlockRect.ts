@@ -17,3 +17,16 @@ declare const setCantChangeBlockRect: (
 ) => void;
 
 export { setCantChangeBlockRect };
+
+/**
+ * Make it so a player cant Change blocks within two points. Coordinates are inclusive. E.g. if [0, 0, 0] is pos1
+ * and [1, 1, 1] is pos2 then the 8 blocks contained within pos1 and pos2 won't be able to be broken.
+ * Overrides setCanChangeBlockType
+ *
+ * @param {PlayerId} playerId
+ * @param {number[]} pos1 - Arg as [x, y, z]
+ * @param {number[]} pos2 - Arg as [x, y, z]
+ * @returns {void}
+ *
+ * setCantChangeBlockRect(playerId, pos1, pos2)
+ */

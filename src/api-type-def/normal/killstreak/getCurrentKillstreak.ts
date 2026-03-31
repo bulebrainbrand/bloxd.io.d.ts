@@ -9,3 +9,12 @@ import { PlayerId } from "@type";
 declare const getCurrentKillstreak: (playerId: PlayerId) => number;
 
 export { getCurrentKillstreak };
+
+/**
+ * Gets the player's current killstreak
+ *
+ * @param {PlayerId} playerId
+ * @returns {number}
+ *
+ * getCurrentKillstreak(playerId)
+ */

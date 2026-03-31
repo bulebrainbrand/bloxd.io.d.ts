@@ -9,3 +9,12 @@ import { BlockId, BlockName } from "@type";
 declare const blockIdToBlockName: (blockId: BlockId) => BlockName;
 
 export { blockIdToBlockName };
+
+/**
+ * Goes from block id to block name. The reverse of blockNameToBlockId
+ *
+ * @param {BlockId} blockId
+ * @returns {BlockName}
+ *
+ * blockIdToBlockName(blockId)
+ */

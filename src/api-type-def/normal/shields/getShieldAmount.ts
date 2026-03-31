@@ -11,3 +11,12 @@ import { EntityId, ShieldAmount } from "@type";
 declare const getShieldAmount: (entityId: EntityId) => ShieldAmount;
 
 export { getShieldAmount };
+
+/**
+ * Get the current shield of an entity.
+ *
+ * @param {EntityId} entityId
+ * @returns {number}
+ *
+ * getShieldAmount(entityId)
+ */

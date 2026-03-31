@@ -13,3 +13,15 @@ declare const getMoonstoneChestItemSlot: (
 ) => ItemObject | null;
 
 export { getMoonstoneChestItemSlot };
+
+/**
+ * Get the item in a player's moonstone chest slot. Null if empty
+ *
+ * Moonstone chests are a type of chest where a player accesses the same contents no matter the location of the moonstone chest
+ *
+ * @param {PlayerId} playerId
+ * @param {number} idx
+ * @returns {PNull<InvenItem>}
+ *
+ * getMoonstoneChestItemSlot(playerId, idx)
+ */

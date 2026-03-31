@@ -29,3 +29,21 @@ declare const applyMeleeHit: (
 ) => boolean;
 
 export { applyMeleeHit };
+
+/**
+ * Make it as if hittingEId hit hitEId
+ *
+ * @param {LifeformId} hittingEId
+ * @param {LifeformId} hitEId
+ * @param {number[]} dirFacing
+ * @param {PNull<LifeformBodyPart>} [bodyPartHit]
+ * @param { {
+ *     damage?: PNull<number>
+ *     heldItemName?: PNull<string>
+ *     horizontalKbMultiplier?: number
+ *     verticalKbMultiplier?: number
+ * } } [overrides]
+ * @returns {boolean}
+ *
+ * applyMeleeHit(hittingEId, hitEId, dirFacing, bodyPartHit, overrides)
+ */

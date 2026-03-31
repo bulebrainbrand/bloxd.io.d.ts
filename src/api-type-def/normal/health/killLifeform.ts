@@ -13,3 +13,13 @@ declare const killLifeform: (
 ) => void;
 
 export { killLifeform };
+
+/**
+ * Kill a lifeform.
+ *
+ * @param {LifeformId} lifeformId
+ * @param { LifeformId | { lifeformId: LifeformId; withItem: string } } [whoKilled] - Optional
+ * @returns {void}
+ *
+ * killLifeform(lifeformId, whoKilled)
+ */

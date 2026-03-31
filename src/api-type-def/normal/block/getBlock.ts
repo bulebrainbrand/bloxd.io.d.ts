@@ -17,3 +17,14 @@ declare const getBlock: {
 };
 
 export { getBlock };
+
+/**
+ * Get the name of a block.
+ *
+ * @param {number | number[]} x - could be an array [x, y, z]. If so, the other params shouldn't be passed.
+ * @param {number} [y]
+ * @param {number} [z]
+ * @returns {BlockName} - blockName - will be a name contained in blockMetadata.ts or 'Air'
+ *
+ * getBlock(x, y, z)
+ */

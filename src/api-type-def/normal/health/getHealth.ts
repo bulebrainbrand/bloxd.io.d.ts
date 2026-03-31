@@ -13,3 +13,12 @@ import { EntityId, Health } from "@type";
 declare const getHealth: (entityId: EntityId) => Health;
 
 export { getHealth };
+
+/**
+ * Get the current health of an entity.
+ *
+ * @param {PlayerId} entityId
+ * @returns {number}
+ *
+ * getHealth(entityId)
+ */

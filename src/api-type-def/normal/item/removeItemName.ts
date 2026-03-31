@@ -15,3 +15,14 @@ declare const removeItemName: (
 ) => void;
 
 export { removeItemName };
+
+/**
+ * Remove an amount of item from a player's inventory
+ *
+ * @param {PlayerId} playerId
+ * @param {ItemName} itemName
+ * @param {number} amount
+ * @returns {void}
+ *
+ * removeItemName(playerId, itemName, amount)
+ */

@@ -16,3 +16,16 @@ declare const blockNameToBlockId: {
 };
 
 export { blockNameToBlockId };
+
+/**
+ * Get the numeric id of a block used in the ndarrays returned from getChunk
+ * I.e. chunk.blockData.set(x, y, z, api.blockNameToBlockId("Dirt"))
+ * or chunk.blockData.get(x, y, z) === api.blockNameToBlockId("Dirt")
+ *
+ * @param {BlockName} blockName
+ * @param {boolean} [allowInvalidBlock] - Don't throw an error if the block name is invalid.
+ * Defaults false. If true and name is invalid, returns null.
+ * @returns {PNull<number>}
+ *
+ * blockNameToBlockId(blockName, allowInvalidBlock)
+ */

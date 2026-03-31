@@ -12,3 +12,13 @@ declare const forceRespawn: (
   respawnPos?: Readonly<Coordinate>,
 ) => void;
 export { forceRespawn };
+
+/**
+ * Force respawn a player
+ *
+ * @param {PlayerId} playerId
+ * @param {number[]} [respawnPos]
+ * @returns {void}
+ *
+ * forceRespawn(playerId, respawnPos)
+ */

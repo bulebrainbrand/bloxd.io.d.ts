@@ -13,3 +13,15 @@ declare const getItemSlot: (
 ) => ItemObject | null;
 
 export { getItemSlot };
+
+/**
+ * Get the item at a specific index
+ * Returns null if there is no item at that index
+ * If there is an item, return an object of the format { name: string; amount: PNull<number>; attributes: ItemAttributes; }
+ *
+ * @param {PlayerId} playerId
+ * @param {number} itemSlotIndex
+ * @returns {PNull<InvenItem>}
+ *
+ * getItemSlot(playerId, itemSlotIndex)
+ */

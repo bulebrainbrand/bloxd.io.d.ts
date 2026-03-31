@@ -8,3 +8,11 @@ import { PlayerId } from "@type";
 declare const getPlayerIds: () => PlayerId[];
 
 export { getPlayerIds };
+
+/**
+ * Get all the player ids.
+ *
+ * @returns {PlayerId[]}
+ *
+ * getPlayerIds()
+ */

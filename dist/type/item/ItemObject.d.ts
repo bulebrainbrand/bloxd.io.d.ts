@@ -6,4 +6,4 @@ export type ItemObject = {
     typeObj: {
         stackable: boolean;
     };
-} | null;
+};

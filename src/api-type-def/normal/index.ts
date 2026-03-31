@@ -15,6 +15,7 @@ import { now } from "./now";
 import { SetCanChangeApis } from "./canChangeBlockOption/index";
 import { SetWalkOptionsApis } from "./setWalkOptions/index";
 import { ChestApis } from "./chest/index";
+import { MoonstoneChestApis } from "./moonstoneChest/index";
 
 export const NormalApis = {
   getUnitCoordinatesLifeformWithin,
@@ -32,6 +33,7 @@ export const NormalApis = {
   ...SetCanChangeApis,
   ...SetWalkOptionsApis,
   ...ChestApis,
+  ...MoonstoneChestApis,
   forceRespawn,
   now,
 } as const;

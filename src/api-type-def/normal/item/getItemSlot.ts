@@ -5,11 +5,11 @@ import { ItemObject, PlayerId } from "@type";
  *
  * @param {PlayerId} playerId
  * @param {number} itemSlotIndex
- * @returns {any} - The item information at the slot
+ * @returns {ItemObject | null} - The item information at the slot
  */
 declare const getItemSlot: (
   playerId: PlayerId,
   itemSlotIndex: number,
-) => ItemObject;
+) => ItemObject | null;
 
 export { getItemSlot };

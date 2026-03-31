@@ -6,8 +6,8 @@ import { ItemObject, PlayerId } from "@type";
  * If an item is held, return an object of the format {name: itemName, amount: amountOfItem}
  *
  * @param {PlayerId} playerId
- * @returns {ItemObject}
+ * @returns {ItemObject | null}
  */
-declare const getHeldItem: (playerId: PlayerId) => ItemObject;
+declare const getHeldItem: (playerId: PlayerId) => ItemObject | null;
 
 export { getHeldItem };

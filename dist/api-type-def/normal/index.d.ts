@@ -1,12 +1,18 @@
 export declare const NormalApis: {
     readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
     readonly now: () => number;
+    readonly getMoonstoneChestItemSlot: (playerId: number, idx: number) => import("../..").ItemObject | null;
+    readonly getMoonstoneChestItems: (playerId: number) => (import("../..").ItemObject | null)[];
+    readonly setMoonstoneChestItemSlot: (playerId: number, idx: number, itemName: string, itemAmount?: number, attributes?: import("../..").ItemAttributes) => void;
     readonly canOpenStandardChest: (playerId: import("../..").PlayerId, chestX: number, chestY: number, chestZ: number) => boolean | null;
     readonly openChestForPlayer: (playerId: import("../..").PlayerId, x: number, y: number, z: number) => void;
     readonly closeChestForPlayer: (playerId: import("../..").PlayerId) => void;
     readonly giveStandardChestItem: (chestPos: import("../..").Coordinate, itemName: import("../..").ItemName, itemAmount?: number, playerId?: import("../..").PlayerId, attributes?: import("../..").ItemAttributes) => number;
     readonly getStandardChestFreeSlotCount: (chestPos: import("../..").Coordinate) => number | null;
     readonly getStandardChestItemAmount: (chestPos: import("../..").Coordinate, itemName: import("../..").ItemName) => number;
+    readonly getStandardChestItemSlot: (chestPos: import("../..").Coordinate, idx: number) => import("../..").ItemObject | null;
+    readonly getStandardChestItems: (chestPos: import("../..").Coordinate) => (import("../..").ItemObject | null)[];
+    readonly setStandardChestItemSlot: (chestPos: import("../..").Coordinate, idx: number, itemName: string, itemAmount?: number, playerId?: number, attributes?: any) => void;
     readonly setWalkThroughRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate, updateType: import("../..").WalkThroughType) => void;
     readonly setWalkThroughType: (playerId: import("../..").PlayerId, blockName: import("../..").BlockName, disable?: boolean) => void;
     readonly setCanChangeBlock: (playerId: import("../..").PlayerId, x: number, y: number, z: null) => void;
@@ -62,11 +68,12 @@ export declare const NormalApis: {
     readonly inventoryIsFull: (playerId: import("../..").PlayerId) => boolean;
     readonly setItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number, itemName: import("../..").ItemName, itemAmount: number, attributes: import("../..").ItemAttributes, tellClient: boolean) => void;
     readonly removeItemName: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName, amount: number) => void;
-    readonly getItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number) => import("../..").ItemObject;
+    readonly getItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number) => import("../..").ItemObject | null;
+    readonly clearInventory: (playerId: import("../..").PlayerId) => void;
     readonly hasItem: (playerId: import("../..").PlayerId, itemName: import("../..").Item) => boolean;
     readonly getInventoryItemAmount: (playerId: import("../..").PlayerId, itemName: import("../..").Item) => number;
     readonly getSelectedInventorySlotI: (playerId: import("../..").PlayerId) => number;
-    readonly getHeldItem: (playerId: import("../..").PlayerId) => import("../..").ItemObject;
+    readonly getHeldItem: (playerId: import("../..").PlayerId) => import("../..").ItemObject | null;
     readonly getInventoryFreeSlotCount: (playerId: import("../..").PlayerId) => number;
     readonly getHealth: (entityId: import("../..").EntityId) => import("../..").Health;
     readonly setHealth: (entityId: import("../..").EntityId, newHealth: import("../..").Health | null, whoDidDamage?: Readonly<import("../..").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;

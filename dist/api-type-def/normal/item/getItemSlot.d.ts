@@ -4,7 +4,7 @@ import { ItemObject, PlayerId } from "../../../type/index";
  *
  * @param {PlayerId} playerId
  * @param {number} itemSlotIndex
- * @returns {any} - The item information at the slot
+ * @returns {ItemObject | null} - The item information at the slot
  */
-declare const getItemSlot: (playerId: PlayerId, itemSlotIndex: number) => ItemObject;
+declare const getItemSlot: (playerId: PlayerId, itemSlotIndex: number) => ItemObject | null;
 export { getItemSlot };

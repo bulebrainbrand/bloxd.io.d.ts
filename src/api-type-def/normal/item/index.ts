@@ -6,6 +6,7 @@ import { inventoryIsFull } from "./inventoryIsFull";
 import { setItemSlot } from "./setItemSlot";
 import { removeItemName } from "./removeItemName";
 import { getItemSlot } from "./getItemSlot";
+import { clearInventory } from "./clearInventory";
 import { hasItem } from "./hasItem";
 import { getInventoryItemAmount } from "./getInventoryItemAmount";
 import { getSelectedInventorySlotI } from "./getSelectedInventorySlotI";
@@ -20,6 +21,7 @@ export const ItemApis = {
   setItemSlot,
   removeItemName,
   getItemSlot,
+  clearInventory,
   hasItem,
   getInventoryItemAmount,
   getSelectedInventorySlotI,

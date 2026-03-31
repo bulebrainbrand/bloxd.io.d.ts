@@ -91,6 +91,13 @@
 - giveStandardChestItem
 - getStandardChestFreeSlotCount
 - getStandardChestItemAmount
+- clearInventory
+- getStandardChestItemSlot
+- getStandardChestItems
+- setStandardChestItemSlot
+- getMoonstoneChestItemSlot
+- getMoonstoneChestItems
+- setMoonstoneChestItemSlot
 
 ## coming soon
 

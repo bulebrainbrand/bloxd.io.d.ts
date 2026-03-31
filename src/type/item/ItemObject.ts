@@ -5,4 +5,4 @@ export type ItemObject = {
   amount: number | null;
   attributes: ItemAttributes;
   typeObj: { stackable: boolean };
-} | null;
+};

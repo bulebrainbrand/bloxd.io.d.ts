@@ -1,4 +1,4 @@
-import { PlayerId, TempParticleSystemOpts } from "../../type/index";
+import { ParticlePresetOpts, PlayerId, TempParticleSystemOpts } from "../../type/index";
 /**
  * Play particle effect on all clients, or only on some clients if clientPredictedBy is specified
  *
@@ -7,5 +7,5 @@ import { PlayerId, TempParticleSystemOpts } from "../../type/index";
  * is not invisible, transparent, or themselves
  * @returns {void}
  */
-declare const playParticleEffect: (opts: TempParticleSystemOpts, clientPredictedBy?: PlayerId) => void;
+declare const playParticleEffect: (opts: TempParticleSystemOpts | ParticlePresetOpts, clientPredictedBy?: PlayerId) => void;
 export { playParticleEffect };

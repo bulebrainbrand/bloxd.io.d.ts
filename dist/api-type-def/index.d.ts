@@ -69,7 +69,11 @@ export declare const Apis: {
     readonly inventoryIsFull: (playerId: import("../type/index").PlayerId) => boolean;
     readonly setItemSlot: (playerId: import("../type/index").PlayerId, itemSlotIndex: number, itemName: import("../type/index").ItemName, itemAmount: number, attributes: import("../type/index").ItemAttributes, tellClient: boolean) => void;
     readonly removeItemName: (playerId: import("../type/index").PlayerId, itemName: import("../type/index").ItemName, amount: number) => void;
-    readonly getItemSlot: (playerId: import("../type/index").PlayerId, itemSlotIndex: number) => any;
+    readonly getItemSlot: (playerId: import("../type/index").PlayerId, itemSlotIndex: number) => {
+        name: string;
+        amount: number;
+        attributes: Record<string, unknown>;
+    } | null;
     readonly getHealth: (entityId: import("../type/index").EntityId) => import("../type/index").Health;
     readonly setHealth: (entityId: import("../type/index").EntityId, newHealth: import("../type/index").Health | null, whoDidDamage?: Readonly<import("../type/index").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
     readonly attemptApplyDamage: (options: Readonly<import("../type/index").PlayerAttemptDamageOtherPlayerOpts>) => boolean;
@@ -96,7 +100,7 @@ export declare const Apis: {
     readonly resetShopItemForPlayer: (playerId: import("../type/index").PlayerId, categoryKey: import("../type/index").ShopCategoryKey, itemKey: import("../type/index").ShopItemKey) => void;
     readonly configureShopCategoryForPlayer: (playerId: import("../type/index").PlayerId, categoryKey: import("../type/index").ShopCategoryKey, config: import("../type/index").ShopCategoryConfig) => void;
     readonly getUnitCoordinatesLifeformWithin: (lifeformId: import("../type/index").LifeformId) => import("../type/index").Coordinate[];
-    readonly playParticleEffect: (opts: import("../type/index").TempParticleSystemOpts, clientPredictedBy?: import("../type/index").PlayerId) => void;
+    readonly playParticleEffect: (opts: import("../type/index").TempParticleSystemOpts | import("../type/index").ParticlePresetOpts, clientPredictedBy?: import("../type/index").PlayerId) => void;
 };
 export * from "./normal/index";
 export * from "./clientOption/index";

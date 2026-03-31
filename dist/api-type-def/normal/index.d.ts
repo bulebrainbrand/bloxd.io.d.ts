@@ -54,7 +54,11 @@ export declare const NormalApis: {
     readonly inventoryIsFull: (playerId: import("../..").PlayerId) => boolean;
     readonly setItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number, itemName: import("../..").ItemName, itemAmount: number, attributes: import("../..").ItemAttributes, tellClient: boolean) => void;
     readonly removeItemName: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName, amount: number) => void;
-    readonly getItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number) => any;
+    readonly getItemSlot: (playerId: import("../..").PlayerId, itemSlotIndex: number) => {
+        name: string;
+        amount: number;
+        attributes: Record<string, unknown>;
+    } | null;
     readonly getHealth: (entityId: import("../..").EntityId) => import("../..").Health;
     readonly setHealth: (entityId: import("../..").EntityId, newHealth: import("../..").Health | null, whoDidDamage?: Readonly<import("../..").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
     readonly attemptApplyDamage: (options: Readonly<import("../..").PlayerAttemptDamageOtherPlayerOpts>) => boolean;
@@ -81,5 +85,5 @@ export declare const NormalApis: {
     readonly resetShopItemForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, itemKey: import("../..").ShopItemKey) => void;
     readonly configureShopCategoryForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, config: import("../..").ShopCategoryConfig) => void;
     readonly getUnitCoordinatesLifeformWithin: (lifeformId: import("../..").LifeformId) => import("../..").Coordinate[];
-    readonly playParticleEffect: (opts: import("../..").TempParticleSystemOpts, clientPredictedBy?: import("../..").PlayerId) => void;
+    readonly playParticleEffect: (opts: import("../..").TempParticleSystemOpts | import("../..").ParticlePresetOpts, clientPredictedBy?: import("../..").PlayerId) => void;
 };

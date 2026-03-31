@@ -71,6 +71,13 @@
 - setCantChangeBlockType
 - resetCanChangeBlockType
 - setCanChangeBlockRect
+- setCantChangeBlockRect
+- resetCanChangeBlockRect
+- giveItem
+- inventoryIsFull
+- setItemSlot
+- removeItemName
+- getItemSlot
 
 ## coming soon
 
@@ -78,6 +85,17 @@
 - getItemStat
 - setWalkThroughType
 - setWalkThroughRect
+- hasItem
+- getInventoryItemAmount
+- getSelectedInventorySlotI
+- getHeldItem
+- getInventoryFreeSlotCount
+- canOpenStandardChest
+- openChestForPlayer
+- closeChestForPlayer
+- giveStandardChestItem
+- getStandardChestFreeSlotCount
+- getStandardChestItemAmount
 
 ## almost
 

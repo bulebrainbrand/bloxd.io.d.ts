@@ -4,7 +4,7 @@ import crouchingSpeed from "./crouchingSpeed";
 import walkingSpeed from "./walkingSpeed";
 import runningSpeed from "./runningSpeed";
 import speedMultiplier from "./speedMultiplier";
-
+import jumpAmount from "./jumpAmount";
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -24,7 +24,8 @@ type AllClientOptionUnion =
   | crouchingSpeed
   | walkingSpeed
   | runningSpeed
-  | speedMultiplier;
+  | speedMultiplier
+  | jumpAmount;
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

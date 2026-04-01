@@ -17,6 +17,7 @@ import { AuraApis } from "./aura/index";
 import { UtilApis } from "./util/index";
 import { BlockDataApis } from "./blockData/index";
 import { DirectionArrowApis } from "./directionArrow/index";
+import { EffectApis } from "./effect/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -38,4 +39,5 @@ export const NormalApis = {
   ...UtilApis,
   ...BlockDataApis,
   ...DirectionArrowApis,
+  ...EffectApis,
 } as const;

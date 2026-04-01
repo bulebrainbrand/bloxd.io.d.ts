@@ -8,6 +8,14 @@ import jumpAmount from "./jumpAmount";
 import airJumpCount from "./airJumpCount";
 import bunnyhopMaxMultiplier from "./bunnyhopMaxMultiplier";
 import musicVolumeLevel from "./musicVolumeLevel";
+import showPlayersInUnloadedChunks from "./showPlayersInUnloadedChunks";
+import useInventory from "./useInventory";
+import useFullInventory from "./useFullInventory";
+import canCraft from "./canCraft";
+import canPickUpItems from "./canPickUpItems";
+import playerZoom from "./playerZoom";
+import zoomOutDistance from "./zoomOutDistance";
+import maxPlayerZoom from "./maxPlayerZoom";
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -31,7 +39,15 @@ type AllClientOptionUnion =
   | jumpAmount
   | airJumpCount
   | bunnyhopMaxMultiplier
-  | musicVolumeLevel;
+  | musicVolumeLevel
+  | showPlayersInUnloadedChunks
+  | useInventory
+  | useFullInventory
+  | canCraft
+  | canPickUpItems
+  | playerZoom
+  | zoomOutDistance
+  | maxPlayerZoom;
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

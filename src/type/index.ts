@@ -31,3 +31,4 @@ export * from "./EntityMeshScalingMap";
 export * from "./LeaderboardKey";
 export * from "./LobbyLeaderboardValues";
 export * from "./Radian";
+export * from "./entity/index";

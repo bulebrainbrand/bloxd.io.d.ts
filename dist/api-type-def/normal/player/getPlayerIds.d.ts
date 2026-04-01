@@ -6,3 +6,10 @@ import { PlayerId } from "../../../type/index";
  */
 declare const getPlayerIds: () => PlayerId[];
 export { getPlayerIds };
+/**
+ * Get all the player ids.
+ *
+ * @returns {PlayerId[]}
+ *
+ * getPlayerIds()
+ */

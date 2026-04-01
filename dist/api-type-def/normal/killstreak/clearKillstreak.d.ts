@@ -7,3 +7,11 @@ import { PlayerId } from "../../../type/index";
  */
 declare const clearKillstreak: (playerId: PlayerId) => void;
 export { clearKillstreak };
+/**
+ * Clears the player's current killstreak
+ *
+ * @param {PlayerId} playerId
+ * @returns {void}
+ *
+ * clearKillstreak(playerId)
+ */

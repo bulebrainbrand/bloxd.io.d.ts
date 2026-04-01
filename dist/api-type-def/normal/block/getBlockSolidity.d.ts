@@ -17,3 +17,15 @@ declare const getBlockSolidity: {
     (pos: Coordinate): boolean;
 };
 export { getBlockSolidity };
+/**
+ * Returns whether a block is solid or not.
+ * E.g. Grass block is solid, while water, ladder and water are not.
+ * Will be true if the block is unloaded.
+ *
+ * @param {number | number[]} x
+ * @param {number} [y]
+ * @param {number} [z]
+ * @returns {boolean}
+ *
+ * getBlockSolidity(x, y, z)
+ */

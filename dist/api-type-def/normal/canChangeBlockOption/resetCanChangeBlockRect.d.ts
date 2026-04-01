@@ -9,3 +9,13 @@ import { Coordinate, PlayerId } from "../../../type/index";
  */
 declare const resetCanChangeBlockRect: (playerId: PlayerId, pos1: Coordinate, pos2: Coordinate) => void;
 export { resetCanChangeBlockRect };
+/**
+ * Remove any previous can/cant change block rect settings for a player
+ *
+ * @param {PlayerId} playerId
+ * @param {number[]} pos1
+ * @param {number[]} pos2
+ * @returns {void}
+ *
+ * resetCanChangeBlockRect(playerId, pos1, pos2)
+ */

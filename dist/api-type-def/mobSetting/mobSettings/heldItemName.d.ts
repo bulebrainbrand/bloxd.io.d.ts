@@ -1,0 +1,4 @@
+import { Item, MobType } from "../../../type/index";
+type HeldItemNameDictionary = Record<MobType, Item | null>;
+export type HeldItemName<K extends MobType> = HeldItemNameDictionary[K];
+export {};

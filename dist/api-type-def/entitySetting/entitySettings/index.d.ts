@@ -2,6 +2,16 @@ import { EntityId, MargeObject, PlayerId } from "../../../type/index";
 import Opacity from "./opacity";
 import ZIndex from "./zIndex";
 import OverlayColour from "./overlayColour";
+import CanAttack from "./canAttack";
+import CanSee from "./canSee";
+import ShowDamageAmounts from "./showDamageAmounts";
+import KillfeedColour from "./killfeedColour";
+import HasPriorityNametag from "./hasPriorityNametag";
+import NameColour from "./nameColour";
+import NameTagInfo from "./nameTagInfo";
+import MeshScaling from "./meshScaling";
+import LobbyLeaderboardValues from "./lobbyLeaderboardValues";
+import ColorInLobbyLeaderboard from "./colorInLobbyLeaderboard";
 type EntitySettingExportFormat = {
     name: string;
     ValueType: any;
@@ -18,7 +28,7 @@ type EntitySettingExportFormat = {
         getOtherEntitySetting: (relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: never) => any;
     };
 };
-type AllEntitySettingUnion = Opacity | ZIndex | OverlayColour;
+type AllEntitySettingUnion = Opacity | ZIndex | OverlayColour | CanAttack | CanSee | ShowDamageAmounts | KillfeedColour | HasPriorityNametag | NameColour | NameTagInfo | MeshScaling | LobbyLeaderboardValues | ColorInLobbyLeaderboard;
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
     [K in U as K["name"]]: K["ValueType"];
 };

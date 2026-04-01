@@ -8,3 +8,12 @@ import { LifeformId, ShieldAmount } from "../../../type/index";
  */
 declare const setShieldAmount: (lifeformId: LifeformId, newShieldAmount: ShieldAmount) => void;
 export { setShieldAmount };
+/**
+ * Set the current shield of a lifeform.
+ *
+ * @param {LifeformId} lifeformId
+ * @param {number} newShieldAmount
+ * @returns {void}
+ *
+ * setShieldAmount(lifeformId, newShieldAmount)
+ */

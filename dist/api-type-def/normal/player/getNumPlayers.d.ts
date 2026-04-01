@@ -6,3 +6,10 @@
  */
 declare const getNumPlayers: () => number;
 export { getNumPlayers };
+/**
+ * Get the number of players in the room
+ *
+ * @returns {number}
+ *
+ * getNumPlayers()
+ */

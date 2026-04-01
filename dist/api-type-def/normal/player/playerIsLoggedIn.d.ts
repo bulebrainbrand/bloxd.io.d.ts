@@ -5,3 +5,9 @@ import { PlayerId } from "../../../type/index";
  */
 declare const playerIsLoggedIn: (playerId: PlayerId) => boolean;
 export { playerIsLoggedIn };
+/**
+ * @param {PlayerId} playerId
+ * @returns {boolean}
+ *
+ * playerIsLoggedIn(playerId)
+ */

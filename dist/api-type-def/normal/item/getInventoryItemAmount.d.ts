@@ -9,3 +9,13 @@ import { Item, PlayerId } from "../../../type/index";
  */
 declare const getInventoryItemAmount: (playerId: PlayerId, itemName: Item) => number;
 export { getInventoryItemAmount };
+/**
+ * The amount of an itemName a player has.
+ * Returns 0 if the player has none, and a negative number if infinite.
+ *
+ * @param {PlayerId} playerId
+ * @param {ItemName} itemName
+ * @returns {number} - number
+ *
+ * getInventoryItemAmount(playerId, itemName)
+ */

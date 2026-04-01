@@ -9,3 +9,11 @@ import { ChunkId, Coordinate } from "../../../type/index";
  */
 declare const blockCoordToChunkId: (pos: Coordinate) => ChunkId;
 export { blockCoordToChunkId };
+/**
+ * Get the unique id of the chunk containing pos in the current map
+ *
+ * @param {number[]} pos
+ * @returns {string}
+ *
+ * blockCoordToChunkId(pos)
+ */

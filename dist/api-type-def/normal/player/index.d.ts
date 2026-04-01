@@ -12,4 +12,5 @@ export declare const PlayerApis: {
     setCameraDirection: (playerId: import("../../..").PlayerId, direction: import("../../..").Direcrion) => void;
     setPlayerOpacity: (playerId: import("../../..").PlayerId, opacity: number) => void;
     setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: import("../../..").PlayerId, playerIdOfOpacityPlayer: import("../../..").PlayerId, opacity: number) => void;
+    forceRespawn: (playerId: import("../../..").PlayerId, respawnPos?: Readonly<import("../../..").Coordinate>) => void;
 };

@@ -1,6 +1,41 @@
 export declare const NormalApis: {
-    readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
+    readonly setVelocity: (eId: import("../..").EntityId, x: number, y: number, z: number) => void;
+    readonly getVelocity: (eId: import("../..").EntityId) => [number, number, number];
+    readonly applyImpulse: (eId: import("../..").EntityId, xImpulse: number, yImpulse: number, zImpulse: number) => void;
+    readonly applyEffect: {
+        (lifeformId: import("../..").LifeformId, effectName: import("../..").InGameEffectName, duration: number | null, customEffectInfo: {
+            icon?: import("../..").IngameIconName | import("../..").ItemName | string;
+            onEndCb?: () => void;
+            displayName?: string | import("../..").TranslatedText;
+            inbuildLevel?: number;
+        }): void;
+        (lifeformId: import("../..").LifeformId, effectName: string, duration: number | null, customEffectInfo: {
+            icon?: import("../..").IngameIconName | import("../..").ItemName | string;
+            onEndCb?: () => void;
+            displayName?: string | import("../..").TranslatedText;
+            inbuildLevel: number;
+        }): void;
+    };
+    readonly removeEffect: (lifeformId: import("../..").LifeformId, name: string) => void;
+    readonly getEffects: (lifeformId: import("../..").LifeformId) => string[];
+    readonly clearDirectionArrow: (playerId: import("../..").PlayerId, id?: string | null) => void;
+    readonly setDirectionArrow: (playerId: import("../..").PlayerId, id: string, position: import("../..").Coordinate, text?: null | string | import("../..").CustomTextStyling, showDistance?: boolean, style?: null | import("../..").TextStyle) => void;
+    readonly getBlockData: (x: number, y: number, z: number) => object | null | undefined;
+    readonly setBlockData: (x: number, y: number, z: number, data: object) => void;
+    readonly calcExplosionForce: (eId: import("../..").EntityId, explosionType: import("../..").ExplosionType, knockbackFactor: number, explosionRadius: number, explosionPos: import("../..").Coordinate, ignoreProjectiles: boolean) => {
+        force: import("../..").Coordinate;
+        forceFrac: number;
+    };
+    readonly isInsideRect: (coordsToCheck: import("../..").Coordinate, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate, addOneToMax?: boolean) => boolean;
     readonly now: () => number;
+    readonly raycastForBlock: (fromPos: import("../..").Coordinate, dirVec: import("../..").Direcrion) => import("../..").BlockRaycastResult;
+    readonly applyAuraChange: (playerId: import("../..").PlayerId, auraDiff: number) => number;
+    readonly getAuraInfo: (player: import("../..").PlayerId) => {
+        level: number;
+        totalAura: number;
+        auraPerLevel: number;
+    };
+    readonly setTotalAura: (playerId: import("../..").PlayerId, totalAura: number) => void;
     readonly getMoonstoneChestItemSlot: (playerId: number, idx: number) => import("../..").ItemObject | null;
     readonly getMoonstoneChestItems: (playerId: number) => (import("../..").ItemObject | null)[];
     readonly setMoonstoneChestItemSlot: (playerId: number, idx: number, itemName: string, itemAmount?: number, attributes?: import("../..").ItemAttributes) => void;
@@ -25,6 +60,7 @@ export declare const NormalApis: {
     readonly resetCanChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
     readonly getEntityName: (entityId: import("../..").EntityId) => string;
     readonly checkValid: (entityId: import("../..").EntityId | null) => boolean;
+    readonly getUnitCoordinatesLifeformWithin: (lifeformId: import("../..").LifeformId) => import("../..").Coordinate[];
     readonly getPlayerIds: () => import("../..").PlayerId[];
     readonly getNumPlayers: () => number;
     readonly getPlayerPartyWhenJoined: (playerId: import("../..").PlayerId) => import("../..").Party | null;
@@ -38,6 +74,7 @@ export declare const NormalApis: {
     readonly setCameraDirection: (playerId: import("../..").PlayerId, direction: import("../..").Direcrion) => void;
     readonly setPlayerOpacity: (playerId: import("../..").PlayerId, opacity: number) => void;
     readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: import("../..").PlayerId, playerIdOfOpacityPlayer: import("../..").PlayerId, opacity: number) => void;
+    readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
     readonly broadcastMessage: (message: string | import("../..").CustomTextStyling, style?: {
         fontWeight?: number | string;
         color?: string;
@@ -100,6 +137,5 @@ export declare const NormalApis: {
     readonly updateShopItemForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, itemKey: import("../..").ShopItemKey, changes: Partial<import("../..").ShopItem>) => void;
     readonly resetShopItemForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, itemKey: import("../..").ShopItemKey) => void;
     readonly configureShopCategoryForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, config: import("../..").ShopCategoryConfig) => void;
-    readonly getUnitCoordinatesLifeformWithin: (lifeformId: import("../..").LifeformId) => import("../..").Coordinate[];
     readonly playParticleEffect: (opts: import("../..").TempParticleSystemOpts | import("../..").ParticlePresetOpts, clientPredictedBy?: import("../..").PlayerId) => void;
 };

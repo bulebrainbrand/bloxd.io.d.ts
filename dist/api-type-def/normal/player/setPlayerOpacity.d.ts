@@ -11,3 +11,13 @@ import { PlayerId } from "../../../type/index";
  */
 declare const setPlayerOpacity: (playerId: PlayerId, opacity: number) => void;
 export { setPlayerOpacity };
+/**
+ * Set a player's opacity
+ * A simple helper that calls setTargetedPlayerSettingForEveryone
+ *
+ * @param {PlayerId} playerId
+ * @param {number} opacity
+ * @returns {void}
+ *
+ * setPlayerOpacity(playerId, opacity)
+ */

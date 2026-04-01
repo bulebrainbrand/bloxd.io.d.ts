@@ -7,3 +7,11 @@ import { PlayerId } from "../../../type/index";
  */
 declare const clearInventory: (playerId: PlayerId) => void;
 export { clearInventory };
+/**
+ * Clear the players inventory
+ *
+ * @param {PlayerId} playerId
+ * @returns {void}
+ *
+ * clearInventory(playerId)
+ */

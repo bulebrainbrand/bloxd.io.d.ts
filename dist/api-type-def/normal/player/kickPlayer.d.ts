@@ -6,3 +6,10 @@ import { PlayerId } from "../../../type/index";
  */
 declare const kickPlayer: (playerId: PlayerId, reason: string) => void;
 export { kickPlayer };
+/**
+ * @param {PlayerId} playerId
+ * @param {string} reason
+ * @returns {void}
+ *
+ * kickPlayer(playerId, reason)
+ */

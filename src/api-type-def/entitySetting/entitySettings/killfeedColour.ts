@@ -1,10 +1,10 @@
-import { EntityId, PlayerId } from "@type";
+import { EntityId, PlayerId, StringColor } from "@type";
 
 /**
  * The colour of kills in the killfeed. Defaults to blue for themselves and red for everyone else.
- * @type {string}
+ * @type {StringColor}
  */
-type ValueType = string;
+type ValueType = StringColor;
 
 declare const name: "killfeedColour";
 
@@ -13,7 +13,7 @@ interface SetTargetedPlayerSettingForEveryone {
    *
    * @param {PlayerId} targetedPlayerId
    * @param {"killfeedColour"} settingName
-   * @param {string} settingValue
+   * @param {StringColor} settingValue
    * @param {boolean} [includeNewJoiners]
    */
   setTargetedPlayerSettingForEveryone(
@@ -31,7 +31,7 @@ interface SetEveryoneSettingForPlayer {
    *
    * @param {PlayerId} playerId
    * @param {"killfeedColour"} settingName
-   * @param {string} settingValue
+   * @param {StringColor} settingValue
    * @param {boolean} [includeNewJoiners]
    * @returns {void}
    */
@@ -50,7 +50,7 @@ interface SetOtherEntitySetting {
    *
    * @param {PlayerId}
    * @param {"killfeedColour"} settingName
-   * @param {string} settingValue
+   * @param {StringColor} settingValue
    * @returns {void}
    */
 
@@ -70,7 +70,7 @@ interface GetOtherEntitySetting {
    * @param {PlayerId} relevantPlayerId
    * @param {EntityId} targetedEntityId
    * @param {"killfeedColour"} settingName
-   * @returns {string}
+   * @returns {StringColor}
    */
   getOtherEntitySetting(
     relevantPlayerId: PlayerId,

@@ -16,6 +16,7 @@ import canPickUpItems from "./canPickUpItems";
 import playerZoom from "./playerZoom";
 import zoomOutDistance from "./zoomOutDistance";
 import maxPlayerZoom from "./maxPlayerZoom";
+import canCustomiseChar from "./canCustomiseChar";
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -47,7 +48,8 @@ type AllClientOptionUnion =
   | canPickUpItems
   | playerZoom
   | zoomOutDistance
-  | maxPlayerZoom;
+  | maxPlayerZoom
+  | canCustomiseChar;
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

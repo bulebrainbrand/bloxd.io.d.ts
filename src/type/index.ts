@@ -30,3 +30,4 @@ export * from "./NameTagInfo";
 export * from "./EntityMeshScalingMap";
 export * from "./LeaderboardKey";
 export * from "./LobbyLeaderboardValues";
+export * from "./Radian";

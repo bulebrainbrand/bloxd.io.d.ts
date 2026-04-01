@@ -31,6 +31,31 @@ import middleTextUpper from "./middleTextUpper";
 import middleTextLower from "./middleTextLower";
 import crosshairText from "./crosshairText";
 import RightInfoText from "./RightInfoText";
+import numClosestPlayersVisible from "./numClosestPlayersVisible";
+import showProgressBar from "./showProgressBar";
+import showKillfeed from "./showKillfeed";
+import chatChannels from "./chatChannels";
+import creative from "./creative";
+import flySpeedMultiplier from "./flySpeedMultiplier";
+import canPickBlocks from "./canPickBlocks";
+import compassTarget from "./compassTarget";
+import ttbMultiplier from "./ttbMultiplier";
+import inventoryItemsMoveable from "./inventoryItemsMoveable";
+import invincible from "./invincible";
+import maxShield from "./maxShield";
+import initialShield from "./initialShield";
+import maxHealth from "./maxHealth";
+import initialHealth from "./initialHealth";
+import healthRegenAmount from "./healthRegenAmount";
+import healthRegenInterval from "./healthRegenInterval";
+import healthRegenStartAfter from "./healthRegenStartAfter";
+import effectDamageDuration from "./effectDamageDuration";
+import effectSpeedDuration from "./effectSpeedDuration";
+import effectDamageReductionDuration from "./effectDamageReductionDuration";
+import effectHealthRegenDuration from "./effectHealthRegenDuration";
+import potionEffectDuration from "./potionEffectDuration";
+import splashPotionEffectDuration from "./splashPotionEffectDuration";
+import arrowPotionEffectDuration from "./arrowPotionEffectDuration";
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -77,7 +102,32 @@ type AllClientOptionUnion =
   | middleTextUpper
   | middleTextLower
   | crosshairText
-  | RightInfoText;
+  | RightInfoText
+  | numClosestPlayersVisible
+  | showProgressBar
+  | showKillfeed
+  | chatChannels
+  | creative
+  | flySpeedMultiplier
+  | canPickBlocks
+  | compassTarget
+  | ttbMultiplier
+  | inventoryItemsMoveable
+  | invincible
+  | maxShield
+  | initialShield
+  | maxHealth
+  | initialHealth
+  | healthRegenAmount
+  | healthRegenInterval
+  | healthRegenStartAfter
+  | effectDamageDuration
+  | effectSpeedDuration
+  | effectDamageReductionDuration
+  | effectHealthRegenDuration
+  | potionEffectDuration
+  | splashPotionEffectDuration
+  | arrowPotionEffectDuration;
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

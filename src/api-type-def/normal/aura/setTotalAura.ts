@@ -8,8 +8,6 @@ import { PlayerId } from "@type";
  * @param {PlayerId} playerId
  * @param {number} totalAura
  * @returns {void}
- *
- * setTotalAura(playerId, totalAura);
  */
 declare const setTotalAura: (playerId: PlayerId, totalAura: number) => void;
 export { setTotalAura };

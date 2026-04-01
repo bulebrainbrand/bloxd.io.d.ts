@@ -7,8 +7,6 @@ import { PlayerId } from "@type";
  *
  * @param {PlayerId} playerId
  * @returns { { level: number; totalAura: number; auraPerLevel: number } }
- *
- * getAuraInfo(playerId);
  */
 declare const getAuraInfo: (player: PlayerId) => {
   level: number;

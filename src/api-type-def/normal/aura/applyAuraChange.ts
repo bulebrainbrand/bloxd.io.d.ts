@@ -8,8 +8,6 @@ import { PlayerId } from "@type";
  * @param {PlayerId} playerId
  * @param {number} auraDiff
  * @returns {number} - The actual change in aura
- *
- * applyAuraChange(playerId, auraDiff);
  */
 declare const applyAuraChange: (playerId: PlayerId, auraDiff: number) => number;
 export { applyAuraChange };

@@ -44,6 +44,7 @@ import { IsRideable } from "./isRideable";
 import { HealthRegen } from "./healthRegen";
 import { RidingSpeedMult } from "./ridingSpeedMult";
 import { MetaInfo } from "./metaInfo";
+import { OnTamedHealthMultiplier } from "./onTamedHealthMultiplier";
 export type MobSettings<K extends MobType> = {
   variation: Variation<K>;
   name: Name<K>;
@@ -90,6 +91,7 @@ export type MobSettings<K extends MobType> = {
   healthRegen: HealthRegen<K>;
   ridingSpeedMult: RidingSpeedMult<K>;
   metaInfo: MetaInfo<K>;
+  onTamedHealthMultiplier: OnTamedHealthMultiplier<K>;
 };
 export * from "./variation";
 export * from "./initialHealth";
@@ -134,3 +136,4 @@ export * from "./isRideable";
 export * from "./healthRegen";
 export * from "./ridingSpeedMult";
 export * from "./metaInfo";
+export * from "./onTamedHealthMultiplier";

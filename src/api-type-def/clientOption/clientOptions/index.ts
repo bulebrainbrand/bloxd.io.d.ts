@@ -56,6 +56,35 @@ import effectHealthRegenDuration from "./effectHealthRegenDuration";
 import potionEffectDuration from "./potionEffectDuration";
 import splashPotionEffectDuration from "./splashPotionEffectDuration";
 import arrowPotionEffectDuration from "./arrowPotionEffectDuration";
+import fogChunkDistanceOverride from "./fogChunkDistanceOverride";
+import fogColourOverride from "./fogColourOverride";
+import airAccScale from "./airAccScale";
+import airFrictionScale from "./airFrictionScale";
+import airMomentumConservation from "./airMomentumConservation";
+import auraPerLevel from "./auraPerLevel";
+import autoRespawn from "./autoRespawn";
+import cameraTint from "./cameraTint";
+import dealingDamageDefaultMultiplier from "./dealingDamageDefaultMultiplier";
+import dealingDamageHeadMultiplier from "./dealingDamageHeadMultiplier";
+import dealingDamageLegMultiplier from "./dealingDamageLegMultiplier";
+import dealingDamageMultiplier from "./dealingDamageMultiplier";
+import droppedItemScale from "./droppedItemScale";
+import fallDamage from "./fallDamage";
+import groundFrictionScale from "./groundFrictionScale";
+import killstreakDuration from "./killstreakDuration";
+import maxAuraLevel from "./maxAuraLevel";
+import movementBasedFovScale from "./movementBasedFovScale";
+
+import receivingDamageMultiplier from "./receivingDamageMultiplier";
+import respawnButtonText from "./respawnButtonText";
+import secsToRespawn from "./secsToRespawn";
+
+import usePlayAgainButton from "./usePlayAgainButton";
+/*
+import skyBox from "./skyBox";
+import music from "./music";
+import lobbyLeaderboardInfo from "./lobbyLeaderboardInfo";
+*/
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -127,7 +156,34 @@ type AllClientOptionUnion =
   | effectHealthRegenDuration
   | potionEffectDuration
   | splashPotionEffectDuration
-  | arrowPotionEffectDuration;
+  | arrowPotionEffectDuration
+  | fogChunkDistanceOverride
+  | fogColourOverride
+  | airAccScale
+  | airFrictionScale
+  | airMomentumConservation
+  | auraPerLevel
+  | autoRespawn
+  | cameraTint
+  | dealingDamageDefaultMultiplier
+  | dealingDamageHeadMultiplier
+  | dealingDamageLegMultiplier
+  | dealingDamageMultiplier
+  | droppedItemScale
+  | fallDamage
+  | groundFrictionScale
+  | killstreakDuration
+  | maxAuraLevel
+  | movementBasedFovScale
+  | receivingDamageMultiplier
+  | respawnButtonText
+  | secsToRespawn
+  | usePlayAgainButton;
+/*
+  | lobbyLeaderboardInfo
+  | skyBox
+  | music
+*/
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

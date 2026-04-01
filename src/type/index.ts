@@ -24,3 +24,4 @@ export * from "./ItemMetaInfo";
 export * from "./ChunkId";
 export * from "./WalkThroughType";
 export * from "./ExplosionType";
+export * from "./BlockRaycastResult";

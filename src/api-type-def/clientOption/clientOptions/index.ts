@@ -4,7 +4,87 @@ import crouchingSpeed from "./crouchingSpeed";
 import walkingSpeed from "./walkingSpeed";
 import runningSpeed from "./runningSpeed";
 import speedMultiplier from "./speedMultiplier";
+import jumpAmount from "./jumpAmount";
+import airJumpCount from "./airJumpCount";
+import bunnyhopMaxMultiplier from "./bunnyhopMaxMultiplier";
+import musicVolumeLevel from "./musicVolumeLevel";
+import showPlayersInUnloadedChunks from "./showPlayersInUnloadedChunks";
+import useInventory from "./useInventory";
+import useFullInventory from "./useFullInventory";
+import canCraft from "./canCraft";
+import canPickUpItems from "./canPickUpItems";
+import playerZoom from "./playerZoom";
+import zoomOutDistance from "./zoomOutDistance";
+import maxPlayerZoom from "./maxPlayerZoom";
+import canCustomiseChar from "./canCustomiseChar";
+import defaultBlock from "./defaultBlock";
+import cantChangeError from "./cantChangeError";
+import cantBreakError from "./cantBreakError";
+import cantBuildError from "./cantBuildError";
+import touchscreenActionButton from "./touchscreenActionButton";
+import strictFluidBuckets from "./strictFluidBuckets";
+import canUseZoomKey from "./canUseZoomKey";
+import canAltAction from "./canAltAction";
+import canSeeNametagsThroughWalls from "./canSeeNametagsThroughWalls";
+import showBasicMovementControls from "./showBasicMovementControls";
+import middleTextUpper from "./middleTextUpper";
+import middleTextLower from "./middleTextLower";
+import crosshairText from "./crosshairText";
+import RightInfoText from "./RightInfoText";
+import numClosestPlayersVisible from "./numClosestPlayersVisible";
+import showProgressBar from "./showProgressBar";
+import showKillfeed from "./showKillfeed";
+import chatChannels from "./chatChannels";
+import creative from "./creative";
+import flySpeedMultiplier from "./flySpeedMultiplier";
+import canPickBlocks from "./canPickBlocks";
+import compassTarget from "./compassTarget";
+import ttbMultiplier from "./ttbMultiplier";
+import inventoryItemsMoveable from "./inventoryItemsMoveable";
+import invincible from "./invincible";
+import maxShield from "./maxShield";
+import initialShield from "./initialShield";
+import maxHealth from "./maxHealth";
+import initialHealth from "./initialHealth";
+import healthRegenAmount from "./healthRegenAmount";
+import healthRegenInterval from "./healthRegenInterval";
+import healthRegenStartAfter from "./healthRegenStartAfter";
+import effectDamageDuration from "./effectDamageDuration";
+import effectSpeedDuration from "./effectSpeedDuration";
+import effectDamageReductionDuration from "./effectDamageReductionDuration";
+import effectHealthRegenDuration from "./effectHealthRegenDuration";
+import potionEffectDuration from "./potionEffectDuration";
+import splashPotionEffectDuration from "./splashPotionEffectDuration";
+import arrowPotionEffectDuration from "./arrowPotionEffectDuration";
+import fogChunkDistanceOverride from "./fogChunkDistanceOverride";
+import fogColourOverride from "./fogColourOverride";
+import airAccScale from "./airAccScale";
+import airFrictionScale from "./airFrictionScale";
+import airMomentumConservation from "./airMomentumConservation";
+import auraPerLevel from "./auraPerLevel";
+import autoRespawn from "./autoRespawn";
+import cameraTint from "./cameraTint";
+import dealingDamageDefaultMultiplier from "./dealingDamageDefaultMultiplier";
+import dealingDamageHeadMultiplier from "./dealingDamageHeadMultiplier";
+import dealingDamageLegMultiplier from "./dealingDamageLegMultiplier";
+import dealingDamageMultiplier from "./dealingDamageMultiplier";
+import droppedItemScale from "./droppedItemScale";
+import fallDamage from "./fallDamage";
+import groundFrictionScale from "./groundFrictionScale";
+import killstreakDuration from "./killstreakDuration";
+import maxAuraLevel from "./maxAuraLevel";
+import movementBasedFovScale from "./movementBasedFovScale";
 
+import receivingDamageMultiplier from "./receivingDamageMultiplier";
+import respawnButtonText from "./respawnButtonText";
+import secsToRespawn from "./secsToRespawn";
+
+import usePlayAgainButton from "./usePlayAgainButton";
+/*
+import skyBox from "./skyBox";
+import music from "./music";
+import lobbyLeaderboardInfo from "./lobbyLeaderboardInfo";
+*/
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -24,7 +104,86 @@ type AllClientOptionUnion =
   | crouchingSpeed
   | walkingSpeed
   | runningSpeed
-  | speedMultiplier;
+  | speedMultiplier
+  | jumpAmount
+  | airJumpCount
+  | bunnyhopMaxMultiplier
+  | musicVolumeLevel
+  | showPlayersInUnloadedChunks
+  | useInventory
+  | useFullInventory
+  | canCraft
+  | canPickUpItems
+  | playerZoom
+  | zoomOutDistance
+  | maxPlayerZoom
+  | canCustomiseChar
+  | defaultBlock
+  | cantChangeError
+  | cantBreakError
+  | cantBuildError
+  | touchscreenActionButton
+  | strictFluidBuckets
+  | canUseZoomKey
+  | canAltAction
+  | canSeeNametagsThroughWalls
+  | showBasicMovementControls
+  | middleTextUpper
+  | middleTextLower
+  | crosshairText
+  | RightInfoText
+  | numClosestPlayersVisible
+  | showProgressBar
+  | showKillfeed
+  | chatChannels
+  | creative
+  | flySpeedMultiplier
+  | canPickBlocks
+  | compassTarget
+  | ttbMultiplier
+  | inventoryItemsMoveable
+  | invincible
+  | maxShield
+  | initialShield
+  | maxHealth
+  | initialHealth
+  | healthRegenAmount
+  | healthRegenInterval
+  | healthRegenStartAfter
+  | effectDamageDuration
+  | effectSpeedDuration
+  | effectDamageReductionDuration
+  | effectHealthRegenDuration
+  | potionEffectDuration
+  | splashPotionEffectDuration
+  | arrowPotionEffectDuration
+  | fogChunkDistanceOverride
+  | fogColourOverride
+  | airAccScale
+  | airFrictionScale
+  | airMomentumConservation
+  | auraPerLevel
+  | autoRespawn
+  | cameraTint
+  | dealingDamageDefaultMultiplier
+  | dealingDamageHeadMultiplier
+  | dealingDamageLegMultiplier
+  | dealingDamageMultiplier
+  | droppedItemScale
+  | fallDamage
+  | groundFrictionScale
+  | killstreakDuration
+  | maxAuraLevel
+  | movementBasedFovScale
+  | receivingDamageMultiplier
+  | respawnButtonText
+  | secsToRespawn
+  | usePlayAgainButton;
+/*
+  | lobbyLeaderboardInfo
+  | skyBox
+  | music
+*/
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

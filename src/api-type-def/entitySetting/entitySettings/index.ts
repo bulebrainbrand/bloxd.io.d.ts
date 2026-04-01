@@ -9,6 +9,7 @@ import KillfeedColour from "./killfeedColour";
 import HasPriorityNametag from "./hasPriorityNametag";
 import NameColour from "./nameColour";
 import NameTagInfo from "./nameTagInfo";
+import MeshScaling from "./meshScaling";
 
 type EntitySettingExportFormat = {
   name: string;
@@ -56,7 +57,8 @@ type AllEntitySettingUnion =
   | KillfeedColour
   | HasPriorityNametag
   | NameColour
-  | NameTagInfo;
+  | NameTagInfo
+  | MeshScaling;
 
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

@@ -27,3 +27,4 @@ export * from "./ExplosionType";
 export * from "./BlockRaycastResult";
 export * from "./effect/index";
 export * from "./NameTagInfo";
+export * from "./EntityMeshScalingMap";

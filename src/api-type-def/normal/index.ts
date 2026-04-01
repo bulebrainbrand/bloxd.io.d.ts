@@ -15,6 +15,7 @@ import { ChestApis } from "./chest/index";
 import { MoonstoneChestApis } from "./moonstoneChest/index";
 import { AuraApis } from "./aura/index";
 import { UtilApis } from "./util/index";
+import { BlockDataApis } from "./blockData/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -34,4 +35,5 @@ export const NormalApis = {
   ...MoonstoneChestApis,
   ...AuraApis,
   ...UtilApis,
+  ...BlockDataApis,
 } as const;

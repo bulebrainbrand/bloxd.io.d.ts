@@ -17,6 +17,20 @@ import playerZoom from "./playerZoom";
 import zoomOutDistance from "./zoomOutDistance";
 import maxPlayerZoom from "./maxPlayerZoom";
 import canCustomiseChar from "./canCustomiseChar";
+import defaultBlock from "./defaultBlock";
+import cantChangeError from "./cantChangeError";
+import cantBreakError from "./cantBreakError";
+import cantBuildError from "./cantBuildError";
+import touchscreenActionButton from "./touchscreenActionButton";
+import strictFluidBuckets from "./strictFluidBuckets";
+import canUseZoomKey from "./canUseZoomKey";
+import canAltAction from "./canAltAction";
+import canSeeNametagsThroughWalls from "./canSeeNametagsThroughWalls";
+import showBasicMovementControls from "./showBasicMovementControls";
+import middleTextUpper from "./middleTextUpper";
+import middleTextLower from "./middleTextLower";
+import crosshairText from "./crosshairText";
+import RightInfoText from "./RightInfoText";
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -49,7 +63,21 @@ type AllClientOptionUnion =
   | playerZoom
   | zoomOutDistance
   | maxPlayerZoom
-  | canCustomiseChar;
+  | canCustomiseChar
+  | defaultBlock
+  | cantChangeError
+  | cantBreakError
+  | cantBuildError
+  | touchscreenActionButton
+  | strictFluidBuckets
+  | canUseZoomKey
+  | canAltAction
+  | canSeeNametagsThroughWalls
+  | showBasicMovementControls
+  | middleTextUpper
+  | middleTextLower
+  | crosshairText
+  | RightInfoText;
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

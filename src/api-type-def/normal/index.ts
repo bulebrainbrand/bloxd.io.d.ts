@@ -19,6 +19,7 @@ import { BlockDataApis } from "./blockData/index";
 import { DirectionArrowApis } from "./directionArrow/index";
 import { EffectApis } from "./effect/index";
 import { VelocityApis } from "./velocity/index";
+import { SoundApis } from "./sound/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -42,4 +43,5 @@ export const NormalApis = {
   ...DirectionArrowApis,
   ...EffectApis,
   ...VelocityApis,
+  ...SoundApis,
 } as const;

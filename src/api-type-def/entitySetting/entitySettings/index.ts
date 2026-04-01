@@ -10,6 +10,7 @@ import HasPriorityNametag from "./hasPriorityNametag";
 import NameColour from "./nameColour";
 import NameTagInfo from "./nameTagInfo";
 import MeshScaling from "./meshScaling";
+import LobbyLeaderboardValues from "./lobbyLeaderboardValues";
 
 type EntitySettingExportFormat = {
   name: string;
@@ -58,7 +59,8 @@ type AllEntitySettingUnion =
   | HasPriorityNametag
   | NameColour
   | NameTagInfo
-  | MeshScaling;
+  | MeshScaling
+  | LobbyLeaderboardValues;
 
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

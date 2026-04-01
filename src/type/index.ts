@@ -28,3 +28,5 @@ export * from "./BlockRaycastResult";
 export * from "./effect/index";
 export * from "./NameTagInfo";
 export * from "./EntityMeshScalingMap";
+export * from "./LeaderboardKey";
+export * from "./LobbyLeaderboardValues";

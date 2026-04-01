@@ -1,5 +1,3 @@
-// TODO: make this api
-
 import {
   InGameEffectName,
   IngameIconName,

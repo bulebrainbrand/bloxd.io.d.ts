@@ -8,6 +8,7 @@ import ShowDamageAmounts from "./showDamageAmounts";
 import KillfeedColour from "./killfeedColour";
 import HasPriorityNametag from "./hasPriorityNametag";
 import NameColour from "./nameColour";
+import NameTagInfo from "./nameTagInfo";
 
 type EntitySettingExportFormat = {
   name: string;
@@ -54,7 +55,8 @@ type AllEntitySettingUnion =
   | ShowDamageAmounts
   | KillfeedColour
   | HasPriorityNametag
-  | NameColour;
+  | NameColour
+  | NameTagInfo;
 
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

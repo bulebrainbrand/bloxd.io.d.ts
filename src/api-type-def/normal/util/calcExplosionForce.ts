@@ -1,5 +1,3 @@
-// TODO: make this api
-
 import { Coordinate, EntityId, ExplosionType } from "@type";
 
 /**

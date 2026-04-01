@@ -11,6 +11,7 @@ import NameColour from "./nameColour";
 import NameTagInfo from "./nameTagInfo";
 import MeshScaling from "./meshScaling";
 import LobbyLeaderboardValues from "./lobbyLeaderboardValues";
+import ColorInLobbyLeaderboard from "./colorInLobbyLeaderboard";
 
 type EntitySettingExportFormat = {
   name: string;
@@ -60,7 +61,8 @@ type AllEntitySettingUnion =
   | NameColour
   | NameTagInfo
   | MeshScaling
-  | LobbyLeaderboardValues;
+  | LobbyLeaderboardValues
+  | ColorInLobbyLeaderboard;
 
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

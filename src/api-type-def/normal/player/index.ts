@@ -11,7 +11,7 @@ import { isMobile } from "./isMobile";
 import { setCameraDirection } from "./setCameraDirection";
 import { setPlayerOpacity } from "./setPlayerOpacity";
 import { setPlayerOpacityForOnePlayer } from "./setPlayerOpacityForOnePlayer";
-
+import { forceRespawn } from "./forceRespawn";
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,
@@ -26,4 +26,5 @@ export const PlayerApis = {
   setCameraDirection,
   setPlayerOpacity,
   setPlayerOpacityForOnePlayer,
+  forceRespawn,
 };

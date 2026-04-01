@@ -5,6 +5,9 @@ import walkingSpeed from "./walkingSpeed";
 import runningSpeed from "./runningSpeed";
 import speedMultiplier from "./speedMultiplier";
 import jumpAmount from "./jumpAmount";
+import airJumpCount from "./airJumpCount";
+import bunnyhopMaxMultiplier from "./bunnyhopMaxMultiplier";
+import musicVolumeLevel from "./musicVolumeLevel";
 type ClientOptionExportFormat = {
   name: string;
   ValueType: any;
@@ -25,7 +28,10 @@ type AllClientOptionUnion =
   | walkingSpeed
   | runningSpeed
   | speedMultiplier
-  | jumpAmount;
+  | jumpAmount
+  | airJumpCount
+  | bunnyhopMaxMultiplier
+  | musicVolumeLevel;
 
 type GenerateClientOptions<U extends ClientOptionExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

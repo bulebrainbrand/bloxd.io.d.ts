@@ -2,6 +2,10 @@ import { EntityId, MargeObject, PlayerId } from "@type";
 import Opacity from "./opacity";
 import ZIndex from "./zIndex";
 import OverlayColour from "./overlayColour";
+import CanAttack from "./canAttack";
+import CanSee from "./canSee";
+import ShowDamageAmounts from "./showDamageAmounts";
+import KillfeedColour from "./killfeedColour";
 
 type EntitySettingExportFormat = {
   name: string;
@@ -39,7 +43,14 @@ type EntitySettingExportFormat = {
   };
 };
 
-type AllEntitySettingUnion = Opacity | ZIndex | OverlayColour;
+type AllEntitySettingUnion =
+  | Opacity
+  | ZIndex
+  | OverlayColour
+  | CanAttack
+  | CanSee
+  | ShowDamageAmounts
+  | KillfeedColour;
 
 type GenerateClientOptions<U extends EntitySettingExportFormat> = {
   [K in U as K["name"]]: K["ValueType"];

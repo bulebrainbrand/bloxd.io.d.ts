@@ -8,8 +8,6 @@ import { getPlayerDbId } from "./getPlayerDbId";
 import { getPlayerIdFromDbId } from "./getPlayerIdFromDbId";
 import { kickPlayer } from "./kickPlayer";
 import { isMobile } from "./isMobile";
-import { setPlayerOpacity } from "./setPlayerOpacity";
-import { setPlayerOpacityForOnePlayer } from "./setPlayerOpacityForOnePlayer";
 import { forceRespawn } from "./forceRespawn";
 export const PlayerApis = {
   getPlayerIds,
@@ -22,7 +20,5 @@ export const PlayerApis = {
   getPlayerIdFromDbId,
   kickPlayer,
   isMobile,
-  setPlayerOpacity,
-  setPlayerOpacityForOnePlayer,
   forceRespawn,
 };

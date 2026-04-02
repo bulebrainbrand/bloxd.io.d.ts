@@ -25,6 +25,7 @@ import { setCallbackValueFallback } from "./setCallbackValueFallback";
 import { MobApis } from "./mob/index";
 import { MiddleScreenBarApis } from "./middleScreenBar/index";
 import { CameraApis } from "./camera/index";
+import { PlayerOpacityApis } from "./playerOpacity/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -54,4 +55,5 @@ export const NormalApis = {
   ...MobApis,
   ...MiddleScreenBarApis,
   ...CameraApis,
+  ...PlayerOpacityApis,
 } as const;

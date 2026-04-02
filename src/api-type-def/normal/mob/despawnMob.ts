@@ -6,8 +6,6 @@ import { MobId } from "@type";
  *
  * @param {MobId} mobId
  * @returns {void}
- *
- * despawnMob(mobId);
  */
 declare const despawnMob: (mobId: MobId) => void;
 export { despawnMob };

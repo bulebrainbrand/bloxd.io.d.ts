@@ -34,3 +34,4 @@ export * from "./Radian";
 export * from "./entity/index";
 export * from "./lobby/index";
 export * from "./CallbackName";
+export * from "./AngleDir";

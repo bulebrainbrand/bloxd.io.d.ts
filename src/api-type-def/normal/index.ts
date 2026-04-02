@@ -22,6 +22,7 @@ import { VelocityApis } from "./velocity/index";
 import { SoundApis } from "./sound/index";
 import { LobbyApis } from "./lobby/index";
 import { setCallbackValueFallback } from "./setCallbackValueFallback";
+import { MobApis } from "./mob/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -48,4 +49,5 @@ export const NormalApis = {
   ...VelocityApis,
   ...SoundApis,
   ...LobbyApis,
+  ...MobApis,
 } as const;

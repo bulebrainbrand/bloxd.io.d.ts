@@ -1,4 +1,12 @@
-// TODO: make this api
+import { mobHerdId } from "@type";
+
+/**
+ * Create a mob herd. A mob herd represents a collection of mobs that move together.
+ *
+ * @returns {MobHerdId}
+ */
+declare const createMobHerd: () => mobHerdId;
+export { createMobHerd };
 
 /**
  * Create a mob herd. A mob herd represents a collection of mobs that move together.

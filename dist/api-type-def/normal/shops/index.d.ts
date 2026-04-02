@@ -8,4 +8,6 @@ export declare const ShopApis: {
     updateShopItemForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey, changes: Partial<import("../../..").ShopItem>) => void;
     resetShopItemForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, itemKey: import("../../..").ShopItemKey) => void;
     configureShopCategoryForPlayer: (playerId: import("../../..").PlayerId, categoryKey: import("../../..").ShopCategoryKey, config: import("../../..").ShopCategoryConfig) => void;
+    sendOverShopInfo: (playerId: import("../../..").PlayerId, info: string | import("../../..").CustomTextStyling) => void;
+    openShop: (playerId: import("../../..").PlayerId, toggle?: boolean, forceCategoryKey?: import("../../..").ShopCategoryKey | null, onlyIfNonEmpty?: boolean) => void;
 };

@@ -1,4 +1,37 @@
 export declare const NormalApis: {
+    readonly setPlayerOpacity: (playerId: import("../..").PlayerId, opacity: number) => void;
+    readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: import("../..").PlayerId, playerIdOfOpacityPlayer: import("../..").PlayerId, opacity: number) => void;
+    readonly getPlayerFacingInfo: (playerId: import("../..").PlayerId) => {
+        camPos: import("../..").Coordinate;
+        dir: import("../..").Direcrion;
+        angleDir: import("../..").AngleDir;
+        moveHeading: number;
+    };
+    readonly getPlayerTargetInfo: (playerId: import("../..").PlayerId) => {
+        position: import("../..").Coordinate;
+        normal: import("../..").Coordinate;
+        adjacent: import("../..").Coordinate;
+    };
+    readonly setCameraDirection: (playerId: import("../..").PlayerId, direction: import("../..").Direcrion) => void;
+    readonly setCameraZoom: (playerId: import("../..").PlayerId, zoom: number) => void;
+    readonly initiateMiddleScreenBar: (playerId: import("../..").PlayerId, duration: number, chargeExpiresAutomatically?: boolean, horizontalBarRemOffset?: number) => void;
+    readonly removeMiddleScreenBar: (playerId: import("../..").PlayerId) => void;
+    readonly attemptSpawnMob: <TMobType extends import("../..").MobType>(mobType: TMobType, x: number, y: number, z: number, opts: import("../..").MobSpawnOpts<TMobType>) => import("../..").MobId | null;
+    readonly createMobHerd: () => import("../..").mobHerdId;
+    readonly despawnMob: (mobId: import("../..").MobId) => void;
+    readonly getMobAiState: (mobId: import("../..").MobId) => {
+        state: import("../..").MobAiState;
+        params: import("../..").MobAiStateParams<import("../..").MobAiState>;
+    };
+    readonly getMobIds: () => import("../..").MobId[];
+    readonly getNumMobs: () => number;
+    readonly setMobAiState: <TState extends import("../..").MobAiState>(mobId: import("../..").MobId, state: TState, params: import("../..").MobAiStateParams<TState>) => void;
+    readonly getLobbyName: () => null | string;
+    readonly getLobbyType: () => import("../..").LobbyType;
+    readonly isPublicLobby: () => boolean;
+    readonly broadcastSound: (soundName: import("../..").SoundName | string, volume: number, rate: number, posSettings?: import("../..").PosSettings, exceptPlayerId?: import("../..").PlayerId) => void;
+    readonly playClientPredictedSound: (soundName: import("../..").SoundName | string, volume: number, rate: number, posSettings?: import("../..").PosSettings, predictedBy?: import("../..").PlayerId) => void;
+    readonly playSound: (playerId: import("../..").PlayerId, soundName: import("../..").SoundName | string, volume: number, rate: number, posSettings?: import("../..").PosSettings) => void;
     readonly setVelocity: (eId: import("../..").EntityId, x: number, y: number, z: number) => void;
     readonly getVelocity: (eId: import("../..").EntityId) => [number, number, number];
     readonly applyImpulse: (eId: import("../..").EntityId, xImpulse: number, yImpulse: number, zImpulse: number) => void;
@@ -61,6 +94,12 @@ export declare const NormalApis: {
     readonly getEntityName: (entityId: import("../..").EntityId) => string;
     readonly checkValid: (entityId: import("../..").EntityId | null) => boolean;
     readonly getUnitCoordinatesLifeformWithin: (lifeformId: import("../..").LifeformId) => import("../..").Coordinate[];
+    readonly getEntitiesInRect: (minCoords: import("../..").Coordinate, maxCoords: import("../..").Coordinate) => import("../..").EntityId[];
+    readonly getEntityHeading: (entityId: import("../..").EntityId) => import("../..").Radian;
+    readonly getEntityRotation: (entityId: import("../..").EntityId) => [import("../..").Radian, import("../..").Radian, import("../..").Radian];
+    readonly getEntityType: (entityId: import("../..").EntityId) => import("../..").EntityType;
+    readonly setEntityHeading: (entityId: import("../..").EntityId, newHeading: import("../..").Radian) => void;
+    readonly setEntityRotation: (entityId: import("../..").EntityId, xRotation: import("../..").Radian, yRotation: import("../..").Radian, zRotation: import("../..").Radian) => void;
     readonly getPlayerIds: () => import("../..").PlayerId[];
     readonly getNumPlayers: () => number;
     readonly getPlayerPartyWhenJoined: (playerId: import("../..").PlayerId) => import("../..").Party | null;
@@ -71,9 +110,6 @@ export declare const NormalApis: {
     readonly getPlayerIdFromDbId: (dbId: import("../..").PlayerDbId) => null | import("../..").PlayerId;
     readonly kickPlayer: (playerId: import("../..").PlayerId, reason: string) => void;
     readonly isMobile: (playerId: import("../..").PlayerId) => boolean;
-    readonly setCameraDirection: (playerId: import("../..").PlayerId, direction: import("../..").Direcrion) => void;
-    readonly setPlayerOpacity: (playerId: import("../..").PlayerId, opacity: number) => void;
-    readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: import("../..").PlayerId, playerIdOfOpacityPlayer: import("../..").PlayerId, opacity: number) => void;
     readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
     readonly broadcastMessage: (message: string | import("../..").CustomTextStyling, style?: {
         fontWeight?: number | string;
@@ -137,5 +173,8 @@ export declare const NormalApis: {
     readonly updateShopItemForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, itemKey: import("../..").ShopItemKey, changes: Partial<import("../..").ShopItem>) => void;
     readonly resetShopItemForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, itemKey: import("../..").ShopItemKey) => void;
     readonly configureShopCategoryForPlayer: (playerId: import("../..").PlayerId, categoryKey: import("../..").ShopCategoryKey, config: import("../..").ShopCategoryConfig) => void;
+    readonly sendOverShopInfo: (playerId: import("../..").PlayerId, info: string | import("../..").CustomTextStyling) => void;
+    readonly openShop: (playerId: import("../..").PlayerId, toggle?: boolean, forceCategoryKey?: import("../..").ShopCategoryKey | null, onlyIfNonEmpty?: boolean) => void;
     readonly playParticleEffect: (opts: import("../..").TempParticleSystemOpts | import("../..").ParticlePresetOpts, clientPredictedBy?: import("../..").PlayerId) => void;
+    readonly setCallbackValueFallback: (callbackName: import("../..").CallbackName, defaultValue: any) => void;
 };

@@ -1,1 +1,1 @@
-export type ExplosionType = string;
+export type ExplosionType = number;

@@ -21,9 +21,11 @@ import { EffectApis } from "./effect/index";
 import { VelocityApis } from "./velocity/index";
 import { SoundApis } from "./sound/index";
 import { LobbyApis } from "./lobby/index";
+import { setCallbackValueFallback } from "./setCallbackValueFallback";
 
 export const NormalApis = {
   playParticleEffect,
+  setCallbackValueFallback,
   ...ShopApis,
   ...ShieldApis,
   ...PositionApis,

@@ -1,6 +1,6 @@
 {
   "name": "bloxd.io.d.ts",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "yo",
   "main": "",
   "types": "dist/index.d.ts",

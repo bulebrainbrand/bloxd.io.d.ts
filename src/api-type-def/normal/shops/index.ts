@@ -7,6 +7,8 @@ import { createShopItemForPlayer } from "./createShopItemForPlayer";
 import { updateShopItemForPlayer } from "./updateShopItemForPlayer";
 import { resetShopItemForPlayer } from "./resetShopItemForPlayer";
 import { configureShopCategoryForPlayer } from "./configureShopCategoryForPlayer";
+import { sendOverShopInfo } from "./sendOverShopInfo";
+import { openShop } from "./openShop";
 export const ShopApis = {
   showShopTutorial,
   createShopItem,
@@ -17,4 +19,6 @@ export const ShopApis = {
   updateShopItemForPlayer,
   resetShopItemForPlayer,
   configureShopCategoryForPlayer,
+  sendOverShopInfo,
+  openShop,
 };

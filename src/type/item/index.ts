@@ -5,3 +5,4 @@ export * from "./ItemId";
 export * from "./ItemName";
 export * from "./ItemAttributes";
 export * from "./ItemObject";
+export * from "./ThrowableItem";

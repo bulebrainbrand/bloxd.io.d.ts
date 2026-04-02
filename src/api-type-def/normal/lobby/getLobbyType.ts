@@ -1,4 +1,12 @@
-// TODO: make this api
+import { LobbyType } from "@type";
+
+/**
+ * Returns if the current lobby the game is running in is special - e.g. a discord guild or dm, or simply a standard lobby
+ *
+ * @returns {LobbyType}
+ */
+declare const getLobbyType: () => LobbyType;
+export { getLobbyType };
 
 /**
  * Returns if the current lobby the game is running in is special - e.g. a discord guild or dm, or simply a standard lobby

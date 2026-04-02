@@ -20,6 +20,7 @@ import { DirectionArrowApis } from "./directionArrow/index";
 import { EffectApis } from "./effect/index";
 import { VelocityApis } from "./velocity/index";
 import { SoundApis } from "./sound/index";
+import { LobbyApis } from "./lobby/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -44,4 +45,5 @@ export const NormalApis = {
   ...EffectApis,
   ...VelocityApis,
   ...SoundApis,
+  ...LobbyApis,
 } as const;

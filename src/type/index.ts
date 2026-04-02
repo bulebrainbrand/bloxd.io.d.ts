@@ -32,3 +32,4 @@ export * from "./LeaderboardKey";
 export * from "./LobbyLeaderboardValues";
 export * from "./Radian";
 export * from "./entity/index";
+export * from "./lobby/index";

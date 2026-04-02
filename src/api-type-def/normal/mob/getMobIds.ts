@@ -1,4 +1,12 @@
-// TODO: make this api
+import { MobId } from "@type";
+/**
+ * Get the mob IDs of all mobs in the world.
+ *
+ * @returns {MobId[]}
+ */
+
+declare const getMobIds: () => MobId[];
+export { getMobIds };
 
 /**
  * Get the mob IDs of all mobs in the world.

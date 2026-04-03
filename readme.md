@@ -1,50 +1,51 @@
-this project is not offical bloxd.io repo.
+This repository is **unofficial** and is not affiliated with the official bloxd.io team.
 
-## how to use
+This repository provides TypeScript declaration files (`.d.ts`) for the bloxd.io Code API.
 
-Use `npm i bloxd.io.d.ts -D` in terminal(need node.js)
+## Usage
 
-and add this option in tsconfig.json
+Run the following command in your terminal (requires Node.js):
 
-```json
-{
-  "compileOptions": {
-    "types": ["bloxd.io.d.ts"]
-  }
-}
-```
+`npm i bloxd.io.d.ts -D`
 
-## why use this
+## Why use this?
 
-This package include bloxd.io api docment and d.ts.
-It useful typecheck(as typescript),lint and killing typo(most important).
+This npm package includes the `d.ts` files for the bloxd.io Code API, which allows your development environment to understand bloxd.io-specific functions and objects.  
+This is helpful for:
 
-## how to contribute
+- **TypeScript support**
+- **Preventing API call errors (in runtime.but not 100%)**
+- **Enabling IDE IntelliSense (Autocomplete)**
 
-- add more api type in src.
-- add more docment.
-- check code.
-- use this package
+## How to Contribute
 
-## repo structure
+- Adding new or missing API functions
+- Improving documentation (JSDoc, etc.)
+- Reporting and fixing bugs
+- Using this package and providing feedback
 
-```
+## Repository Structure
+
+```text
 src/
-  api-type-def/ # api functions type define
-    clientOption/ # clientOption apis define
-      clientOptions/ # clientOption function overload define(by clientOption name)
-      index.ts # marge clientOptions overload
+  api-type-def/   # API function definitions
+    clientOption/ # clientOption definitions
+      clientOptions/ # Individual function definitions for clientOption
+      index.ts    # Merged definitions
 
-    entitySetting/ # entitySetting define
-      entitySettings/ # entitySetting function overload(by entitySetting name)
-      index.ts # marge entitySetting overload
-    mobSetting/ # making now...
+    entitySetting/ # entitySetting definitions
+      entitySettings/ # Individual function definitions for entitySetting
+      index.ts    # Merged definitions
 
-    normal/ # define other apis
+    mobSetting/    # mobSetting definitions
+      mobSettings/ # Type definitions per mobSetting
+      index.ts    # Function definitions
 
-    index.ts # marge api
-  type/ # use type define e.g.`PlayerId`
-  index.ts # top level file
+    normal/        # Other general API function definitions
+    index.ts       # Main entry point for merging all definitions
 
-dist/ # tsc result and npm package install target
+  type/            # Type definitions (e.g., `PlayerId`)
+  index.ts         # Final entry point for exports and global declarations
+
+dist/              # Compiled tsc output (the actual npm package)
 ```

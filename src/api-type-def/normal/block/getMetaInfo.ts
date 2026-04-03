@@ -1,4 +1,4 @@
-import { Block, ItemMetaInfo } from "@type";
+import { BlockNameOrId, ItemMetaInfo } from "@type";
 /**
  * Splits the block name by '|'. If no meta info, metaInfo is ''
  *
@@ -6,7 +6,7 @@ import { Block, ItemMetaInfo } from "@type";
  * @returns {ItemMetaInfo}
  */
 declare const getMetaInfo: (
-  blockName: Block | null | undefined,
+  blockName: BlockNameOrId | null | undefined,
 ) => ItemMetaInfo;
 
 export { getMetaInfo };

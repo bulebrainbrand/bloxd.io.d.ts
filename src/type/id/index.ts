@@ -6,3 +6,4 @@ export * from "./PlayerId";
 export * from "./ItemEntityId";
 export * from "./MobHeadId";
 export * from "./MobDbId";
+export * from "./QTERequestId";

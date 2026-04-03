@@ -27,6 +27,7 @@ import { MiddleScreenBarApis } from "./middleScreenBar/index";
 import { CameraApis } from "./camera/index";
 import { PlayerOpacityApis } from "./playerOpacity/index";
 import { ThorwApis } from "./throw/index";
+import { QTEApis } from "./qte/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -58,4 +59,5 @@ export const NormalApis = {
   ...CameraApis,
   ...PlayerOpacityApis,
   ...ThorwApis,
+  ...QTEApis,
 } as const;

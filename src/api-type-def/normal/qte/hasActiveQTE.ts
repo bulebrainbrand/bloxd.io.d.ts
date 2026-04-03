@@ -1,5 +1,13 @@
-// TODO: make this api
+import { PlayerId } from "@type";
 
+/**
+ * Returns whether the player has any qteRequests
+ *
+ * @param {PlayerId} playerId
+ * @returns {boolean}
+ */
+declare const hasActiveQTE: (playerId: PlayerId) => boolean;
+export { hasActiveQTE };
 /**
  * Returns whether the player has any qteRequests
  *

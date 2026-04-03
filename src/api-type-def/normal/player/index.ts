@@ -9,6 +9,8 @@ import { getPlayerIdFromDbId } from "./getPlayerIdFromDbId";
 import { kickPlayer } from "./kickPlayer";
 import { isMobile } from "./isMobile";
 import { forceRespawn } from "./forceRespawn";
+import { getPlayerCosmetic } from "./getPlayerCosmetic";
+import { changePlayerIntoSkin } from "./changePlayerIntoSkin";
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,
@@ -21,4 +23,6 @@ export const PlayerApis = {
   kickPlayer,
   isMobile,
   forceRespawn,
+  getPlayerCosmetic,
+  changePlayerIntoSkin,
 };

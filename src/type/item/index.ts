@@ -6,3 +6,5 @@ export * from "./ItemName";
 export * from "./ItemAttributes";
 export * from "./ItemObject";
 export * from "./ThrowableItem";
+export * from "./BlockMetadataItem";
+export * from "./NonBlockMetadataItem";

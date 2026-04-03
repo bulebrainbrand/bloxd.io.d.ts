@@ -11,6 +11,7 @@ import { isMobile } from "./isMobile";
 import { forceRespawn } from "./forceRespawn";
 import { getPlayerCosmetic } from "./getPlayerCosmetic";
 import { changePlayerIntoSkin } from "./changePlayerIntoSkin";
+import { setPlayerPose } from "./setPlayerPose";
 export const PlayerApis = {
   getPlayerIds,
   getNumPlayers,
@@ -25,4 +26,5 @@ export const PlayerApis = {
   forceRespawn,
   getPlayerCosmetic,
   changePlayerIntoSkin,
+  setPlayerPose,
 };

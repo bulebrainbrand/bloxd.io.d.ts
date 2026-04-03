@@ -28,6 +28,7 @@ import { CameraApis } from "./camera/index";
 import { PlayerOpacityApis } from "./playerOpacity/index";
 import { ThorwApis } from "./throw/index";
 import { QTEApis } from "./qte/index";
+import { CraftApis } from "./craft/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -60,4 +61,5 @@ export const NormalApis = {
   ...PlayerOpacityApis,
   ...ThorwApis,
   ...QTEApis,
+  ...CraftApis,
 } as const;

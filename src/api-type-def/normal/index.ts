@@ -29,6 +29,7 @@ import { PlayerOpacityApis } from "./playerOpacity/index";
 import { ThorwApis } from "./throw/index";
 import { QTEApis } from "./qte/index";
 import { CraftApis } from "./craft/index";
+import { MeshApis } from "./mesh/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -62,4 +63,5 @@ export const NormalApis = {
   ...ThorwApis,
   ...QTEApis,
   ...CraftApis,
+  ...MeshApis,
 } as const;

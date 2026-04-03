@@ -1,0 +1,1 @@
+export type RandomColorGradient = number;

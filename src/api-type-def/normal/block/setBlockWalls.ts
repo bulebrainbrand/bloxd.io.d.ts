@@ -1,4 +1,4 @@
-import { Block, Coordinate } from "@type";
+import { BlockNameOrId, Coordinate } from "@type";
 /**
  * Create walls by providing two opposite corners of the cuboid
  *
@@ -12,7 +12,7 @@ import { Block, Coordinate } from "@type";
 declare const setBlockWalls: (
   pos1: Coordinate,
   pos2: Coordinate,
-  blockName: Block,
+  blockName: BlockNameOrId,
   hasFloor?: boolean,
   hasCeiling?: boolean,
 ) => void;

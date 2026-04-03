@@ -1,4 +1,4 @@
-import { Block, Coordinate } from "@type";
+import { BlockNameOrId, Coordinate } from "@type";
 /**
  * Helper function that sets all blocks in a rectangle to a specific block.
  *
@@ -10,7 +10,7 @@ import { Block, Coordinate } from "@type";
 declare const setBlockRect: (
   pos1: Coordinate,
   pos2: Coordinate,
-  blockName: Block,
+  blockName: BlockNameOrId,
 ) => void;
 
 export { setBlockRect };

@@ -15,6 +15,7 @@ import { getInventoryFreeSlotCount } from "./getInventoryFreeSlotCount";
 import { getInitialItemMetadata } from "./getInitialItemMetadata";
 import { setItemAmount } from "./setItemAmount";
 import { setSelectedInventorySlotI } from "./setSelectedInventorySlotI";
+import { getItemStat } from "./getItemStat";
 export const ItemApis = {
   createItemDrop,
   setCantPickUpItem,
@@ -33,4 +34,5 @@ export const ItemApis = {
   getInitialItemMetadata,
   setItemAmount,
   setSelectedInventorySlotI,
+  getItemStat,
 } as const;

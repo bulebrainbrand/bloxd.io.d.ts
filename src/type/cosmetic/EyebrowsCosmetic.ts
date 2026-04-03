@@ -1,0 +1,17 @@
+export type EyebrowsCosmetic =
+  | "eyebrows_0"
+  | "eyebrows_1_0"
+  | "eyebrows_1_1"
+  | "eyebrows_1_2"
+  | "eyebrows_1_3"
+  | "eyebrows_1_4"
+  | "eyebrows_2_0"
+  | "eyebrows_2_1"
+  | "eyebrows_2_2"
+  | "eyebrows_2_3"
+  | "eyebrows_2_4"
+  | "eyebrows_3_0"
+  | "eyebrows_3_1"
+  | "eyebrows_3_2"
+  | "eyebrows_3_3"
+  | "eyebrows_3_4";

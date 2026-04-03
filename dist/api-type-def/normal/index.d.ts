@@ -1,4 +1,17 @@
 export declare const NormalApis: {
+    readonly getPlayerPhysicsState: (playerId: import("../..").PlayerId) => import("../..").PlayerPhysicsStateData;
+    readonly setPlayerPhysicsState: (playerId: import("../..").PlayerId, physicsState: import("../..").PlayerPhysicsStateData, positionOffset?: [number, number, number]) => void;
+    readonly attemptCreateMeshEntity: <TMeshType extends import("../..").MeshType>(type: TMeshType, opts: import("../..").MeshEntityOpts[TMeshType], name?: string, physicsOptions?: import("../..").MeshEntityPhysicsOpts, initiatorId?: import("../..").EntityId | null) => import("../..").EntityId | null;
+    readonly deleteMeshEntity: (eId: import("../..").EntityId) => boolean;
+    readonly updateMeshEntity: <TMeshType extends import("../..").MeshType>(eId: import("../..").EntityId, type: TMeshType, opts: import("../..").MeshEntityOpts[TMeshType]) => void;
+    readonly editItemCraftingRecipes: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName, recipesForItem: import("../..").RecipesForItem) => void;
+    readonly removeItemCraftingRecipes: (playerId: import("../..").PlayerId, itemName: null | import("../..").ItemName) => void;
+    readonly resetItemCraftingRecipes: (playerId: import("../..").PlayerId, itemName: import("../..").ItemName | null) => void;
+    readonly addQTE: (playerId: import("../..").PlayerId, qteParameters: import("../..").QTEClientParameters) => import("../..").QTERequestId;
+    readonly deleteQTE: (playerId: import("../..").PlayerId, id: import("../..").QTERequestId) => void;
+    readonly hasActiveQTE: (playerId: import("../..").PlayerId) => boolean;
+    readonly attemptCreateThrowable: (throwerEId: import("../..").EntityId, itemName: import("../..").ThrowableItem, position: import("../..").Coordinate, direction: import("../..").Direcrion, velocityMult?: number, damageMult?: number, gravityMult?: number, attributes?: import("../..").ItemAttributes) => import("../..").EntityId | null;
+    readonly deleteThrowable: (eId: import("../..").EntityId) => boolean;
     readonly setPlayerOpacity: (playerId: import("../..").PlayerId, opacity: number) => void;
     readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: import("../..").PlayerId, playerIdOfOpacityPlayer: import("../..").PlayerId, opacity: number) => void;
     readonly getPlayerFacingInfo: (playerId: import("../..").PlayerId) => {
@@ -17,7 +30,7 @@ export declare const NormalApis: {
     readonly initiateMiddleScreenBar: (playerId: import("../..").PlayerId, duration: number, chargeExpiresAutomatically?: boolean, horizontalBarRemOffset?: number) => void;
     readonly removeMiddleScreenBar: (playerId: import("../..").PlayerId) => void;
     readonly attemptSpawnMob: <TMobType extends import("../..").MobType>(mobType: TMobType, x: number, y: number, z: number, opts: import("../..").MobSpawnOpts<TMobType>) => import("../..").MobId | null;
-    readonly createMobHerd: () => import("../..").mobHerdId;
+    readonly createMobHerd: () => import("../..").MobHerdId;
     readonly despawnMob: (mobId: import("../..").MobId) => void;
     readonly getMobAiState: (mobId: import("../..").MobId) => {
         state: import("../..").MobAiState;
@@ -85,11 +98,11 @@ export declare const NormalApis: {
     readonly setWalkThroughType: (playerId: import("../..").PlayerId, blockName: import("../..").BlockName, disable?: boolean) => void;
     readonly setCanChangeBlock: (playerId: import("../..").PlayerId, x: number, y: number, z: null) => void;
     readonly setCanChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
-    readonly setCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").Block) => void;
+    readonly setCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").BlockNameOrId) => void;
     readonly setCantChangeBlock: (playerId: import("../..").PlayerId, x: number, y: number, z: number) => void;
     readonly setCantChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
-    readonly setCantChangeBlockType: (playerId: import("../..").PlayerId, block: import("../..").Block) => void;
-    readonly resetCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").Block) => void;
+    readonly setCantChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").BlockNameOrId) => void;
+    readonly resetCanChangeBlockType: (playerId: import("../..").PlayerId, blockName: import("../..").BlockNameOrId) => void;
     readonly resetCanChangeBlockRect: (playerId: import("../..").PlayerId, pos1: import("../..").Coordinate, pos2: import("../..").Coordinate) => void;
     readonly getEntityName: (entityId: import("../..").EntityId) => string;
     readonly checkValid: (entityId: import("../..").EntityId | null) => boolean;
@@ -100,6 +113,10 @@ export declare const NormalApis: {
     readonly getEntityType: (entityId: import("../..").EntityId) => import("../..").EntityType;
     readonly setEntityHeading: (entityId: import("../..").EntityId, newHeading: import("../..").Radian) => void;
     readonly setEntityRotation: (entityId: import("../..").EntityId, xRotation: import("../..").Radian, yRotation: import("../..").Radian, zRotation: import("../..").Radian) => void;
+    readonly updateEntityNodeMeshAttachment: {
+        <TMeshType extends import("../..").MeshType>(eId: import("../..").EntityId, node: import("../..").LifeformBodyPart, type: TMeshType, opts?: import("../..").MeshEntityOpts[TMeshType], offset?: [number, number, number], rotation?: import("../..").Rotation): void;
+        (eId: import("../..").EntityId, node: import("../..").LifeformBodyPart, type: null): void;
+    };
     readonly getPlayerIds: () => import("../..").PlayerId[];
     readonly getNumPlayers: () => number;
     readonly getPlayerPartyWhenJoined: (playerId: import("../..").PlayerId) => import("../..").Party | null;
@@ -111,6 +128,9 @@ export declare const NormalApis: {
     readonly kickPlayer: (playerId: import("../..").PlayerId, reason: string) => void;
     readonly isMobile: (playerId: import("../..").PlayerId) => boolean;
     readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
+    readonly getPlayerCosmetic: (playerId: import("../..").PlayerId, cosmeticType: import("../..").CosmeticType) => import("../..").CosmeticName;
+    readonly changePlayerIntoSkin: (playerId: import("../..").PlayerId, cosmeticType: import("../..").CosmeticType, cosmeticName: import("../..").CosmeticName) => void;
+    readonly setPlayerPose: (playerId: import("../..").PlayerId, pose: import("../..").PlayerPose, poseOffset?: [number, number, number]) => void;
     readonly broadcastMessage: (message: string | import("../..").CustomTextStyling, style?: {
         fontWeight?: number | string;
         color?: string;
@@ -148,6 +168,10 @@ export declare const NormalApis: {
     readonly getSelectedInventorySlotI: (playerId: import("../..").PlayerId) => number;
     readonly getHeldItem: (playerId: import("../..").PlayerId) => import("../..").ItemObject | null;
     readonly getInventoryFreeSlotCount: (playerId: import("../..").PlayerId) => number;
+    readonly getInitialItemMetadata: (itemName: import("../..").Item) => Partial<import("../..").BlockMetadataItem & import("../..").NonBlockMetadataItem>;
+    readonly setItemAmount: (itemId: import("../..").ItemId, newAmount: number) => void;
+    readonly setSelectedInventorySlotI: (playerId: import("../..").PlayerId, newI: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9) => void;
+    readonly getItemStat: (lifeformId: import("../..").LifeformId | null, itemName: import("../..").ItemName, stat: string) => import("../..").AnyMetadataItem;
     readonly getHealth: (entityId: import("../..").EntityId) => import("../..").Health;
     readonly setHealth: (entityId: import("../..").EntityId, newHealth: import("../..").Health | null, whoDidDamage?: Readonly<import("../..").WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
     readonly attemptApplyDamage: (options: Readonly<import("../..").PlayerAttemptDamageOtherPlayerOpts>) => boolean;

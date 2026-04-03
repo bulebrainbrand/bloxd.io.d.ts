@@ -13,4 +13,8 @@ export declare const ItemApis: {
     readonly getSelectedInventorySlotI: (playerId: import("../../..").PlayerId) => number;
     readonly getHeldItem: (playerId: import("../../..").PlayerId) => import("../../..").ItemObject | null;
     readonly getInventoryFreeSlotCount: (playerId: import("../../..").PlayerId) => number;
+    readonly getInitialItemMetadata: (itemName: import("../../..").Item) => Partial<import("../../..").BlockMetadataItem & import("../../..").NonBlockMetadataItem>;
+    readonly setItemAmount: (itemId: import("../../..").ItemId, newAmount: number) => void;
+    readonly setSelectedInventorySlotI: (playerId: import("../../..").PlayerId, newI: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9) => void;
+    readonly getItemStat: (lifeformId: import("../../..").LifeformId | null, itemName: import("../../..").ItemName, stat: string) => import("../../..").AnyMetadataItem;
 };

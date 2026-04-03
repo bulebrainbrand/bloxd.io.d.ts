@@ -14,11 +14,11 @@ export declare const BlockApis: {
         (x: number, y: number, z: number): boolean;
         (pos: import("../../..").Coordinate): boolean;
     };
-    setBlockRect: (pos1: import("../../..").Coordinate, pos2: import("../../..").Coordinate, blockName: import("../../..").Block) => void;
-    setBlockWalls: (pos1: import("../../..").Coordinate, pos2: import("../../..").Coordinate, blockName: import("../../..").Block, hasFloor?: boolean, hasCeiling?: boolean) => void;
+    setBlockRect: (pos1: import("../../..").Coordinate, pos2: import("../../..").Coordinate, blockName: import("../../..").BlockNameOrId) => void;
+    setBlockWalls: (pos1: import("../../..").Coordinate, pos2: import("../../..").Coordinate, blockName: import("../../..").BlockNameOrId, hasFloor?: boolean, hasCeiling?: boolean) => void;
     getChunk: (pos: import("../../..").Coordinate) => never;
     getEmptyChunk: () => never;
-    getMetaInfo: (blockName: import("../../..").Block | null | undefined) => import("../../..").ItemMetaInfo;
+    getMetaInfo: (blockName: import("../../..").BlockNameOrId | null | undefined) => import("../../..").ItemMetaInfo;
     blockNameToBlockId: {
         (blockName: import("../../..").BlockName): import("../../..").BlockId;
         (blockName: import("../../..").BlockName, allowInvalidBlock: true): null | import("../../..").BlockId;

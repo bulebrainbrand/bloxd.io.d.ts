@@ -1,0 +1,1 @@
+export type CosmeticType = string;

@@ -5,3 +5,4 @@ export * from "./StyledIcon";
 export * from "./TextStyle";
 export * from "./StyledText";
 export * from "./IngameIconName";
+export * from "./Icon";

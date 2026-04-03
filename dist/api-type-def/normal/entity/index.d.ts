@@ -8,4 +8,8 @@ export declare const EntityApis: {
     getEntityType: (entityId: import("../../..").EntityId) => import("../../..").EntityType;
     setEntityHeading: (entityId: import("../../..").EntityId, newHeading: import("../../..").Radian) => void;
     setEntityRotation: (entityId: import("../../..").EntityId, xRotation: import("../../..").Radian, yRotation: import("../../..").Radian, zRotation: import("../../..").Radian) => void;
+    updateEntityNodeMeshAttachment: {
+        <TMeshType extends import("../../..").MeshType>(eId: import("../../..").EntityId, node: import("../../..").LifeformBodyPart, type: TMeshType, opts?: import("../../..").MeshEntityOpts[TMeshType], offset?: [number, number, number], rotation?: import("../../..").Rotation): void;
+        (eId: import("../../..").EntityId, node: import("../../..").LifeformBodyPart, type: null): void;
+    };
 };

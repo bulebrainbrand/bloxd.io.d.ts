@@ -4,5 +4,6 @@ export * from "./LifeFormId";
 export * from "./MobId";
 export * from "./PlayerId";
 export * from "./ItemEntityId";
-export * from "./MobHeadId";
+export * from "./MobHerdId";
 export * from "./MobDbId";
+export * from "./QTERequestId";

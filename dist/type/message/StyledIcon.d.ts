@@ -1,7 +1,6 @@
-import { ItemName, StringColor } from "../index";
-import { IngameIconName } from "./IngameIconName";
+import { Icon, StringColor } from "../index";
 export type StyledIcon = {
-    icon: IngameIconName | ItemName | string;
+    icon: Icon;
     style?: {
         color?: StringColor;
         colour?: StringColor;

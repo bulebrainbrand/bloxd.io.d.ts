@@ -1,4 +1,4 @@
-import { Block, Coordinate } from "../../../type/index";
+import { BlockNameOrId, Coordinate } from "../../../type/index";
 /**
  * Helper function that sets all blocks in a rectangle to a specific block.
  *
@@ -7,7 +7,7 @@ import { Block, Coordinate } from "../../../type/index";
  * @param {BlockName} blockName
  * @returns {void}
  */
-declare const setBlockRect: (pos1: Coordinate, pos2: Coordinate, blockName: Block) => void;
+declare const setBlockRect: (pos1: Coordinate, pos2: Coordinate, blockName: BlockNameOrId) => void;
 export { setBlockRect };
 /**
  * Helper function that sets all blocks in a rectangle to a specific block.

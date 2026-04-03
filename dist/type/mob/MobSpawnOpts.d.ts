@@ -1,15 +1,15 @@
-import { MobDbId, mobHerdId, MobType, PlayerId, SoundName } from "../index";
+import { MobDbId, MobHerdId, MobType, PlayerId } from "../index";
 import { Variation } from "../../index";
-export type MobSpawnOpts<TMobType extends MobType> = Record<MobType, {
-    mobHerdId?: mobHerdId;
-    spawnerId?: PlayerId;
+export type MobSpawnOpts<TMobType extends MobType> = Partial<{
+    mobHerdId: MobHerdId;
+    spawnerId: PlayerId;
     mobDbId: MobDbId;
     name: string;
-    playSoundOnSpawn?: SoundName | string;
-    variation?: Variation<TMobType>;
-    physicsOpts?: {
+    playSoundOnSpawn: boolean;
+    variation: Variation<TMobType>;
+    physicsOpts: Partial<{
         width: number;
         height: number;
-        collidesEntities?: boolean;
-    };
+        collidesEntities: boolean;
+    }>;
 }>;

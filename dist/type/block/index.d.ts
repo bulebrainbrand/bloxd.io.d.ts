@@ -1,5 +1,5 @@
 export * from "./AllBlockId";
 export * from "./AllBlockName";
-export * from "./Block";
+export * from "./BlockNameOrId";
 export * from "./BlockId";
 export * from "./BlockName";

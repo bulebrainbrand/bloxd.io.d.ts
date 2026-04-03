@@ -39,3 +39,4 @@ export * from "./qte/index";
 export * from "./craft/index";
 export * from "./player/index";
 export * from "./mesh/index";
+export * from "./Rotation";

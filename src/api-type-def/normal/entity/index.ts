@@ -7,6 +7,7 @@ import { getEntityRotation } from "./getEntityRotation";
 import { getEntityType } from "./getEntityType";
 import { setEntityHeading } from "./setEntityHeading";
 import { setEntityRotation } from "./setEntityRotation";
+import { updateEntityNodeMeshAttachment } from "./updateEntityNodeMeshAttachment";
 export const EntityApis = {
   getEntityName,
   checkValid,
@@ -17,4 +18,5 @@ export const EntityApis = {
   getEntityType,
   setEntityHeading,
   setEntityRotation,
+  updateEntityNodeMeshAttachment,
 };

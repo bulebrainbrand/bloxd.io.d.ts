@@ -10,7 +10,7 @@ export declare const PlayerApis: {
     kickPlayer: (playerId: import("../../..").PlayerId, reason: string) => void;
     isMobile: (playerId: import("../../..").PlayerId) => boolean;
     forceRespawn: (playerId: import("../../..").PlayerId, respawnPos?: Readonly<import("../../..").Coordinate>) => void;
-    getPlayerCosmetic: (playerId: import("../../..").PlayerId, cosmeticType: import("../../..").CosmeticType) => import("../../..").CosmeticName;
-    changePlayerIntoSkin: (playerId: import("../../..").PlayerId, cosmeticType: import("../../..").CosmeticType, cosmeticName: import("../../..").CosmeticName) => void;
+    getPlayerCosmetic: <TCosmeticType extends import("../../..").CosmeticType>(playerId: import("../../..").PlayerId, cosmeticType: TCosmeticType) => import("../../..").CosmeticName<TCosmeticType>;
+    changePlayerIntoSkin: <TCosmeticType extends import("../../..").CosmeticType>(playerId: import("../../..").PlayerId, cosmeticType: TCosmeticType, cosmeticName: import("../../..").CosmeticName<TCosmeticType>) => void;
     setPlayerPose: (playerId: import("../../..").PlayerId, pose: import("../../..").PlayerPose, poseOffset?: [number, number, number]) => void;
 };

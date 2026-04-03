@@ -1,0 +1,1 @@
+export type LegsCosmetic = "legs_0_0" | "legs_0_1" | "legs_0_2" | "legs_0_3" | "legs_0_4" | "legs_1_0" | "legs_1_1" | "legs_1_2" | "legs_1_3" | "legs_1_4" | "legs_2_0" | "legs_2_1" | "legs_2_2" | "legs_2_3" | "legs_2_4";

@@ -6,7 +6,7 @@ import { CosmeticName, CosmeticType, PlayerId } from "../../../type/index";
  * @param {CosmeticType} cosmeticType - Type of cosmetic
  * @returns {CosmeticName}
  */
-declare const getPlayerCosmetic: (playerId: PlayerId, cosmeticType: CosmeticType) => CosmeticName;
+declare const getPlayerCosmetic: <TCosmeticType extends CosmeticType>(playerId: PlayerId, cosmeticType: TCosmeticType) => CosmeticName<TCosmeticType>;
 export { getPlayerCosmetic };
 /**
  * Get a single equipped cosmetic for a player.

@@ -151,8 +151,8 @@ export declare const Apis: {
     readonly kickPlayer: (playerId: import("../type/index").PlayerId, reason: string) => void;
     readonly isMobile: (playerId: import("../type/index").PlayerId) => boolean;
     readonly forceRespawn: (playerId: import("../type/index").PlayerId, respawnPos?: Readonly<import("../type/index").Coordinate>) => void;
-    readonly getPlayerCosmetic: (playerId: import("../type/index").PlayerId, cosmeticType: import("../type/index").CosmeticType) => import("../type/index").CosmeticName;
-    readonly changePlayerIntoSkin: (playerId: import("../type/index").PlayerId, cosmeticType: import("../type/index").CosmeticType, cosmeticName: import("../type/index").CosmeticName) => void;
+    readonly getPlayerCosmetic: <TCosmeticType extends import("../type/index").CosmeticType>(playerId: import("../type/index").PlayerId, cosmeticType: TCosmeticType) => import("../type/index").CosmeticName<TCosmeticType>;
+    readonly changePlayerIntoSkin: <TCosmeticType extends import("../type/index").CosmeticType>(playerId: import("../type/index").PlayerId, cosmeticType: TCosmeticType, cosmeticName: import("../type/index").CosmeticName<TCosmeticType>) => void;
     readonly setPlayerPose: (playerId: import("../type/index").PlayerId, pose: import("../type/index").PlayerPose, poseOffset?: [number, number, number]) => void;
     readonly broadcastMessage: (message: string | import("../type/index").CustomTextStyling, style?: {
         fontWeight?: number | string;

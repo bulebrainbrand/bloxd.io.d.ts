@@ -128,8 +128,8 @@ export declare const NormalApis: {
     readonly kickPlayer: (playerId: import("../..").PlayerId, reason: string) => void;
     readonly isMobile: (playerId: import("../..").PlayerId) => boolean;
     readonly forceRespawn: (playerId: import("../..").PlayerId, respawnPos?: Readonly<import("../..").Coordinate>) => void;
-    readonly getPlayerCosmetic: (playerId: import("../..").PlayerId, cosmeticType: import("../..").CosmeticType) => import("../..").CosmeticName;
-    readonly changePlayerIntoSkin: (playerId: import("../..").PlayerId, cosmeticType: import("../..").CosmeticType, cosmeticName: import("../..").CosmeticName) => void;
+    readonly getPlayerCosmetic: <TCosmeticType extends import("../..").CosmeticType>(playerId: import("../..").PlayerId, cosmeticType: TCosmeticType) => import("../..").CosmeticName<TCosmeticType>;
+    readonly changePlayerIntoSkin: <TCosmeticType extends import("../..").CosmeticType>(playerId: import("../..").PlayerId, cosmeticType: TCosmeticType, cosmeticName: import("../..").CosmeticName<TCosmeticType>) => void;
     readonly setPlayerPose: (playerId: import("../..").PlayerId, pose: import("../..").PlayerPose, poseOffset?: [number, number, number]) => void;
     readonly broadcastMessage: (message: string | import("../..").CustomTextStyling, style?: {
         fontWeight?: number | string;

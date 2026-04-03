@@ -7,7 +7,7 @@ import { CosmeticName, CosmeticType, PlayerId } from "../../../type/index";
  * @param {CosmeticName} cosmeticName - Chosen cosmetic, will be made lowercase automatically
  * @returns {void}
  */
-declare const changePlayerIntoSkin: (playerId: PlayerId, cosmeticType: CosmeticType, cosmeticName: CosmeticName) => void;
+declare const changePlayerIntoSkin: <TCosmeticType extends CosmeticType>(playerId: PlayerId, cosmeticType: TCosmeticType, cosmeticName: CosmeticName<TCosmeticType>) => void;
 export { changePlayerIntoSkin };
 /**
  * Change a part of a player's skin

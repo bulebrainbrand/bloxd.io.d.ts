@@ -30,6 +30,7 @@ import { ThorwApis } from "./throw/index";
 import { QTEApis } from "./qte/index";
 import { CraftApis } from "./craft/index";
 import { MeshApis } from "./mesh/index";
+import { PhysicsApis } from "./physics/index";
 
 export const NormalApis = {
   playParticleEffect,
@@ -64,4 +65,5 @@ export const NormalApis = {
   ...QTEApis,
   ...CraftApis,
   ...MeshApis,
+  ...PhysicsApis,
 } as const;

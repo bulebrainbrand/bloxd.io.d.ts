@@ -7,10 +7,10 @@ import { CosmeticName, CosmeticType, PlayerId } from "@type";
  * @param {CosmeticType} cosmeticType - Type of cosmetic
  * @returns {CosmeticName}
  */
-declare const getPlayerCosmetic: (
+declare const getPlayerCosmetic: <TCosmeticType extends CosmeticType>(
   playerId: PlayerId,
-  cosmeticType: CosmeticType,
-) => CosmeticName;
+  cosmeticType: TCosmeticType,
+) => CosmeticName<TCosmeticType>;
 export { getPlayerCosmetic };
 /**
  * Get a single equipped cosmetic for a player.

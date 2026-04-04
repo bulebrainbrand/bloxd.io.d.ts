@@ -25,3 +25,4 @@ export { sendHitmarker };
  *
  * sendHitmarker(playerId, isCrit, directionVector);
  */
+//# sourceMappingURL=sendHitmarker.d.ts.map

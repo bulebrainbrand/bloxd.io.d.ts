@@ -68,3 +68,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=nameTagInfo.d.ts.map

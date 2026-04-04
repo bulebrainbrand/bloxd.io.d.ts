@@ -22,3 +22,4 @@ export type ParticleEmitterOpts = {
     dir1?: number[];
     dir2?: number[];
 };
+//# sourceMappingURL=ParticleEmitterOpts.d.ts.map

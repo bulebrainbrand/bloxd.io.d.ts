@@ -17,3 +17,4 @@ export { resetItemCraftingRecipes };
  *
  * resetItemCraftingRecipes(playerId, itemName);
  */
+//# sourceMappingURL=resetItemCraftingRecipes.d.ts.map

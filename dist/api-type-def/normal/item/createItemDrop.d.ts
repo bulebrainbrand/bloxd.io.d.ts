@@ -35,3 +35,4 @@ export { createItemDrop };
  *
  * createItemDrop(x, y, z, itemName, amount, mergeItems, attributes, timeTillDespawn, dropperId, options)
  */
+//# sourceMappingURL=createItemDrop.d.ts.map

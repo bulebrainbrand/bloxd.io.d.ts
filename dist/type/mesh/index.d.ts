@@ -8,3 +8,4 @@ export * from "./PersonOpts";
 export * from "./MeshType";
 export * from "./MeshEntityVehicleOpts";
 export * from "./MeshEntityPhysicsOpts";
+//# sourceMappingURL=index.d.ts.map

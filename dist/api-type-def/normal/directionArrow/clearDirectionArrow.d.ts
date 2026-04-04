@@ -17,3 +17,4 @@ export { clearDirectionArrow };
  *
  * clearDirectionArrow(playerId, id);
  */
+//# sourceMappingURL=clearDirectionArrow.d.ts.map

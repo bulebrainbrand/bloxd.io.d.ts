@@ -7,3 +7,4 @@ export declare const HealthApis: {
     killLifeform: (lifeformId: import("../../..").LifeformId, whoKilled?: import("../../..").WhoKilled) => void;
     isAlive: (lifeformId: import("../../..").LifeformId) => boolean;
 };
+//# sourceMappingURL=index.d.ts.map

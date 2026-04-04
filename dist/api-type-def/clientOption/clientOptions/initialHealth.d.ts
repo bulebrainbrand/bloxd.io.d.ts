@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=initialHealth.d.ts.map

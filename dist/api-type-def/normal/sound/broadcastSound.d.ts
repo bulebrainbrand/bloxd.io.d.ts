@@ -31,3 +31,4 @@ export { broadcastSound };
  *
  * broadcastSound(soundName, volume, rate, posSettings, exceptPlayerId);
  */
+//# sourceMappingURL=broadcastSound.d.ts.map

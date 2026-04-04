@@ -23,3 +23,4 @@ export type ShopItemUserInput = {
     type: "color";
     initialValue?: string;
 };
+//# sourceMappingURL=ShopItemUserInput.d.ts.map

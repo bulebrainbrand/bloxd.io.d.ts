@@ -21,3 +21,4 @@ export { getBlockCoordinatesPlayerStandingOn };
  *
  * getBlockCoordinatesPlayerStandingOn(playerId)
  */
+//# sourceMappingURL=getBlockCoordinatesPlayerStandingOn.d.ts.map

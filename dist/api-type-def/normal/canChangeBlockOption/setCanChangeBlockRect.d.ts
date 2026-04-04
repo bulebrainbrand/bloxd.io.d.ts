@@ -23,3 +23,4 @@ export { setCanChangeBlockRect };
  *
  * setCanChangeBlockRect(playerId, pos1, pos2);
  */
+//# sourceMappingURL=setCanChangeBlockRect.d.ts.map

@@ -23,3 +23,4 @@ export { updateShopItem };
  *
  * updateShopItem(categoryKey, itemKey, changes)
  */
+//# sourceMappingURL=updateShopItem.d.ts.map

@@ -10,3 +10,4 @@ export declare const MobApis: {
     getNumMobs: () => number;
     setMobAiState: <TState extends import("../../..").MobAiState>(mobId: import("../../..").MobId, state: TState, params: import("../../..").MobAiStateParams<TState>) => void;
 };
+//# sourceMappingURL=index.d.ts.map

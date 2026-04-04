@@ -13,3 +13,4 @@ export { createMobHerd };
  *
  * createMobHerd();
  */
+//# sourceMappingURL=createMobHerd.d.ts.map

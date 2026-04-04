@@ -13,3 +13,4 @@ export type MobSpawnOpts<TMobType extends MobType> = Partial<{
         collidesEntities: boolean;
     }>;
 }>;
+//# sourceMappingURL=MobSpawnOpts.d.ts.map

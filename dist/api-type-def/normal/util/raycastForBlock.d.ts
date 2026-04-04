@@ -19,3 +19,4 @@ export { raycastForBlock };
  *
  * raycastForBlock(fromPos, dirVec);
  */
+//# sourceMappingURL=raycastForBlock.d.ts.map

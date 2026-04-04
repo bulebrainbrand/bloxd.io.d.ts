@@ -25,3 +25,4 @@ export { openChestForPlayer };
  *
  * openChestForPlayer(playerId, x, y, z)
  */
+//# sourceMappingURL=openChestForPlayer.d.ts.map

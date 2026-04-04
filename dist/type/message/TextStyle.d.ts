@@ -6,3 +6,4 @@ export type TextStyle = {
     fontWeight?: number | string;
     opacity?: number;
 };
+//# sourceMappingURL=TextStyle.d.ts.map

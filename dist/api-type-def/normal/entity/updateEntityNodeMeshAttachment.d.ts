@@ -31,3 +31,4 @@ export { updateEntityNodeMeshAttachment };
  *
  * updateEntityNodeMeshAttachment(eId, node, type, opts, offset, rotation);
  */
+//# sourceMappingURL=updateEntityNodeMeshAttachment.d.ts.map

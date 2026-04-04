@@ -4,3 +4,4 @@ type SecondaryBurstAttackInfoDictionary = Record<MobType, {
 } | null>;
 export type SecondaryBurstAttackInfo<K extends MobType> = SecondaryBurstAttackInfoDictionary[K];
 export {};
+//# sourceMappingURL=secondaryBurstAttackInfo.d.ts.map

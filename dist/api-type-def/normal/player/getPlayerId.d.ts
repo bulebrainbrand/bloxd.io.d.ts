@@ -15,3 +15,4 @@ export { getPlayerId };
  *
  * getPlayerId(playerName)
  */
+//# sourceMappingURL=getPlayerId.d.ts.map

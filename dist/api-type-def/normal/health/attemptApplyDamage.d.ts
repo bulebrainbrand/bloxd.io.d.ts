@@ -72,3 +72,4 @@ export { attemptApplyDamage };
     damagerDbId = null,
     })
  */
+//# sourceMappingURL=attemptApplyDamage.d.ts.map

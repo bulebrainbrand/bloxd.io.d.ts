@@ -8,3 +8,4 @@ export type TimedClickQteParams = {
     rotation?: number;
     breatheCenter?: boolean;
 };
+//# sourceMappingURL=TimedClickQteParams.d.ts.map

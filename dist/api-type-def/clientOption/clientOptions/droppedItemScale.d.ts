@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=droppedItemScale.d.ts.map

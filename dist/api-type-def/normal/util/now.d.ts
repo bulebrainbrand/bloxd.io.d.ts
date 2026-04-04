@@ -12,3 +12,4 @@ export { now };
  *
  * now()
  */
+//# sourceMappingURL=now.d.ts.map

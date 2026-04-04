@@ -8,3 +8,4 @@ export type PersonOpts = {
     textures?: Partial<object>;
     pose?: PlayerPose;
 };
+//# sourceMappingURL=PersonOpts.d.ts.map

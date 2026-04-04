@@ -25,3 +25,4 @@ export { updateShopItemForPlayer };
  *
  * updateShopItemForPlayer(playerId, categoryKey, itemKey, changes)
  */
+//# sourceMappingURL=updateShopItemForPlayer.d.ts.map

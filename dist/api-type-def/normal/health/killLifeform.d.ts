@@ -17,3 +17,4 @@ export { killLifeform };
  *
  * killLifeform(lifeformId, whoKilled)
  */
+//# sourceMappingURL=killLifeform.d.ts.map

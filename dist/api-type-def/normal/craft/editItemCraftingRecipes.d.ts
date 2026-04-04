@@ -19,3 +19,4 @@ export { editItemCraftingRecipes };
  *
  * editItemCraftingRecipes(playerId, itemName, recipesForItem);
  */
+//# sourceMappingURL=editItemCraftingRecipes.d.ts.map

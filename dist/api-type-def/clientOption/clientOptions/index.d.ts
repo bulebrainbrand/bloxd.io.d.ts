@@ -106,3 +106,4 @@ export * from "./speedMultiplier";
 export * from "./crouchingSpeed";
 export * from "./walkingSpeed";
 export * from "./runningSpeed";
+//# sourceMappingURL=index.d.ts.map

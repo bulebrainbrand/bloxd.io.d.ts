@@ -17,3 +17,4 @@ export { despawnMob };
  *
  * despawnMob(mobId);
  */
+//# sourceMappingURL=despawnMob.d.ts.map

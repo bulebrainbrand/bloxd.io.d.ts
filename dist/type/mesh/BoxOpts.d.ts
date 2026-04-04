@@ -13,3 +13,4 @@ export type BoxOpts = {
     texture?: BlockName;
     faceUV?: number[][];
 };
+//# sourceMappingURL=BoxOpts.d.ts.map

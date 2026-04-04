@@ -19,3 +19,4 @@ export { configureShopCategoryForPlayer };
  *
  * configureShopCategoryForPlayer(playerId, categoryKey, config)
  */
+//# sourceMappingURL=configureShopCategoryForPlayer.d.ts.map

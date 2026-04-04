@@ -19,3 +19,4 @@ export { setPlayerPose };
  *
  * setPlayerPose(playerId, pose, poseOffset);
  */
+//# sourceMappingURL=setPlayerPose.d.ts.map

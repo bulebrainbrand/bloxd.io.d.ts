@@ -33,3 +33,4 @@ export { applyMeleeHit };
  *
  * applyMeleeHit(hittingEId, hitEId, dirFacing, bodyPartHit, overrides)
  */
+//# sourceMappingURL=applyMeleeHit.d.ts.map

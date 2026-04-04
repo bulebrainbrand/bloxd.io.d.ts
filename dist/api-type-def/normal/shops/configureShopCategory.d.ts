@@ -17,3 +17,4 @@ export { configureShopCategory };
  *
  * configureShopCategory(categoryKey, config)
  */
+//# sourceMappingURL=configureShopCategory.d.ts.map

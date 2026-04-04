@@ -21,3 +21,4 @@ export { getBlockId };
  *
  * getBlockId(x, y, z)
  */
+//# sourceMappingURL=getBlockId.d.ts.map

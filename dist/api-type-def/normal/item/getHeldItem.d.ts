@@ -19,3 +19,4 @@ export { getHeldItem };
  *
  * getHeldItem(playerId)
  */
+//# sourceMappingURL=getHeldItem.d.ts.map

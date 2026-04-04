@@ -21,3 +21,4 @@ export { setPlayerOpacityForOnePlayer };
  *
  * setPlayerOpacityForOnePlayer(playerIdWhoViewsOpacityPlayer, playerIdOfOpacityPlayer, opacity)
  */
+//# sourceMappingURL=setPlayerOpacityForOnePlayer.d.ts.map

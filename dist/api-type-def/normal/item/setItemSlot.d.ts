@@ -32,3 +32,4 @@ export { setItemSlot };
   tellClient,
 )
  */
+//# sourceMappingURL=setItemSlot.d.ts.map

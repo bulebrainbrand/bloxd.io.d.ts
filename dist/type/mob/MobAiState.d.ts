@@ -28,3 +28,4 @@ export type AllMobAiState = {
 };
 export type MobAiState = keyof AllMobAiState;
 export type MobAiStateParams<TState extends MobAiState> = AllMobAiState[TState];
+//# sourceMappingURL=MobAiState.d.ts.map

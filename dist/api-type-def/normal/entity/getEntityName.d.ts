@@ -15,3 +15,4 @@ export { getEntityName };
  *
  * getEntityName(entityId)
  */
+//# sourceMappingURL=getEntityName.d.ts.map

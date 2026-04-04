@@ -15,3 +15,4 @@ export { getPosition };
  *
  * getPosition(entityId)
  */
+//# sourceMappingURL=getPosition.d.ts.map

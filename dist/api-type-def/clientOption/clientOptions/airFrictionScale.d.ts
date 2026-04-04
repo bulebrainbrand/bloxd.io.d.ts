@@ -58,3 +58,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=airFrictionScale.d.ts.map

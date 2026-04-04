@@ -18,3 +18,4 @@ export { getStandardChestItemSlot };
  *
  * getStandardChestItemSlot(chestPos, idx)
  */
+//# sourceMappingURL=getStandardChestItemSlot.d.ts.map

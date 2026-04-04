@@ -19,3 +19,4 @@ export { updateMeshEntity };
  *
  * updateMeshEntity(eId, type, opts);
  */
+//# sourceMappingURL=updateMeshEntity.d.ts.map

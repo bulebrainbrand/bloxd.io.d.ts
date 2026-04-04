@@ -15,3 +15,4 @@ export { inventoryIsFull };
  *
  * inventoryIsFull(playerId)
  */
+//# sourceMappingURL=inventoryIsFull.d.ts.map

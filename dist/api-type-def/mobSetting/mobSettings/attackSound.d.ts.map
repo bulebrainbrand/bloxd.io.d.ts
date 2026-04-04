@@ -1,0 +1,1 @@
+{"version":3,"file":"attackSound.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/mobSetting/mobSettings/attackSound.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAE3C,KAAK,qBAAqB,GAAG,MAAM,CAAC,OAAO,EAAE,SAAS,GAAG,IAAI,CAAC,CAAC;AAE/D,MAAM,MAAM,WAAW,CAAC,CAAC,SAAS,OAAO,IAAI,qBAAqB,CAAC,CAAC,CAAC,CAAC"}

@@ -44,3 +44,4 @@ export { applyEffect };
  *
  * applyEffect(lifeformId, effectName, duration, customEffectInfo);
  */
+//# sourceMappingURL=applyEffect.d.ts.map

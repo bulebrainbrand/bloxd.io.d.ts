@@ -22,3 +22,4 @@ export { getPlayerFacingInfo };
  *
  * getPlayerFacingInfo(playerId);
  */
+//# sourceMappingURL=getPlayerFacingInfo.d.ts.map

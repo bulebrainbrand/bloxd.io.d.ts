@@ -42,3 +42,4 @@ export declare const MobSettingApis: {
     setMobSetting: RootSetMobSetting;
 };
 export * from "./mobSettings/index";
+//# sourceMappingURL=index.d.ts.map

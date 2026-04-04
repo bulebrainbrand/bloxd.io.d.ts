@@ -23,3 +23,4 @@ export { setMoonstoneChestItemSlot };
  *
  * setMoonstoneChestItemSlot(playerId, idx, itemName, itemAmount, metadata)
  */
+//# sourceMappingURL=setMoonstoneChestItemSlot.d.ts.map

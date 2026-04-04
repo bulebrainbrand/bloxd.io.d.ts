@@ -5,3 +5,4 @@ export type NameTagInfo = {
     subtitle?: StyledText[];
     subtitleBackgroundColor?: string;
 };
+//# sourceMappingURL=NameTagInfo.d.ts.map

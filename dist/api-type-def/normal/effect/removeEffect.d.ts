@@ -17,3 +17,4 @@ export { removeEffect };
  *
  * removeEffect(lifeformId, name);
  */
+//# sourceMappingURL=removeEffect.d.ts.map

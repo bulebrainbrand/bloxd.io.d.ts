@@ -137,3 +137,4 @@ export * from "./healthRegen";
 export * from "./ridingSpeedMult";
 export * from "./metaInfo";
 export * from "./onTamedHealthMultiplier";
+//# sourceMappingURL=index.d.ts.map

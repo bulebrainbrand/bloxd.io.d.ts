@@ -15,3 +15,4 @@ export { isAlive };
  *
  * isAlive(lifeformId)
  */
+//# sourceMappingURL=isAlive.d.ts.map

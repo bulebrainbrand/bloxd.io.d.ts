@@ -13,3 +13,4 @@ export { kickPlayer };
  *
  * kickPlayer(playerId, reason)
  */
+//# sourceMappingURL=kickPlayer.d.ts.map

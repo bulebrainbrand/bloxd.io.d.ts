@@ -23,3 +23,4 @@ export { setBlockWalls };
  *
  * setBlockWalls(pos1, pos2, blockName, hasFloor, hasCeiling)
  */
+//# sourceMappingURL=setBlockWalls.d.ts.map

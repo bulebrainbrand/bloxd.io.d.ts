@@ -5,3 +5,4 @@ export type CommonMeshEntityOpts = {
     autoRotate?: boolean;
     lineToEId?: EntityId;
 };
+//# sourceMappingURL=CommonMeshEntityOpts.d.ts.map

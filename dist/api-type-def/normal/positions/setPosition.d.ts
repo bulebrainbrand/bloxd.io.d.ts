@@ -31,3 +31,4 @@ export { setPosition };
  * @returns {void}
  * setPosition(entityId, x, y, z)
  */
+//# sourceMappingURL=setPosition.d.ts.map

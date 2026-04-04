@@ -29,3 +29,4 @@ export { setWalkThroughRect };
  *
  * setWalkThroughRect(playerId, pos1, pos2, updateType)
  */
+//# sourceMappingURL=setWalkThroughRect.d.ts.map

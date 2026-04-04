@@ -19,3 +19,4 @@ export { changePlayerIntoSkin };
  *
  * changePlayerIntoSkin(playerId, cosmeticType, cosmeticName);
  */
+//# sourceMappingURL=changePlayerIntoSkin.d.ts.map

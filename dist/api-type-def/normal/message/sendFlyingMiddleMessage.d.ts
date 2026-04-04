@@ -23,3 +23,4 @@ export { sendFlyingMiddleMessage };
  *
  * sendFlyingMiddleMessage(playerId, message, distanceFromAction, lifetimeMs)
  */
+//# sourceMappingURL=sendFlyingMiddleMessage.d.ts.map

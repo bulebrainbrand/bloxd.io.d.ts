@@ -17,3 +17,4 @@ export { getPlayerCosmetic };
  *
  * getPlayerCosmetic(playerId, cosmeticType);
  */
+//# sourceMappingURL=getPlayerCosmetic.d.ts.map

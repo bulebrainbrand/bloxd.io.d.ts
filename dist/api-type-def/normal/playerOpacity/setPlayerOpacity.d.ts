@@ -21,3 +21,4 @@ export { setPlayerOpacity };
  *
  * setPlayerOpacity(playerId, opacity)
  */
+//# sourceMappingURL=setPlayerOpacity.d.ts.map

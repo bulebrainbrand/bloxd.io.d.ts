@@ -7,3 +7,4 @@ export type PrecisionBarQteParams = {
     scale?: number;
     rotation?: number;
 };
+//# sourceMappingURL=PrecisionBarQteParams.d.ts.map

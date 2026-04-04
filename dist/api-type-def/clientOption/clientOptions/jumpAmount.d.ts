@@ -51,3 +51,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=jumpAmount.d.ts.map

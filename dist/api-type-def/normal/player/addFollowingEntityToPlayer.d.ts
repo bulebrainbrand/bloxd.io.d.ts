@@ -21,3 +21,4 @@ export { addFollowingEntityToPlayer };
  *
  * addFollowingEntityToPlayer(playerId, eId, offset, followsPlayerRotation);
  */
+//# sourceMappingURL=addFollowingEntityToPlayer.d.ts.map

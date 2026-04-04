@@ -15,3 +15,4 @@ export type QTEClientParameters = {
     type: "progressBar";
     parameters: ProgressBarQteParams;
 };
+//# sourceMappingURL=QTEClientParameters.d.ts.map

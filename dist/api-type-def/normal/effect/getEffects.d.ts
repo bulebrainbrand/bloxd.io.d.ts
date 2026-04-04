@@ -17,3 +17,4 @@ export { getEffects };
  *
  * getEffects(lifeformId);
  */
+//# sourceMappingURL=getEffects.d.ts.map

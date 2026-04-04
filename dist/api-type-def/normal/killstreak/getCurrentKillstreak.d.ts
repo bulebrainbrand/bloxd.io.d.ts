@@ -15,3 +15,4 @@ export { getCurrentKillstreak };
  *
  * getCurrentKillstreak(playerId)
  */
+//# sourceMappingURL=getCurrentKillstreak.d.ts.map

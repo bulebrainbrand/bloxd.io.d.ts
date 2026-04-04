@@ -15,3 +15,4 @@ export { playerIsInGame };
  *
  * playerIsInGame(playerId)
  */
+//# sourceMappingURL=playerIsInGame.d.ts.map

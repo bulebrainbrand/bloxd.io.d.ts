@@ -31,3 +31,4 @@ export { calcExplosionForce };
  *   ignoreProjectiles,
  * );
  */
+//# sourceMappingURL=calcExplosionForce.d.ts.map

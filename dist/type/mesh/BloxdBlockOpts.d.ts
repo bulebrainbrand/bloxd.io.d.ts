@@ -7,3 +7,4 @@ export type BloxdBlockOpts = {
     blockName: BlockNameOrId;
     size: number | [number, number, number];
 };
+//# sourceMappingURL=BloxdBlockOpts.d.ts.map

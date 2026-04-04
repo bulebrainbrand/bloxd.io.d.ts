@@ -19,3 +19,4 @@ export { addQTE };
  *
  * addQTE(playerId, qteParameters);
  */
+//# sourceMappingURL=addQTE.d.ts.map

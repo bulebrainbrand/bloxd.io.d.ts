@@ -11,3 +11,4 @@ export { playerIsLoggedIn };
  *
  * playerIsLoggedIn(playerId)
  */
+//# sourceMappingURL=playerIsLoggedIn.d.ts.map

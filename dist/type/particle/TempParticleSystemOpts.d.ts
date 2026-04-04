@@ -29,3 +29,4 @@ export type TempParticleSystemOpts = {
     manualEmitCount: number;
     hideDist: number;
 };
+//# sourceMappingURL=TempParticleSystemOpts.d.ts.map

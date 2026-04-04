@@ -25,3 +25,4 @@ export { setHealth };
  *
  * setHealth(entityId, newHealth, whoDidDamage, increaseMaxHealthIfNeeded)
  */
+//# sourceMappingURL=setHealth.d.ts.map

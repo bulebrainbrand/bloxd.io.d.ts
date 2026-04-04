@@ -17,3 +17,4 @@ export { hasItem };
  *
  * hasItem(playerId, itemName)
  */
+//# sourceMappingURL=hasItem.d.ts.map

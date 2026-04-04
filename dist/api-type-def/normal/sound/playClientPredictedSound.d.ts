@@ -27,3 +27,4 @@ export { playClientPredictedSound };
  *
  * playClientPredictedSound(soundName, volume, rate, posSettings, predictedBy);
  */
+//# sourceMappingURL=playClientPredictedSound.d.ts.map

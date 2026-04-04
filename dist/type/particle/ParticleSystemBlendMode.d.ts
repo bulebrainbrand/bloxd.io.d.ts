@@ -19,3 +19,4 @@ export type ParticleSystemBlendMode =
  * Multiply current color with particle color then add current color and particle color multiplied by particle's alpha
  */
  | 4;
+//# sourceMappingURL=ParticleSystemBlendMode.d.ts.map

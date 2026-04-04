@@ -15,3 +15,4 @@ export { getMetaInfo };
  *
  * getMetaInfo(blockName)
  */
+//# sourceMappingURL=getMetaInfo.d.ts.map

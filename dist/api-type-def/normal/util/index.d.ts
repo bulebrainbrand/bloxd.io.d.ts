@@ -7,3 +7,4 @@ export declare const UtilApis: {
     now: () => number;
     raycastForBlock: (fromPos: import("../../..").Coordinate, dirVec: import("../../..").Direcrion) => import("../../..").BlockRaycastResult;
 };
+//# sourceMappingURL=index.d.ts.map

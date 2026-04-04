@@ -17,3 +17,4 @@ export { getPlayerPartyWhenJoined };
  *
  * getPlayerPartyWhenJoined(playerId)
  */
+//# sourceMappingURL=getPlayerPartyWhenJoined.d.ts.map

@@ -44,3 +44,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=crouchingSpeed.d.ts.map

@@ -17,3 +17,4 @@ export { setTotalAura };
  *
  * setTotalAura(playerId, totalAura);
  */
+//# sourceMappingURL=setTotalAura.d.ts.map

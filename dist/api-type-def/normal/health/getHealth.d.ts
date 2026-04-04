@@ -19,3 +19,4 @@ export { getHealth };
  *
  * getHealth(entityId)
  */
+//# sourceMappingURL=getHealth.d.ts.map

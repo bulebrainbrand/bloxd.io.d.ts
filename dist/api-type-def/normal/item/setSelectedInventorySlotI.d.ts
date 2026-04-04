@@ -17,3 +17,4 @@ export { setSelectedInventorySlotI };
  *
  * setSelectedInventorySlotI(playerId, newI)
  */
+//# sourceMappingURL=setSelectedInventorySlotI.d.ts.map

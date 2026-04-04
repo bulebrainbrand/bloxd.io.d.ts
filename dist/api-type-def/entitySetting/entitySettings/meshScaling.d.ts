@@ -62,3 +62,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=meshScaling.d.ts.map

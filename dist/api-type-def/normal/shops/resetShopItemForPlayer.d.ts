@@ -25,3 +25,4 @@ export { resetShopItemForPlayer };
  *
  * resetShopItemForPlayer(playerId, categoryKey, itemKey)
  */
+//# sourceMappingURL=resetShopItemForPlayer.d.ts.map

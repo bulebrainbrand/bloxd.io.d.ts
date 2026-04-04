@@ -21,3 +21,4 @@ export declare const MessageApis: {
         fontSize?: string;
     }) => void;
 };
+//# sourceMappingURL=index.d.ts.map

@@ -17,3 +17,4 @@ export { deleteQTE };
  *
  * deleteQTE(playerId, id);
  */
+//# sourceMappingURL=deleteQTE.d.ts.map

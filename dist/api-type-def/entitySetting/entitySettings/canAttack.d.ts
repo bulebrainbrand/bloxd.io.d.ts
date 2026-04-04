@@ -61,3 +61,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=canAttack.d.ts.map

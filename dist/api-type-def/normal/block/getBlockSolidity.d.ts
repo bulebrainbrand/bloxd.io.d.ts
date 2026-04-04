@@ -29,3 +29,4 @@ export { getBlockSolidity };
  *
  * getBlockSolidity(x, y, z)
  */
+//# sourceMappingURL=getBlockSolidity.d.ts.map

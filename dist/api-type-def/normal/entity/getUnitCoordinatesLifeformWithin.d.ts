@@ -17,3 +17,4 @@ export { getUnitCoordinatesLifeformWithin };
  *
  * getUnitCoordinatesLifeformWithin(lifeformId)
  */
+//# sourceMappingURL=getUnitCoordinatesLifeformWithin.d.ts.map

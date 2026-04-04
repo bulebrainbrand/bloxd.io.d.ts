@@ -19,3 +19,4 @@ export { setEntityHeading };
  *
  * setEntityHeading(entityId, newHeading);
  */
+//# sourceMappingURL=setEntityHeading.d.ts.map

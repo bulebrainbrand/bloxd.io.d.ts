@@ -22,3 +22,4 @@ export { giveItem };
  *
  * giveItem(playerId, itemName, itemAmount, attributes)
  */
+//# sourceMappingURL=giveItem.d.ts.map

@@ -1,5 +1,5 @@
-import { ShopItemBadgeType, ShopItemUserInput } from "../index";
-import { CustomTextStyling, StringColor } from "../index";
+import { ShopItemBadgeType, ShopItemUserInput } from "@type";
+import { CustomTextStyling, StringColor } from "@type";
 export type ShopItem = {
     image: string;
     cost?: number;
@@ -23,3 +23,4 @@ export type ShopItem = {
     sortPriority?: number;
     hidden?: boolean;
 };
+//# sourceMappingURL=ShopItem.d.ts.map

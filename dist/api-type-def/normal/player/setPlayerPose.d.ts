@@ -1,4 +1,4 @@
-import { PlayerId, PlayerPose } from "../../../type/index";
+import { PlayerId, PlayerPose } from "@type";
 /**
  * Set the pose of the player
  *
@@ -19,3 +19,4 @@ export { setPlayerPose };
  *
  * setPlayerPose(playerId, pose, poseOffset);
  */
+//# sourceMappingURL=setPlayerPose.d.ts.map

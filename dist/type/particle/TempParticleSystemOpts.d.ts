@@ -1,5 +1,5 @@
-import { Texture, ParticleSystemBlendMode } from "../index";
-import { Array255Color, Array255ColorWithA, Coordinate, Direcrion } from "../index";
+import { Texture, ParticleSystemBlendMode } from "@type";
+import { Array255Color, Array255ColorWithA, Coordinate, Direcrion } from "@type";
 export type TempParticleSystemOpts = {
     texture: Texture;
     minLifeTime: number;
@@ -29,3 +29,4 @@ export type TempParticleSystemOpts = {
     manualEmitCount: number;
     hideDist: number;
 };
+//# sourceMappingURL=TempParticleSystemOpts.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * RGB string for fog colour override. e.g. #ffffff
  * @type {string}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=fogColourOverride.d.ts.map

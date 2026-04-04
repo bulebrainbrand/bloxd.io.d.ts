@@ -1,4 +1,4 @@
-import { BlockNameOrId, PlayerId } from "../../../type/index";
+import { BlockNameOrId, PlayerId } from "@type";
 /**
  * Stops a player from changing a block type. Valid names are those contained within blockMetadata.ts and 'Air'
  * Less priority than can change block pos/can change block rect
@@ -19,3 +19,4 @@ export { setCantChangeBlockType };
  *
  * setCantChangeBlockType(playerId, blockName)
  */
+//# sourceMappingURL=setCantChangeBlockType.d.ts.map

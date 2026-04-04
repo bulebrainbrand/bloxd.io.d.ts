@@ -1,4 +1,4 @@
-import { ItemAttributes, ItemName, PlayerId } from "../../../type/index";
+import { ItemAttributes, ItemName, PlayerId } from "@type";
 /**
  * Put an item in a specific index. Default hotbar is indexes 0-9
  *
@@ -32,3 +32,4 @@ export { setItemSlot };
   tellClient,
 )
  */
+//# sourceMappingURL=setItemSlot.d.ts.map

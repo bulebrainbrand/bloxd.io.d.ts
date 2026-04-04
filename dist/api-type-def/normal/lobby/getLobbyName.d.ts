@@ -12,3 +12,4 @@ export { getLobbyName };
  *
  * getLobbyName();
  */
+//# sourceMappingURL=getLobbyName.d.ts.map

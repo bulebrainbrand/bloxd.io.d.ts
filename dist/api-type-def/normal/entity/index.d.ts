@@ -13,3 +13,4 @@ export declare const EntityApis: {
         (eId: import("../../..").EntityId, node: import("../../..").LifeformBodyPart, type: null): void;
     };
 };
+//# sourceMappingURL=index.d.ts.map

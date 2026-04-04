@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Default camera zoom level for the player
  * @type {number}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=playerZoom.d.ts.map

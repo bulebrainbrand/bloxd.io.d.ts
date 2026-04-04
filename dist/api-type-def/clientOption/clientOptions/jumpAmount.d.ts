@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Amount of jump power the player has
  * @type {number}
@@ -51,3 +51,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=jumpAmount.d.ts.map

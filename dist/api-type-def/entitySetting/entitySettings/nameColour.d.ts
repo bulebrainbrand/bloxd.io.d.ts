@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "../../../type/index";
+import { EntityId, PlayerId } from "@type";
 /**
  * The colour of the entity's name.
  * @type {"default" | "yellow" | "lime" | "green" | "aqua" | "cyan" | "blue" | "purple" | "pink" | "red" | "orange"}
@@ -61,3 +61,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=nameColour.d.ts.map

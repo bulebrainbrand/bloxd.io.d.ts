@@ -1,4 +1,4 @@
-import { EntityId, Radian } from "../../../type/index";
+import { EntityId, Radian } from "@type";
 /**
  * Set the rotation for a server-auth entity.
  *
@@ -21,3 +21,4 @@ export { setEntityRotation };
  *
  * setEntityRotation(entityId, xRotation, yRotation, zRotation);
  */
+//# sourceMappingURL=setEntityRotation.d.ts.map

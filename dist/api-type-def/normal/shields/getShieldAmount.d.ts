@@ -1,4 +1,4 @@
-import { EntityId, ShieldAmount } from "../../../type/index";
+import { EntityId, ShieldAmount } from "@type";
 /**
  * Get the current shield of an entity.
  *
@@ -17,3 +17,4 @@ export { getShieldAmount };
  *
  * getShieldAmount(entityId)
  */
+//# sourceMappingURL=getShieldAmount.d.ts.map

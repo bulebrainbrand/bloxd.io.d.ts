@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether the player can use the zoom key
  * @type {boolean}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=canUseZoomKey.d.ts.map

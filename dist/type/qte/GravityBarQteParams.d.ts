@@ -1,4 +1,4 @@
-import { CustomTextStyling, Icon } from "../index";
+import { CustomTextStyling, Icon } from "@type";
 export type GravityBarQteParams = {
     progressStartValue?: number;
     catchZoneSize: number;
@@ -12,3 +12,4 @@ export type GravityBarQteParams = {
     description: CustomTextStyling;
     icon?: Icon;
 };
+//# sourceMappingURL=GravityBarQteParams.d.ts.map

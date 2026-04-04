@@ -1,4 +1,4 @@
-import { Coordinate, PlayerId } from "../../../type/index";
+import { Coordinate, PlayerId } from "@type";
 /**
  * Make it so a player can Change blocks within two points. Coordinates are inclusive. E.g. if [0, 0, 0] is pos1
  * and [1, 1, 1] is pos2 then the 8 blocks contained within low and high will be able to be broken.
@@ -23,3 +23,4 @@ export { setCanChangeBlockRect };
  *
  * setCanChangeBlockRect(playerId, pos1, pos2);
  */
+//# sourceMappingURL=setCanChangeBlockRect.d.ts.map

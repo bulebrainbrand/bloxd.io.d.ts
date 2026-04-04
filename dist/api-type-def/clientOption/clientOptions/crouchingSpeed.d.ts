@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Speed multiplier for the player when crouching.
  * Players are used to the default bloxd movement behaviour and speed,
@@ -44,3 +44,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=crouchingSpeed.d.ts.map

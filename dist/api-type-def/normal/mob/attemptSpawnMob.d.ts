@@ -1,4 +1,4 @@
-import { MobId, MobType, MobSpawnOpts } from "../../../type/index";
+import { MobId, MobType, MobSpawnOpts } from "@type";
 /**
  * Try to spawn a mob into the world at a given position. Returns null on failure.
  * WARNING: Either the "onPlayerAttemptSpawnMob" or the "onWorldAttemptSpawnMob" game callback will be called
@@ -45,3 +45,4 @@ export { attemptSpawnMob };
  *
  * attemptSpawnMob(mobType, x, y, z, opts);
  */
+//# sourceMappingURL=attemptSpawnMob.d.ts.map

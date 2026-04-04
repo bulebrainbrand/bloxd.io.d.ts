@@ -1,4 +1,4 @@
-import { EntityId, Radian } from "../../../type/index";
+import { EntityId, Radian } from "@type";
 /**
  * @deprecated use setEntityRotation
  * Set the heading for a server-auth entity.
@@ -19,3 +19,4 @@ export { setEntityHeading };
  *
  * setEntityHeading(entityId, newHeading);
  */
+//# sourceMappingURL=setEntityHeading.d.ts.map

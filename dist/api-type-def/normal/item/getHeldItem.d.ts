@@ -1,4 +1,4 @@
-import { ItemObject, PlayerId } from "../../../type/index";
+import { ItemObject, PlayerId } from "@type";
 /**
  * Get the currently held item of a player
  * Returns null if no item is being held
@@ -19,3 +19,4 @@ export { getHeldItem };
  *
  * getHeldItem(playerId)
  */
+//# sourceMappingURL=getHeldItem.d.ts.map

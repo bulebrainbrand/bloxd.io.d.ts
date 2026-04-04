@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Remove gamemode-applied skin from a player
  *
@@ -15,3 +15,4 @@ export { removeAppliedSkin };
  *
  * removeAppliedSkin(playerId);
  */
+//# sourceMappingURL=removeAppliedSkin.d.ts.map

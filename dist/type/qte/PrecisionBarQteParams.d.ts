@@ -1,4 +1,4 @@
-import { CustomTextStyling, Icon } from "../index";
+import { CustomTextStyling, Icon } from "@type";
 export type PrecisionBarQteParams = {
     speed: number;
     successZoneSize: number;
@@ -7,3 +7,4 @@ export type PrecisionBarQteParams = {
     scale?: number;
     rotation?: number;
 };
+//# sourceMappingURL=PrecisionBarQteParams.d.ts.map

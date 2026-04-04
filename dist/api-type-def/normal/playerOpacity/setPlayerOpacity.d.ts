@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Set a player's opacity
  * A simple helper that calls setTargetedPlayerSettingForEveryone
@@ -21,3 +21,4 @@ export { setPlayerOpacity };
  *
  * setPlayerOpacity(playerId, opacity)
  */
+//# sourceMappingURL=setPlayerOpacity.d.ts.map

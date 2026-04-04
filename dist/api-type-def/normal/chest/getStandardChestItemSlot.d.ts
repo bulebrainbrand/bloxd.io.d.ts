@@ -1,4 +1,4 @@
-import { Coordinate, ItemObject } from "../../../type/index";
+import { Coordinate, ItemObject } from "@type";
 /**
  * Get the item at a chest slot.
  * Null if empty otherwise format { name: itemName, amount: amountOfItem }
@@ -18,3 +18,4 @@ export { getStandardChestItemSlot };
  *
  * getStandardChestItemSlot(chestPos, idx)
  */
+//# sourceMappingURL=getStandardChestItemSlot.d.ts.map

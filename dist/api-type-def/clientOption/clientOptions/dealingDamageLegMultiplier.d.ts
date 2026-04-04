@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Damage multiplier for when the player hits a leg. Only applies to guns
  * @type {number}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=dealingDamageLegMultiplier.d.ts.map

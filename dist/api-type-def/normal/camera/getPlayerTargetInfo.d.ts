@@ -10,7 +10,7 @@
  * @param {PlayerId} playerId
  * @returns { { position: [number, number, number]; normal: [number, number, number]; adjacent: [number, number, number] } }
  */
-import { Coordinate, PlayerId } from "../../../type/index";
+import { Coordinate, PlayerId } from "@type";
 declare const getPlayerTargetInfo: (playerId: PlayerId) => {
     position: Coordinate;
     normal: Coordinate;
@@ -31,3 +31,4 @@ export { getPlayerTargetInfo };
  *
  * getPlayerTargetInfo(playerId);
  */
+//# sourceMappingURL=getPlayerTargetInfo.d.ts.map

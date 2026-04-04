@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Open a chest for a player.
  * If there is no chest, or the player cannot open it, do nothing.
@@ -25,3 +25,4 @@ export { openChestForPlayer };
  *
  * openChestForPlayer(playerId, x, y, z)
  */
+//# sourceMappingURL=openChestForPlayer.d.ts.map

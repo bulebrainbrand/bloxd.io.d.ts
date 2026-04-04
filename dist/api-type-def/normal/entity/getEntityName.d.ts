@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Get the in game name of an entity.
  *
@@ -15,3 +15,4 @@ export { getEntityName };
  *
  * getEntityName(entityId)
  */
+//# sourceMappingURL=getEntityName.d.ts.map

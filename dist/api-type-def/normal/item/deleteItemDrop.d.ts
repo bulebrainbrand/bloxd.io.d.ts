@@ -1,4 +1,4 @@
-import { ItemEntityId } from "../../../type/index";
+import { ItemEntityId } from "@type";
 declare const deleteItemDrop: (itemId: ItemEntityId) => void;
 export { deleteItemDrop };
 /**
@@ -9,3 +9,4 @@ export { deleteItemDrop };
  *
  * deleteItemDrop(itemId)
  */
+//# sourceMappingURL=deleteItemDrop.d.ts.map

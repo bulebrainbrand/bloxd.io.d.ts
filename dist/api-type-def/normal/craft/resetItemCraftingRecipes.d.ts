@@ -1,4 +1,4 @@
-import { ItemName, PlayerId } from "../../../type/index";
+import { ItemName, PlayerId } from "@type";
 /**
  * Reset the crafting recipes for a given back to its original bloxd state
  *
@@ -17,3 +17,4 @@ export { resetItemCraftingRecipes };
  *
  * resetItemCraftingRecipes(playerId, itemName);
  */
+//# sourceMappingURL=resetItemCraftingRecipes.d.ts.map

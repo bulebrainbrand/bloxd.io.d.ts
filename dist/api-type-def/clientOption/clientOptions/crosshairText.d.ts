@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "../../../type/index";
+import { PlayerId, CustomTextStyling } from "@type";
 /**
  * Text to display by the crosshair
  * @type {string | CustomTextStyling}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=crosshairText.d.ts.map

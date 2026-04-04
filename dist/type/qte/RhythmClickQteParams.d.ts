@@ -1,4 +1,4 @@
-import { CustomTextStyling, Icon } from "../index";
+import { CustomTextStyling, Icon } from "@type";
 export type RhythmClickQteParams = {
     requiredSuccesses: number;
     shrinkDurationMs: number;
@@ -7,3 +7,4 @@ export type RhythmClickQteParams = {
     label: CustomTextStyling;
     icon?: Icon;
 };
+//# sourceMappingURL=RhythmClickQteParams.d.ts.map

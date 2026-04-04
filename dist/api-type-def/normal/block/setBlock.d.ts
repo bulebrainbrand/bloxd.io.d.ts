@@ -1,4 +1,4 @@
-import { BlockName, Coordinate } from "../../../type/index";
+import { BlockName, Coordinate } from "@type";
 /**
  * Set a block. Valid names are those either contained in blockMetadata.ts or are 'Air'
  *
@@ -31,3 +31,4 @@ export { setBlock };
  *
  * setBlock(x, y, z, blockName)
  */
+//# sourceMappingURL=setBlock.d.ts.map

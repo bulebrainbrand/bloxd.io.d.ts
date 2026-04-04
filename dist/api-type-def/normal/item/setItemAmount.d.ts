@@ -1,4 +1,4 @@
-import { ItemId } from "../../../type/index";
+import { ItemId } from "@type";
 /**
  * Set the amount of an item in an item entity
  *
@@ -17,3 +17,4 @@ export { setItemAmount };
  *
  * setItemAmount(itemId, newAmount);
  */
+//# sourceMappingURL=setItemAmount.d.ts.map

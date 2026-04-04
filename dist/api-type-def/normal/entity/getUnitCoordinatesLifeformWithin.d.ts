@@ -1,4 +1,4 @@
-import { Coordinate, LifeformId } from "../../../type/index";
+import { Coordinate, LifeformId } from "@type";
 /**
  * Get the up to 12 unit co-ordinates the lifeform is located within
  * (A lifeform is modelled as having four corners and can be in up to 3 blocks vertically)
@@ -17,3 +17,4 @@ export { getUnitCoordinatesLifeformWithin };
  *
  * getUnitCoordinatesLifeformWithin(lifeformId)
  */
+//# sourceMappingURL=getUnitCoordinatesLifeformWithin.d.ts.map

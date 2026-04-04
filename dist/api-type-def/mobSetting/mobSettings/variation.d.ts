@@ -1,4 +1,4 @@
-import { MobType } from "../../../type/index";
+import { MobType } from "@type";
 type VariationDictionary = {
     /**
      * @default {"default"}
@@ -116,3 +116,4 @@ type VariationDictionary = {
 };
 export type Variation<K extends MobType> = VariationDictionary[K];
 export {};
+//# sourceMappingURL=variation.d.ts.map

@@ -3,3 +3,4 @@ export declare const QTEApis: {
     deleteQTE: (playerId: import("../../..").PlayerId, id: import("../../..").QTERequestId) => void;
     hasActiveQTE: (playerId: import("../../..").PlayerId) => boolean;
 };
+//# sourceMappingURL=index.d.ts.map

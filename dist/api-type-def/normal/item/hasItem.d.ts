@@ -1,4 +1,4 @@
-import { Item, PlayerId } from "../../../type/index";
+import { Item, PlayerId } from "@type";
 /**
  * Whether a player has an item
  *
@@ -17,3 +17,4 @@ export { hasItem };
  *
  * hasItem(playerId, itemName)
  */
+//# sourceMappingURL=hasItem.d.ts.map

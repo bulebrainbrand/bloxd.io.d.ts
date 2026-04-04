@@ -1,4 +1,4 @@
-import { Coordinate, EntityId } from "../../../type/index";
+import { Coordinate, EntityId } from "@type";
 interface SetPositionInterface {
     /**
      * Set position of a player / entity.
@@ -31,3 +31,4 @@ export { setPosition };
  * @returns {void}
  * setPosition(entityId, x, y, z)
  */
+//# sourceMappingURL=setPosition.d.ts.map

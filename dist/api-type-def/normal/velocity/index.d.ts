@@ -3,3 +3,4 @@ export declare const VelocityApis: {
     getVelocity: (eId: import("../../..").EntityId) => [number, number, number];
     applyImpulse: (eId: import("../../..").EntityId, xImpulse: number, yImpulse: number, zImpulse: number) => void;
 };
+//# sourceMappingURL=index.d.ts.map

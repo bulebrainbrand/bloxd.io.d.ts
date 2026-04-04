@@ -1,4 +1,4 @@
-import { CosmeticName, CosmeticType, PlayerId } from "../../../type/index";
+import { CosmeticName, CosmeticType, PlayerId } from "@type";
 /**
  * Get a single equipped cosmetic for a player.
  *
@@ -17,3 +17,4 @@ export { getPlayerCosmetic };
  *
  * getPlayerCosmetic(playerId, cosmeticType);
  */
+//# sourceMappingURL=getPlayerCosmetic.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether the player has space in their inventory to get new blocks
  *
@@ -15,3 +15,4 @@ export { inventoryIsFull };
  *
  * inventoryIsFull(playerId)
  */
+//# sourceMappingURL=inventoryIsFull.d.ts.map

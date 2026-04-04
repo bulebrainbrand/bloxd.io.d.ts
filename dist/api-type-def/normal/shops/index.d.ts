@@ -11,3 +11,4 @@ export declare const ShopApis: {
     sendOverShopInfo: (playerId: import("../../..").PlayerId, info: string | import("../../..").CustomTextStyling) => void;
     openShop: (playerId: import("../../..").PlayerId, toggle?: boolean, forceCategoryKey?: import("../../..").ShopCategoryKey | null, onlyIfNonEmpty?: boolean) => void;
 };
+//# sourceMappingURL=index.d.ts.map

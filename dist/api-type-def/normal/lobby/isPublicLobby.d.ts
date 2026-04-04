@@ -12,3 +12,4 @@ export { isPublicLobby };
  *
  * isPublicLobby();
  */
+//# sourceMappingURL=isPublicLobby.d.ts.map

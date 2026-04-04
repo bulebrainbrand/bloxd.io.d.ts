@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "../../../type/index";
+import { PlayerId, CustomTextStyling } from "@type";
 /**
  * Error message for when the player fails to change a block
  * @type {string | CustomTextStyling}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=cantChangeError.d.ts.map

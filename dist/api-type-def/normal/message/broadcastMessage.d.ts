@@ -1,4 +1,4 @@
-import { CustomTextStyling } from "../../../type/index";
+import { CustomTextStyling } from "@type";
 /**
  * Send a message to everyone
  *
@@ -22,3 +22,4 @@ export { broadcastMessage };
  *
  * broadcastMessage(message, style)
  */
+//# sourceMappingURL=broadcastMessage.d.ts.map

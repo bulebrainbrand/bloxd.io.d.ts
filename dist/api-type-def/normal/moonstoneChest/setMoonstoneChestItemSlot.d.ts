@@ -1,4 +1,4 @@
-import { ItemAttributes } from "../../../type/index";
+import { ItemAttributes } from "@type";
 /**
  * Set the item in a player's moonstone chest slot
  *
@@ -23,3 +23,4 @@ export { setMoonstoneChestItemSlot };
  *
  * setMoonstoneChestItemSlot(playerId, idx, itemName, itemAmount, metadata)
  */
+//# sourceMappingURL=setMoonstoneChestItemSlot.d.ts.map

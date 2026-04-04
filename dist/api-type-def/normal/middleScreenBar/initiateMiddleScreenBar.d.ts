@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * This will initiate the MiddleScreenBar, starting at empty and filling up to full over the given duration.
  * Good to represent cooldowns (eg gun reload) or charged items (eg crossbow)
@@ -28,3 +28,4 @@ export { initiateMiddleScreenBar };
   horizontalBarRemOffset,
 );
  */
+//# sourceMappingURL=initiateMiddleScreenBar.d.ts.map

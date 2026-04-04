@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether to allow the player to strafe and conserve momentum while airborne.
  * Only change if absolutely necessary i.e. only Rocket Obby uses true.
@@ -58,3 +58,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=airMomentumConservation.d.ts.map

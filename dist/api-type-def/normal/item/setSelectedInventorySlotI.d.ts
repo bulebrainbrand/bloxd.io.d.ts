@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Force the player to have the ith inventory slot selected. E.g. newI 0 makes the player have the 0th inventory slot selected
  *
@@ -17,3 +17,4 @@ export { setSelectedInventorySlotI };
  *
  * setSelectedInventorySlotI(playerId, newI)
  */
+//# sourceMappingURL=setSelectedInventorySlotI.d.ts.map

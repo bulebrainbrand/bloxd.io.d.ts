@@ -1,4 +1,4 @@
-import { PlayerId, PosSettings, SoundName } from "../../../type/index";
+import { PlayerId, PosSettings, SoundName } from "@type";
 /**
  * See documentation for api.playSound
  *
@@ -31,3 +31,4 @@ export { broadcastSound };
  *
  * broadcastSound(soundName, volume, rate, posSettings, exceptPlayerId);
  */
+//# sourceMappingURL=broadcastSound.d.ts.map

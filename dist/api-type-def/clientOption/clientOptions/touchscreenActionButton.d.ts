@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "../../../type/index";
+import { PlayerId, CustomTextStyling } from "@type";
 /**
  * The contents of the action button. Supports custom text styling. onTouchscreenActionButton will be called when button pressed.
  * @type {string | CustomTextStyling}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=touchscreenActionButton.d.ts.map

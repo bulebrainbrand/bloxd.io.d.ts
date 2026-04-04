@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Clear a directional arrow from the player's screen.
  *
@@ -17,3 +17,4 @@ export { clearDirectionArrow };
  *
  * clearDirectionArrow(playerId, id);
  */
+//# sourceMappingURL=clearDirectionArrow.d.ts.map

@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "../../../type/index";
+import { EntityId, PlayerId } from "@type";
 /**
  * Whether the player has a priority name tag
  * @type {boolean}
@@ -61,3 +61,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=hasPriorityNametag.d.ts.map

@@ -1,4 +1,4 @@
-import { Coordinate, Direcrion, EntityId, ItemAttributes, ThrowableItem } from "../../../type/index";
+import { Coordinate, Direcrion, EntityId, ItemAttributes, ThrowableItem } from "@type";
 /**
  * Try to create a throwable entity.
  * Similar to creating a mesh entity and uses the same rate limiting.
@@ -44,3 +44,4 @@ export { attemptCreateThrowable };
  *   attributes,
  * );
  */
+//# sourceMappingURL=attemptCreateThrowable.d.ts.map

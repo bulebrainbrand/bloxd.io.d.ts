@@ -1,4 +1,4 @@
-import { MobAiState, MobAiStateParams, MobId } from "../../../type/index";
+import { MobAiState, MobAiStateParams, MobId } from "@type";
 /**
  * Gets the current AI state for the given mob.
  *
@@ -20,3 +20,4 @@ export { getMobAiState };
  *
  * getMobAiState(mobId);
  */
+//# sourceMappingURL=getMobAiState.d.ts.map

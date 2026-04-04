@@ -1,4 +1,4 @@
-import { CustomTextStyling, PlayerId } from "../../../type/index";
+import { CustomTextStyling, PlayerId } from "@type";
 /**
  * Send a flying middle message to a specific player
  *
@@ -23,3 +23,4 @@ export { sendFlyingMiddleMessage };
  *
  * sendFlyingMiddleMessage(playerId, message, distanceFromAction, lifetimeMs)
  */
+//# sourceMappingURL=sendFlyingMiddleMessage.d.ts.map

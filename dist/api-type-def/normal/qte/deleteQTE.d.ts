@@ -1,4 +1,4 @@
-import { PlayerId, QTERequestId } from "../../../type/index";
+import { PlayerId, QTERequestId } from "@type";
 /**
  * Delete a quicktime event from the screen
  *
@@ -17,3 +17,4 @@ export { deleteQTE };
  *
  * deleteQTE(playerId, id);
  */
+//# sourceMappingURL=deleteQTE.d.ts.map

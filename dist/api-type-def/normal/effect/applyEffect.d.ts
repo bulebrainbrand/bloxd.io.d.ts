@@ -1,4 +1,4 @@
-import { InGameEffectName, IngameIconName, ItemName, LifeformId, TranslatedText } from "../../../type/index";
+import { InGameEffectName, IngameIconName, ItemName, LifeformId, TranslatedText } from "@type";
 /**
  * Apply an effect to a lifeform.
  * Can be an inbuilt effect E.g. "Speed" (speed boost), "Damage" (damage boost).
@@ -44,3 +44,4 @@ export { applyEffect };
  *
  * applyEffect(lifeformId, effectName, duration, customEffectInfo);
  */
+//# sourceMappingURL=applyEffect.d.ts.map

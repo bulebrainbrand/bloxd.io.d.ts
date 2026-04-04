@@ -1,4 +1,4 @@
-import { Coordinate, PlayerId } from "../../../type/index";
+import { Coordinate, PlayerId } from "@type";
 /**
  * Force respawn a player
  *
@@ -17,3 +17,4 @@ export { forceRespawn };
  *
  * forceRespawn(playerId, respawnPos)
  */
+//# sourceMappingURL=forceRespawn.d.ts.map

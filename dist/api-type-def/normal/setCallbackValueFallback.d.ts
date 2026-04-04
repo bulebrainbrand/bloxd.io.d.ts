@@ -1,4 +1,4 @@
-import { CallbackName } from "../../type/index";
+import { CallbackName } from "@type";
 /**
  * Set a default value to be returned by your callback code if it throws an error.
  *
@@ -15,3 +15,4 @@ export { setCallbackValueFallback };
  *
  * setCallbackValueFallback(callbackName, defaultValue);
  */
+//# sourceMappingURL=setCallbackValueFallback.d.ts.map

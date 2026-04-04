@@ -16,3 +16,4 @@ export declare const EffectApis: {
     removeEffect: (lifeformId: import("../../..").LifeformId, name: string) => void;
     getEffects: (lifeformId: import("../../..").LifeformId) => string[];
 };
+//# sourceMappingURL=index.d.ts.map

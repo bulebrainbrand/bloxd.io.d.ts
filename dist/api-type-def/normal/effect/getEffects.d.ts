@@ -1,4 +1,4 @@
-import { LifeformId } from "../../../type/index";
+import { LifeformId } from "@type";
 /**
  * Get all the effects currently applied to a lifeform.
  *
@@ -17,3 +17,4 @@ export { getEffects };
  *
  * getEffects(lifeformId);
  */
+//# sourceMappingURL=getEffects.d.ts.map

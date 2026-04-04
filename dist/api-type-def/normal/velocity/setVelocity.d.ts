@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Set the velocity of an entity
  *
@@ -21,3 +21,4 @@ export { setVelocity };
  *
  * setVelocity(eId, x, y, z);
  */
+//# sourceMappingURL=setVelocity.d.ts.map

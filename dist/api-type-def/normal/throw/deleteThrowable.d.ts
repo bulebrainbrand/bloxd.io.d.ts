@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Delete a throwable entity before it automatically removes itself.
  *
@@ -15,3 +15,4 @@ export { deleteThrowable };
  *
  * deleteThrowable(eId);
  */
+//# sourceMappingURL=deleteThrowable.d.ts.map

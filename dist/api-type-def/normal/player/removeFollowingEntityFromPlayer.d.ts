@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "../../../type/index";
+import { EntityId, PlayerId } from "@type";
 /**
  * Remove following entity from player
  *
@@ -17,3 +17,4 @@ export { removeFollowingEntityFromPlayer };
  *
  * removeFollowingEntityFromPlayer(playerId, entityEId);
  */
+//# sourceMappingURL=removeFollowingEntityFromPlayer.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Amount of friction to apply to airborne players.
  * Only change if absolutely necessary i.e. Rocket Obby uses 0.
@@ -58,3 +58,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=airFrictionScale.d.ts.map

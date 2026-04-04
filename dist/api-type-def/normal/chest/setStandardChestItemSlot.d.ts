@@ -1,4 +1,4 @@
-import { Coordinate } from "../../../type/index";
+import { Coordinate } from "@type";
 /**
  * Set the item in a standard chest slot.
  *
@@ -22,3 +22,4 @@ export { setStandardChestItemSlot };
  *
  * setStandardChestItemSlot(chestPos, idx, itemName, itemAmount, playerId, attributes)
  */
+//# sourceMappingURL=setStandardChestItemSlot.d.ts.map

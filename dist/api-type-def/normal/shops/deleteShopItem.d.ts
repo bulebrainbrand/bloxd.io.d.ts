@@ -1,4 +1,4 @@
-import { ShopCategoryKey, ShopItemKey } from "../../../type/index";
+import { ShopCategoryKey, ShopItemKey } from "@type";
 /**
  * Delete an existing shop item.
  * Throws an error if the item does not exist.
@@ -21,3 +21,4 @@ export { deleteShopItem };
  *
  * deleteShopItem(categoryKey, itemKey)
  */
+//# sourceMappingURL=deleteShopItem.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"removeItemName.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/normal/item/removeItemName.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,QAAQ,EAAE,MAAM,OAAO,CAAC;AAE3C;;;;;;;GAOG;AACH,OAAO,CAAC,MAAM,cAAc,EAAE,CAC5B,QAAQ,EAAE,QAAQ,EAClB,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,MAAM,KACX,IAAI,CAAC;AAEV,OAAO,EAAE,cAAc,EAAE,CAAC;AAE1B;;;;;;;;;GASG"}

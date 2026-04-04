@@ -1,4 +1,4 @@
-import { BlockNameOrId, PlayerId } from "../../../type/index";
+import { BlockNameOrId, PlayerId } from "@type";
 /**
  * Remove any previous can/cant change block type settings for a player
  *
@@ -17,3 +17,4 @@ export { resetCanChangeBlockType };
  *
  * resetCanChangeBlockType(playerId, blockName)
  */
+//# sourceMappingURL=resetCanChangeBlockType.d.ts.map

@@ -1,4 +1,4 @@
-import { Party, PlayerId } from "../../../type/index";
+import { Party, PlayerId } from "@type";
 /**
  * Returns the party that the player was in when they joined the game. The returned object contains the playerDbIds, as well
  * as the playerIds if available, of the party leader and members.
@@ -17,3 +17,4 @@ export { getPlayerPartyWhenJoined };
  *
  * getPlayerPartyWhenJoined(playerId)
  */
+//# sourceMappingURL=getPlayerPartyWhenJoined.d.ts.map

@@ -1,1 +1,2 @@
 export type MobType = "Pig" | "Cow" | "Sheep" | "Horse" | "Cave Golem" | "Draugr Zombie" | "Frost Golem" | "Frost Zombie" | "Frost Skeleton" | "Draugr Knight" | "Wolf" | "Bear" | "Deer" | "Stag" | "Gold Watermelon Stag" | "Gorilla" | "Wildcat" | "Magma Golem" | "Draugr Huntress" | "Spirit Golem" | "Spirit Wolf" | "Spirit Bear" | "Spirit Stag" | "Spirit Gorilla" | "Draugr Warper" | "Frost Wraith" | "Draugr Reaver" | "NPC";
+//# sourceMappingURL=MobType.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Let a player change a block at a specific co-ordinate. Useful when client option canChange is false.
  * Overrides blockRect and blockType settings, so also useful when you have disallowed changing of a block type with setCantChangeBlockType.
@@ -25,3 +25,4 @@ export { setCanChangeBlock };
  *
  * setCanChangeBlock(playerId, x, y, z)
  */
+//# sourceMappingURL=setCanChangeBlock.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId, ShopCategoryKey, ShopItemKey, ShopItem } from "../../../type/index";
+import { PlayerId, ShopCategoryKey, ShopItemKey, ShopItem } from "@type";
 /**
  * Update selected properties of an existing shop item for a specific player.
  * For example, { canBuy: true } to allow this player to purchase the item.
@@ -25,3 +25,4 @@ export { updateShopItemForPlayer };
  *
  * updateShopItemForPlayer(playerId, categoryKey, itemKey, changes)
  */
+//# sourceMappingURL=updateShopItemForPlayer.d.ts.map

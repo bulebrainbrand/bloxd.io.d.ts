@@ -5,3 +5,4 @@ export declare const PositionApis: {
         (entityId: import("../../..").EntityId, position: Readonly<import("../../..").Coordinate>): void;
     };
 };
+//# sourceMappingURL=index.d.ts.map

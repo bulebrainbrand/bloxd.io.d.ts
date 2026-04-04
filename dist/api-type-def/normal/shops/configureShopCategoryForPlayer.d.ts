@@ -1,4 +1,4 @@
-import { PlayerId, ShopCategoryConfig, ShopCategoryKey } from "../../../type/index";
+import { PlayerId, ShopCategoryConfig, ShopCategoryKey } from "@type";
 /**
  * Configure a shop category for a specific player.
  *
@@ -19,3 +19,4 @@ export { configureShopCategoryForPlayer };
  *
  * configureShopCategoryForPlayer(playerId, categoryKey, config)
  */
+//# sourceMappingURL=configureShopCategoryForPlayer.d.ts.map

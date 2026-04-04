@@ -1,4 +1,4 @@
-import { BlockNameOrId, PlayerId } from "../../../type/index";
+import { BlockNameOrId, PlayerId } from "@type";
 /**
  * Lets a player Change a block type. Valid names are those contained within blockMetadata.ts and 'Air'
  * Less priority than cant change block pos/can change block rect
@@ -19,3 +19,4 @@ export { setCanChangeBlockType };
  *
  * setCanChangeBlockType(playerId, blockName)
  */
+//# sourceMappingURL=setCanChangeBlockType.d.ts.map

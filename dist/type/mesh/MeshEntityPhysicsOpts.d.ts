@@ -1,4 +1,4 @@
-import { MeshEntityVehicleOpts } from "../index";
+import { MeshEntityVehicleOpts } from "@type";
 export type MeshEntityPhysicsOpts = {
     doPhysics: boolean;
     onCollideTerrain?: () => void;
@@ -9,3 +9,4 @@ export type MeshEntityPhysicsOpts = {
     widthExpandAmt?: number;
     vehicleOpts?: MeshEntityVehicleOpts;
 };
+//# sourceMappingURL=MeshEntityPhysicsOpts.d.ts.map

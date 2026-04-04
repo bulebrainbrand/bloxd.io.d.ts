@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether to allow the player to craft items
  * useFullInventory must be true for this to work
@@ -52,3 +52,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=canCraft.d.ts.map

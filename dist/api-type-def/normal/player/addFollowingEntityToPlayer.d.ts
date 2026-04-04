@@ -1,4 +1,4 @@
-import { Coordinate, EntityId, PlayerId } from "../../../type/index";
+import { Coordinate, EntityId, PlayerId } from "@type";
 /**
  * Add following entity to player
  *
@@ -21,3 +21,4 @@ export { addFollowingEntityToPlayer };
  *
  * addFollowingEntityToPlayer(playerId, eId, offset, followsPlayerRotation);
  */
+//# sourceMappingURL=addFollowingEntityToPlayer.d.ts.map

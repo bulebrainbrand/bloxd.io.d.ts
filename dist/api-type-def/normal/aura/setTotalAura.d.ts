@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Sets the total aura for a player. Will not go over max level or under 0
  *
@@ -17,3 +17,4 @@ export { setTotalAura };
  *
  * setTotalAura(playerId, totalAura);
  */
+//# sourceMappingURL=setTotalAura.d.ts.map

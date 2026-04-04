@@ -1,4 +1,4 @@
-import { Coordinate, ItemAttributes, ItemName, PlayerId } from "../../../type/index";
+import { Coordinate, ItemAttributes, ItemName, PlayerId } from "@type";
 /**
  * Give a standard chest an item and a certain amount of that item.
  * Returns the amount of item added to the chest.
@@ -25,3 +25,4 @@ export { giveStandardChestItem };
  *
  * giveStandardChestItem(chestPos, itemName, itemAmount, playerId, attributes)
  */
+//# sourceMappingURL=giveStandardChestItem.d.ts.map

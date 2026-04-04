@@ -1,4 +1,4 @@
-import { PlayerId, StringColor } from "../../../type/index";
+import { PlayerId, StringColor } from "@type";
 /**
  * @deprecated - prefer using other UI elements
  * (this UI element hasn't been properly thought through in combination with other elements like killfeed, uirequests, etc)
@@ -51,3 +51,4 @@ export { sendTopRightHelper };
  *
  * sendTopRightHelper(playerId, icon, text, opts)
  */
+//# sourceMappingURL=sendTopRightHelper.d.ts.map

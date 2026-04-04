@@ -1,4 +1,4 @@
-import { ChunkId, Coordinate } from "../../../type/index";
+import { ChunkId, Coordinate } from "@type";
 /**
  * Get the co-ordinates of the block in the chunk with the lowest x, y, and z co-ordinates
  *
@@ -15,3 +15,4 @@ export { chunkIdToBotLeftCoord };
  *
  * chunkIdToBotLeftCoord(chunkId)
  */
+//# sourceMappingURL=chunkIdToBotLeftCoord.d.ts.map

@@ -1,4 +1,4 @@
-import { BlockNameOrId, Coordinate } from "../../../type/index";
+import { BlockNameOrId, Coordinate } from "@type";
 /**
  * Helper function that sets all blocks in a rectangle to a specific block.
  *
@@ -19,3 +19,4 @@ export { setBlockRect };
  *
  * setBlockRect(pos1, pos2, blockName)
  */
+//# sourceMappingURL=setBlockRect.d.ts.map

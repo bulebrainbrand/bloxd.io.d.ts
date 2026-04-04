@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "../../../type/index";
+import { PlayerId, CustomTextStyling } from "@type";
 /**
  * Large text to display in the middle of the screen
  * @type {string | CustomTextStyling}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=middleTextUpper.d.ts.map

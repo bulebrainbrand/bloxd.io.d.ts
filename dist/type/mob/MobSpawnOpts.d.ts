@@ -1,5 +1,5 @@
-import { MobDbId, MobHerdId, MobType, PlayerId } from "../index";
-import { Variation } from "../../index";
+import { MobDbId, MobHerdId, MobType, PlayerId } from "@type";
+import { Variation } from "@index";
 export type MobSpawnOpts<TMobType extends MobType> = Partial<{
     mobHerdId: MobHerdId;
     spawnerId: PlayerId;
@@ -13,3 +13,4 @@ export type MobSpawnOpts<TMobType extends MobType> = Partial<{
         collidesEntities: boolean;
     }>;
 }>;
+//# sourceMappingURL=MobSpawnOpts.d.ts.map

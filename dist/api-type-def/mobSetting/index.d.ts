@@ -1,5 +1,5 @@
 import { MobSettings } from "./mobSettings/index";
-import { MobId, MobType } from "../../type/index";
+import { MobId, MobType } from "@type";
 /**
  * Returns the current default value for a mob setting.
  *
@@ -42,3 +42,4 @@ export declare const MobSettingApis: {
     setMobSetting: RootSetMobSetting;
 };
 export * from "./mobSettings/index";
+//# sourceMappingURL=index.d.ts.map

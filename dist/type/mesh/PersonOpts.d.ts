@@ -1,4 +1,4 @@
-import { EntityId, PlayerPose } from "../index";
+import { EntityId, PlayerPose } from "@type";
 export type PersonOpts = {
     hideDist?: number;
     meshOffset?: number[];
@@ -8,3 +8,4 @@ export type PersonOpts = {
     textures?: Partial<object>;
     pose?: PlayerPose;
 };
+//# sourceMappingURL=PersonOpts.d.ts.map

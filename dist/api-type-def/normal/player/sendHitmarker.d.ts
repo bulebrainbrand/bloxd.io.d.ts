@@ -1,4 +1,4 @@
-import { Direcrion, PlayerId } from "../../../type/index";
+import { Direcrion, PlayerId } from "@type";
 /**
  * Show a hitmarker on the player's screen (the X-shaped crosshair flash indicating a successful hit).
  * Useful for custom weapons or things that need visual hit feedback.
@@ -25,3 +25,4 @@ export { sendHitmarker };
  *
  * sendHitmarker(playerId, isCrit, directionVector);
  */
+//# sourceMappingURL=sendHitmarker.d.ts.map

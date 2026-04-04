@@ -1,4 +1,4 @@
-import { PlayerId, ShopCategoryKey, ShopItemKey } from "../../../type/index";
+import { PlayerId, ShopCategoryKey, ShopItemKey } from "@type";
 /**
  * Delete a specific player's overrides for a shop item.
  * Like other methods, it doesn't matter whether the overrides were created
@@ -25,3 +25,4 @@ export { resetShopItemForPlayer };
  *
  * resetShopItemForPlayer(playerId, categoryKey, itemKey)
  */
+//# sourceMappingURL=resetShopItemForPlayer.d.ts.map

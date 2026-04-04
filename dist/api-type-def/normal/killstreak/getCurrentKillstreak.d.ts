@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Gets the player's current killstreak
  *
@@ -15,3 +15,4 @@ export { getCurrentKillstreak };
  *
  * getCurrentKillstreak(playerId)
  */
+//# sourceMappingURL=getCurrentKillstreak.d.ts.map

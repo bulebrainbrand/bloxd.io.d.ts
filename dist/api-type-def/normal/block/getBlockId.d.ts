@@ -1,4 +1,4 @@
-import { BlockId } from "../../../type/index";
+import { BlockId } from "@type";
 /**
  * Used to get the block id at a specific position.
  * Intended only for use in hot code paths - default to getBlock for most use cases
@@ -21,3 +21,4 @@ export { getBlockId };
  *
  * getBlockId(x, y, z)
  */
+//# sourceMappingURL=getBlockId.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../index";
+import { PlayerId } from "@type";
 export type ShopItemUserInput = {
     type: "text";
     placeholderText?: string;
@@ -23,3 +23,4 @@ export type ShopItemUserInput = {
     type: "color";
     initialValue?: string;
 };
+//# sourceMappingURL=ShopItemUserInput.d.ts.map

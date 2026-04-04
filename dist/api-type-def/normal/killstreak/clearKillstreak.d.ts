@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Clears the player's current killstreak
  *
@@ -15,3 +15,4 @@ export { clearKillstreak };
  *
  * clearKillstreak(playerId)
  */
+//# sourceMappingURL=clearKillstreak.d.ts.map

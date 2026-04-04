@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Apply an impulse to an entity
  *
@@ -21,3 +21,4 @@ export { applyImpulse };
  *
  * applyImpulse(eId, xImpulse, yImpulse, zImpulse);
  */
+//# sourceMappingURL=applyImpulse.d.ts.map

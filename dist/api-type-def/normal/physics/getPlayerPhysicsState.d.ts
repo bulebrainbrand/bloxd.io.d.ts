@@ -1,4 +1,4 @@
-import { PlayerId, PlayerPhysicsStateData } from "../../../type/index";
+import { PlayerId, PlayerPhysicsStateData } from "@type";
 /**
  * Get physics state for player
  *
@@ -15,3 +15,4 @@ export { getPlayerPhysicsState };
  *
  * getPlayerPhysicsState(playerId);
  */
+//# sourceMappingURL=getPlayerPhysicsState.d.ts.map

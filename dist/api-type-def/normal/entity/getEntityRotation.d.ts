@@ -1,4 +1,4 @@
-import { EntityId, Radian } from "../../../type/index";
+import { EntityId, Radian } from "@type";
 /**
  * Get the rotation for a server-auth entity.
  *
@@ -15,3 +15,4 @@ export { getEntityRotation };
  *
  * getEntityRotation(entityId)
  */
+//# sourceMappingURL=getEntityRotation.d.ts.map

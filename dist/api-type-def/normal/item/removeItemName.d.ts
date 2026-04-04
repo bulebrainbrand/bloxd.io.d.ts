@@ -1,4 +1,4 @@
-import { ItemName, PlayerId } from "../../../type/index";
+import { ItemName, PlayerId } from "@type";
 /**
  * Remove an amount of item from a player's inventory
  *
@@ -19,3 +19,4 @@ export { removeItemName };
  *
  * removeItemName(playerId, itemName, amount)
  */
+//# sourceMappingURL=removeItemName.d.ts.map

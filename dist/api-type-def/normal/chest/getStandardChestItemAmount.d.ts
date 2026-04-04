@@ -1,4 +1,4 @@
-import { Coordinate, ItemName } from "../../../type/index";
+import { Coordinate, ItemName } from "@type";
 /**
  * The amount of an itemName a standard chest has.
  * Returns 0 if the standard chest has none, and a negative number if infinite.
@@ -19,3 +19,4 @@ export { getStandardChestItemAmount };
  *
  * getStandardChestItemAmount(chestPos, itemName)
  */
+//# sourceMappingURL=getStandardChestItemAmount.d.ts.map

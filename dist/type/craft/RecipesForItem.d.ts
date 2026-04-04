@@ -1,4 +1,4 @@
-import { ItemName } from "../index";
+import { ItemName } from "@type";
 export type RecipesForItem = {
     requires: {
         items: ItemName[];
@@ -9,3 +9,4 @@ export type RecipesForItem = {
     onCraftedAura?: number;
     isStarterRecipe?: boolean;
 }[];
+//# sourceMappingURL=RecipesForItem.d.ts.map

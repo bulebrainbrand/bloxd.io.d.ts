@@ -1,4 +1,4 @@
-import { ChunkId, Coordinate } from "../../../type/index";
+import { ChunkId, Coordinate } from "@type";
 /**
  * Get the unique id of the chunk containing pos in the current map
  *
@@ -17,3 +17,4 @@ export { blockCoordToChunkId };
  *
  * blockCoordToChunkId(pos)
  */
+//# sourceMappingURL=blockCoordToChunkId.d.ts.map

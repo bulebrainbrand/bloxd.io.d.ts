@@ -1,4 +1,4 @@
-import { CosmeticName, CosmeticType, PlayerId } from "../../../type/index";
+import { CosmeticName, CosmeticType, PlayerId } from "@type";
 /**
  * Change a part of a player's skin
  *
@@ -19,3 +19,4 @@ export { changePlayerIntoSkin };
  *
  * changePlayerIntoSkin(playerId, cosmeticType, cosmeticName);
  */
+//# sourceMappingURL=changePlayerIntoSkin.d.ts.map

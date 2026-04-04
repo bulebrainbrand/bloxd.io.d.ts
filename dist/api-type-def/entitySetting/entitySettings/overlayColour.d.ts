@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "../../../type/index";
+import { EntityId, PlayerId } from "@type";
 /**
  * Applies a colour tint to the entity when set, like the red tint when an entity gets hurt.
  * @type {string | null}
@@ -63,3 +63,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=overlayColour.d.ts.map

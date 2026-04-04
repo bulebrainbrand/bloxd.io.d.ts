@@ -1,4 +1,4 @@
-import { MargeObject } from "../../../type/index";
+import { MargeObject } from "@type";
 import canChange from "./canChange";
 import crouchingSpeed from "./crouchingSpeed";
 import walkingSpeed from "./walkingSpeed";
@@ -106,3 +106,4 @@ export * from "./speedMultiplier";
 export * from "./crouchingSpeed";
 export * from "./walkingSpeed";
 export * from "./runningSpeed";
+//# sourceMappingURL=index.d.ts.map

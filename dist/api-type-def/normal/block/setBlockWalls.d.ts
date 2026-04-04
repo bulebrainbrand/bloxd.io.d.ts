@@ -1,4 +1,4 @@
-import { BlockNameOrId, Coordinate } from "../../../type/index";
+import { BlockNameOrId, Coordinate } from "@type";
 /**
  * Create walls by providing two opposite corners of the cuboid
  *
@@ -23,3 +23,4 @@ export { setBlockWalls };
  *
  * setBlockWalls(pos1, pos2, blockName, hasFloor, hasCeiling)
  */
+//# sourceMappingURL=setBlockWalls.d.ts.map

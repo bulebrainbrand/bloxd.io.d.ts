@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Check your game (and, optionally, a entity) is still valid and executing.
  * Useful if you're using async functions and await within your game.
@@ -23,3 +23,4 @@ export { checkValid };
  *
  * checkValid(entityId)
  */
+//# sourceMappingURL=checkValid.d.ts.map

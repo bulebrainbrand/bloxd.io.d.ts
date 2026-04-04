@@ -1,4 +1,4 @@
-import { Coordinate, PlayerId, WalkThroughType } from "../../../type/index";
+import { Coordinate, PlayerId, WalkThroughType } from "@type";
 /**
  * Allow a player to walk through (or not walk through) voxels that are located within a given rectangle.
  * For blocks that are normally solid and not seethrough, the player will experience slight visual glitches while inside the block.
@@ -29,3 +29,4 @@ export { setWalkThroughRect };
  *
  * setWalkThroughRect(playerId, pos1, pos2, updateType)
  */
+//# sourceMappingURL=setWalkThroughRect.d.ts.map

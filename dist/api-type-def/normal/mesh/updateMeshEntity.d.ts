@@ -1,4 +1,4 @@
-import { EntityId, MeshEntityOpts, MeshType } from "../../../type/index";
+import { EntityId, MeshEntityOpts, MeshType } from "@type";
 /**
  * Update a mesh entity. If used on a non-mesh entity, will do nothing.
  *
@@ -19,3 +19,4 @@ export { updateMeshEntity };
  *
  * updateMeshEntity(eId, type, opts);
  */
+//# sourceMappingURL=updateMeshEntity.d.ts.map

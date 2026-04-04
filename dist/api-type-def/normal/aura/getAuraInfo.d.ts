@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Get the aura info for a player
  *
@@ -19,3 +19,4 @@ export { getAuraInfo };
  *
  * getAuraInfo(playerId);
  */
+//# sourceMappingURL=getAuraInfo.d.ts.map

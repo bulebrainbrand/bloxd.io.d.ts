@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether the player is on a mobile device or a computer.
  *
@@ -15,3 +15,4 @@ export { isMobile };
  *
  * isMobile(playerId)
  */
+//# sourceMappingURL=isMobile.d.ts.map

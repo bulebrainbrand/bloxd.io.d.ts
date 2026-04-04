@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Checks if a player is able to open a chest at a given location,
  * as per the rules laid out by the "onPlayerAttemptOpenChest" game callback.
@@ -25,3 +25,4 @@ export { canOpenStandardChest };
  *
  * canOpenStandardChest(playerId, chestX, chestY, chestZ)
  */
+//# sourceMappingURL=canOpenStandardChest.d.ts.map

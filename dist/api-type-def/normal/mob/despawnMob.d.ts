@@ -1,4 +1,4 @@
-import { MobId } from "../../../type/index";
+import { MobId } from "@type";
 /**
  * Dispose of a mob's state and remove them from the world without triggering "on death" flows.
  * Always succeeds.
@@ -17,3 +17,4 @@ export { despawnMob };
  *
  * despawnMob(mobId);
  */
+//# sourceMappingURL=despawnMob.d.ts.map

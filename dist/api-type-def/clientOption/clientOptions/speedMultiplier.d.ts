@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Speed multiplier for the player.
  * Players are used to the default bloxd movement behaviour and speed,
@@ -51,3 +51,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=speedMultiplier.d.ts.map

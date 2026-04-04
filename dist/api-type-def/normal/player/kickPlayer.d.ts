@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * @param {PlayerId} playerId
  * @param {string} reason
@@ -13,3 +13,4 @@ export { kickPlayer };
  *
  * kickPlayer(playerId, reason)
  */
+//# sourceMappingURL=kickPlayer.d.ts.map

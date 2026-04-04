@@ -1,4 +1,4 @@
-import { MobAiState, MobAiStateParams, MobId } from "../../../type/index";
+import { MobAiState, MobAiStateParams, MobId } from "@type";
 /**
  * Sets the current AI state for the given mob.
  * Some AI states will require context such as the ID of the lifeform being chased.
@@ -23,3 +23,4 @@ export { setMobAiState };
  *
  * setMobAiState(mobId, state, params);
  */
+//# sourceMappingURL=setMobAiState.d.ts.map

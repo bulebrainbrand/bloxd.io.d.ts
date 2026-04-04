@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "../../type/index";
+import { EntityId, PlayerId } from "@type";
 import { EntitySettings, SetTargetedPlayerSettingForEveryone, SetOtherEntitySetting, GetOtherEntitySetting, SetEveryoneSettingForPlayer } from "./entitySettings/index";
 /**
  * Set every player's other-entity setting to a specific value for a particular player.
@@ -52,3 +52,4 @@ export declare const EntitySettingApis: {
     getOtherEntitySetting: GetOtherEntitySettingType;
 };
 export * from "./entitySettings/index";
+//# sourceMappingURL=index.d.ts.map

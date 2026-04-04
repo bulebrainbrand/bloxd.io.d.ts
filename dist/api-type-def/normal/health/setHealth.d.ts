@@ -1,4 +1,4 @@
-import { EntityId, Health, WhoDidDamage } from "../../../type/index";
+import { EntityId, Health, WhoDidDamage } from "@type";
 /**
  * Set the current health of an entity.
  * If you want to set their health to more than their current max health, the optional increaseMaxHealthIfNeeded must be true.
@@ -25,3 +25,4 @@ export { setHealth };
  *
  * setHealth(entityId, newHealth, whoDidDamage, increaseMaxHealthIfNeeded)
  */
+//# sourceMappingURL=setHealth.d.ts.map

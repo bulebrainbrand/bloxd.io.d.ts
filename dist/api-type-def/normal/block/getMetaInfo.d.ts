@@ -1,4 +1,4 @@
-import { BlockNameOrId, ItemMetaInfo } from "../../../type/index";
+import { BlockNameOrId, ItemMetaInfo } from "@type";
 /**
  * Splits the block name by '|'. If no meta info, metaInfo is ''
  *
@@ -15,3 +15,4 @@ export { getMetaInfo };
  *
  * getMetaInfo(blockName)
  */
+//# sourceMappingURL=getMetaInfo.d.ts.map

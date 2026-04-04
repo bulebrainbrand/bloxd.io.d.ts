@@ -1,4 +1,4 @@
-import { Coordinate, ItemObject } from "../../../type/index";
+import { Coordinate, ItemObject } from "@type";
 /**
  * Get all the items from a standard chest in order. Use this instead of repetitive calls to getStandardChestItemSlot
  *
@@ -15,3 +15,4 @@ export { getStandardChestItems };
  *
  * getStandardChestItems(chestPos)
  */
+//# sourceMappingURL=getStandardChestItems.d.ts.map

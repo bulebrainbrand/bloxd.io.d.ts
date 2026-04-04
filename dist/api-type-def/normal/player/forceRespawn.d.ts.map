@@ -1,0 +1,1 @@
+{"version":3,"file":"forceRespawn.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/normal/player/forceRespawn.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,QAAQ,EAAE,MAAM,OAAO,CAAC;AAE7C;;;;;;GAMG;AACH,OAAO,CAAC,MAAM,YAAY,EAAE,CAC1B,QAAQ,EAAE,QAAQ,EAClB,UAAU,CAAC,EAAE,QAAQ,CAAC,UAAU,CAAC,KAC9B,IAAI,CAAC;AACV,OAAO,EAAE,YAAY,EAAE,CAAC;AAExB;;;;;;;;GAQG"}

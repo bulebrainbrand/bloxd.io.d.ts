@@ -1,4 +1,4 @@
-import { StringColor } from "../index";
+import { StringColor } from "@type";
 export type EntityName = {
     entityName: string;
     style?: {
@@ -6,3 +6,4 @@ export type EntityName = {
         colour?: StringColor;
     };
 };
+//# sourceMappingURL=EntityName.d.ts.map

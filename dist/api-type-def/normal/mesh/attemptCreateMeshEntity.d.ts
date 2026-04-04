@@ -1,4 +1,4 @@
-import { EntityId, MeshEntityOpts, MeshEntityPhysicsOpts, MeshType } from "../../../type/index";
+import { EntityId, MeshEntityOpts, MeshEntityPhysicsOpts, MeshType } from "@type";
 /**
  * Try to create a mesh entity. This creates an entity whose mesh position is synced with clients.
  * Set entity position using setPosition
@@ -27,3 +27,4 @@ export { attemptCreateMeshEntity };
  *
  * attemptCreateMeshEntity(type, opts, name, physicsOptions, initiatorId);
  */
+//# sourceMappingURL=attemptCreateMeshEntity.d.ts.map

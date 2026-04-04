@@ -8,3 +8,4 @@
  * water is like [0,255,0,0.5]
  */
 export type Array255ColorWithA = [number, number, number, number];
+//# sourceMappingURL=Array255ColorWithA.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Check whether a player is crouching
  *
@@ -17,3 +17,4 @@ export { isPlayerCrouching };
  *
  * isPlayerCrouching(playerId);
  */
+//# sourceMappingURL=isPlayerCrouching.d.ts.map

@@ -202,3 +202,4 @@ export declare const NormalApis: {
     readonly playParticleEffect: (opts: import("../..").TempParticleSystemOpts | import("../..").ParticlePresetOpts, clientPredictedBy?: import("../..").PlayerId) => void;
     readonly setCallbackValueFallback: (callbackName: import("../..").CallbackName, defaultValue: any) => void;
 };
+//# sourceMappingURL=index.d.ts.map

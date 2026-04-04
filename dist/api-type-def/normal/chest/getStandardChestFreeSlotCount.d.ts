@@ -1,4 +1,4 @@
-import { Coordinate } from "../../../type/index";
+import { Coordinate } from "@type";
 /**
  * Get the amount of free slots in a standard chest
  * Returns null for non-chests
@@ -17,3 +17,4 @@ export { getStandardChestFreeSlotCount };
  *
  * getStandardChestFreeSlotCount(chestPos)
  */
+//# sourceMappingURL=getStandardChestFreeSlotCount.d.ts.map

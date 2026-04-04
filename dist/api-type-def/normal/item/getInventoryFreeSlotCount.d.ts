@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Get the amount of free slots in a player's inventory.
  *
@@ -15,3 +15,4 @@ export { getInventoryFreeSlotCount };
  *
  * getInventoryFreeSlotCount(playerId)
  */
+//# sourceMappingURL=getInventoryFreeSlotCount.d.ts.map

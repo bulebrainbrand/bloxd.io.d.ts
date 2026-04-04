@@ -1,4 +1,4 @@
-import { Coordinate, EntityId } from "../../../type/index";
+import { Coordinate, EntityId } from "@type";
 /**
  * Get the entities in the rect between [minX, minY, minZ] and [maxX, maxY, maxZ]
  *
@@ -17,3 +17,4 @@ export { getEntitiesInRect };
  *
  * getEntitiesInRect(minCoords, maxCoords);
  */
+//# sourceMappingURL=getEntitiesInRect.d.ts.map

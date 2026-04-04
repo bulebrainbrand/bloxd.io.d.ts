@@ -1,4 +1,4 @@
-import { Coordinate } from "../../../type/index";
+import { Coordinate } from "@type";
 /**
  * Check if a position is within a cubic rectangle
  *
@@ -21,3 +21,4 @@ export { isInsideRect };
  *
  * isInsideRect(coordsToCheck, pos1, pos2, addOneToMax);
  */
+//# sourceMappingURL=isInsideRect.d.ts.map

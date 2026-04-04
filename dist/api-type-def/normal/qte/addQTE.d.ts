@@ -1,4 +1,4 @@
-import { PlayerId, QTEClientParameters, QTERequestId } from "../../../type/index";
+import { PlayerId, QTEClientParameters, QTERequestId } from "@type";
 /**
  * Create and register the UI for the requested quicktime event (QTE) to the screen.
  * Handle the result via the onPlayerFinishQTE engine callback.
@@ -19,3 +19,4 @@ export { addQTE };
  *
  * addQTE(playerId, qteParameters);
  */
+//# sourceMappingURL=addQTE.d.ts.map

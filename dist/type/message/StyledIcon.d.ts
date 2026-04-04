@@ -1,4 +1,4 @@
-import { Icon, StringColor } from "../index";
+import { Icon, StringColor } from "@type";
 export type StyledIcon = {
     icon: Icon;
     style?: {
@@ -8,3 +8,4 @@ export type StyledIcon = {
         opacity?: number;
     };
 };
+//# sourceMappingURL=StyledIcon.d.ts.map

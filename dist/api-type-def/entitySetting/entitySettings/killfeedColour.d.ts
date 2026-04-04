@@ -1,4 +1,4 @@
-import { EntityId, PlayerId, StringColor } from "../../../type/index";
+import { EntityId, PlayerId, StringColor } from "@type";
 /**
  * The colour of kills in the killfeed. Defaults to blue for themselves and red for everyone else.
  * @type {StringColor}
@@ -61,3 +61,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=killfeedColour.d.ts.map

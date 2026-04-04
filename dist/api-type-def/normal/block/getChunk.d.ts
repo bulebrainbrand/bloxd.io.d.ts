@@ -1,4 +1,4 @@
-import { Coordinate } from "../../../type/index";
+import { Coordinate } from "@type";
 /**
  * Only use this instead of getBlock if you REALLY need the performance (i.e. you are iterating over tens of thousands of blocks)
  * ReturnedObject.blockData is a 32x32x32 ndarray of block ids
@@ -25,3 +25,4 @@ export { getChunk };
  *
  * getChunk(pos)
  */
+//# sourceMappingURL=getChunk.d.ts.map

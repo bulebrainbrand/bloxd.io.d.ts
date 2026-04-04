@@ -1,4 +1,4 @@
-import { CustomTextStyling, Icon } from "../index";
+import { CustomTextStyling, Icon } from "@type";
 export type ProgressBarQteParams = {
     progressStartValue?: number;
     progressDecreasePerTick: number;
@@ -9,3 +9,4 @@ export type ProgressBarQteParams = {
     scale?: number;
     rotation?: number;
 };
+//# sourceMappingURL=ProgressBarQteParams.d.ts.map

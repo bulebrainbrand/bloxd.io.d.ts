@@ -1,4 +1,4 @@
-import { PlayerId, ShopCategoryKey, ShopItem, ShopItemKey } from "../../../type/index";
+import { PlayerId, ShopCategoryKey, ShopItem, ShopItemKey } from "@type";
 /**
  * Create a new shop item for a specific player.
  * Will create a new category if it does not exist.
@@ -25,3 +25,4 @@ export { createShopItemForPlayer };
  *
  * createShopItemForPlayer(playerId, categoryKey, itemKey, item)
  */
+//# sourceMappingURL=createShopItemForPlayer.d.ts.map

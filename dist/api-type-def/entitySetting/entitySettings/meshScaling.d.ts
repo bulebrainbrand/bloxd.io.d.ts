@@ -1,4 +1,4 @@
-import { EntityId, EntityMeshScalingMap, PlayerId } from "../../../type/index";
+import { EntityId, EntityMeshScalingMap, PlayerId } from "@type";
 /**
  * Scaling of mesh nodes, see api.scalePlayerMeshNodes
  * @type {EntityMeshScalingMap}
@@ -62,3 +62,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=meshScaling.d.ts.map

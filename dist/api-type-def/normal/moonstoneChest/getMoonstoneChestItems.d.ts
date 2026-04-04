@@ -1,4 +1,4 @@
-import { ItemObject } from "../../../type/index";
+import { ItemObject } from "@type";
 /**
  * Get all the items from a moonstone chest in order. Use this instead of repetitive calls to getMoonstoneChestItemSlot
  *
@@ -16,3 +16,4 @@ export { getMoonstoneChestItems };
  * @returns {PNull<InvenItem>[]}
  * getMoonstoneChestItems(playerId)
  */
+//# sourceMappingURL=getMoonstoneChestItems.d.ts.map

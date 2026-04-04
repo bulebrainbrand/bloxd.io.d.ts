@@ -1,4 +1,4 @@
-import { EntityId, NameTagInfo, PlayerId } from "../../../type/index";
+import { EntityId, NameTagInfo, PlayerId } from "@type";
 /**
  * The name tag info of the player:
  * {
@@ -68,3 +68,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=nameTagInfo.d.ts.map

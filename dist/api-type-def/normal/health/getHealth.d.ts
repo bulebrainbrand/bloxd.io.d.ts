@@ -1,4 +1,4 @@
-import { EntityId, Health } from "../../../type/index";
+import { EntityId, Health } from "@type";
 /**
  * Get the current health of an entity.
  *
@@ -19,3 +19,4 @@ export { getHealth };
  *
  * getHealth(entityId)
  */
+//# sourceMappingURL=getHealth.d.ts.map

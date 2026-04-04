@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "../../../type/index";
+import { PlayerId, CustomTextStyling } from "@type";
 /**
  * Allows player to select a channel that is passed as argument to onPlayerChat. See engineGameplayTypes.ts for expected format
  * @type { { channelName: string; elementContent: string | CustomTextStyling; elementBgColor: string; }[] }
@@ -62,3 +62,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=chatChannels.d.ts.map

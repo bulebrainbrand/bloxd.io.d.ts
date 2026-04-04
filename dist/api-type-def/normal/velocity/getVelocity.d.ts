@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Get the velocity of an entity
  * Will return [0, 0, 0] if the entity doesn't have a physics body
@@ -17,3 +17,4 @@ export { getVelocity };
  *
  * getVelocity(eId);
  */
+//# sourceMappingURL=getVelocity.d.ts.map

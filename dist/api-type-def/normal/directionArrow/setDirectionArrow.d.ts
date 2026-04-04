@@ -1,4 +1,4 @@
-import { Coordinate, CustomTextStyling, PlayerId, TextStyle } from "../../../type/index";
+import { Coordinate, CustomTextStyling, PlayerId, TextStyle } from "@type";
 /**
  * Show a directional arrow indicator on the player's screen pointing toward a world position.
  * When the position is off-screen the indicator is a rotating chevron at the screen edge.
@@ -35,3 +35,4 @@ export { setDirectionArrow };
  *
  * setDirectionArrow(playerId, id, position, text, showDistance, style);
  */
+//# sourceMappingURL=setDirectionArrow.d.ts.map

@@ -1,4 +1,4 @@
-import { ItemAttributes, ItemName, PlayerId } from "../../../type/index";
+import { ItemAttributes, ItemName, PlayerId } from "@type";
 /**
  * Give a player an item and a certain amount of that item.
  *
@@ -22,3 +22,4 @@ export { giveItem };
  *
  * giveItem(playerId, itemName, itemAmount, attributes)
  */
+//# sourceMappingURL=giveItem.d.ts.map

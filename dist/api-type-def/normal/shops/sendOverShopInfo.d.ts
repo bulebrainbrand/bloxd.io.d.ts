@@ -1,4 +1,4 @@
-import { CustomTextStyling, PlayerId } from "../../../type/index";
+import { CustomTextStyling, PlayerId } from "@type";
 /**
  * Show a message over the shop in the same place that a shop item's onBoughtMessage is shown.
  * Displays for a couple seconds before disappearing
@@ -23,3 +23,4 @@ export { sendOverShopInfo };
  *
  * sendOverShopInfo(playerId, info);
  */
+//# sourceMappingURL=sendOverShopInfo.d.ts.map

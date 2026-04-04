@@ -1,0 +1,1 @@
+{"version":3,"file":"ItemAttributes.d.ts","sourceRoot":"","sources":["../../../src/type/item/ItemAttributes.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,cAAc,GAAG;IAC3B,iBAAiB,CAAC,EAAE,MAAM,CAAC;IAC3B,iBAAiB,CAAC,EAAE,MAAM,CAAC;IAC3B,gBAAgB,CAAC,EAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAC,CAAC;CACxC,CAAC"}

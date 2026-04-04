@@ -1,4 +1,4 @@
-import { MobHerdId } from "../../../type/index";
+import { MobHerdId } from "@type";
 /**
  * Create a mob herd. A mob herd represents a collection of mobs that move together.
  *
@@ -13,3 +13,4 @@ export { createMobHerd };
  *
  * createMobHerd();
  */
+//# sourceMappingURL=createMobHerd.d.ts.map

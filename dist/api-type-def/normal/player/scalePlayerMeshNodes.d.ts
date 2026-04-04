@@ -1,4 +1,4 @@
-import { EntityMeshScalingMap, PlayerId } from "../../../type/index";
+import { EntityMeshScalingMap, PlayerId } from "@type";
 /**
  * Scale node of a player's mesh by 3d vector.
  * State from prior calls to this api is lost so if you want to have multiple nodes scaled, pass in all the scales at once.
@@ -19,3 +19,4 @@ export { scalePlayerMeshNodes };
  *
  * scalePlayerMeshNodes(playerId, nodeScales);
  */
+//# sourceMappingURL=scalePlayerMeshNodes.d.ts.map

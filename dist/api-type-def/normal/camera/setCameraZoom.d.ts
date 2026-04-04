@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Set camera zoom for a player
  *
@@ -19,3 +19,4 @@ export { setCameraZoom };
  *
  * setCameraZoom(playerId, zoom);
  */
+//# sourceMappingURL=setCameraZoom.d.ts.map

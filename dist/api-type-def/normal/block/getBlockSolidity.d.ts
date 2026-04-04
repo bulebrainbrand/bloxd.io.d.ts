@@ -1,4 +1,4 @@
-import { Coordinate } from "../../../type/index";
+import { Coordinate } from "@type";
 /**
  * Returns whether a block is solid or not.
  * E.g. Grass block is solid, while water, ladder and water are not.
@@ -29,3 +29,4 @@ export { getBlockSolidity };
  *
  * getBlockSolidity(x, y, z)
  */
+//# sourceMappingURL=getBlockSolidity.d.ts.map

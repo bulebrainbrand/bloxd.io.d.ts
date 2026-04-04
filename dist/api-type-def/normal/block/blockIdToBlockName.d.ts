@@ -1,4 +1,4 @@
-import { BlockId, BlockName } from "../../../type/index";
+import { BlockId, BlockName } from "@type";
 /**
  * Goes from block id to block name. The reverse of blockNameToBlockId
  *
@@ -15,3 +15,4 @@ export { blockIdToBlockName };
  *
  * blockIdToBlockName(blockId)
  */
+//# sourceMappingURL=blockIdToBlockName.d.ts.map

@@ -1,4 +1,4 @@
-import { EntityId, ParticleSystemBlendMode, RandomColorGradient, Texture, TimeColorGradient, VelocityGradient } from "../index";
+import { EntityId, ParticleSystemBlendMode, RandomColorGradient, Texture, TimeColorGradient, VelocityGradient } from "@type";
 export type ParticleEmitterOpts = {
     texture: Texture;
     minLifeTime: number;
@@ -22,3 +22,4 @@ export type ParticleEmitterOpts = {
     dir1?: number[];
     dir2?: number[];
 };
+//# sourceMappingURL=ParticleEmitterOpts.d.ts.map

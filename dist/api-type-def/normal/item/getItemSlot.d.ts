@@ -1,4 +1,4 @@
-import { ItemObject, PlayerId } from "../../../type/index";
+import { ItemObject, PlayerId } from "@type";
 /**
  * Get the item at a specific index
  *
@@ -19,3 +19,4 @@ export { getItemSlot };
  *
  * getItemSlot(playerId, itemSlotIndex)
  */
+//# sourceMappingURL=getItemSlot.d.ts.map

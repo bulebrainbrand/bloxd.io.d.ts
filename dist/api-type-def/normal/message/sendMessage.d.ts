@@ -1,4 +1,4 @@
-import { PlayerId, CustomTextStyling } from "../../../type/index";
+import { PlayerId, CustomTextStyling } from "@type";
 interface SendMessageInterface {
     /**
      * Send a message to a specific player
@@ -35,3 +35,4 @@ export { sendMessage };
  *
  * sendMessage(playerId, message, style)
  */
+//# sourceMappingURL=sendMessage.d.ts.map

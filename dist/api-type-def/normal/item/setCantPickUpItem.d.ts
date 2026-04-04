@@ -1,4 +1,4 @@
-import { ItemEntityId, PlayerId } from "../../../type/index";
+import { ItemEntityId, PlayerId } from "@type";
 declare const setCantPickUpItem: (playerId: PlayerId, itemId: ItemEntityId) => void;
 export { setCantPickUpItem };
 /**
@@ -10,3 +10,4 @@ export { setCantPickUpItem };
  *
  * setCantPickUpItem(playerId, itemId)
  */
+//# sourceMappingURL=setCantPickUpItem.d.ts.map

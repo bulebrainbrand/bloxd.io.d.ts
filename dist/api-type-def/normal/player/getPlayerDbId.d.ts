@@ -1,4 +1,4 @@
-import { PlayerDbId, PlayerId } from "../../../type/index";
+import { PlayerDbId, PlayerId } from "@type";
 /**
  * Given a player, get their permanent identifier that doesn't change when leaving and re-entering
  *
@@ -15,3 +15,4 @@ export { getPlayerDbId };
  *
  * getPlayerDbId(playerId)
  */
+//# sourceMappingURL=getPlayerDbId.d.ts.map

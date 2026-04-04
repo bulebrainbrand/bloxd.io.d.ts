@@ -5,3 +5,4 @@ export type MeshEntityOpts = {
     Person: PersonOpts;
     ParticleEmitter: MeshParticleSystemOpts;
 };
+//# sourceMappingURL=MeshEntityOpts.d.ts.map

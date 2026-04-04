@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Show the shop tutorial for a player. Will not be shown if they have ever seen the shop tutorial in your game before.
  *
@@ -15,3 +15,4 @@ export { showShopTutorial };
  *
  * showShopTutorial(playerId)
  */
+//# sourceMappingURL=showShopTutorial.d.ts.map

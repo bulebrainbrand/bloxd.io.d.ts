@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether to allow the player to use the inventory
  * Disabling this will also disable the hotbar
@@ -52,3 +52,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=useInventory.d.ts.map

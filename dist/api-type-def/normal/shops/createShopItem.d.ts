@@ -1,4 +1,4 @@
-import { ShopCategoryKey, ShopItem, ShopItemKey } from "../../../type/index";
+import { ShopCategoryKey, ShopItem, ShopItemKey } from "@type";
 /**
  * Create a new shop item under the given category.
  * Will create a new category if it does not exist.
@@ -25,3 +25,4 @@ export { createShopItem };
  *
  * createShopItem(categoryKey, itemKey, item)
  */
+//# sourceMappingURL=createShopItem.d.ts.map

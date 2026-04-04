@@ -1,4 +1,4 @@
-import { BlockId, BlockName } from "../../../type/index";
+import { BlockId, BlockName } from "@type";
 /**
  * Get the numeric id of a block used in the ndarrays returned from getChunk
  * I.e. chunk.blockData.set(x, y, z, api.blockNameToBlockId("Dirt"))
@@ -27,3 +27,4 @@ export { blockNameToBlockId };
  *
  * blockNameToBlockId(blockName, allowInvalidBlock)
  */
+//# sourceMappingURL=blockNameToBlockId.d.ts.map

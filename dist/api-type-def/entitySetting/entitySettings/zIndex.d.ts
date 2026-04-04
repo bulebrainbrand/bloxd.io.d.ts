@@ -1,4 +1,4 @@
-import { EntityId, PlayerId } from "../../../type/index";
+import { EntityId, PlayerId } from "@type";
 /**
  * Rendering order of the entity, higher zIndex renders on top of lower ones.
  * @type {0 | 1}
@@ -62,3 +62,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=zIndex.d.ts.map

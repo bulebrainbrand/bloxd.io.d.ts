@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Update the progress bar in the bottom right corner.
  * Can be queued.
@@ -23,3 +23,4 @@ export { progressBarUpdate };
  *
  * progressBarUpdate(playerId, toFraction, toDuration);
  */
+//# sourceMappingURL=progressBarUpdate.d.ts.map

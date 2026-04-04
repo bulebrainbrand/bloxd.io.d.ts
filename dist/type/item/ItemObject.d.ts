@@ -7,3 +7,4 @@ export type ItemObject = {
         stackable: boolean;
     };
 };
+//# sourceMappingURL=ItemObject.d.ts.map

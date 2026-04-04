@@ -1,4 +1,4 @@
-import { PlayerId, ShopCategoryKey } from "../../../type/index";
+import { PlayerId, ShopCategoryKey } from "@type";
 /**
  * Open the shop UI for a player
  *
@@ -21,3 +21,4 @@ export { openShop };
  *
  * openShop(playerId, toggle, forceCategoryKey, onlyIfNonEmpty);
  */
+//# sourceMappingURL=openShop.d.ts.map

@@ -1,4 +1,4 @@
-import { BlockName, EntityId } from "../index";
+import { BlockName, EntityId } from "@type";
 export type BoxOpts = {
     hideDist?: number;
     meshOffset?: number[];
@@ -13,3 +13,4 @@ export type BoxOpts = {
     texture?: BlockName;
     faceUV?: number[][];
 };
+//# sourceMappingURL=BoxOpts.d.ts.map

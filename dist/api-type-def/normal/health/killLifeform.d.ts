@@ -1,4 +1,4 @@
-import { LifeformId, WhoKilled } from "../../../type/index";
+import { LifeformId, WhoKilled } from "@type";
 /**
  * Kill a lifeform.
  *
@@ -17,3 +17,4 @@ export { killLifeform };
  *
  * killLifeform(lifeformId, whoKilled)
  */
+//# sourceMappingURL=killLifeform.d.ts.map

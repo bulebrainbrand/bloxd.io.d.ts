@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Returns whether the player has any qteRequests
  *
@@ -15,3 +15,4 @@ export { hasActiveQTE };
  *
  * hasActiveQTE(playerId);
  */
+//# sourceMappingURL=hasActiveQTE.d.ts.map

@@ -13,3 +13,4 @@ export { getNumPlayers };
  *
  * getNumPlayers()
  */
+//# sourceMappingURL=getNumPlayers.d.ts.map

@@ -9,3 +9,4 @@ export declare const ChestApis: {
     readonly getStandardChestItems: (chestPos: import("../../..").Coordinate) => (import("../../..").ItemObject | null)[];
     readonly setStandardChestItemSlot: (chestPos: import("../../..").Coordinate, idx: number, itemName: string, itemAmount?: number, playerId?: number, attributes?: any) => void;
 };
+//# sourceMappingURL=index.d.ts.map

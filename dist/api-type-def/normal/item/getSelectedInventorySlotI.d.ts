@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Get a player's currently selected inventory slot
  *
@@ -15,3 +15,4 @@ export { getSelectedInventorySlotI };
  *
  * getSelectedInventorySlotI(playerId)
  */
+//# sourceMappingURL=getSelectedInventorySlotI.d.ts.map

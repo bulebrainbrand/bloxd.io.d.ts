@@ -1,4 +1,4 @@
-import { ItemName, PlayerId, RecipesForItem } from "../../../type/index";
+import { ItemName, PlayerId, RecipesForItem } from "@type";
 /**
  * Edit the crafting recipes for a player
  *
@@ -19,3 +19,4 @@ export { editItemCraftingRecipes };
  *
  * editItemCraftingRecipes(playerId, itemName, recipesForItem);
  */
+//# sourceMappingURL=editItemCraftingRecipes.d.ts.map

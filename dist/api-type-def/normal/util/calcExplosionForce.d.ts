@@ -1,4 +1,4 @@
-import { Coordinate, EntityId, ExplosionType } from "../../../type/index";
+import { Coordinate, EntityId, ExplosionType } from "@type";
 /**
  * @param {EntityId} eId
  * @param {ExplosionType} explosionType
@@ -31,3 +31,4 @@ export { calcExplosionForce };
  *   ignoreProjectiles,
  * );
  */
+//# sourceMappingURL=calcExplosionForce.d.ts.map

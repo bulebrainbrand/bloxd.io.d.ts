@@ -1,4 +1,4 @@
-import { CustomTextStyling } from "../index";
+import { CustomTextStyling } from "@type";
 export type ShopCategoryConfig = Partial<{
     autoSelectCategory: boolean;
     customTitle: string;
@@ -7,3 +7,4 @@ export type ShopCategoryConfig = Partial<{
     sortPriority: number;
     description: string | CustomTextStyling;
 }>;
+//# sourceMappingURL=ShopCategoryConfig.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId, PosSettings, SoundName } from "../../../type/index";
+import { PlayerId, PosSettings, SoundName } from "@type";
 /**
  * @param {PlayerId} playerId - hears the sound
  * @param {string} soundName - Can also be a prefix. If so, a random sound with that prefix will be played
@@ -35,3 +35,4 @@ export { playSound };
  *
  * playSound(playerId, soundName, volume, rate, posSettings);
  */
+//# sourceMappingURL=playSound.d.ts.map

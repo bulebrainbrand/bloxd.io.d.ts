@@ -1,4 +1,4 @@
-import { Coordinate, Direcrion, BlockRaycastResult } from "../../../type/index";
+import { Coordinate, Direcrion, BlockRaycastResult } from "@type";
 /**
  * Raycast for a block in the world.
  * Given a position and a direction, find the first block that the "ray" hits.
@@ -19,3 +19,4 @@ export { raycastForBlock };
  *
  * raycastForBlock(fromPos, dirVec);
  */
+//# sourceMappingURL=raycastForBlock.d.ts.map

@@ -1,4 +1,4 @@
-import { LifeformId, WhoDidDamage } from "../../../type/index";
+import { LifeformId, WhoDidDamage } from "@type";
 /**
  * @param {LifeformId} lifeformId
  * @param {number} changeAmount - Must be an integer. A positive amount will increase the entity's health. A negative amount will decrease the entity's shield first, then their health.
@@ -17,3 +17,4 @@ export { applyHealthChange };
  *
  * applyHealthChange(lifeformId, changeAmount, whoDidDamage, broadcastLifeformHurt)
  */
+//# sourceMappingURL=applyHealthChange.d.ts.map

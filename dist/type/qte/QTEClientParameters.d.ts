@@ -1,4 +1,4 @@
-import { GravityBarQteParams, PrecisionBarQteParams, ProgressBarQteParams, RhythmClickQteParams, TimedClickQteParams } from "../index";
+import { GravityBarQteParams, PrecisionBarQteParams, ProgressBarQteParams, RhythmClickQteParams, TimedClickQteParams } from "@type";
 export type QTEClientParameters = {
     type: "rhythmClick";
     parameters: RhythmClickQteParams;
@@ -15,3 +15,4 @@ export type QTEClientParameters = {
     type: "progressBar";
     parameters: ProgressBarQteParams;
 };
+//# sourceMappingURL=QTEClientParameters.d.ts.map

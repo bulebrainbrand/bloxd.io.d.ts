@@ -1,4 +1,4 @@
-import { MobId } from "../../../type/index";
+import { MobId } from "@type";
 /**
  * Get the mob IDs of all mobs in the world.
  *
@@ -13,3 +13,4 @@ export { getMobIds };
  *
  * getMobIds();
  */
+//# sourceMappingURL=getMobIds.d.ts.map

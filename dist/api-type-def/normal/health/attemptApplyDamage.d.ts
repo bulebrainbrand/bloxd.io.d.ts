@@ -1,4 +1,4 @@
-import { PlayerAttemptDamageOtherPlayerOpts } from "../../../type/index";
+import { PlayerAttemptDamageOtherPlayerOpts } from "@type";
 /**
  * Apply damage to a lifeform.
  * eId is the player initiating the damage, hitEId is the lifeform being hit.
@@ -72,3 +72,4 @@ export { attemptApplyDamage };
     damagerDbId = null,
     })
  */
+//# sourceMappingURL=attemptApplyDamage.d.ts.map

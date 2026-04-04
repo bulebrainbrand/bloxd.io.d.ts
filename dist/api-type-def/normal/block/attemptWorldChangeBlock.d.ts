@@ -1,4 +1,4 @@
-import { BlockName, PlayerDbId, WorldBlockChangedInfo } from "../../../type/index";
+import { BlockName, PlayerDbId, WorldBlockChangedInfo } from "@type";
 /**
  * Initiate a block change "by the world".
  * This ends up calling the onWorldChangeBlock and only makes the change if not prevented by game/plugins.
@@ -29,3 +29,4 @@ export { attemptWorldChangeBlock };
  *
  * attemptWorldChangeBlock(initiatorDbId, x, y, z, blockName, extraInfo)
  */
+//# sourceMappingURL=attemptWorldChangeBlock.d.ts.map

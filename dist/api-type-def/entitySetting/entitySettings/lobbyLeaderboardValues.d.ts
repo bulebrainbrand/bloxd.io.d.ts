@@ -1,4 +1,4 @@
-import { EntityId, LobbyLeaderboardValues, PlayerId } from "../../../type/index";
+import { EntityId, LobbyLeaderboardValues, PlayerId } from "@type";
 /**
  *
  */
@@ -61,3 +61,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=lobbyLeaderboardValues.d.ts.map

@@ -1,4 +1,4 @@
-import { EntityId } from "../../../type/index";
+import { EntityId } from "@type";
 /**
  * Delete a mesh entity
  *
@@ -15,3 +15,4 @@ export { deleteMeshEntity };
  *
  * deleteMeshEntity(eId);
  */
+//# sourceMappingURL=deleteMeshEntity.d.ts.map

@@ -1,4 +1,4 @@
-import { Coordinate, EntityId } from "../../../type/index";
+import { Coordinate, EntityId } from "@type";
 /**
  * Get position of a player / entity.
  *
@@ -15,3 +15,4 @@ export { getPosition };
  *
  * getPosition(entityId)
  */
+//# sourceMappingURL=getPosition.d.ts.map

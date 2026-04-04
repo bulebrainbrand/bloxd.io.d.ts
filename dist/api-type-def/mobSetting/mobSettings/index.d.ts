@@ -1,4 +1,4 @@
-import { MobType } from "../../../type/index";
+import { MobType } from "@type";
 import { Variation } from "./variation";
 import { Name } from "./name";
 import { MaxHealth } from "./maxHealth";
@@ -137,3 +137,4 @@ export * from "./healthRegen";
 export * from "./ridingSpeedMult";
 export * from "./metaInfo";
 export * from "./onTamedHealthMultiplier";
+//# sourceMappingURL=index.d.ts.map

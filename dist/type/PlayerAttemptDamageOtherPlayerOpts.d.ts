@@ -1,4 +1,4 @@
-import { Direcrion, EntityId, Item, LifeformBodyPart, SoundName } from "./index";
+import { Direcrion, EntityId, Item, LifeformBodyPart, SoundName } from "@type";
 export interface PlayerAttemptDamageOtherPlayerOpts {
     eId: EntityId;
     hitEId: EntityId;
@@ -17,3 +17,4 @@ export interface PlayerAttemptDamageOtherPlayerOpts {
     isTrueDamage?: boolean;
     damagerDbId?: string;
 }
+//# sourceMappingURL=PlayerAttemptDamageOtherPlayerOpts.d.ts.map

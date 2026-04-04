@@ -1,4 +1,4 @@
-import { BlockName, PlayerId } from "../../../type/index";
+import { BlockName, PlayerId } from "@type";
 /**
  * Allow a player to walk through a type of block. For blocks that are normally solid and not seethrough, the player will experience slight visual glitches while inside the block.
  *
@@ -19,3 +19,4 @@ export { setWalkThroughType };
  *
  * setWalkThroughType(playerId, blockName, disable)
  */
+//# sourceMappingURL=setWalkThroughType.d.ts.map

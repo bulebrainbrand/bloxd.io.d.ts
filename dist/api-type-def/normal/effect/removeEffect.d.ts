@@ -1,4 +1,4 @@
-import { LifeformId } from "../../../type/index";
+import { LifeformId } from "@type";
 /**
  * Remove an effect from a lifeform.
  *
@@ -17,3 +17,4 @@ export { removeEffect };
  *
  * removeEffect(lifeformId, name);
  */
+//# sourceMappingURL=removeEffect.d.ts.map

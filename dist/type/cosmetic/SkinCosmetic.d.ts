@@ -1,1 +1,2 @@
 export type SkinCosmetic = "skin_0_0" | "skin_0_1" | "skin_0_2" | "skin_0_3" | "skin_0_4" | "skin_0_5" | "skin_0_6" | "skin_0_7" | "skin_0_8" | "skin_0_9" | "skin_0_10" | "skin_0_11" | "skin_0_12" | "skin_0_13" | "skin_0_14" | "skin_0_15" | "skin_0_16" | "skin_0_17" | "skin_0_18" | "skin_0_19" | "skin_0_20" | "skin_0_21" | "skin_0_22" | "skin_0_23";
+//# sourceMappingURL=SkinCosmetic.d.ts.map

@@ -1,4 +1,4 @@
-import { applyMeleeHitOverrides, Direcrion, LifeformBodyPart, LifeformId } from "../../../type/index";
+import { applyMeleeHitOverrides, Direcrion, LifeformBodyPart, LifeformId } from "@type";
 /**
  * Make it as if hittingEId hit hitEId
  *
@@ -33,3 +33,4 @@ export { applyMeleeHit };
  *
  * applyMeleeHit(hittingEId, hitEId, dirFacing, bodyPartHit, overrides)
  */
+//# sourceMappingURL=applyMeleeHit.d.ts.map

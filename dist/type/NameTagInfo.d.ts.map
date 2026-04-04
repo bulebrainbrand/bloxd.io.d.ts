@@ -1,0 +1,1 @@
+{"version":3,"file":"NameTagInfo.d.ts","sourceRoot":"","sources":["../../src/type/NameTagInfo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,OAAO,CAAC;AAEnC,MAAM,MAAM,WAAW,GAAG;IACxB,eAAe,CAAC,EAAE,MAAM,CAAC;IACzB,OAAO,CAAC,EAAE,UAAU,EAAE,CAAC;IACvB,QAAQ,CAAC,EAAE,UAAU,EAAE,CAAC;IACxB,uBAAuB,CAAC,EAAE,MAAM,CAAC;CAClC,CAAC"}

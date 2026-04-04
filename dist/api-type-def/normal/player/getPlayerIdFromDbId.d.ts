@@ -1,4 +1,4 @@
-import { PlayerDbId, PlayerId } from "../../../type/index";
+import { PlayerDbId, PlayerId } from "@type";
 /**
  * Returns null if player not in lobby
  *
@@ -15,3 +15,4 @@ export { getPlayerIdFromDbId };
  *
  * getPlayerIdFromDbId(dbId)
  */
+//# sourceMappingURL=getPlayerIdFromDbId.d.ts.map

@@ -1,4 +1,4 @@
-import { ItemName, PlayerId } from "../../../type/index";
+import { ItemName, PlayerId } from "@type";
 /**
  * Removes crafting recipes
  *
@@ -17,3 +17,4 @@ export { removeItemCraftingRecipes };
  *
  * removeItemCraftingRecipes(playerId, itemName);
  */
+//# sourceMappingURL=removeItemCraftingRecipes.d.ts.map

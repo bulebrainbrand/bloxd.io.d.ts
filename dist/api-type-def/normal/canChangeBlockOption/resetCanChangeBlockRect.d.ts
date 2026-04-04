@@ -1,4 +1,4 @@
-import { Coordinate, PlayerId } from "../../../type/index";
+import { Coordinate, PlayerId } from "@type";
 /**
  * Remove any previous can/cant change block rect settings for a player
  *
@@ -19,3 +19,4 @@ export { resetCanChangeBlockRect };
  *
  * resetCanChangeBlockRect(playerId, pos1, pos2)
  */
+//# sourceMappingURL=resetCanChangeBlockRect.d.ts.map

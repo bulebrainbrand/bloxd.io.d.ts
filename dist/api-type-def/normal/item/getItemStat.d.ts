@@ -1,4 +1,4 @@
-import { AnyMetadataItem, ItemName, LifeformId } from "../../../type/index";
+import { AnyMetadataItem, ItemName, LifeformId } from "@type";
 /**
  * Get stat info about a block or item
  * Either based on a client option for a player: (e.g. `DirtTtb`)
@@ -27,3 +27,4 @@ export { getItemStat };
  *
  * getItemStat(lifeformId, itemName, stat)
  */
+//# sourceMappingURL=getItemStat.d.ts.map

@@ -1,4 +1,4 @@
-import { EntityId, PlayerId, StringColor } from "../../../type/index";
+import { EntityId, PlayerId, StringColor } from "@type";
 /**
  * The colour of the player in the lobby leaderboard.
  * @type {StringColor}
@@ -61,3 +61,4 @@ type ExportTypes = {
     GetOtherEntitySetting: GetOtherEntitySetting;
 };
 export default ExportTypes;
+//# sourceMappingURL=colorInLobbyLeaderboard.d.ts.map

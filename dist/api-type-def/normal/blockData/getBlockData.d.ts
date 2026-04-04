@@ -22,3 +22,4 @@ export { getBlockData };
  *
  * getBlockData(x, y, z);
  */
+//# sourceMappingURL=getBlockData.d.ts.map

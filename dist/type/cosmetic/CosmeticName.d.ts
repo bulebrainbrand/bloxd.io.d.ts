@@ -18,3 +18,4 @@ export type CosmeticName<TCosmeticType extends CosmeticType> = {
     eyes: EyesCosmetic;
     skin: SkinCosmetic;
 }[TCosmeticType] | CommonCosmetic;
+//# sourceMappingURL=CosmeticName.d.ts.map

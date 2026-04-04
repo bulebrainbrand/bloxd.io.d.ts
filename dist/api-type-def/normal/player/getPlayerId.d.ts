@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Given the name of a player, get their id
  *
@@ -15,3 +15,4 @@ export { getPlayerId };
  *
  * getPlayerId(playerName)
  */
+//# sourceMappingURL=getPlayerId.d.ts.map

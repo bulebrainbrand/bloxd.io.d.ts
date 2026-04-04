@@ -8,3 +8,4 @@ export declare const SetCanChangeApis: {
     resetCanChangeBlockType: (playerId: import("../../..").PlayerId, blockName: import("../../..").BlockNameOrId) => void;
     resetCanChangeBlockRect: (playerId: import("../../..").PlayerId, pos1: import("../../..").Coordinate, pos2: import("../../..").Coordinate) => void;
 };
+//# sourceMappingURL=index.d.ts.map

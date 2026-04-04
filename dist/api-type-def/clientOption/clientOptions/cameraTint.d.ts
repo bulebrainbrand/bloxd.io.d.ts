@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * RGBA array [r, g, b, a] for camera screen tint effect. Values fall between 0 and 1.
  * @type {[number, number, number, number]}
@@ -50,3 +50,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=cameraTint.d.ts.map

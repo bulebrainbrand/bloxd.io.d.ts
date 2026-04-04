@@ -1,4 +1,4 @@
-import { AngleDir, Coordinate, Direcrion, PlayerId } from "../../../type/index";
+import { AngleDir, Coordinate, Direcrion, PlayerId } from "@type";
 /**
  * Get the position of a player's camera and the direction (both in Euclidean and spherical coordinates) they are attempting to use an item.
  * The camPos has the same limitations described in getPlayerTargetInfo
@@ -22,3 +22,4 @@ export { getPlayerFacingInfo };
  *
  * getPlayerFacingInfo(playerId);
  */
+//# sourceMappingURL=getPlayerFacingInfo.d.ts.map

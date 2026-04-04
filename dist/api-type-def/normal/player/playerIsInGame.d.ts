@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Whether a player is currently in the game
  *
@@ -15,3 +15,4 @@ export { playerIsInGame };
  *
  * playerIsInGame(playerId)
  */
+//# sourceMappingURL=playerIsInGame.d.ts.map

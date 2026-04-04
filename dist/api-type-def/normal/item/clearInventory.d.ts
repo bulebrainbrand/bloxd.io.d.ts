@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Clear the player's inventory
  *
@@ -15,3 +15,4 @@ export { clearInventory };
  *
  * clearInventory(playerId)
  */
+//# sourceMappingURL=clearInventory.d.ts.map

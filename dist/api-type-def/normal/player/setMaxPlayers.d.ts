@@ -34,3 +34,4 @@ export { setMaxPlayers };
  *
  * setMaxPlayers(softMaxPlayers, maxPlayers);
  */
+//# sourceMappingURL=setMaxPlayers.d.ts.map

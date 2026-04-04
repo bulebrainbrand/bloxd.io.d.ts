@@ -1,4 +1,4 @@
-import { EntityId, EntityType } from "../../../type/index";
+import { EntityId, EntityType } from "@type";
 /**
  * @param {EntityId} entityId
  * @returns {EntityType}
@@ -11,3 +11,4 @@ export { getEntityType };
  *
  * getEntityType(entityId);
  */
+//# sourceMappingURL=getEntityType.d.ts.map

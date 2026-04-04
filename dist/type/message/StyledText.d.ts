@@ -4,3 +4,4 @@ export type StyledText = {
     style?: TextStyle;
     clickableUrl?: string;
 };
+//# sourceMappingURL=StyledText.d.ts.map

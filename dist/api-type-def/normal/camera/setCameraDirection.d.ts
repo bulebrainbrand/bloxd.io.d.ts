@@ -1,4 +1,4 @@
-import { Direcrion, PlayerId } from "../../../type/index";
+import { Direcrion, PlayerId } from "@type";
 /**
  * Set the direction the player is looking.
  *
@@ -17,3 +17,4 @@ export { setCameraDirection };
  *
  * setCameraDirection(playerId, direction)
  */
+//# sourceMappingURL=setCameraDirection.d.ts.map

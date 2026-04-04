@@ -1,4 +1,4 @@
-import { PlayerId, PosSettings, SoundName } from "../../../type/index";
+import { PlayerId, PosSettings, SoundName } from "@type";
 /**
  * See documentation for api.playSound
  *
@@ -27,3 +27,4 @@ export { playClientPredictedSound };
  *
  * playClientPredictedSound(soundName, volume, rate, posSettings, predictedBy);
  */
+//# sourceMappingURL=playClientPredictedSound.d.ts.map

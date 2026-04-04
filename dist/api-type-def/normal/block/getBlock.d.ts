@@ -1,4 +1,4 @@
-import { BlockName, Coordinate } from "../../../type/index";
+import { BlockName, Coordinate } from "@type";
 /**
  * Get the name of a block.
  *
@@ -25,3 +25,4 @@ export { getBlock };
  *
  * getBlock(x, y, z)
  */
+//# sourceMappingURL=getBlock.d.ts.map

@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Add (or remove if negative) aura to a player. Will not go over max level or under 0
  *
@@ -17,3 +17,4 @@ export { applyAuraChange };
  *
  * applyAuraChange(playerId, auraDiff);
  */
+//# sourceMappingURL=applyAuraChange.d.ts.map

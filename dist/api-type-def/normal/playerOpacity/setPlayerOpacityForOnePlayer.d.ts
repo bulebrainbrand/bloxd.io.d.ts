@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * Set the level of viewable opacity by one player on another player
  * A simple helper that calls setOtherEntitySetting
@@ -21,3 +21,4 @@ export { setPlayerOpacityForOnePlayer };
  *
  * setPlayerOpacityForOnePlayer(playerIdWhoViewsOpacityPlayer, playerIdOfOpacityPlayer, opacity)
  */
+//# sourceMappingURL=setPlayerOpacityForOnePlayer.d.ts.map

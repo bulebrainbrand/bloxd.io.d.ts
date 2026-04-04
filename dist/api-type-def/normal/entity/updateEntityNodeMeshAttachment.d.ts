@@ -1,4 +1,4 @@
-import { EntityId, LifeformBodyPart, MeshEntityOpts, MeshType, Rotation } from "../../../type/index";
+import { EntityId, LifeformBodyPart, MeshEntityOpts, MeshType, Rotation } from "@type";
 /**
  * Attach/detach mesh instances to/from an entity
  *
@@ -31,3 +31,4 @@ export { updateEntityNodeMeshAttachment };
  *
  * updateEntityNodeMeshAttachment(eId, node, type, opts, offset, rotation);
  */
+//# sourceMappingURL=updateEntityNodeMeshAttachment.d.ts.map

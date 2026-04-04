@@ -1,4 +1,4 @@
-import { ItemObject } from "../../../type/index";
+import { ItemObject } from "@type";
 /**
  * Get the item in a player's moonstone chest slot. Null if empty
  *
@@ -19,3 +19,4 @@ export { getMoonstoneChestItemSlot };
  *
  * getMoonstoneChestItemSlot(playerId, idx)
  */
+//# sourceMappingURL=getMoonstoneChestItemSlot.d.ts.map

@@ -1,4 +1,4 @@
-import { ItemAttributes, ItemEntityId, ItemName, LifeformId } from "../../../type/index";
+import { ItemAttributes, ItemEntityId, ItemName, LifeformId } from "@type";
 /**
  * Create a dropped item.
  *
@@ -35,3 +35,4 @@ export { createItemDrop };
  *
  * createItemDrop(x, y, z, itemName, amount, mergeItems, attributes, timeTillDespawn, dropperId, options)
  */
+//# sourceMappingURL=createItemDrop.d.ts.map

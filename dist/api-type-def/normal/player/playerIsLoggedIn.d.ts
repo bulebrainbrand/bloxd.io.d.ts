@@ -1,4 +1,4 @@
-import { PlayerId } from "../../../type/index";
+import { PlayerId } from "@type";
 /**
  * @param {PlayerId} playerId
  * @returns {boolean}
@@ -11,3 +11,4 @@ export { playerIsLoggedIn };
  *
  * playerIsLoggedIn(playerId)
  */
+//# sourceMappingURL=playerIsLoggedIn.d.ts.map

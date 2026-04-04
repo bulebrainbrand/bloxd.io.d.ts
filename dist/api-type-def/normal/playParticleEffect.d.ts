@@ -1,4 +1,4 @@
-import { ParticlePresetOpts, PlayerId, TempParticleSystemOpts } from "../../type/index";
+import { ParticlePresetOpts, PlayerId, TempParticleSystemOpts } from "@type";
 /**
  * Play particle effect on all clients, or only on some clients if clientPredictedBy is specified
  *
@@ -19,3 +19,4 @@ export { playParticleEffect };
  *
  * playParticleEffect(opts, clientPredictedBy)
  */
+//# sourceMappingURL=playParticleEffect.d.ts.map

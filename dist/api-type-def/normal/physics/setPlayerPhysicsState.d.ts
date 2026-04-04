@@ -1,4 +1,4 @@
-import { PlayerId, PlayerPhysicsStateData } from "../../../type/index";
+import { PlayerId, PlayerPhysicsStateData } from "@type";
 /**
  * Set physics state of player (vehicle type and tier)
  *
@@ -19,3 +19,4 @@ export { setPlayerPhysicsState };
  *
  * setPlayerPhysicsState(playerId, physicsState, positionOffset);
  */
+//# sourceMappingURL=setPlayerPhysicsState.d.ts.map

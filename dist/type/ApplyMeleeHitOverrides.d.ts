@@ -5,3 +5,4 @@ export type applyMeleeHitOverrides = {
     horizontalKbMultiplier?: number;
     verticalKbMultiplier?: number;
 };
+//# sourceMappingURL=ApplyMeleeHitOverrides.d.ts.map

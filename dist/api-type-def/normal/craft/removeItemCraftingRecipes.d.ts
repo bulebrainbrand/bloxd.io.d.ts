@@ -17,3 +17,4 @@ export { removeItemCraftingRecipes };
  *
  * removeItemCraftingRecipes(playerId, itemName);
  */
+//# sourceMappingURL=removeItemCraftingRecipes.d.ts.map

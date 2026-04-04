@@ -15,3 +15,4 @@ export { isMobile };
  *
  * isMobile(playerId)
  */
+//# sourceMappingURL=isMobile.d.ts.map

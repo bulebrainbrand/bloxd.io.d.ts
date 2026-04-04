@@ -21,3 +21,4 @@ export { setVelocity };
  *
  * setVelocity(eId, x, y, z);
  */
+//# sourceMappingURL=setVelocity.d.ts.map

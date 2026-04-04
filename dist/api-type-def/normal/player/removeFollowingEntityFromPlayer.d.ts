@@ -17,3 +17,4 @@ export { removeFollowingEntityFromPlayer };
  *
  * removeFollowingEntityFromPlayer(playerId, entityEId);
  */
+//# sourceMappingURL=removeFollowingEntityFromPlayer.d.ts.map

@@ -15,3 +15,4 @@ export { getSelectedInventorySlotI };
  *
  * getSelectedInventorySlotI(playerId)
  */
+//# sourceMappingURL=getSelectedInventorySlotI.d.ts.map

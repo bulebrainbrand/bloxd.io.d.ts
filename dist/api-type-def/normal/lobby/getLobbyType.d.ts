@@ -13,3 +13,4 @@ export { getLobbyType };
  *
  * getLobbyType();
  */
+//# sourceMappingURL=getLobbyType.d.ts.map

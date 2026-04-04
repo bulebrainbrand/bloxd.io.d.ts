@@ -3,3 +3,4 @@ export declare const CraftApis: {
     removeItemCraftingRecipes: (playerId: import("../../..").PlayerId, itemName: null | import("../../..").ItemName) => void;
     resetItemCraftingRecipes: (playerId: import("../../..").PlayerId, itemName: import("../../..").ItemName | null) => void;
 };
+//# sourceMappingURL=index.d.ts.map

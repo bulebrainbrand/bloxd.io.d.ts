@@ -23,3 +23,4 @@ export { checkValid };
  *
  * checkValid(entityId)
  */
+//# sourceMappingURL=checkValid.d.ts.map

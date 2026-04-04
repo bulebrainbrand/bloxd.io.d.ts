@@ -19,3 +19,4 @@ export { removeItemName };
  *
  * removeItemName(playerId, itemName, amount)
  */
+//# sourceMappingURL=removeItemName.d.ts.map

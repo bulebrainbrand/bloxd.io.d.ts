@@ -13,3 +13,4 @@ export declare const CameraApis: {
     setCameraDirection: (playerId: import("../../..").PlayerId, direction: import("../../..").Direcrion) => void;
     setCameraZoom: (playerId: import("../../..").PlayerId, zoom: number) => void;
 };
+//# sourceMappingURL=index.d.ts.map

@@ -9,3 +9,4 @@ export type ProgressBarQteParams = {
     scale?: number;
     rotation?: number;
 };
+//# sourceMappingURL=ProgressBarQteParams.d.ts.map

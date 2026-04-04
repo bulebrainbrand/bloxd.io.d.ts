@@ -19,3 +19,4 @@ export { setBlockRect };
  *
  * setBlockRect(pos1, pos2, blockName)
  */
+//# sourceMappingURL=setBlockRect.d.ts.map

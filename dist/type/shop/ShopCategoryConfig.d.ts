@@ -7,3 +7,4 @@ export type ShopCategoryConfig = Partial<{
     sortPriority: number;
     description: string | CustomTextStyling;
 }>;
+//# sourceMappingURL=ShopCategoryConfig.d.ts.map

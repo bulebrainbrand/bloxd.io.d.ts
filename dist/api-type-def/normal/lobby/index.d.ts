@@ -3,3 +3,4 @@ export declare const LobbyApis: {
     getLobbyType: () => import("../../..").LobbyType;
     isPublicLobby: () => boolean;
 };
+//# sourceMappingURL=index.d.ts.map

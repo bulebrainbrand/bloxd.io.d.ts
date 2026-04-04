@@ -40,3 +40,4 @@ export type SetEveryoneSettingForPlayer = GenerateEntitySettingInterface<AllEnti
 export type SetOtherEntitySetting = GenerateEntitySettingInterface<AllEntitySettingUnion, "SetOtherEntitySetting">;
 export type GetOtherEntitySetting = GenerateEntitySettingInterface<AllEntitySettingUnion, "GetOtherEntitySetting">;
 export {};
+//# sourceMappingURL=index.d.ts.map

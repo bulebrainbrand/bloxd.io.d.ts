@@ -35,3 +35,4 @@ export { setDirectionArrow };
  *
  * setDirectionArrow(playerId, id, position, text, showDistance, style);
  */
+//# sourceMappingURL=setDirectionArrow.d.ts.map

@@ -15,3 +15,4 @@ export { removeMiddleScreenBar };
  *
  * removeMiddleScreenBar(playerId);
  */
+//# sourceMappingURL=removeMiddleScreenBar.d.ts.map

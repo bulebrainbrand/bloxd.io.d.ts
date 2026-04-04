@@ -116,3 +116,4 @@ type VariationDictionary = {
 };
 export type Variation<K extends MobType> = VariationDictionary[K];
 export {};
+//# sourceMappingURL=variation.d.ts.map

@@ -5,3 +5,4 @@ export type PosSettings = {
     maxHearDist?: number;
     refDistance?: number;
 };
+//# sourceMappingURL=PosSettings.d.ts.map

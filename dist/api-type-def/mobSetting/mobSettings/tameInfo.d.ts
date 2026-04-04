@@ -1,0 +1,1 @@
+//# sourceMappingURL=tameInfo.d.ts.map

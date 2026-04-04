@@ -21,3 +21,4 @@ export { setEntityRotation };
  *
  * setEntityRotation(entityId, xRotation, yRotation, zRotation);
  */
+//# sourceMappingURL=setEntityRotation.d.ts.map

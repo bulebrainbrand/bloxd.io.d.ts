@@ -19,3 +19,4 @@ export { setCantChangeBlockType };
  *
  * setCantChangeBlockType(playerId, blockName)
  */
+//# sourceMappingURL=setCantChangeBlockType.d.ts.map

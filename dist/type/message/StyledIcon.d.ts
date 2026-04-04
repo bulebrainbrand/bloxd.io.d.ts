@@ -8,3 +8,4 @@ export type StyledIcon = {
         opacity?: number;
     };
 };
+//# sourceMappingURL=StyledIcon.d.ts.map

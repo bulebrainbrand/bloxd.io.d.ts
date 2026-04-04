@@ -17,3 +17,4 @@ export interface PlayerAttemptDamageOtherPlayerOpts {
     isTrueDamage?: boolean;
     damagerDbId?: string;
 }
+//# sourceMappingURL=PlayerAttemptDamageOtherPlayerOpts.d.ts.map

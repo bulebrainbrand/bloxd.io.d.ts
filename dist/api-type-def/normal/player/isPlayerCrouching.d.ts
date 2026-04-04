@@ -17,3 +17,4 @@ export { isPlayerCrouching };
  *
  * isPlayerCrouching(playerId);
  */
+//# sourceMappingURL=isPlayerCrouching.d.ts.map

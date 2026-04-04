@@ -29,3 +29,4 @@ export { attemptWorldChangeBlock };
  *
  * attemptWorldChangeBlock(initiatorDbId, x, y, z, blockName, extraInfo)
  */
+//# sourceMappingURL=attemptWorldChangeBlock.d.ts.map

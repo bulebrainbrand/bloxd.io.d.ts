@@ -25,3 +25,4 @@ export { giveStandardChestItem };
  *
  * giveStandardChestItem(chestPos, itemName, itemAmount, playerId, attributes)
  */
+//# sourceMappingURL=giveStandardChestItem.d.ts.map

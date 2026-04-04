@@ -19,3 +19,4 @@ export { setCameraZoom };
  *
  * setCameraZoom(playerId, zoom);
  */
+//# sourceMappingURL=setCameraZoom.d.ts.map

@@ -35,3 +35,4 @@ export { sendMessage };
  *
  * sendMessage(playerId, message, style)
  */
+//# sourceMappingURL=sendMessage.d.ts.map

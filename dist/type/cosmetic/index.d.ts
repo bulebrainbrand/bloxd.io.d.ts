@@ -9,3 +9,4 @@ export * from "./HeadCosmetic";
 export * from "./LegsCosmetic";
 export * from "./ShoesCosmetic";
 export * from "./SkinCosmetic";
+//# sourceMappingURL=index.d.ts.map

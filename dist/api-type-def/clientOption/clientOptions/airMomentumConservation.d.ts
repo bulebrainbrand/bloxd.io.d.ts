@@ -58,3 +58,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=airMomentumConservation.d.ts.map

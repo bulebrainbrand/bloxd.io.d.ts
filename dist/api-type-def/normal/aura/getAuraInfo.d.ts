@@ -19,3 +19,4 @@ export { getAuraInfo };
  *
  * getAuraInfo(playerId);
  */
+//# sourceMappingURL=getAuraInfo.d.ts.map

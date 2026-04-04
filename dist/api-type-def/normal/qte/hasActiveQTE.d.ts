@@ -15,3 +15,4 @@ export { hasActiveQTE };
  *
  * hasActiveQTE(playerId);
  */
+//# sourceMappingURL=hasActiveQTE.d.ts.map

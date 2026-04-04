@@ -19,3 +19,4 @@ export { setWalkThroughType };
  *
  * setWalkThroughType(playerId, blockName, disable)
  */
+//# sourceMappingURL=setWalkThroughType.d.ts.map

@@ -15,3 +15,4 @@ export { clearInventory };
  *
  * clearInventory(playerId)
  */
+//# sourceMappingURL=clearInventory.d.ts.map

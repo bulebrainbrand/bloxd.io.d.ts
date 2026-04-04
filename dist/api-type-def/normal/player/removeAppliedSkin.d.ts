@@ -15,3 +15,4 @@ export { removeAppliedSkin };
  *
  * removeAppliedSkin(playerId);
  */
+//# sourceMappingURL=removeAppliedSkin.d.ts.map

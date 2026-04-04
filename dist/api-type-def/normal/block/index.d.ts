@@ -28,3 +28,4 @@ export declare const BlockApis: {
     blockCoordToChunkId: (pos: import("../../..").Coordinate) => import("../../..").ChunkId;
     chunkIdToBotLeftCoord: (chunkId: import("../../..").ChunkId) => import("../../..").Coordinate;
 };
+//# sourceMappingURL=index.d.ts.map

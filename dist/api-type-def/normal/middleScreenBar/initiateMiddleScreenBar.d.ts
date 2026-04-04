@@ -28,3 +28,4 @@ export { initiateMiddleScreenBar };
   horizontalBarRemOffset,
 );
  */
+//# sourceMappingURL=initiateMiddleScreenBar.d.ts.map

@@ -22,3 +22,4 @@ export { setStandardChestItemSlot };
  *
  * setStandardChestItemSlot(chestPos, idx, itemName, itemAmount, playerId, attributes)
  */
+//# sourceMappingURL=setStandardChestItemSlot.d.ts.map

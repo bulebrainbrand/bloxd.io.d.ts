@@ -23,3 +23,4 @@ export { sendOverShopInfo };
  *
  * sendOverShopInfo(playerId, info);
  */
+//# sourceMappingURL=sendOverShopInfo.d.ts.map

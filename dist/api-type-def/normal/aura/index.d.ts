@@ -7,3 +7,4 @@ export declare const AuraApis: {
     };
     setTotalAura: (playerId: import("../../..").PlayerId, totalAura: number) => void;
 };
+//# sourceMappingURL=index.d.ts.map

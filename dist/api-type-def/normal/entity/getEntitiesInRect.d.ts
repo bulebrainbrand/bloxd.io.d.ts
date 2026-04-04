@@ -17,3 +17,4 @@ export { getEntitiesInRect };
  *
  * getEntitiesInRect(minCoords, maxCoords);
  */
+//# sourceMappingURL=getEntitiesInRect.d.ts.map

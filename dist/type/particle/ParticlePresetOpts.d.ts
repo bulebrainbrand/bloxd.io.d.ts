@@ -18,3 +18,4 @@ export type ParticlePresetOpts = {
     pos1: Coordinate;
     pos2: Coordinate;
 };
+//# sourceMappingURL=ParticlePresetOpts.d.ts.map

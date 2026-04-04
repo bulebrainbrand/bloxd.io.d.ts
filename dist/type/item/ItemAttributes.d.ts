@@ -3,3 +3,4 @@ export type ItemAttributes = {
     customDescription?: string;
     customAttributes?: Record<string, any>;
 };
+//# sourceMappingURL=ItemAttributes.d.ts.map

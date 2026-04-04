@@ -12,3 +12,4 @@ export type GravityBarQteParams = {
     description: CustomTextStyling;
     icon?: Icon;
 };
+//# sourceMappingURL=GravityBarQteParams.d.ts.map

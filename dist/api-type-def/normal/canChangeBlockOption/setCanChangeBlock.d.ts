@@ -25,3 +25,4 @@ export { setCanChangeBlock };
  *
  * setCanChangeBlock(playerId, x, y, z)
  */
+//# sourceMappingURL=setCanChangeBlock.d.ts.map

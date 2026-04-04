@@ -45,3 +45,4 @@ export { attemptSpawnMob };
  *
  * attemptSpawnMob(mobType, x, y, z, opts);
  */
+//# sourceMappingURL=attemptSpawnMob.d.ts.map

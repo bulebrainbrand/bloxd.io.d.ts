@@ -19,3 +19,4 @@ export { getItemSlot };
  *
  * getItemSlot(playerId, itemSlotIndex)
  */
+//# sourceMappingURL=getItemSlot.d.ts.map

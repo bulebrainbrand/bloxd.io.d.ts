@@ -10,3 +10,4 @@ export { setCantPickUpItem };
  *
  * setCantPickUpItem(playerId, itemId)
  */
+//# sourceMappingURL=setCantPickUpItem.d.ts.map

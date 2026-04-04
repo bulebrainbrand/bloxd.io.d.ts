@@ -17,3 +17,4 @@ export { setCameraDirection };
  *
  * setCameraDirection(playerId, direction)
  */
+//# sourceMappingURL=setCameraDirection.d.ts.map

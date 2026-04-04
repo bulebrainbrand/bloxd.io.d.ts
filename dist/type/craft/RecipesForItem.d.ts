@@ -9,3 +9,4 @@ export type RecipesForItem = {
     onCraftedAura?: number;
     isStarterRecipe?: boolean;
 }[];
+//# sourceMappingURL=RecipesForItem.d.ts.map

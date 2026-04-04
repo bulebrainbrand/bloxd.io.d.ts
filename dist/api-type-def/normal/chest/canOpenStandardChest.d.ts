@@ -25,3 +25,4 @@ export { canOpenStandardChest };
  *
  * canOpenStandardChest(playerId, chestX, chestY, chestZ)
  */
+//# sourceMappingURL=canOpenStandardChest.d.ts.map

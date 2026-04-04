@@ -51,3 +51,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=speedMultiplier.d.ts.map

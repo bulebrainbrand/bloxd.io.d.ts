@@ -27,3 +27,4 @@ export { attemptCreateMeshEntity };
  *
  * attemptCreateMeshEntity(type, opts, name, physicsOptions, initiatorId);
  */
+//# sourceMappingURL=attemptCreateMeshEntity.d.ts.map

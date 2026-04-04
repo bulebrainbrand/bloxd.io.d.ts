@@ -27,3 +27,4 @@ export { getItemStat };
  *
  * getItemStat(lifeformId, itemName, stat)
  */
+//# sourceMappingURL=getItemStat.d.ts.map

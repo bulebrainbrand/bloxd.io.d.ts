@@ -17,3 +17,4 @@ export { setShieldAmount };
  *
  * setShieldAmount(lifeformId, newShieldAmount)
  */
+//# sourceMappingURL=setShieldAmount.d.ts.map

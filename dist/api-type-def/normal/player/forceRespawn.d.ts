@@ -17,3 +17,4 @@ export { forceRespawn };
  *
  * forceRespawn(playerId, respawnPos)
  */
+//# sourceMappingURL=forceRespawn.d.ts.map

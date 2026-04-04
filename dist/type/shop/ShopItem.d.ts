@@ -23,3 +23,4 @@ export type ShopItem = {
     sortPriority?: number;
     hidden?: boolean;
 };
+//# sourceMappingURL=ShopItem.d.ts.map

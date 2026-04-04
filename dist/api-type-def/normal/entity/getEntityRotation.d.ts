@@ -15,3 +15,4 @@ export { getEntityRotation };
  *
  * getEntityRotation(entityId)
  */
+//# sourceMappingURL=getEntityRotation.d.ts.map

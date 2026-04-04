@@ -15,3 +15,4 @@ export { deleteThrowable };
  *
  * deleteThrowable(eId);
  */
+//# sourceMappingURL=deleteThrowable.d.ts.map

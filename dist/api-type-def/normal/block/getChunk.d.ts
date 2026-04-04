@@ -25,3 +25,4 @@ export { getChunk };
  *
  * getChunk(pos)
  */
+//# sourceMappingURL=getChunk.d.ts.map

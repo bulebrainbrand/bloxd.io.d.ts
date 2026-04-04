@@ -24,3 +24,4 @@ export { setBlockData };
  *
  * setBlockData(x, y, z, data);
  */
+//# sourceMappingURL=setBlockData.d.ts.map

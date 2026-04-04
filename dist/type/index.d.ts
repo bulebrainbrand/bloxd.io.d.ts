@@ -41,3 +41,4 @@ export * from "./player/index";
 export * from "./mesh/index";
 export * from "./Rotation";
 export * from "./cosmetic/index";
+//# sourceMappingURL=index.d.ts.map

@@ -1,3 +1,4 @@
 import { MobId } from "./MobId";
 import { PlayerId } from "./PlayerId";
 export type LifeformId = PlayerId | MobId;
+//# sourceMappingURL=LifeFormId.d.ts.map

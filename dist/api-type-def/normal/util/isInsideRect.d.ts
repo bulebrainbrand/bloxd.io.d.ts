@@ -21,3 +21,4 @@ export { isInsideRect };
  *
  * isInsideRect(coordsToCheck, pos1, pos2, addOneToMax);
  */
+//# sourceMappingURL=isInsideRect.d.ts.map

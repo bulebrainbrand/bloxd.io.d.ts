@@ -19,3 +19,4 @@ export { getInventoryItemAmount };
  *
  * getInventoryItemAmount(playerId, itemName)
  */
+//# sourceMappingURL=getInventoryItemAmount.d.ts.map

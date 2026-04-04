@@ -6,3 +6,4 @@ export type EntityName = {
         colour?: StringColor;
     };
 };
+//# sourceMappingURL=EntityName.d.ts.map

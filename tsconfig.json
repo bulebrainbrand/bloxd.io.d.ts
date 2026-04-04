@@ -3,15 +3,19 @@
     "target": "esnext",
     "module": "esnext",
     "declaration": true,
+    "declarationMap": true,
     "emitDeclarationOnly": true,
     "outDir": "./dist",
     "strict": true,
     "skipLibCheck": true,
     "rootDir": "./src",
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@index": ["./src/index"],
       "@type": ["./src/type/index"]
-    }
+    },
+    "declarationDir": "./dist"
   },
   "include": ["src/**/*.ts"]
 }

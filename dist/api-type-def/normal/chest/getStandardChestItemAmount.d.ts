@@ -19,3 +19,4 @@ export { getStandardChestItemAmount };
  *
  * getStandardChestItemAmount(chestPos, itemName)
  */
+//# sourceMappingURL=getStandardChestItemAmount.d.ts.map

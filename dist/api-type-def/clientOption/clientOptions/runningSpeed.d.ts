@@ -49,3 +49,4 @@ type ExportTypes = {
     ValueType: ValueType;
 };
 export default ExportTypes;
+//# sourceMappingURL=runningSpeed.d.ts.map

@@ -19,3 +19,4 @@ export { resetCanChangeBlockRect };
  *
  * resetCanChangeBlockRect(playerId, pos1, pos2)
  */
+//# sourceMappingURL=resetCanChangeBlockRect.d.ts.map

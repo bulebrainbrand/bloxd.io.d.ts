@@ -17,3 +17,4 @@ export { setItemAmount };
  *
  * setItemAmount(itemId, newAmount);
  */
+//# sourceMappingURL=setItemAmount.d.ts.map

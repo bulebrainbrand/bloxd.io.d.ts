@@ -31,3 +31,4 @@ export { setBlock };
  *
  * setBlock(x, y, z, blockName)
  */
+//# sourceMappingURL=setBlock.d.ts.map

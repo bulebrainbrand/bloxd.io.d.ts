@@ -17,3 +17,4 @@ export { closeChestForPlayer };
  *
  * closeChestForPlayer(playerId)
  */
+//# sourceMappingURL=closeChestForPlayer.d.ts.map

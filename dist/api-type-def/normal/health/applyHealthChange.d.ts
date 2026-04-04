@@ -17,3 +17,4 @@ export { applyHealthChange };
  *
  * applyHealthChange(lifeformId, changeAmount, whoDidDamage, broadcastLifeformHurt)
  */
+//# sourceMappingURL=applyHealthChange.d.ts.map

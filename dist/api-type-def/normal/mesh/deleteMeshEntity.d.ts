@@ -15,3 +15,4 @@ export { deleteMeshEntity };
  *
  * deleteMeshEntity(eId);
  */
+//# sourceMappingURL=deleteMeshEntity.d.ts.map

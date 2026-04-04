@@ -17,3 +17,4 @@ export { getShieldAmount };
  *
  * getShieldAmount(entityId)
  */
+//# sourceMappingURL=getShieldAmount.d.ts.map

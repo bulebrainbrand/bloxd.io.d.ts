@@ -21,3 +21,4 @@ export { openShop };
  *
  * openShop(playerId, toggle, forceCategoryKey, onlyIfNonEmpty);
  */
+//# sourceMappingURL=openShop.d.ts.map

@@ -15,3 +15,4 @@ export { clearKillstreak };
  *
  * clearKillstreak(playerId)
  */
+//# sourceMappingURL=clearKillstreak.d.ts.map

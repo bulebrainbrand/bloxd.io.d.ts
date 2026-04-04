@@ -52,3 +52,4 @@ export declare const EntitySettingApis: {
     getOtherEntitySetting: GetOtherEntitySettingType;
 };
 export * from "./entitySettings/index";
+//# sourceMappingURL=index.d.ts.map

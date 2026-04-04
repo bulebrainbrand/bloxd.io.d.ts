@@ -17,3 +17,4 @@ export { getEntityHeading };
  *
  * getEntityHeading(entityId);
  */
+//# sourceMappingURL=getEntityHeading.d.ts.map

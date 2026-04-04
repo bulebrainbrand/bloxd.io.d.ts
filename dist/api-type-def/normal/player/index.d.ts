@@ -14,3 +14,4 @@ export declare const PlayerApis: {
     changePlayerIntoSkin: <TCosmeticType extends import("../../..").CosmeticType>(playerId: import("../../..").PlayerId, cosmeticType: TCosmeticType, cosmeticName: import("../../..").CosmeticName<TCosmeticType>) => void;
     setPlayerPose: (playerId: import("../../..").PlayerId, pose: import("../../..").PlayerPose, poseOffset?: [number, number, number]) => void;
 };
+//# sourceMappingURL=index.d.ts.map

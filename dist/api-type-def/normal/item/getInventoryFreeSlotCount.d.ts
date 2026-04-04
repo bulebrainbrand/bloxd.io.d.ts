@@ -15,3 +15,4 @@ export { getInventoryFreeSlotCount };
  *
  * getInventoryFreeSlotCount(playerId)
  */
+//# sourceMappingURL=getInventoryFreeSlotCount.d.ts.map

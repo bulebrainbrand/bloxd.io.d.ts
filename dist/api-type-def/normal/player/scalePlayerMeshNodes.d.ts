@@ -19,3 +19,4 @@ export { scalePlayerMeshNodes };
  *
  * scalePlayerMeshNodes(playerId, nodeScales);
  */
+//# sourceMappingURL=scalePlayerMeshNodes.d.ts.map

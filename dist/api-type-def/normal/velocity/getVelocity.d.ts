@@ -17,3 +17,4 @@ export { getVelocity };
  *
  * getVelocity(eId);
  */
+//# sourceMappingURL=getVelocity.d.ts.map

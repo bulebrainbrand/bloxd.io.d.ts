@@ -21,3 +21,4 @@ export { applyImpulse };
  *
  * applyImpulse(eId, xImpulse, yImpulse, zImpulse);
  */
+//# sourceMappingURL=applyImpulse.d.ts.map

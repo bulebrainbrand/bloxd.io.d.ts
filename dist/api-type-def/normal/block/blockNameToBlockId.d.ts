@@ -27,3 +27,4 @@ export { blockNameToBlockId };
  *
  * blockNameToBlockId(blockName, allowInvalidBlock)
  */
+//# sourceMappingURL=blockNameToBlockId.d.ts.map

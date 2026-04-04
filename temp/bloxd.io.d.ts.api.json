@@ -4016,7 +4016,295 @@
             },
             {
               "kind": "Content",
-              "text": ">) => void;\n    readonly getPlayerPhysicsState: (playerId: import(\"../type/index\")."
+              "text": ">) => void;\n    readonly isBlockInLoadedChunk: (x: number, y: number, z: number) => boolean;\n    readonly getBlock: {\n        (x: number, y: number, z: number): import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        (pos: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    };\n    readonly getBlockId: (x: number, y: number, z: number) => import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly setBlock: {\n        (x: number, y: number, z: number, blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): void;\n        (pos: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): void;\n    };\n    readonly attemptWorldChangeBlock: (initiatorDbId: null | import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "PlayerDbId",
+              "canonicalReference": "bloxd.io.d.ts!PlayerDbId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", x: number, y: number, z: number, blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", extraInfo?: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "WorldBlockChangedInfo",
+              "canonicalReference": "bloxd.io.d.ts!WorldBlockChangedInfo:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => \"preventChange\" | \"preventDrop\" | void;\n    readonly getBlockSolidity: {\n        (x: number, y: number, z: number): boolean;\n        (pos: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): boolean;\n    };\n    readonly setBlockRect: (pos1: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", pos2: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockNameOrId",
+              "canonicalReference": "bloxd.io.d.ts!BlockNameOrId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => void;\n    readonly setBlockWalls: (pos1: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", pos2: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockNameOrId",
+              "canonicalReference": "bloxd.io.d.ts!BlockNameOrId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", hasFloor?: boolean, hasCeiling?: boolean) => void;\n    readonly getChunk: (pos: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => never;\n    readonly getEmptyChunk: () => never;\n    readonly getMetaInfo: (blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockNameOrId",
+              "canonicalReference": "bloxd.io.d.ts!BlockNameOrId:type"
+            },
+            {
+              "kind": "Content",
+              "text": " | null | undefined) => import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ItemMetaInfo",
+              "canonicalReference": "bloxd.io.d.ts!ItemMetaInfo:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly blockNameToBlockId: {\n        (blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        (blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", allowInvalidBlock: true): null | import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        (blockName: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", allowInvalidBlock: false): import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    };\n    readonly blockIdToBlockName: (blockId: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly blockCoordToChunkId: (pos: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ChunkId",
+              "canonicalReference": "bloxd.io.d.ts!ChunkId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly chunkIdToBotLeftCoord: (chunkId: import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ChunkId",
+              "canonicalReference": "bloxd.io.d.ts!ChunkId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => import(\"../type/index\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly getPlayerPhysicsState: (playerId: import(\"../type/index\")."
             },
             {
               "kind": "Reference",
@@ -6833,7 +7121,7 @@
           "name": "Apis",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 1416
+            "endIndex": 1480
           }
         },
         {
@@ -13555,7 +13843,295 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly getPlayerPhysicsState: (playerId: import(\"../..\")."
+              "text": "{\n    readonly isBlockInLoadedChunk: (x: number, y: number, z: number) => boolean;\n    readonly getBlock: {\n        (x: number, y: number, z: number): import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        (pos: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    };\n    readonly getBlockId: (x: number, y: number, z: number) => import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly setBlock: {\n        (x: number, y: number, z: number, blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): void;\n        (pos: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): void;\n    };\n    readonly attemptWorldChangeBlock: (initiatorDbId: null | import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "PlayerDbId",
+              "canonicalReference": "bloxd.io.d.ts!PlayerDbId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", x: number, y: number, z: number, blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", extraInfo?: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "WorldBlockChangedInfo",
+              "canonicalReference": "bloxd.io.d.ts!WorldBlockChangedInfo:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => \"preventChange\" | \"preventDrop\" | void;\n    readonly getBlockSolidity: {\n        (x: number, y: number, z: number): boolean;\n        (pos: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): boolean;\n    };\n    readonly setBlockRect: (pos1: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", pos2: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockNameOrId",
+              "canonicalReference": "bloxd.io.d.ts!BlockNameOrId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => void;\n    readonly setBlockWalls: (pos1: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", pos2: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockNameOrId",
+              "canonicalReference": "bloxd.io.d.ts!BlockNameOrId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", hasFloor?: boolean, hasCeiling?: boolean) => void;\n    readonly getChunk: (pos: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => never;\n    readonly getEmptyChunk: () => never;\n    readonly getMetaInfo: (blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockNameOrId",
+              "canonicalReference": "bloxd.io.d.ts!BlockNameOrId:type"
+            },
+            {
+              "kind": "Content",
+              "text": " | null | undefined) => import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ItemMetaInfo",
+              "canonicalReference": "bloxd.io.d.ts!ItemMetaInfo:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly blockNameToBlockId: {\n        (blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        (blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", allowInvalidBlock: true): null | import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        (blockName: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", allowInvalidBlock: false): import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    };\n    readonly blockIdToBlockName: (blockId: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockId",
+              "canonicalReference": "bloxd.io.d.ts!BlockId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "BlockName",
+              "canonicalReference": "bloxd.io.d.ts!BlockName:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly blockCoordToChunkId: (pos: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ChunkId",
+              "canonicalReference": "bloxd.io.d.ts!ChunkId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly chunkIdToBotLeftCoord: (chunkId: import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ChunkId",
+              "canonicalReference": "bloxd.io.d.ts!ChunkId:type"
+            },
+            {
+              "kind": "Content",
+              "text": ") => import(\"../..\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "Coordinate",
+              "canonicalReference": "bloxd.io.d.ts!Coordinate:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly getPlayerPhysicsState: (playerId: import(\"../..\")."
             },
             {
               "kind": "Reference",
@@ -16372,7 +16948,7 @@
           "name": "NormalApis",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 626
+            "endIndex": 690
           }
         },
         {

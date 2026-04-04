@@ -20,7 +20,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc && tsc-alias && api-extractor run --local"
+    "build": "tsc && tsc-alias && api-extractor run --local && node -e \"require('fs').appendFileSync('./dist/index.d.ts','declare global {var api:typeof Apis;var myId:PlayerId | null;var thisPos:Coordinate | null; }')\""
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.33.0",

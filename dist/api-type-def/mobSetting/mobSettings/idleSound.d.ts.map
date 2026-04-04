@@ -1,1 +1,0 @@
-{"version":3,"file":"idleSound.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/mobSetting/mobSettings/idleSound.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAE3C,KAAK,mBAAmB,GAAG,MAAM,CAAC,OAAO,EAAE,SAAS,GAAG,MAAM,GAAG,IAAI,CAAC,CAAC;AAEtE,MAAM,MAAM,SAAS,CAAC,CAAC,SAAS,OAAO,IAAI,mBAAmB,CAAC,CAAC,CAAC,CAAC"}

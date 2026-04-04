@@ -1,1 +1,0 @@
-{"version":3,"file":"PosSettings.d.ts","sourceRoot":"","sources":["../../../src/type/sound/PosSettings.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,OAAO,CAAC;AACjC,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAE3C,MAAM,MAAM,WAAW,GAAG;IACxB,aAAa,EAAE,QAAQ,GAAG,UAAU,CAAC;IACrC,WAAW,CAAC,EAAE,MAAM,CAAC;IACrB,WAAW,CAAC,EAAE,MAAM,CAAC;CACtB,CAAC"}

@@ -1,2 +1,0 @@
-export type InGameEffectName = "Damage" | "Damage Reduction" | "Speed" | "Jump Boost" | "Haste" | "Frozen" | "Hydrated" | "Invisible" | "Poisoned" | "Slowness" | "Weakness" | "Health Regen" | "Double Jump" | "Heat Resistance" | "Thief" | "X-Ray Vision" | "Mining Yield" | "Brain Rot" | "Feather Falling" | "Rested Damage" | "Rested Speed" | "Rested Haste" | "Rested Farming Yield" | "Rested Aura" | "Bounciness" | "Wall Climbing" | "Air Walk" | "Pickpocketer" | "Lifesteal" | "Blindness" | "Thorns" | "Poopy";
-//# sourceMappingURL=InGameEffectName.d.ts.map

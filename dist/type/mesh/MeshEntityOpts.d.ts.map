@@ -1,1 +1,0 @@
-{"version":3,"file":"MeshEntityOpts.d.ts","sourceRoot":"","sources":["../../../src/type/mesh/MeshEntityOpts.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,cAAc,EACd,OAAO,EACP,sBAAsB,EACtB,UAAU,EACX,MAAM,SAAS,CAAC;AAEjB,MAAM,MAAM,cAAc,GAAG;IAC3B,GAAG,EAAE,OAAO,CAAC;IACb,UAAU,EAAE,cAAc,CAAC;IAC3B,MAAM,EAAE,UAAU,CAAC;IACnB,eAAe,EAAE,sBAAsB,CAAC;CACzC,CAAC"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"getInventoryItemAmount.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/normal/item/getInventoryItemAmount.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAY,QAAQ,EAAE,MAAM,OAAO,CAAC;AAEjD;;;;;;;GAOG;AACH,OAAO,CAAC,MAAM,sBAAsB,EAAE,CACpC,QAAQ,EAAE,QAAQ,EAClB,QAAQ,EAAE,IAAI,KACX,MAAM,CAAC;AAEZ,OAAO,EAAE,sBAAsB,EAAE,CAAC;AAElC;;;;;;;;;GASG"}

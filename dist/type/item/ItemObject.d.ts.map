@@ -1,1 +1,0 @@
-{"version":3,"file":"ItemObject.d.ts","sourceRoot":"","sources":["../../../src/type/item/ItemObject.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAElD,MAAM,MAAM,UAAU,GAAG;IACvB,IAAI,EAAE,MAAM,CAAC;IACb,MAAM,EAAE,MAAM,GAAG,IAAI,CAAC;IACtB,UAAU,EAAE,cAAc,CAAC;IAC3B,OAAO,EAAE;QAAE,SAAS,EAAE,OAAO,CAAA;KAAE,CAAC;CACjC,CAAC"}

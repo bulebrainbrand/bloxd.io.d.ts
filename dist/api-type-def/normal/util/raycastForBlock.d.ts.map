@@ -1,1 +1,0 @@
-{"version":3,"file":"raycastForBlock.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/normal/util/raycastForBlock.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,SAAS,EAAE,kBAAkB,EAAE,MAAM,OAAO,CAAC;AAClE;;;;;;;GAOG;AACH,OAAO,CAAC,MAAM,eAAe,EAAE,CAC7B,OAAO,EAAE,UAAU,EACnB,MAAM,EAAE,SAAS,KACd,kBAAkB,CAAC;AAExB,OAAO,EAAE,eAAe,EAAE,CAAC;AAE3B;;;;;;;;;GASG"}

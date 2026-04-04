@@ -1,1 +1,0 @@
-{"version":3,"file":"TranslatedText.d.ts","sourceRoot":"","sources":["../../../src/type/message/TranslatedText.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,SAAS,CAAC;AAErC,MAAM,MAAM,cAAc,GAAG;IAC3B,cAAc,EAAE,MAAM,CAAC;IACvB,MAAM,CAAC,EAAE,MAAM,CAAC,MAAM,EAAE,MAAM,GAAG,MAAM,GAAG,OAAO,GAAG,UAAU,CAAC,CAAC;CACjE,CAAC"}

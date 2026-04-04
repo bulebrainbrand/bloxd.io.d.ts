@@ -1,1 +1,0 @@
-{"version":3,"file":"getInventoryFreeSlotCount.d.ts","sourceRoot":"","sources":["../../../../src/api-type-def/normal/item/getInventoryFreeSlotCount.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,OAAO,CAAC;AAEjC;;;;;GAKG;AACH,OAAO,CAAC,MAAM,yBAAyB,EAAE,CAAC,QAAQ,EAAE,QAAQ,KAAK,MAAM,CAAC;AAExE,OAAO,EAAE,yBAAyB,EAAE,CAAC;AAErC;;;;;;;GAOG"}

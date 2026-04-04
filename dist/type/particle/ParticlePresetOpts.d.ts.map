@@ -1,0 +1,1 @@
+{"version":3,"file":"ParticlePresetOpts.d.ts","sourceRoot":"","sources":["../../../src/type/particle/ParticlePresetOpts.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,OAAO,CAAC;AACnC,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AACnC;;;;;;;;;;;;GAYG;AACH,MAAM,MAAM,kBAAkB,GAAG;IAC/B,QAAQ,EAAE,QAAQ,CAAC;IACnB,IAAI,EAAE,UAAU,CAAC;IACjB,IAAI,EAAE,UAAU,CAAC;CAClB,CAAC"}

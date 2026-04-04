@@ -1,0 +1,18 @@
+import { Coordinate, ItemObject } from "../../../type/index";
+/**
+ * Get all the items from a standard chest in order. Use this instead of repetitive calls to getStandardChestItemSlot
+ *
+ * @param {Coordinate} chestPos
+ * @returns {ItemObject | null[]}
+ */
+declare const getStandardChestItems: (chestPos: Coordinate) => (ItemObject | null)[];
+export { getStandardChestItems };
+/**
+ * Get all the items from a standard chest in order. Use this instead of repetitive calls to getStandardChestItemSlot
+ *
+ * @param {number[]} chestPos
+ * @returns {PNull<InvenItem>[]}
+ *
+ * getStandardChestItems(chestPos)
+ */
+//# sourceMappingURL=getStandardChestItems.d.ts.map

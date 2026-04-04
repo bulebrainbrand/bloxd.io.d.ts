@@ -4,74 +4,74 @@
 
 ```ts
 
-import { AngleDir as AngleDir_3 } from '../..';
-import { AnyMetadataItem as AnyMetadataItem_3 } from '../..';
-import { applyMeleeHitOverrides as applyMeleeHitOverrides_3 } from '../..';
-import { BlockMetadataItem as BlockMetadataItem_3 } from '../..';
-import { BlockName as BlockName_3 } from '../..';
-import { BlockNameOrId as BlockNameOrId_3 } from '../..';
-import { BlockRaycastResult as BlockRaycastResult_3 } from '../..';
-import { CallbackName as CallbackName_3 } from '../..';
+import { AngleDir as AngleDir_2 } from '../..';
+import { AnyMetadataItem as AnyMetadataItem_2 } from '../..';
+import { applyMeleeHitOverrides as applyMeleeHitOverrides_2 } from '../..';
+import { BlockMetadataItem as BlockMetadataItem_2 } from '../..';
+import { BlockName as BlockName_2 } from '../..';
+import { BlockNameOrId as BlockNameOrId_2 } from '../..';
+import { BlockRaycastResult as BlockRaycastResult_2 } from '../..';
+import { CallbackName as CallbackName_2 } from '../..';
 import { ClientOptions as ClientOptions_2 } from '.';
-import { Coordinate as Coordinate_3 } from '../..';
-import { CosmeticName as CosmeticName_3 } from '../..';
-import { CosmeticType as CosmeticType_3 } from '../..';
-import { CustomTextStyling as CustomTextStyling_3 } from '../..';
-import { Direcrion as Direcrion_3 } from '../..';
-import { EntityId as EntityId_3 } from '../..';
+import { Coordinate as Coordinate_2 } from '../..';
+import { CosmeticName as CosmeticName_2 } from '../..';
+import { CosmeticType as CosmeticType_2 } from '../..';
+import { CustomTextStyling as CustomTextStyling_2 } from '../..';
+import { Direcrion as Direcrion_2 } from '../..';
+import { EntityId as EntityId_2 } from '../..';
 import { EntitySettings as EntitySettings_2 } from '.';
-import { EntityType as EntityType_3 } from '../..';
-import { ExplosionType as ExplosionType_3 } from '../..';
-import { Health as Health_3 } from '../..';
-import { InGameEffectName as InGameEffectName_3 } from '../..';
-import { IngameIconName as IngameIconName_3 } from '../..';
-import { Item as Item_3 } from '../..';
-import { ItemAttributes as ItemAttributes_3 } from '../..';
-import { ItemEntityId as ItemEntityId_3 } from '../..';
-import { ItemId as ItemId_3 } from '../..';
-import { ItemName as ItemName_3 } from '../..';
-import { ItemObject as ItemObject_3 } from '../..';
-import { LifeformBodyPart as LifeformBodyPart_3 } from '../..';
-import { LifeformId as LifeformId_3 } from '../..';
-import { LobbyType as LobbyType_3 } from '../..';
-import { MeshEntityOpts as MeshEntityOpts_3 } from '../..';
-import { MeshEntityPhysicsOpts as MeshEntityPhysicsOpts_3 } from '../..';
-import { MeshType as MeshType_3 } from '../..';
-import { MobAiState as MobAiState_3 } from '../..';
-import { MobAiStateParams as MobAiStateParams_3 } from '../..';
-import { MobHerdId as MobHerdId_3 } from '../..';
-import { MobId as MobId_3 } from '../..';
+import { EntityType as EntityType_2 } from '../..';
+import { ExplosionType as ExplosionType_2 } from '../..';
+import { Health as Health_2 } from '../..';
+import { InGameEffectName as InGameEffectName_2 } from '../..';
+import { IngameIconName as IngameIconName_2 } from '../..';
+import { Item as Item_2 } from '../..';
+import { ItemAttributes as ItemAttributes_2 } from '../..';
+import { ItemEntityId as ItemEntityId_2 } from '../..';
+import { ItemId as ItemId_2 } from '../..';
+import { ItemName as ItemName_2 } from '../..';
+import { ItemObject as ItemObject_2 } from '../..';
+import { LifeformBodyPart as LifeformBodyPart_2 } from '../..';
+import { LifeformId as LifeformId_2 } from '../..';
+import { LobbyType as LobbyType_2 } from '../..';
+import { MeshEntityOpts as MeshEntityOpts_2 } from '../..';
+import { MeshEntityPhysicsOpts as MeshEntityPhysicsOpts_2 } from '../..';
+import { MeshType as MeshType_2 } from '../..';
+import { MobAiState as MobAiState_2 } from '../..';
+import { MobAiStateParams as MobAiStateParams_2 } from '../..';
+import { MobHerdId as MobHerdId_2 } from '../..';
+import { MobId as MobId_2 } from '../..';
 import { MobSettings as MobSettings_2 } from '.';
-import { MobSpawnOpts as MobSpawnOpts_3 } from '../..';
-import { MobType as MobType_3 } from '../..';
-import { NonBlockMetadataItem as NonBlockMetadataItem_3 } from '../..';
-import { ParticlePresetOpts as ParticlePresetOpts_3 } from '../..';
-import { Party as Party_3 } from '../..';
-import { PlayerAttemptDamageOtherPlayerOpts as PlayerAttemptDamageOtherPlayerOpts_3 } from '../..';
-import { PlayerDbId as PlayerDbId_3 } from '../..';
-import { PlayerId as PlayerId_3 } from '../..';
-import { PlayerPhysicsStateData as PlayerPhysicsStateData_3 } from '../..';
-import { PlayerPose as PlayerPose_3 } from '../..';
-import { PosSettings as PosSettings_3 } from '../..';
-import { QTEClientParameters as QTEClientParameters_3 } from '../..';
-import { QTERequestId as QTERequestId_3 } from '../..';
-import { Radian as Radian_3 } from '../..';
-import { RecipesForItem as RecipesForItem_3 } from '../..';
-import { Rotation as Rotation_3 } from '../..';
-import { ShieldAmount as ShieldAmount_3 } from '../..';
-import { ShopCategoryConfig as ShopCategoryConfig_3 } from '../..';
-import { ShopCategoryKey as ShopCategoryKey_3 } from '../..';
-import { ShopItem as ShopItem_3 } from '../..';
-import { ShopItemKey as ShopItemKey_3 } from '../..';
-import { SoundName as SoundName_3 } from '../..';
-import { StringColor as StringColor_3 } from '../..';
-import { TempParticleSystemOpts as TempParticleSystemOpts_3 } from '../..';
-import { TextStyle as TextStyle_3 } from '../..';
-import { ThrowableItem as ThrowableItem_3 } from '../..';
-import { TranslatedText as TranslatedText_3 } from '../..';
-import { WalkThroughType as WalkThroughType_3 } from '../..';
-import { WhoDidDamage as WhoDidDamage_3 } from '../..';
-import { WhoKilled as WhoKilled_3 } from '../..';
+import { MobSpawnOpts as MobSpawnOpts_2 } from '../..';
+import { MobType as MobType_2 } from '../..';
+import { NonBlockMetadataItem as NonBlockMetadataItem_2 } from '../..';
+import { ParticlePresetOpts as ParticlePresetOpts_2 } from '../..';
+import { Party as Party_2 } from '../..';
+import { PlayerAttemptDamageOtherPlayerOpts as PlayerAttemptDamageOtherPlayerOpts_2 } from '../..';
+import { PlayerDbId as PlayerDbId_2 } from '../..';
+import { PlayerId as PlayerId_2 } from '../..';
+import { PlayerPhysicsStateData as PlayerPhysicsStateData_2 } from '../..';
+import { PlayerPose as PlayerPose_2 } from '../..';
+import { PosSettings as PosSettings_2 } from '../..';
+import { QTEClientParameters as QTEClientParameters_2 } from '../..';
+import { QTERequestId as QTERequestId_2 } from '../..';
+import { Radian as Radian_2 } from '../..';
+import { RecipesForItem as RecipesForItem_2 } from '../..';
+import { Rotation as Rotation_2 } from '../..';
+import { ShieldAmount as ShieldAmount_2 } from '../..';
+import { ShopCategoryConfig as ShopCategoryConfig_2 } from '../..';
+import { ShopCategoryKey as ShopCategoryKey_2 } from '../..';
+import { ShopItem as ShopItem_2 } from '../..';
+import { ShopItemKey as ShopItemKey_2 } from '../..';
+import { SoundName as SoundName_2 } from '../..';
+import { StringColor as StringColor_2 } from '../..';
+import { TempParticleSystemOpts as TempParticleSystemOpts_2 } from '../..';
+import { TextStyle as TextStyle_2 } from '../..';
+import { ThrowableItem as ThrowableItem_2 } from '../..';
+import { TranslatedText as TranslatedText_2 } from '../..';
+import { WalkThroughType as WalkThroughType_2 } from '../..';
+import { WhoDidDamage as WhoDidDamage_2 } from '../..';
+import { WhoKilled as WhoKilled_2 } from '../..';
 
 // @public (undocumented)
 export type AllBlockID = string;
@@ -124,29 +124,764 @@ export type AnyMetadataItem = any;
 
 // @public (undocumented)
 export const Apis: {
-    readonly getDefaultMobSetting: <TMobType extends MobType_2, TMobSetting extends keyof MobSettings_2<TMobType>>(mobType: TMobType, setting: TMobSetting) => MobSettings_2<TMobType>[TMobSetting];
-    readonly setDefaultMobSetting: <TMobType extends MobType_2, TMobSetting extends keyof MobSettings_2<TMobType>>(mobType: TMobType, setting: TMobSetting, value: MobSettings_2<TMobType>[TMobSetting]) => void;
-    readonly getMobSetting: <TMobSetting extends keyof MobSettings_2<MobType_2>>(mobId: MobId_2, setting: TMobSetting, returnDefaultIfNotOverridden?: boolean) => MobSettings_2<MobType_2>[TMobSetting];
-    readonly setMobSetting: <TMobSetting extends keyof MobSettings_2<MobType_2>>(mobId: MobId_2, setting: TMobSetting, value: MobSettings_2<MobType_2>[TMobSetting]) => void;
-    readonly setEveryoneSettingForPlayer: (<Setting extends keyof EntitySettings_2>(playerId: PlayerId_2, settingName: Setting, settingValue: EntitySettings_2[Setting], includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "opacity", settingValue: number, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "zIndex", settingValue: 0 | 1, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "overlayColour", settingValue: string | null, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "canAttack", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "canSee", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "showDamageAmounts", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "killfeedColour", settingValue: string, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "hasPriorityNametag", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "nameColour", settingValue: "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default", includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "nameTagInfo", settingValue: NameTagInfo_2, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "meshScaling", settingValue: Partial<Record<LifeformBodyPart_2, [number, number, number]>>, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "lobbyLeaderboardValues", settingValue: LobbyLeaderboardValues_2, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId_2, settingName: "colorInLobbyLeaderboard", settingValue: string, includeNewJoiners?: boolean) => void);
-    readonly setTargetedPlayerSettingForEveryone: (<Setting extends keyof EntitySettings_2>(targetedPlayerId: PlayerId_2, settingName: Setting, settingValue: EntitySettings_2[Setting], includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "opacity", settingValue: number, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "zIndex", settingValue: 0 | 1, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "overlayColour", settingValue: string | null, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "canAttack", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "canSee", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "showDamageAmounts", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "killfeedColour", settingValue: string, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "hasPriorityNametag", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "nameColour", settingValue: "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default", includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "nameTagInfo", settingValue: NameTagInfo_2, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "meshScaling", settingValue: Partial<Record<LifeformBodyPart_2, [number, number, number]>>, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "lobbyLeaderboardValues", settingValue: LobbyLeaderboardValues_2, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId_2, settingName: "colorInLobbyLeaderboard", settingValue: string, includeNewJoiners?: boolean) => void);
-    readonly setOtherEntitySetting: (<Setting extends keyof EntitySettings_2>(relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: Setting, settingValue: EntitySettings_2[Setting]) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "opacity", settingValue: number) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "zIndex", settingValue: 0 | 1) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "overlayColour", settingValue: string | null) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "canAttack", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "canSee", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "showDamageAmounts", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "killfeedColour", settingValue: string) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "hasPriorityNametag", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "nameColour", settingValue: "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default") => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "nameTagInfo", settingValue: NameTagInfo_2) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "meshScaling", settingValue: Partial<Record<LifeformBodyPart_2, [number, number, number]>>) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "lobbyLeaderboardValues", settingValue: LobbyLeaderboardValues_2) => void) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "colorInLobbyLeaderboard", settingValue: string) => void);
-    readonly getOtherEntitySetting: (<Setting extends keyof EntitySettings_2>(relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: Setting) => EntitySettings_2[Setting]) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "opacity") => number) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "zIndex") => 0 | 1) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "overlayColour") => string | null) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "canAttack") => boolean) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "canSee") => boolean) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "showDamageAmounts") => boolean) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "killfeedColour") => string) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "hasPriorityNametag") => boolean) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "nameColour") => "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default") & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "nameTagInfo") => NameTagInfo_2) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "meshScaling") => Partial<Record<LifeformBodyPart_2, [number, number, number]>>) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "lobbyLeaderboardValues") => LobbyLeaderboardValues_2) & ((relevantPlayerId: PlayerId_2, targetedEntityId: EntityId_2, settingName: "colorInLobbyLeaderboard") => string);
-    readonly setClientOption: (<TOption extends keyof ClientOptions_2>(playerId: PlayerId_2, option: TOption, value: ClientOptions_2[TOption]) => void) & {
-        (playerId: PlayerId_2, option: "canChange", value: true): void;
-        (playerId: PlayerId_2, option: "canChange", value: false): void;
-    } & ((playerId: PlayerId_2, option: "crouchingSpeed", value: number) => void) & ((playerId: PlayerId_2, option: "walkingSpeed", value: number) => void) & ((playerId: PlayerId_2, option: "runningSpeed", value: number) => void) & ((playerId: PlayerId_2, option: "speedMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "jumpAmount", value: number) => void) & ((playerId: PlayerId_2, option: "airJumpCount", value: number) => void) & ((playerId: PlayerId_2, option: "bunnyhopMaxMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "musicVolumeLevel", value: number) => void) & ((playerId: PlayerId_2, option: "showPlayersInUnloadedChunks", value: boolean) => void) & ((playerId: PlayerId_2, option: "useInventory", value: boolean) => void) & ((playerId: PlayerId_2, option: "useFullInventory", value: boolean) => void) & ((playerId: PlayerId_2, option: "canCraft", value: boolean) => void) & ((playerId: PlayerId_2, option: "canPickUpItems", value: boolean) => void) & ((playerId: PlayerId_2, option: "playerZoom", value: number) => void) & ((playerId: PlayerId_2, option: "zoomOutDistance", value: number) => void) & ((playerId: PlayerId_2, option: "maxPlayerZoom", value: number) => void) & ((playerId: PlayerId_2, option: "canCustomiseChar", value: boolean) => void) & ((playerId: PlayerId_2, option: "defaultBlock", value: string) => void) & ((playerId: PlayerId_2, option: "cantChangeError", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "cantBreakError", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "cantBuildError", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "touchscreenActionButton", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "strictFluidBuckets", value: boolean) => void) & ((playerId: PlayerId_2, option: "canUseZoomKey", value: boolean) => void) & ((playerId: PlayerId_2, option: "canAltAction", value: boolean) => void) & ((playerId: PlayerId_2, option: "canSeeNametagsThroughWalls", value: boolean) => void) & ((playerId: PlayerId_2, option: "showBasicMovementControls", value: boolean) => void) & ((playerId: PlayerId_2, option: "middleTextUpper", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "middleTextLower", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "crosshairText", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "RightInfoText", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "numClosestPlayersVisible", value: number) => void) & ((playerId: PlayerId_2, option: "showProgressBar", value: boolean) => void) & ((playerId: PlayerId_2, option: "showKillfeed", value: boolean) => void) & ((playerId: PlayerId_2, option: "chatChannels", value: {
+    readonly getDefaultMobSetting: <TMobType extends MobType, TMobSetting extends keyof MobSettings_2<TMobType>>(mobType: TMobType, setting: TMobSetting) => MobSettings_2<TMobType>[TMobSetting];
+    readonly setDefaultMobSetting: <TMobType extends MobType, TMobSetting extends keyof MobSettings_2<TMobType>>(mobType: TMobType, setting: TMobSetting, value: MobSettings_2<TMobType>[TMobSetting]) => void;
+    readonly getMobSetting: <TMobSetting extends keyof MobSettings_2<MobType>>(mobId: MobId, setting: TMobSetting, returnDefaultIfNotOverridden?: boolean) => MobSettings_2<MobType>[TMobSetting];
+    readonly setMobSetting: <TMobSetting extends keyof MobSettings_2<MobType>>(mobId: MobId, setting: TMobSetting, value: MobSettings_2<MobType>[TMobSetting]) => void;
+    readonly setEveryoneSettingForPlayer: (<Setting extends keyof EntitySettings_2>(playerId: PlayerId, settingName: Setting, settingValue: EntitySettings_2[Setting], includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "opacity", settingValue: number, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "zIndex", settingValue: 0 | 1, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "overlayColour", settingValue: string | null, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "canAttack", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "canSee", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "showDamageAmounts", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "killfeedColour", settingValue: string, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "hasPriorityNametag", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "nameColour", settingValue: "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default", includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "nameTagInfo", settingValue: NameTagInfo, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "meshScaling", settingValue: Partial<Record<LifeformBodyPart, [number, number, number]>>, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "lobbyLeaderboardValues", settingValue: LobbyLeaderboardValues, includeNewJoiners?: boolean) => void) & ((playerId: PlayerId, settingName: "colorInLobbyLeaderboard", settingValue: string, includeNewJoiners?: boolean) => void);
+    readonly setTargetedPlayerSettingForEveryone: (<Setting extends keyof EntitySettings_2>(targetedPlayerId: PlayerId, settingName: Setting, settingValue: EntitySettings_2[Setting], includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "opacity", settingValue: number, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "zIndex", settingValue: 0 | 1, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "overlayColour", settingValue: string | null, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "canAttack", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "canSee", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "showDamageAmounts", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "killfeedColour", settingValue: string, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "hasPriorityNametag", settingValue: boolean, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "nameColour", settingValue: "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default", includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "nameTagInfo", settingValue: NameTagInfo, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "meshScaling", settingValue: Partial<Record<LifeformBodyPart, [number, number, number]>>, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "lobbyLeaderboardValues", settingValue: LobbyLeaderboardValues, includeNewJoiners?: boolean) => void) & ((targetedPlayerId: PlayerId, settingName: "colorInLobbyLeaderboard", settingValue: string, includeNewJoiners?: boolean) => void);
+    readonly setOtherEntitySetting: (<Setting extends keyof EntitySettings_2>(relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: Setting, settingValue: EntitySettings_2[Setting]) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "opacity", settingValue: number) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "zIndex", settingValue: 0 | 1) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "overlayColour", settingValue: string | null) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "canAttack", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "canSee", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "showDamageAmounts", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "killfeedColour", settingValue: string) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "hasPriorityNametag", settingValue: boolean) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "nameColour", settingValue: "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default") => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "nameTagInfo", settingValue: NameTagInfo) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "meshScaling", settingValue: Partial<Record<LifeformBodyPart, [number, number, number]>>) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "lobbyLeaderboardValues", settingValue: LobbyLeaderboardValues) => void) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "colorInLobbyLeaderboard", settingValue: string) => void);
+    readonly getOtherEntitySetting: (<Setting extends keyof EntitySettings_2>(relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: Setting) => EntitySettings_2[Setting]) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "opacity") => number) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "zIndex") => 0 | 1) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "overlayColour") => string | null) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "canAttack") => boolean) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "canSee") => boolean) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "showDamageAmounts") => boolean) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "killfeedColour") => string) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "hasPriorityNametag") => boolean) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "nameColour") => "aqua" | "blue" | "cyan" | "green" | "lime" | "orange" | "pink" | "purple" | "red" | "yellow" | "default") & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "nameTagInfo") => NameTagInfo) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "meshScaling") => Partial<Record<LifeformBodyPart, [number, number, number]>>) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "lobbyLeaderboardValues") => LobbyLeaderboardValues) & ((relevantPlayerId: PlayerId, targetedEntityId: EntityId, settingName: "colorInLobbyLeaderboard") => string);
+    readonly setClientOption: (<TOption extends keyof ClientOptions_2>(playerId: PlayerId, option: TOption, value: ClientOptions_2[TOption]) => void) & {
+        (playerId: PlayerId, option: "canChange", value: true): void;
+        (playerId: PlayerId, option: "canChange", value: false): void;
+    } & ((playerId: PlayerId, option: "crouchingSpeed", value: number) => void) & ((playerId: PlayerId, option: "walkingSpeed", value: number) => void) & ((playerId: PlayerId, option: "runningSpeed", value: number) => void) & ((playerId: PlayerId, option: "speedMultiplier", value: number) => void) & ((playerId: PlayerId, option: "jumpAmount", value: number) => void) & ((playerId: PlayerId, option: "airJumpCount", value: number) => void) & ((playerId: PlayerId, option: "bunnyhopMaxMultiplier", value: number) => void) & ((playerId: PlayerId, option: "musicVolumeLevel", value: number) => void) & ((playerId: PlayerId, option: "showPlayersInUnloadedChunks", value: boolean) => void) & ((playerId: PlayerId, option: "useInventory", value: boolean) => void) & ((playerId: PlayerId, option: "useFullInventory", value: boolean) => void) & ((playerId: PlayerId, option: "canCraft", value: boolean) => void) & ((playerId: PlayerId, option: "canPickUpItems", value: boolean) => void) & ((playerId: PlayerId, option: "playerZoom", value: number) => void) & ((playerId: PlayerId, option: "zoomOutDistance", value: number) => void) & ((playerId: PlayerId, option: "maxPlayerZoom", value: number) => void) & ((playerId: PlayerId, option: "canCustomiseChar", value: boolean) => void) & ((playerId: PlayerId, option: "defaultBlock", value: string) => void) & ((playerId: PlayerId, option: "cantChangeError", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "cantBreakError", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "cantBuildError", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "touchscreenActionButton", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "strictFluidBuckets", value: boolean) => void) & ((playerId: PlayerId, option: "canUseZoomKey", value: boolean) => void) & ((playerId: PlayerId, option: "canAltAction", value: boolean) => void) & ((playerId: PlayerId, option: "canSeeNametagsThroughWalls", value: boolean) => void) & ((playerId: PlayerId, option: "showBasicMovementControls", value: boolean) => void) & ((playerId: PlayerId, option: "middleTextUpper", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "middleTextLower", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "crosshairText", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "RightInfoText", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "numClosestPlayersVisible", value: number) => void) & ((playerId: PlayerId, option: "showProgressBar", value: boolean) => void) & ((playerId: PlayerId, option: "showKillfeed", value: boolean) => void) & ((playerId: PlayerId, option: "chatChannels", value: {
         channelName: string;
-        elementContent: string | CustomTextStyling_2;
+        elementContent: string | CustomTextStyling;
         elementBgColor: string;
-    }[]) => void) & ((playerId: PlayerId_2, option: "creative", value: boolean) => void) & ((playerId: PlayerId_2, option: "flySpeedMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "canPickBlocks", value: boolean) => void) & ((playerId: PlayerId_2, option: "compassTarget", value: string | number | number[]) => void) & ((playerId: PlayerId_2, option: "ttbMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "inventoryItemsMoveable", value: boolean) => void) & ((playerId: PlayerId_2, option: "invincible", value: boolean) => void) & ((playerId: PlayerId_2, option: "maxShield", value: number) => void) & ((playerId: PlayerId_2, option: "initialShield", value: number) => void) & ((playerId: PlayerId_2, option: "maxHealth", value: number) => void) & ((playerId: PlayerId_2, option: "initialHealth", value: number) => void) & ((playerId: PlayerId_2, option: "healthRegenAmount", value: number) => void) & ((playerId: PlayerId_2, option: "healthRegenInterval", value: number) => void) & ((playerId: PlayerId_2, option: "healthRegenStartAfter", value: number) => void) & ((playerId: PlayerId_2, option: "effectDamageDuration", value: number) => void) & ((playerId: PlayerId_2, option: "effectSpeedDuration", value: number) => void) & ((playerId: PlayerId_2, option: "effectDamageReductionDuration", value: number) => void) & ((playerId: PlayerId_2, option: "effectHealthRegenDuration", value: number) => void) & ((playerId: PlayerId_2, option: "potionEffectDuration", value: number) => void) & ((playerId: PlayerId_2, option: "splashPotionEffectDuration", value: number) => void) & ((playerId: PlayerId_2, option: "arrowPotionEffectDuration", value: number) => void) & ((playerId: PlayerId_2, option: "fogChunkDistanceOverride", value: number) => void) & ((playerId: PlayerId_2, option: "fogColourOverride", value: string) => void) & ((playerId: PlayerId_2, option: "airAccScale", value: number) => void) & ((playerId: PlayerId_2, option: "airFrictionScale", value: number) => void) & ((playerId: PlayerId_2, option: "airMomentumConservation", value: boolean) => void) & ((playerId: PlayerId_2, option: "auraPerLevel", value: number) => void) & ((playerId: PlayerId_2, option: "autoRespawn", value: boolean) => void) & ((playerId: PlayerId_2, option: "cameraTint", value: [number, number, number, number]) => void) & ((playerId: PlayerId_2, option: "dealingDamageDefaultMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "dealingDamageHeadMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "dealingDamageLegMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "dealingDamageMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "droppedItemScale", value: number) => void) & ((playerId: PlayerId_2, option: "fallDamage", value: boolean) => void) & ((playerId: PlayerId_2, option: "groundFrictionScale", value: number) => void) & ((playerId: PlayerId_2, option: "killstreakDuration", value: number) => void) & ((playerId: PlayerId_2, option: "maxAuraLevel", value: number) => void) & ((playerId: PlayerId_2, option: "movementBasedFovScale", value: number) => void) & ((playerId: PlayerId_2, option: "receivingDamageMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "respawnButtonText", value: string) => void) & ((playerId: PlayerId_2, option: "secsToRespawn", value: number) => void) & ((playerId: PlayerId_2, option: "usePlayAgainButton", value: boolean) => void);
-    readonly getClientOption: (<TOption extends keyof ClientOptions_2>(playerId: PlayerId_2, option: TOption) => ClientOptions_2[TOption]) & ((playerId: PlayerId_2, option: "canChange") => boolean) & ((playerId: PlayerId_2, option: "crouchingSpeed") => number) & ((playerId: PlayerId_2, option: "walkingSpeed") => number) & ((playerId: PlayerId_2, option: "runningSpeed") => number) & ((playerId: PlayerId_2, option: "speedMultiplier") => number) & ((playerId: PlayerId_2, option: "jumpAmount") => number) & ((playerId: PlayerId_2, option: "airJumpCount") => number) & ((playerId: PlayerId_2, option: "bunnyhopMaxMultiplier") => number) & ((playerId: PlayerId_2, option: "musicVolumeLevel") => number) & ((playerId: PlayerId_2, option: "showPlayersInUnloadedChunks") => boolean) & ((playerId: PlayerId_2, option: "useInventory") => boolean) & ((playerId: PlayerId_2, option: "useFullInventory") => boolean) & ((playerId: PlayerId_2, option: "canCraft") => boolean) & ((playerId: PlayerId_2, option: "canPickUpItems") => boolean) & ((playerId: PlayerId_2, option: "playerZoom") => number) & ((playerId: PlayerId_2, option: "zoomOutDistance") => number) & ((playerId: PlayerId_2, option: "maxPlayerZoom") => number) & ((playerId: PlayerId_2, option: "canCustomiseChar") => boolean) & ((playerId: PlayerId_2, option: "defaultBlock") => string) & ((playerId: PlayerId_2, option: "cantChangeError") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "cantBreakError") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "cantBuildError") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "touchscreenActionButton") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "strictFluidBuckets") => boolean) & ((playerId: PlayerId_2, option: "canUseZoomKey") => boolean) & ((playerId: PlayerId_2, option: "canAltAction") => boolean) & ((playerId: PlayerId_2, option: "canSeeNametagsThroughWalls") => boolean) & ((playerId: PlayerId_2, option: "showBasicMovementControls") => boolean) & ((playerId: PlayerId_2, option: "middleTextUpper") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "middleTextLower") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "crosshairText") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "RightInfoText") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "numClosestPlayersVisible") => number) & ((playerId: PlayerId_2, option: "showProgressBar") => boolean) & ((playerId: PlayerId_2, option: "showKillfeed") => boolean) & ((playerId: PlayerId_2, option: "chatChannels") => {
+    }[]) => void) & ((playerId: PlayerId, option: "creative", value: boolean) => void) & ((playerId: PlayerId, option: "flySpeedMultiplier", value: number) => void) & ((playerId: PlayerId, option: "canPickBlocks", value: boolean) => void) & ((playerId: PlayerId, option: "compassTarget", value: string | number | number[]) => void) & ((playerId: PlayerId, option: "ttbMultiplier", value: number) => void) & ((playerId: PlayerId, option: "inventoryItemsMoveable", value: boolean) => void) & ((playerId: PlayerId, option: "invincible", value: boolean) => void) & ((playerId: PlayerId, option: "maxShield", value: number) => void) & ((playerId: PlayerId, option: "initialShield", value: number) => void) & ((playerId: PlayerId, option: "maxHealth", value: number) => void) & ((playerId: PlayerId, option: "initialHealth", value: number) => void) & ((playerId: PlayerId, option: "healthRegenAmount", value: number) => void) & ((playerId: PlayerId, option: "healthRegenInterval", value: number) => void) & ((playerId: PlayerId, option: "healthRegenStartAfter", value: number) => void) & ((playerId: PlayerId, option: "effectDamageDuration", value: number) => void) & ((playerId: PlayerId, option: "effectSpeedDuration", value: number) => void) & ((playerId: PlayerId, option: "effectDamageReductionDuration", value: number) => void) & ((playerId: PlayerId, option: "effectHealthRegenDuration", value: number) => void) & ((playerId: PlayerId, option: "potionEffectDuration", value: number) => void) & ((playerId: PlayerId, option: "splashPotionEffectDuration", value: number) => void) & ((playerId: PlayerId, option: "arrowPotionEffectDuration", value: number) => void) & ((playerId: PlayerId, option: "fogChunkDistanceOverride", value: number) => void) & ((playerId: PlayerId, option: "fogColourOverride", value: string) => void) & ((playerId: PlayerId, option: "airAccScale", value: number) => void) & ((playerId: PlayerId, option: "airFrictionScale", value: number) => void) & ((playerId: PlayerId, option: "airMomentumConservation", value: boolean) => void) & ((playerId: PlayerId, option: "auraPerLevel", value: number) => void) & ((playerId: PlayerId, option: "autoRespawn", value: boolean) => void) & ((playerId: PlayerId, option: "cameraTint", value: [number, number, number, number]) => void) & ((playerId: PlayerId, option: "dealingDamageDefaultMultiplier", value: number) => void) & ((playerId: PlayerId, option: "dealingDamageHeadMultiplier", value: number) => void) & ((playerId: PlayerId, option: "dealingDamageLegMultiplier", value: number) => void) & ((playerId: PlayerId, option: "dealingDamageMultiplier", value: number) => void) & ((playerId: PlayerId, option: "droppedItemScale", value: number) => void) & ((playerId: PlayerId, option: "fallDamage", value: boolean) => void) & ((playerId: PlayerId, option: "groundFrictionScale", value: number) => void) & ((playerId: PlayerId, option: "killstreakDuration", value: number) => void) & ((playerId: PlayerId, option: "maxAuraLevel", value: number) => void) & ((playerId: PlayerId, option: "movementBasedFovScale", value: number) => void) & ((playerId: PlayerId, option: "receivingDamageMultiplier", value: number) => void) & ((playerId: PlayerId, option: "respawnButtonText", value: string) => void) & ((playerId: PlayerId, option: "secsToRespawn", value: number) => void) & ((playerId: PlayerId, option: "usePlayAgainButton", value: boolean) => void);
+    readonly getClientOption: (<TOption extends keyof ClientOptions_2>(playerId: PlayerId, option: TOption) => ClientOptions_2[TOption]) & ((playerId: PlayerId, option: "canChange") => boolean) & ((playerId: PlayerId, option: "crouchingSpeed") => number) & ((playerId: PlayerId, option: "walkingSpeed") => number) & ((playerId: PlayerId, option: "runningSpeed") => number) & ((playerId: PlayerId, option: "speedMultiplier") => number) & ((playerId: PlayerId, option: "jumpAmount") => number) & ((playerId: PlayerId, option: "airJumpCount") => number) & ((playerId: PlayerId, option: "bunnyhopMaxMultiplier") => number) & ((playerId: PlayerId, option: "musicVolumeLevel") => number) & ((playerId: PlayerId, option: "showPlayersInUnloadedChunks") => boolean) & ((playerId: PlayerId, option: "useInventory") => boolean) & ((playerId: PlayerId, option: "useFullInventory") => boolean) & ((playerId: PlayerId, option: "canCraft") => boolean) & ((playerId: PlayerId, option: "canPickUpItems") => boolean) & ((playerId: PlayerId, option: "playerZoom") => number) & ((playerId: PlayerId, option: "zoomOutDistance") => number) & ((playerId: PlayerId, option: "maxPlayerZoom") => number) & ((playerId: PlayerId, option: "canCustomiseChar") => boolean) & ((playerId: PlayerId, option: "defaultBlock") => string) & ((playerId: PlayerId, option: "cantChangeError") => string | CustomTextStyling) & ((playerId: PlayerId, option: "cantBreakError") => string | CustomTextStyling) & ((playerId: PlayerId, option: "cantBuildError") => string | CustomTextStyling) & ((playerId: PlayerId, option: "touchscreenActionButton") => string | CustomTextStyling) & ((playerId: PlayerId, option: "strictFluidBuckets") => boolean) & ((playerId: PlayerId, option: "canUseZoomKey") => boolean) & ((playerId: PlayerId, option: "canAltAction") => boolean) & ((playerId: PlayerId, option: "canSeeNametagsThroughWalls") => boolean) & ((playerId: PlayerId, option: "showBasicMovementControls") => boolean) & ((playerId: PlayerId, option: "middleTextUpper") => string | CustomTextStyling) & ((playerId: PlayerId, option: "middleTextLower") => string | CustomTextStyling) & ((playerId: PlayerId, option: "crosshairText") => string | CustomTextStyling) & ((playerId: PlayerId, option: "RightInfoText") => string | CustomTextStyling) & ((playerId: PlayerId, option: "numClosestPlayersVisible") => number) & ((playerId: PlayerId, option: "showProgressBar") => boolean) & ((playerId: PlayerId, option: "showKillfeed") => boolean) & ((playerId: PlayerId, option: "chatChannels") => {
         channelName: string;
-        elementContent: string | CustomTextStyling_2;
+        elementContent: string | CustomTextStyling;
         elementBgColor: string;
-    }[]) & ((playerId: PlayerId_2, option: "creative") => boolean) & ((playerId: PlayerId_2, option: "flySpeedMultiplier") => number) & ((playerId: PlayerId_2, option: "canPickBlocks") => boolean) & ((playerId: PlayerId_2, option: "compassTarget") => string | number | number[]) & ((playerId: PlayerId_2, option: "ttbMultiplier") => number) & ((playerId: PlayerId_2, option: "inventoryItemsMoveable") => boolean) & ((playerId: PlayerId_2, option: "invincible") => boolean) & ((playerId: PlayerId_2, option: "maxShield") => number) & ((playerId: PlayerId_2, option: "initialShield") => number) & ((playerId: PlayerId_2, option: "maxHealth") => number) & ((playerId: PlayerId_2, option: "initialHealth") => number) & ((playerId: PlayerId_2, option: "healthRegenAmount") => number) & ((playerId: PlayerId_2, option: "healthRegenInterval") => number) & ((playerId: PlayerId_2, option: "healthRegenStartAfter") => number) & ((playerId: PlayerId_2, option: "effectDamageDuration") => number) & ((playerId: PlayerId_2, option: "effectSpeedDuration") => number) & ((playerId: PlayerId_2, option: "effectDamageReductionDuration") => number) & ((playerId: PlayerId_2, option: "effectHealthRegenDuration") => number) & ((playerId: PlayerId_2, option: "potionEffectDuration") => number) & ((playerId: PlayerId_2, option: "splashPotionEffectDuration") => number) & ((playerId: PlayerId_2, option: "arrowPotionEffectDuration") => number) & ((playerId: PlayerId_2, option: "fogChunkDistanceOverride") => number) & ((playerId: PlayerId_2, option: "fogColourOverride") => string) & ((playerId: PlayerId_2, option: "airAccScale") => number) & ((playerId: PlayerId_2, option: "airFrictionScale") => number) & ((playerId: PlayerId_2, option: "airMomentumConservation") => boolean) & ((playerId: PlayerId_2, option: "auraPerLevel") => number) & ((playerId: PlayerId_2, option: "autoRespawn") => boolean) & ((playerId: PlayerId_2, option: "cameraTint") => [number, number, number, number]) & ((playerId: PlayerId_2, option: "dealingDamageDefaultMultiplier") => number) & ((playerId: PlayerId_2, option: "dealingDamageHeadMultiplier") => number) & ((playerId: PlayerId_2, option: "dealingDamageLegMultiplier") => number) & ((playerId: PlayerId_2, option: "dealingDamageMultiplier") => number) & ((playerId: PlayerId_2, option: "droppedItemScale") => number) & ((playerId: PlayerId_2, option: "fallDamage") => boolean) & ((playerId: PlayerId_2, option: "groundFrictionScale") => number) & ((playerId: PlayerId_2, option: "killstreakDuration") => number) & ((playerId: PlayerId_2, option: "maxAuraLevel") => number) & ((playerId: PlayerId_2, option: "movementBasedFovScale") => number) & ((playerId: PlayerId_2, option: "receivingDamageMultiplier") => number) & ((playerId: PlayerId_2, option: "respawnButtonText") => string) & ((playerId: PlayerId_2, option: "secsToRespawn") => number) & ((playerId: PlayerId_2, option: "usePlayAgainButton") => boolean);
-    readonly setClientOptionToDefault: (<TOption extends keyof ClientOptions_2>(playerId: PlayerId_2, option: TOption) => void) & ((playerId: PlayerId_2, option: "canChange") => void) & ((playerId: PlayerId_2, option: "crouchingSpeed") => void) & ((playerId: PlayerId_2, option: "walkingSpeed") => void) & ((playerId: PlayerId_2, option: "runningSpeed") => void) & ((playerId: PlayerId_2, option: "speedMultiplier") => void) & ((playerId: PlayerId_2, option: "jumpAmount") => void) & ((playerId: PlayerId_2, option: "airJumpCount") => void) & ((playerId: PlayerId_2, option: "bunnyhopMaxMultiplier") => void) & ((playerId: PlayerId_2, option: "musicVolumeLevel") => void) & ((playerId: PlayerId_2, option: "showPlayersInUnloadedChunks") => void) & ((playerId: PlayerId_2, option: "useInventory") => void) & ((playerId: PlayerId_2, option: "useFullInventory") => void) & ((playerId: PlayerId_2, option: "canCraft") => void) & ((playerId: PlayerId_2, option: "canPickUpItems") => void) & ((playerId: PlayerId_2, option: "playerZoom") => void) & ((playerId: PlayerId_2, option: "zoomOutDistance") => void) & ((playerId: PlayerId_2, option: "maxPlayerZoom") => void) & ((playerId: PlayerId_2, option: "canCustomiseChar") => void) & ((playerId: PlayerId_2, option: "defaultBlock") => void) & ((playerId: PlayerId_2, option: "cantChangeError") => void) & ((playerId: PlayerId_2, option: "cantBreakError") => void) & ((playerId: PlayerId_2, option: "cantBuildError") => void) & ((playerId: PlayerId_2, option: "touchscreenActionButton") => void) & ((playerId: PlayerId_2, option: "strictFluidBuckets") => void) & ((playerId: PlayerId_2, option: "canUseZoomKey") => void) & ((playerId: PlayerId_2, option: "canAltAction") => void) & ((playerId: PlayerId_2, option: "canSeeNametagsThroughWalls") => void) & ((playerId: PlayerId_2, option: "showBasicMovementControls") => void) & ((playerId: PlayerId_2, option: "middleTextUpper") => void) & ((playerId: PlayerId_2, option: "middleTextLower") => void) & ((playerId: PlayerId_2, option: "crosshairText") => void) & ((playerId: PlayerId_2, option: "RightInfoText") => void) & ((playerId: PlayerId_2, option: "numClosestPlayersVisible") => void) & ((playerId: PlayerId_2, option: "showProgressBar") => void) & ((playerId: PlayerId_2, option: "showKillfeed") => void) & ((playerId: PlayerId_2, option: "chatChannels") => void) & ((playerId: PlayerId_2, option: "creative") => void) & ((playerId: PlayerId_2, option: "flySpeedMultiplier") => void) & ((playerId: PlayerId_2, option: "canPickBlocks") => void) & ((playerId: PlayerId_2, option: "compassTarget") => void) & ((playerId: PlayerId_2, option: "ttbMultiplier") => void) & ((playerId: PlayerId_2, option: "inventoryItemsMoveable") => void) & ((playerId: PlayerId_2, option: "invincible") => void) & ((playerId: PlayerId_2, option: "maxShield") => void) & ((playerId: PlayerId_2, option: "initialShield") => void) & ((playerId: PlayerId_2, option: "maxHealth") => void) & ((playerId: PlayerId_2, option: "initialHealth") => void) & ((playerId: PlayerId_2, option: "healthRegenAmount") => void) & ((playerId: PlayerId_2, option: "healthRegenInterval") => void) & ((playerId: PlayerId_2, option: "healthRegenStartAfter") => void) & ((playerId: PlayerId_2, option: "effectDamageDuration") => void) & ((playerId: PlayerId_2, option: "effectSpeedDuration") => void) & ((playerId: PlayerId_2, option: "effectDamageReductionDuration") => void) & ((playerId: PlayerId_2, option: "effectHealthRegenDuration") => void) & ((playerId: PlayerId_2, option: "potionEffectDuration") => void) & ((playerId: PlayerId_2, option: "splashPotionEffectDuration") => void) & ((playerId: PlayerId_2, option: "arrowPotionEffectDuration") => void) & ((playerId: PlayerId_2, option: "fogChunkDistanceOverride") => void) & ((playerId: PlayerId_2, option: "fogColourOverride") => void) & ((playerId: PlayerId_2, option: "airAccScale") => void) & ((playerId: PlayerId_2, option: "airFrictionScale") => void) & ((playerId: PlayerId_2, option: "airMomentumConservation") => void) & ((playerId: PlayerId_2, option: "auraPerLevel") => void) & ((playerId: PlayerId_2, option: "autoRespawn") => void) & ((playerId: PlayerId_2, option: "cameraTint") => void) & ((playerId: PlayerId_2, option: "dealingDamageDefaultMultiplier") => void) & ((playerId: PlayerId_2, option: "dealingDamageHeadMultiplier") => void) & ((playerId: PlayerId_2, option: "dealingDamageLegMultiplier") => void) & ((playerId: PlayerId_2, option: "dealingDamageMultiplier") => void) & ((playerId: PlayerId_2, option: "droppedItemScale") => void) & ((playerId: PlayerId_2, option: "fallDamage") => void) & ((playerId: PlayerId_2, option: "groundFrictionScale") => void) & ((playerId: PlayerId_2, option: "killstreakDuration") => void) & ((playerId: PlayerId_2, option: "maxAuraLevel") => void) & ((playerId: PlayerId_2, option: "movementBasedFovScale") => void) & ((playerId: PlayerId_2, option: "receivingDamageMultiplier") => void) & ((playerId: PlayerId_2, option: "respawnButtonText") => void) & ((playerId: PlayerId_2, option: "secsToRespawn") => void) & ((playerId: PlayerId_2, option: "usePlayAgainButton") => void);
-    readonly setClientOptions: (playerId: PlayerId_2, options: Partial<ClientOptions_2>) => void;
+    }[]) & ((playerId: PlayerId, option: "creative") => boolean) & ((playerId: PlayerId, option: "flySpeedMultiplier") => number) & ((playerId: PlayerId, option: "canPickBlocks") => boolean) & ((playerId: PlayerId, option: "compassTarget") => string | number | number[]) & ((playerId: PlayerId, option: "ttbMultiplier") => number) & ((playerId: PlayerId, option: "inventoryItemsMoveable") => boolean) & ((playerId: PlayerId, option: "invincible") => boolean) & ((playerId: PlayerId, option: "maxShield") => number) & ((playerId: PlayerId, option: "initialShield") => number) & ((playerId: PlayerId, option: "maxHealth") => number) & ((playerId: PlayerId, option: "initialHealth") => number) & ((playerId: PlayerId, option: "healthRegenAmount") => number) & ((playerId: PlayerId, option: "healthRegenInterval") => number) & ((playerId: PlayerId, option: "healthRegenStartAfter") => number) & ((playerId: PlayerId, option: "effectDamageDuration") => number) & ((playerId: PlayerId, option: "effectSpeedDuration") => number) & ((playerId: PlayerId, option: "effectDamageReductionDuration") => number) & ((playerId: PlayerId, option: "effectHealthRegenDuration") => number) & ((playerId: PlayerId, option: "potionEffectDuration") => number) & ((playerId: PlayerId, option: "splashPotionEffectDuration") => number) & ((playerId: PlayerId, option: "arrowPotionEffectDuration") => number) & ((playerId: PlayerId, option: "fogChunkDistanceOverride") => number) & ((playerId: PlayerId, option: "fogColourOverride") => string) & ((playerId: PlayerId, option: "airAccScale") => number) & ((playerId: PlayerId, option: "airFrictionScale") => number) & ((playerId: PlayerId, option: "airMomentumConservation") => boolean) & ((playerId: PlayerId, option: "auraPerLevel") => number) & ((playerId: PlayerId, option: "autoRespawn") => boolean) & ((playerId: PlayerId, option: "cameraTint") => [number, number, number, number]) & ((playerId: PlayerId, option: "dealingDamageDefaultMultiplier") => number) & ((playerId: PlayerId, option: "dealingDamageHeadMultiplier") => number) & ((playerId: PlayerId, option: "dealingDamageLegMultiplier") => number) & ((playerId: PlayerId, option: "dealingDamageMultiplier") => number) & ((playerId: PlayerId, option: "droppedItemScale") => number) & ((playerId: PlayerId, option: "fallDamage") => boolean) & ((playerId: PlayerId, option: "groundFrictionScale") => number) & ((playerId: PlayerId, option: "killstreakDuration") => number) & ((playerId: PlayerId, option: "maxAuraLevel") => number) & ((playerId: PlayerId, option: "movementBasedFovScale") => number) & ((playerId: PlayerId, option: "receivingDamageMultiplier") => number) & ((playerId: PlayerId, option: "respawnButtonText") => string) & ((playerId: PlayerId, option: "secsToRespawn") => number) & ((playerId: PlayerId, option: "usePlayAgainButton") => boolean);
+    readonly setClientOptionToDefault: (<TOption extends keyof ClientOptions_2>(playerId: PlayerId, option: TOption) => void) & ((playerId: PlayerId, option: "canChange") => void) & ((playerId: PlayerId, option: "crouchingSpeed") => void) & ((playerId: PlayerId, option: "walkingSpeed") => void) & ((playerId: PlayerId, option: "runningSpeed") => void) & ((playerId: PlayerId, option: "speedMultiplier") => void) & ((playerId: PlayerId, option: "jumpAmount") => void) & ((playerId: PlayerId, option: "airJumpCount") => void) & ((playerId: PlayerId, option: "bunnyhopMaxMultiplier") => void) & ((playerId: PlayerId, option: "musicVolumeLevel") => void) & ((playerId: PlayerId, option: "showPlayersInUnloadedChunks") => void) & ((playerId: PlayerId, option: "useInventory") => void) & ((playerId: PlayerId, option: "useFullInventory") => void) & ((playerId: PlayerId, option: "canCraft") => void) & ((playerId: PlayerId, option: "canPickUpItems") => void) & ((playerId: PlayerId, option: "playerZoom") => void) & ((playerId: PlayerId, option: "zoomOutDistance") => void) & ((playerId: PlayerId, option: "maxPlayerZoom") => void) & ((playerId: PlayerId, option: "canCustomiseChar") => void) & ((playerId: PlayerId, option: "defaultBlock") => void) & ((playerId: PlayerId, option: "cantChangeError") => void) & ((playerId: PlayerId, option: "cantBreakError") => void) & ((playerId: PlayerId, option: "cantBuildError") => void) & ((playerId: PlayerId, option: "touchscreenActionButton") => void) & ((playerId: PlayerId, option: "strictFluidBuckets") => void) & ((playerId: PlayerId, option: "canUseZoomKey") => void) & ((playerId: PlayerId, option: "canAltAction") => void) & ((playerId: PlayerId, option: "canSeeNametagsThroughWalls") => void) & ((playerId: PlayerId, option: "showBasicMovementControls") => void) & ((playerId: PlayerId, option: "middleTextUpper") => void) & ((playerId: PlayerId, option: "middleTextLower") => void) & ((playerId: PlayerId, option: "crosshairText") => void) & ((playerId: PlayerId, option: "RightInfoText") => void) & ((playerId: PlayerId, option: "numClosestPlayersVisible") => void) & ((playerId: PlayerId, option: "showProgressBar") => void) & ((playerId: PlayerId, option: "showKillfeed") => void) & ((playerId: PlayerId, option: "chatChannels") => void) & ((playerId: PlayerId, option: "creative") => void) & ((playerId: PlayerId, option: "flySpeedMultiplier") => void) & ((playerId: PlayerId, option: "canPickBlocks") => void) & ((playerId: PlayerId, option: "compassTarget") => void) & ((playerId: PlayerId, option: "ttbMultiplier") => void) & ((playerId: PlayerId, option: "inventoryItemsMoveable") => void) & ((playerId: PlayerId, option: "invincible") => void) & ((playerId: PlayerId, option: "maxShield") => void) & ((playerId: PlayerId, option: "initialShield") => void) & ((playerId: PlayerId, option: "maxHealth") => void) & ((playerId: PlayerId, option: "initialHealth") => void) & ((playerId: PlayerId, option: "healthRegenAmount") => void) & ((playerId: PlayerId, option: "healthRegenInterval") => void) & ((playerId: PlayerId, option: "healthRegenStartAfter") => void) & ((playerId: PlayerId, option: "effectDamageDuration") => void) & ((playerId: PlayerId, option: "effectSpeedDuration") => void) & ((playerId: PlayerId, option: "effectDamageReductionDuration") => void) & ((playerId: PlayerId, option: "effectHealthRegenDuration") => void) & ((playerId: PlayerId, option: "potionEffectDuration") => void) & ((playerId: PlayerId, option: "splashPotionEffectDuration") => void) & ((playerId: PlayerId, option: "arrowPotionEffectDuration") => void) & ((playerId: PlayerId, option: "fogChunkDistanceOverride") => void) & ((playerId: PlayerId, option: "fogColourOverride") => void) & ((playerId: PlayerId, option: "airAccScale") => void) & ((playerId: PlayerId, option: "airFrictionScale") => void) & ((playerId: PlayerId, option: "airMomentumConservation") => void) & ((playerId: PlayerId, option: "auraPerLevel") => void) & ((playerId: PlayerId, option: "autoRespawn") => void) & ((playerId: PlayerId, option: "cameraTint") => void) & ((playerId: PlayerId, option: "dealingDamageDefaultMultiplier") => void) & ((playerId: PlayerId, option: "dealingDamageHeadMultiplier") => void) & ((playerId: PlayerId, option: "dealingDamageLegMultiplier") => void) & ((playerId: PlayerId, option: "dealingDamageMultiplier") => void) & ((playerId: PlayerId, option: "droppedItemScale") => void) & ((playerId: PlayerId, option: "fallDamage") => void) & ((playerId: PlayerId, option: "groundFrictionScale") => void) & ((playerId: PlayerId, option: "killstreakDuration") => void) & ((playerId: PlayerId, option: "maxAuraLevel") => void) & ((playerId: PlayerId, option: "movementBasedFovScale") => void) & ((playerId: PlayerId, option: "receivingDamageMultiplier") => void) & ((playerId: PlayerId, option: "respawnButtonText") => void) & ((playerId: PlayerId, option: "secsToRespawn") => void) & ((playerId: PlayerId, option: "usePlayAgainButton") => void);
+    readonly setClientOptions: (playerId: PlayerId, options: Partial<ClientOptions_2>) => void;
+    readonly getPlayerPhysicsState: (playerId: PlayerId) => PlayerPhysicsStateData;
+    readonly setPlayerPhysicsState: (playerId: PlayerId, physicsState: PlayerPhysicsStateData, positionOffset?: [number, number, number]) => void;
+    readonly attemptCreateMeshEntity: <TMeshType extends MeshType>(type: TMeshType, opts: MeshEntityOpts[TMeshType], name?: string, physicsOptions?: MeshEntityPhysicsOpts, initiatorId?: EntityId | null) => EntityId | null;
+    readonly deleteMeshEntity: (eId: EntityId) => boolean;
+    readonly updateMeshEntity: <TMeshType extends MeshType>(eId: EntityId, type: TMeshType, opts: MeshEntityOpts[TMeshType]) => void;
+    readonly editItemCraftingRecipes: (playerId: PlayerId, itemName: ItemName, recipesForItem: RecipesForItem) => void;
+    readonly removeItemCraftingRecipes: (playerId: PlayerId, itemName: null | ItemName) => void;
+    readonly resetItemCraftingRecipes: (playerId: PlayerId, itemName: ItemName | null) => void;
+    readonly addQTE: (playerId: PlayerId, qteParameters: QTEClientParameters) => QTERequestId;
+    readonly deleteQTE: (playerId: PlayerId, id: QTERequestId) => void;
+    readonly hasActiveQTE: (playerId: PlayerId) => boolean;
+    readonly attemptCreateThrowable: (throwerEId: EntityId, itemName: ThrowableItem, position: Coordinate, direction: Direcrion, velocityMult?: number, damageMult?: number, gravityMult?: number, attributes?: ItemAttributes) => EntityId | null;
+    readonly deleteThrowable: (eId: EntityId) => boolean;
+    readonly setPlayerOpacity: (playerId: PlayerId, opacity: number) => void;
+    readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: PlayerId, playerIdOfOpacityPlayer: PlayerId, opacity: number) => void;
+    readonly getPlayerFacingInfo: (playerId: PlayerId) => {
+        camPos: Coordinate;
+        dir: Direcrion;
+        angleDir: AngleDir;
+        moveHeading: number;
+    };
+    readonly getPlayerTargetInfo: (playerId: PlayerId) => {
+        position: Coordinate;
+        normal: Coordinate;
+        adjacent: Coordinate;
+    };
+    readonly setCameraDirection: (playerId: PlayerId, direction: Direcrion) => void;
+    readonly setCameraZoom: (playerId: PlayerId, zoom: number) => void;
+    readonly initiateMiddleScreenBar: (playerId: PlayerId, duration: number, chargeExpiresAutomatically?: boolean, horizontalBarRemOffset?: number) => void;
+    readonly removeMiddleScreenBar: (playerId: PlayerId) => void;
+    readonly attemptSpawnMob: <TMobType extends MobType>(mobType: TMobType, x: number, y: number, z: number, opts: MobSpawnOpts<TMobType>) => MobId | null;
+    readonly createMobHerd: () => MobHerdId;
+    readonly despawnMob: (mobId: MobId) => void;
+    readonly getMobAiState: (mobId: MobId) => {
+        state: MobAiState;
+        params: MobAiStateParams<MobAiState>;
+    };
+    readonly getMobIds: () => MobId[];
+    readonly getNumMobs: () => number;
+    readonly setMobAiState: <TState extends MobAiState>(mobId: MobId, state: TState, params: MobAiStateParams<TState>) => void;
+    readonly getLobbyName: () => null | string;
+    readonly getLobbyType: () => LobbyType;
+    readonly isPublicLobby: () => boolean;
+    readonly broadcastSound: (soundName: SoundName | string, volume: number, rate: number, posSettings?: PosSettings, exceptPlayerId?: PlayerId) => void;
+    readonly playClientPredictedSound: (soundName: SoundName | string, volume: number, rate: number, posSettings?: PosSettings, predictedBy?: PlayerId) => void;
+    readonly playSound: (playerId: PlayerId, soundName: SoundName | string, volume: number, rate: number, posSettings?: PosSettings) => void;
+    readonly setVelocity: (eId: EntityId, x: number, y: number, z: number) => void;
+    readonly getVelocity: (eId: EntityId) => [number, number, number];
+    readonly applyImpulse: (eId: EntityId, xImpulse: number, yImpulse: number, zImpulse: number) => void;
+    readonly applyEffect: {
+        (lifeformId: LifeformId, effectName: InGameEffectName, duration: number | null, customEffectInfo: {
+            icon?: IngameIconName | ItemName | string;
+            onEndCb?: () => void;
+            displayName?: string | TranslatedText;
+            inbuildLevel?: number;
+        }): void;
+        (lifeformId: LifeformId, effectName: string, duration: number | null, customEffectInfo: {
+            icon?: IngameIconName | ItemName | string;
+            onEndCb?: () => void;
+            displayName?: string | TranslatedText;
+            inbuildLevel: number;
+        }): void;
+    };
+    readonly removeEffect: (lifeformId: LifeformId, name: string) => void;
+    readonly getEffects: (lifeformId: LifeformId) => string[];
+    readonly clearDirectionArrow: (playerId: PlayerId, id?: string | null) => void;
+    readonly setDirectionArrow: (playerId: PlayerId, id: string, position: Coordinate, text?: null | string | CustomTextStyling, showDistance?: boolean, style?: null | TextStyle) => void;
+    readonly getBlockData: (x: number, y: number, z: number) => object | null | undefined;
+    readonly setBlockData: (x: number, y: number, z: number, data: object) => void;
+    readonly calcExplosionForce: (eId: EntityId, explosionType: ExplosionType, knockbackFactor: number, explosionRadius: number, explosionPos: Coordinate, ignoreProjectiles: boolean) => {
+        force: Coordinate;
+        forceFrac: number;
+    };
+    readonly isInsideRect: (coordsToCheck: Coordinate, pos1: Coordinate, pos2: Coordinate, addOneToMax?: boolean) => boolean;
+    readonly now: () => number;
+    readonly raycastForBlock: (fromPos: Coordinate, dirVec: Direcrion) => BlockRaycastResult;
+    readonly applyAuraChange: (playerId: PlayerId, auraDiff: number) => number;
+    readonly getAuraInfo: (player: PlayerId) => {
+        level: number;
+        totalAura: number;
+        auraPerLevel: number;
+    };
+    readonly setTotalAura: (playerId: PlayerId, totalAura: number) => void;
+    readonly getMoonstoneChestItemSlot: (playerId: number, idx: number) => ItemObject | null;
+    readonly getMoonstoneChestItems: (playerId: number) => (ItemObject | null)[];
+    readonly setMoonstoneChestItemSlot: (playerId: number, idx: number, itemName: string, itemAmount?: number, attributes?: ItemAttributes) => void;
+    readonly canOpenStandardChest: (playerId: PlayerId, chestX: number, chestY: number, chestZ: number) => boolean | null;
+    readonly openChestForPlayer: (playerId: PlayerId, x: number, y: number, z: number) => void;
+    readonly closeChestForPlayer: (playerId: PlayerId) => void;
+    readonly giveStandardChestItem: (chestPos: Coordinate, itemName: ItemName, itemAmount?: number, playerId?: PlayerId, attributes?: ItemAttributes) => number;
+    readonly getStandardChestFreeSlotCount: (chestPos: Coordinate) => number | null;
+    readonly getStandardChestItemAmount: (chestPos: Coordinate, itemName: ItemName) => number;
+    readonly getStandardChestItemSlot: (chestPos: Coordinate, idx: number) => ItemObject | null;
+    readonly getStandardChestItems: (chestPos: Coordinate) => (ItemObject | null)[];
+    readonly setStandardChestItemSlot: (chestPos: Coordinate, idx: number, itemName: string, itemAmount?: number, playerId?: number, attributes?: any) => void;
+    readonly setWalkThroughRect: (playerId: PlayerId, pos1: Coordinate, pos2: Coordinate, updateType: WalkThroughType) => void;
+    readonly setWalkThroughType: (playerId: PlayerId, blockName: BlockName, disable?: boolean) => void;
+    readonly setCanChangeBlock: (playerId: PlayerId, x: number, y: number, z: null) => void;
+    readonly setCanChangeBlockRect: (playerId: PlayerId, pos1: Coordinate, pos2: Coordinate) => void;
+    readonly setCanChangeBlockType: (playerId: PlayerId, blockName: BlockNameOrId) => void;
+    readonly setCantChangeBlock: (playerId: PlayerId, x: number, y: number, z: number) => void;
+    readonly setCantChangeBlockRect: (playerId: PlayerId, pos1: Coordinate, pos2: Coordinate) => void;
+    readonly setCantChangeBlockType: (playerId: PlayerId, blockName: BlockNameOrId) => void;
+    readonly resetCanChangeBlockType: (playerId: PlayerId, blockName: BlockNameOrId) => void;
+    readonly resetCanChangeBlockRect: (playerId: PlayerId, pos1: Coordinate, pos2: Coordinate) => void;
+    readonly getEntityName: (entityId: EntityId) => string;
+    readonly checkValid: (entityId: EntityId | null) => boolean;
+    readonly getUnitCoordinatesLifeformWithin: (lifeformId: LifeformId) => Coordinate[];
+    readonly getEntitiesInRect: (minCoords: Coordinate, maxCoords: Coordinate) => EntityId[];
+    readonly getEntityHeading: (entityId: EntityId) => Radian;
+    readonly getEntityRotation: (entityId: EntityId) => [Radian, Radian, Radian];
+    readonly getEntityType: (entityId: EntityId) => EntityType;
+    readonly setEntityHeading: (entityId: EntityId, newHeading: Radian) => void;
+    readonly setEntityRotation: (entityId: EntityId, xRotation: Radian, yRotation: Radian, zRotation: Radian) => void;
+    readonly updateEntityNodeMeshAttachment: {
+        <TMeshType extends MeshType>(eId: EntityId, node: LifeformBodyPart, type: TMeshType, opts?: MeshEntityOpts[TMeshType], offset?: [number, number, number], rotation?: Rotation): void;
+        (eId: EntityId, node: LifeformBodyPart, type: null): void;
+    };
+    readonly getPlayerIds: () => PlayerId[];
+    readonly getNumPlayers: () => number;
+    readonly getPlayerPartyWhenJoined: (playerId: PlayerId) => Party | null;
+    readonly playerIsInGame: (playerId: PlayerId) => boolean;
+    readonly playerIsLoggedIn: (playerId: PlayerId) => boolean;
+    readonly getPlayerId: (playerName: string) => null | PlayerId;
+    readonly getPlayerDbId: (playerId: PlayerId) => PlayerDbId;
+    readonly getPlayerIdFromDbId: (dbId: PlayerDbId) => null | PlayerId;
+    readonly kickPlayer: (playerId: PlayerId, reason: string) => void;
+    readonly isMobile: (playerId: PlayerId) => boolean;
+    readonly forceRespawn: (playerId: PlayerId, respawnPos?: Readonly<Coordinate>) => void;
+    readonly getPlayerCosmetic: <TCosmeticType extends CosmeticType>(playerId: PlayerId, cosmeticType: TCosmeticType) => CosmeticName<TCosmeticType>;
+    readonly changePlayerIntoSkin: <TCosmeticType extends CosmeticType>(playerId: PlayerId, cosmeticType: TCosmeticType, cosmeticName: CosmeticName<TCosmeticType>) => void;
+    readonly setPlayerPose: (playerId: PlayerId, pose: PlayerPose, poseOffset?: [number, number, number]) => void;
+    readonly broadcastMessage: (message: string | CustomTextStyling, style?: {
+        fontWeight?: number | string;
+        color?: string;
+    }) => void;
+    readonly sendMessage: {
+        (playerId: PlayerId, message: string, style: {
+            fontWeight?: number | string;
+            color?: string;
+        }): void;
+        (playerId: PlayerId, message: CustomTextStyling): void;
+    };
+    readonly sendFlyingMiddleMessage: (playerId: PlayerId, message: string | CustomTextStyling, distanceFromAction?: number, lifetimeMs?: number) => void;
+    readonly sendTopRightHelper: (playerId: PlayerId, icon: string, text: string, opts: {
+        duration?: number;
+        width?: number;
+        height?: number;
+        color?: StringColor;
+        iconSizeMult?: number;
+        textAndIconColor?: string;
+        fontSize?: string;
+    }) => void;
+    readonly getCurrentKillstreak: (playerId: PlayerId) => number;
+    readonly clearKillstreak: (playerId: PlayerId) => void;
+    readonly createItemDrop: (x: number, y: number, z: number, itemName: ItemName, amount?: number | null, margeItems?: boolean, attributes?: ItemAttributes, timeTillDespawn?: number, dropperId?: LifeformId | null, options?: never) => null | ItemEntityId;
+    readonly setCantPickUpItem: (playerId: PlayerId, itemId: ItemEntityId) => void;
+    readonly deleteItemDrop: (itemId: ItemEntityId) => void;
+    readonly giveItem: (playerId: PlayerId, itemName: ItemName, itemAmount: number, attributes: ItemAttributes) => void;
+    readonly inventoryIsFull: (playerId: PlayerId) => boolean;
+    readonly setItemSlot: (playerId: PlayerId, itemSlotIndex: number, itemName: ItemName, itemAmount: number, attributes: ItemAttributes, tellClient: boolean) => void;
+    readonly removeItemName: (playerId: PlayerId, itemName: ItemName, amount: number) => void;
+    readonly getItemSlot: (playerId: PlayerId, itemSlotIndex: number) => ItemObject | null;
+    readonly clearInventory: (playerId: PlayerId) => void;
+    readonly hasItem: (playerId: PlayerId, itemName: Item) => boolean;
+    readonly getInventoryItemAmount: (playerId: PlayerId, itemName: Item) => number;
+    readonly getSelectedInventorySlotI: (playerId: PlayerId) => number;
+    readonly getHeldItem: (playerId: PlayerId) => ItemObject | null;
+    readonly getInventoryFreeSlotCount: (playerId: PlayerId) => number;
+    readonly getInitialItemMetadata: (itemName: Item) => Partial<BlockMetadataItem & NonBlockMetadataItem>;
+    readonly setItemAmount: (itemId: ItemId, newAmount: number) => void;
+    readonly setSelectedInventorySlotI: (playerId: PlayerId, newI: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9) => void;
+    readonly getItemStat: (lifeformId: LifeformId | null, itemName: ItemName, stat: string) => AnyMetadataItem;
+    readonly getHealth: (entityId: EntityId) => Health;
+    readonly setHealth: (entityId: EntityId, newHealth: Health | null, whoDidDamage?: Readonly<WhoDidDamage>, increaseMaxHealthIfNeeded?: boolean) => boolean;
+    readonly attemptApplyDamage: (options: Readonly<PlayerAttemptDamageOtherPlayerOpts>) => boolean;
+    readonly applyMeleeHit: (hittingEId: LifeformId, hitEId: LifeformId, dirFacing: Readonly<Direcrion>, bodyPartHit?: LifeformBodyPart | null, overrides?: Readonly<applyMeleeHitOverrides>) => boolean;
+    readonly applyHealthChange: (lifeformId: LifeformId, changeAmount: number, whoDidDamage?: Readonly<WhoDidDamage>, broadcastLifeformHurt?: boolean) => boolean;
+    readonly killLifeform: (lifeformId: LifeformId, whoKilled?: WhoKilled) => void;
+    readonly isAlive: (lifeformId: LifeformId) => boolean;
+    readonly getBlockCoordinatesPlayerStandingOn: (playerId: PlayerId) => Coordinate[];
+    readonly getBlockTypesPlayerStandingOn: (playerId: PlayerId) => BlockName[];
+    readonly getPosition: (entityId: EntityId) => Coordinate;
+    readonly setPosition: {
+        (entityId: EntityId, x: number, y: number, z: number): void;
+        (entityId: EntityId, position: Readonly<Coordinate>): void;
+    };
+    readonly getShieldAmount: (entityId: EntityId) => ShieldAmount;
+    readonly setShieldAmount: (lifeformId: LifeformId, newShieldAmount: ShieldAmount) => void;
+    readonly showShopTutorial: (playerId: PlayerId) => void;
+    readonly createShopItem: (categoryKey: ShopCategoryKey, itemKey: ShopItemKey, item: ShopItem) => void;
+    readonly updateShopItem: (categoryKey: ShopCategoryKey, itemKey: ShopItemKey, changes: Partial<ShopItem>) => void;
+    readonly deleteShopItem: (categoryKey: ShopCategoryKey, itemKey: ShopItemKey) => void;
+    readonly configureShopCategory: (categoryKey: ShopCategoryKey, config: ShopCategoryConfig) => void;
+    readonly createShopItemForPlayer: (playerId: PlayerId, categoryKey: ShopCategoryKey, itemKey: ShopItemKey, item: ShopItem) => void;
+    readonly updateShopItemForPlayer: (playerId: PlayerId, categoryKey: ShopCategoryKey, itemKey: ShopItemKey, changes: Partial<ShopItem>) => void;
+    readonly resetShopItemForPlayer: (playerId: PlayerId, categoryKey: ShopCategoryKey, itemKey: ShopItemKey) => void;
+    readonly configureShopCategoryForPlayer: (playerId: PlayerId, categoryKey: ShopCategoryKey, config: ShopCategoryConfig) => void;
+    readonly sendOverShopInfo: (playerId: PlayerId, info: string | CustomTextStyling) => void;
+    readonly openShop: (playerId: PlayerId, toggle?: boolean, forceCategoryKey?: ShopCategoryKey | null, onlyIfNonEmpty?: boolean) => void;
+    readonly playParticleEffect: (opts: TempParticleSystemOpts | ParticlePresetOpts, clientPredictedBy?: PlayerId) => void;
+    readonly setCallbackValueFallback: (callbackName: CallbackName, defaultValue: any) => void;
+};
+
+// @public (undocumented)
+export type applyMeleeHitOverrides = {
+    damage?: number | null;
+    heldItemName?: Item | null;
+    horizontalKbMultiplier?: number;
+    verticalKbMultiplier?: number;
+};
+
+// @public
+export type Array255Color = [number, number, number];
+
+// @public
+export type Array255ColorWithA = [number, number, number, number];
+
+// Warning: (ae-forgotten-export) The symbol "AttackDamageDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackDamage<K extends MobType> = AttackDamageDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackEffectDurationDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackEffectDuration<K extends MobType> = AttackEffectDurationDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackEffectNameDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackEffectName<K extends MobType> = AttackEffectNameDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackImpulseDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackImpulse<K extends MobType> = AttackImpulseDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackIntervalDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackInterval<K extends MobType> = AttackIntervalDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackItemNameDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackItemName<K extends MobType> = AttackItemNameDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackRadiusDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackRadius<K extends MobType> = AttackRadiusDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "AttackSoundDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type AttackSound<K extends MobType> = AttackSoundDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "BaseJumpImpulseXZDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type BaseJumpImpulseXZ<K extends MobType> = BaseJumpImpulseXZDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "BaseJumpImpulseYDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type BaseJumpImpulseY<K extends MobType> = BaseJumpImpulseYDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "BaseRunningSpeedDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type BaseRunningSpeed<K extends MobType> = BaseRunningSpeedDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "BaseWalkingSpeedDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type BaseWalkingSpeed<K extends MobType> = BaseWalkingSpeedDictionary[K];
+
+// @public (undocumented)
+export type BlockId = AllBlockID;
+
+// @public (undocumented)
+export type BlockMetadataItem = any;
+
+// @public (undocumented)
+export type BlockName = AllBlockName;
+
+// @public (undocumented)
+export type BlockNameOrId = BlockId | BlockName;
+
+// @public (undocumented)
+export type BlockRaycastResult = any;
+
+// @public (undocumented)
+export type BloxdBlockOpts = {
+    hideDist?: number;
+    meshOffset?: number[];
+    autoRotate?: boolean;
+    lineToEId?: EntityId;
+    blockName: BlockNameOrId;
+    size: number | [number, number, number];
+};
+
+// @public (undocumented)
+export type BodyCosmetic = "body_0_0" | "body_0_1" | "body_0_2" | "body_0_3" | "body_0_4" | "body_0_5" | "body_0_6" | "body_0_7" | "body_1_0" | "body_1_1" | "body_1_2" | "body_1_3" | "body_1_4" | "body_1_5" | "body_1_6" | "body_1_7" | "body_2_0" | "body_2_1" | "body_2_2" | "body_2_3" | "body_2_4" | "body_2_5" | "body_2_6" | "body_2_7" | "body_3_0" | "body_3_1" | "body_3_2" | "body_3_3" | "body_3_4" | "body_3_5" | "body_3_6" | "body_3_7" | "body_4_0" | "body_4_1" | "body_4_2" | "body_4_3" | "body_4_4" | "body_4_5" | "body_4_6" | "body_4_7" | "body_5_0" | "body_5_1" | "body_5_2" | "body_5_3" | "body_5_4" | "body_5_5" | "body_5_6" | "body_5_7" | "body_6_0" | "body_6_1" | "body_6_2" | "body_6_3" | "body_6_4" | "body_6_5" | "body_6_6" | "body_6_7";
+
+// @public (undocumented)
+export type BoxOpts = {
+    hideDist?: number;
+    meshOffset?: number[];
+    autoRotate?: boolean;
+    lineToEId?: EntityId;
+    width: number;
+    height: number;
+    depth: number;
+    diffuseColor?: number[];
+    emissiveColor?: number[];
+    backFaceCulling?: boolean;
+    texture?: BlockName;
+    faceUV?: number[][];
+};
+
+// Warning: (ae-forgotten-export) The symbol "BurstAttackInfoDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type BurstAttackInfo<K extends MobType> = BurstAttackInfoDictionary[K];
+
+// @public (undocumented)
+export type CallbackName = "tick" | "onClose" | "onPlayerJoin" | "onPlayerLeave" | "onPlayerJump" | "onRespawnRequest" | "playerCommand" | "onPlayerChat" | "onPlayerChangeBlock" | "onPlayerDropItem" | "onPlayerPickedUpItem" | "onPlayerSelectInventorySlot" | "onBlockStand" | "onPlayerAttemptCraft" | "onPlayerCraft" | "onPlayerAttemptOpenChest" | "onPlayerOpenedChest" | "onPlayerMoveItemOutOfInventory" | "onPlayerMoveInvenItem" | "onPlayerMoveItemIntoIdxs" | "onPlayerSwapInvenSlots" | "onPlayerMoveInvenItemWithAmt" | "onPlayerAttemptAltAction" | "onPlayerAltAction" | "onPlayerClick" | "onClientOptionUpdated" | "onMobSettingUpdated" | "onInventoryUpdated" | "onChestUpdated" | "onWorldChangeBlock" | "onCreateBloxdMeshEntity" | "onEntityCollision" | "onPlayerAttemptSpawnMob" | "onWorldAttemptSpawnMob" | "onPlayerSpawnMob" | "onWorldSpawnMob" | "onWorldAttemptDespawnMob" | "onMobDespawned" | "onPlayerAttack" | "onPlayerDamagingOtherPlayer" | "onPlayerDamagingMob" | "onMobDamagingPlayer" | "onMobDamagingOtherMob" | "onAttemptKillPlayer" | "onPlayerKilledOtherPlayer" | "onMobKilledPlayer" | "onPlayerKilledMob" | "onMobKilledOtherMob" | "onPlayerPotionEffect" | "onPlayerDamagingMeshEntity" | "onPlayerBreakMeshEntity" | "onPlayerUsedThrowable" | "onPlayerThrowableHitTerrain" | "onTouchscreenActionButton" | "onTaskClaimed" | "onChunkLoaded" | "onPlayerRequestChunk" | "onItemDropCreated" | "onPlayerStartChargingItem" | "onPlayerFinishChargingItem" | "onPlayerFinishQTE" | "onPlayerBoughtShopItem" | "doPeriodicSave";
+
+// Warning: (ae-forgotten-export) The symbol "ChaseRadiusDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type ChaseRadius<K extends MobType> = ChaseRadiusDictionary[K];
+
+// @public (undocumented)
+export type ChunkId = `${number}|${number}|${number}`;
+
+// @public (undocumented)
+export const ClientOptionApis: {
+    setClientOption: (<TOption extends keyof ClientOptions>(playerId: PlayerId, option: TOption, value: ClientOptions[TOption]) => void) & {
+        (playerId: PlayerId, option: "canChange", value: true): void;
+        (playerId: PlayerId, option: "canChange", value: false): void;
+    } & ((playerId: PlayerId, option: "crouchingSpeed", value: number) => void) & ((playerId: PlayerId, option: "walkingSpeed", value: number) => void) & ((playerId: PlayerId, option: "runningSpeed", value: number) => void) & ((playerId: PlayerId, option: "speedMultiplier", value: number) => void) & ((playerId: PlayerId, option: "jumpAmount", value: number) => void) & ((playerId: PlayerId, option: "airJumpCount", value: number) => void) & ((playerId: PlayerId, option: "bunnyhopMaxMultiplier", value: number) => void) & ((playerId: PlayerId, option: "musicVolumeLevel", value: number) => void) & ((playerId: PlayerId, option: "showPlayersInUnloadedChunks", value: boolean) => void) & ((playerId: PlayerId, option: "useInventory", value: boolean) => void) & ((playerId: PlayerId, option: "useFullInventory", value: boolean) => void) & ((playerId: PlayerId, option: "canCraft", value: boolean) => void) & ((playerId: PlayerId, option: "canPickUpItems", value: boolean) => void) & ((playerId: PlayerId, option: "playerZoom", value: number) => void) & ((playerId: PlayerId, option: "zoomOutDistance", value: number) => void) & ((playerId: PlayerId, option: "maxPlayerZoom", value: number) => void) & ((playerId: PlayerId, option: "canCustomiseChar", value: boolean) => void) & ((playerId: PlayerId, option: "defaultBlock", value: string) => void) & ((playerId: PlayerId, option: "cantChangeError", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "cantBreakError", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "cantBuildError", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "touchscreenActionButton", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "strictFluidBuckets", value: boolean) => void) & ((playerId: PlayerId, option: "canUseZoomKey", value: boolean) => void) & ((playerId: PlayerId, option: "canAltAction", value: boolean) => void) & ((playerId: PlayerId, option: "canSeeNametagsThroughWalls", value: boolean) => void) & ((playerId: PlayerId, option: "showBasicMovementControls", value: boolean) => void) & ((playerId: PlayerId, option: "middleTextUpper", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "middleTextLower", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "crosshairText", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "RightInfoText", value: string | CustomTextStyling) => void) & ((playerId: PlayerId, option: "numClosestPlayersVisible", value: number) => void) & ((playerId: PlayerId, option: "showProgressBar", value: boolean) => void) & ((playerId: PlayerId, option: "showKillfeed", value: boolean) => void) & ((playerId: PlayerId, option: "chatChannels", value: {
+        channelName: string;
+        elementContent: string | CustomTextStyling;
+        elementBgColor: string;
+    }[]) => void) & ((playerId: PlayerId, option: "creative", value: boolean) => void) & ((playerId: PlayerId, option: "flySpeedMultiplier", value: number) => void) & ((playerId: PlayerId, option: "canPickBlocks", value: boolean) => void) & ((playerId: PlayerId, option: "compassTarget", value: string | number | number[]) => void) & ((playerId: PlayerId, option: "ttbMultiplier", value: number) => void) & ((playerId: PlayerId, option: "inventoryItemsMoveable", value: boolean) => void) & ((playerId: PlayerId, option: "invincible", value: boolean) => void) & ((playerId: PlayerId, option: "maxShield", value: number) => void) & ((playerId: PlayerId, option: "initialShield", value: number) => void) & ((playerId: PlayerId, option: "maxHealth", value: number) => void) & ((playerId: PlayerId, option: "initialHealth", value: number) => void) & ((playerId: PlayerId, option: "healthRegenAmount", value: number) => void) & ((playerId: PlayerId, option: "healthRegenInterval", value: number) => void) & ((playerId: PlayerId, option: "healthRegenStartAfter", value: number) => void) & ((playerId: PlayerId, option: "effectDamageDuration", value: number) => void) & ((playerId: PlayerId, option: "effectSpeedDuration", value: number) => void) & ((playerId: PlayerId, option: "effectDamageReductionDuration", value: number) => void) & ((playerId: PlayerId, option: "effectHealthRegenDuration", value: number) => void) & ((playerId: PlayerId, option: "potionEffectDuration", value: number) => void) & ((playerId: PlayerId, option: "splashPotionEffectDuration", value: number) => void) & ((playerId: PlayerId, option: "arrowPotionEffectDuration", value: number) => void) & ((playerId: PlayerId, option: "fogChunkDistanceOverride", value: number) => void) & ((playerId: PlayerId, option: "fogColourOverride", value: string) => void) & ((playerId: PlayerId, option: "airAccScale", value: number) => void) & ((playerId: PlayerId, option: "airFrictionScale", value: number) => void) & ((playerId: PlayerId, option: "airMomentumConservation", value: boolean) => void) & ((playerId: PlayerId, option: "auraPerLevel", value: number) => void) & ((playerId: PlayerId, option: "autoRespawn", value: boolean) => void) & ((playerId: PlayerId, option: "cameraTint", value: [number, number, number, number]) => void) & ((playerId: PlayerId, option: "dealingDamageDefaultMultiplier", value: number) => void) & ((playerId: PlayerId, option: "dealingDamageHeadMultiplier", value: number) => void) & ((playerId: PlayerId, option: "dealingDamageLegMultiplier", value: number) => void) & ((playerId: PlayerId, option: "dealingDamageMultiplier", value: number) => void) & ((playerId: PlayerId, option: "droppedItemScale", value: number) => void) & ((playerId: PlayerId, option: "fallDamage", value: boolean) => void) & ((playerId: PlayerId, option: "groundFrictionScale", value: number) => void) & ((playerId: PlayerId, option: "killstreakDuration", value: number) => void) & ((playerId: PlayerId, option: "maxAuraLevel", value: number) => void) & ((playerId: PlayerId, option: "movementBasedFovScale", value: number) => void) & ((playerId: PlayerId, option: "receivingDamageMultiplier", value: number) => void) & ((playerId: PlayerId, option: "respawnButtonText", value: string) => void) & ((playerId: PlayerId, option: "secsToRespawn", value: number) => void) & ((playerId: PlayerId, option: "usePlayAgainButton", value: boolean) => void);
+    getClientOption: (<TOption extends keyof ClientOptions>(playerId: PlayerId, option: TOption) => ClientOptions[TOption]) & ((playerId: PlayerId, option: "canChange") => boolean) & ((playerId: PlayerId, option: "crouchingSpeed") => number) & ((playerId: PlayerId, option: "walkingSpeed") => number) & ((playerId: PlayerId, option: "runningSpeed") => number) & ((playerId: PlayerId, option: "speedMultiplier") => number) & ((playerId: PlayerId, option: "jumpAmount") => number) & ((playerId: PlayerId, option: "airJumpCount") => number) & ((playerId: PlayerId, option: "bunnyhopMaxMultiplier") => number) & ((playerId: PlayerId, option: "musicVolumeLevel") => number) & ((playerId: PlayerId, option: "showPlayersInUnloadedChunks") => boolean) & ((playerId: PlayerId, option: "useInventory") => boolean) & ((playerId: PlayerId, option: "useFullInventory") => boolean) & ((playerId: PlayerId, option: "canCraft") => boolean) & ((playerId: PlayerId, option: "canPickUpItems") => boolean) & ((playerId: PlayerId, option: "playerZoom") => number) & ((playerId: PlayerId, option: "zoomOutDistance") => number) & ((playerId: PlayerId, option: "maxPlayerZoom") => number) & ((playerId: PlayerId, option: "canCustomiseChar") => boolean) & ((playerId: PlayerId, option: "defaultBlock") => string) & ((playerId: PlayerId, option: "cantChangeError") => string | CustomTextStyling) & ((playerId: PlayerId, option: "cantBreakError") => string | CustomTextStyling) & ((playerId: PlayerId, option: "cantBuildError") => string | CustomTextStyling) & ((playerId: PlayerId, option: "touchscreenActionButton") => string | CustomTextStyling) & ((playerId: PlayerId, option: "strictFluidBuckets") => boolean) & ((playerId: PlayerId, option: "canUseZoomKey") => boolean) & ((playerId: PlayerId, option: "canAltAction") => boolean) & ((playerId: PlayerId, option: "canSeeNametagsThroughWalls") => boolean) & ((playerId: PlayerId, option: "showBasicMovementControls") => boolean) & ((playerId: PlayerId, option: "middleTextUpper") => string | CustomTextStyling) & ((playerId: PlayerId, option: "middleTextLower") => string | CustomTextStyling) & ((playerId: PlayerId, option: "crosshairText") => string | CustomTextStyling) & ((playerId: PlayerId, option: "RightInfoText") => string | CustomTextStyling) & ((playerId: PlayerId, option: "numClosestPlayersVisible") => number) & ((playerId: PlayerId, option: "showProgressBar") => boolean) & ((playerId: PlayerId, option: "showKillfeed") => boolean) & ((playerId: PlayerId, option: "chatChannels") => {
+        channelName: string;
+        elementContent: string | CustomTextStyling;
+        elementBgColor: string;
+    }[]) & ((playerId: PlayerId, option: "creative") => boolean) & ((playerId: PlayerId, option: "flySpeedMultiplier") => number) & ((playerId: PlayerId, option: "canPickBlocks") => boolean) & ((playerId: PlayerId, option: "compassTarget") => string | number | number[]) & ((playerId: PlayerId, option: "ttbMultiplier") => number) & ((playerId: PlayerId, option: "inventoryItemsMoveable") => boolean) & ((playerId: PlayerId, option: "invincible") => boolean) & ((playerId: PlayerId, option: "maxShield") => number) & ((playerId: PlayerId, option: "initialShield") => number) & ((playerId: PlayerId, option: "maxHealth") => number) & ((playerId: PlayerId, option: "initialHealth") => number) & ((playerId: PlayerId, option: "healthRegenAmount") => number) & ((playerId: PlayerId, option: "healthRegenInterval") => number) & ((playerId: PlayerId, option: "healthRegenStartAfter") => number) & ((playerId: PlayerId, option: "effectDamageDuration") => number) & ((playerId: PlayerId, option: "effectSpeedDuration") => number) & ((playerId: PlayerId, option: "effectDamageReductionDuration") => number) & ((playerId: PlayerId, option: "effectHealthRegenDuration") => number) & ((playerId: PlayerId, option: "potionEffectDuration") => number) & ((playerId: PlayerId, option: "splashPotionEffectDuration") => number) & ((playerId: PlayerId, option: "arrowPotionEffectDuration") => number) & ((playerId: PlayerId, option: "fogChunkDistanceOverride") => number) & ((playerId: PlayerId, option: "fogColourOverride") => string) & ((playerId: PlayerId, option: "airAccScale") => number) & ((playerId: PlayerId, option: "airFrictionScale") => number) & ((playerId: PlayerId, option: "airMomentumConservation") => boolean) & ((playerId: PlayerId, option: "auraPerLevel") => number) & ((playerId: PlayerId, option: "autoRespawn") => boolean) & ((playerId: PlayerId, option: "cameraTint") => [number, number, number, number]) & ((playerId: PlayerId, option: "dealingDamageDefaultMultiplier") => number) & ((playerId: PlayerId, option: "dealingDamageHeadMultiplier") => number) & ((playerId: PlayerId, option: "dealingDamageLegMultiplier") => number) & ((playerId: PlayerId, option: "dealingDamageMultiplier") => number) & ((playerId: PlayerId, option: "droppedItemScale") => number) & ((playerId: PlayerId, option: "fallDamage") => boolean) & ((playerId: PlayerId, option: "groundFrictionScale") => number) & ((playerId: PlayerId, option: "killstreakDuration") => number) & ((playerId: PlayerId, option: "maxAuraLevel") => number) & ((playerId: PlayerId, option: "movementBasedFovScale") => number) & ((playerId: PlayerId, option: "receivingDamageMultiplier") => number) & ((playerId: PlayerId, option: "respawnButtonText") => string) & ((playerId: PlayerId, option: "secsToRespawn") => number) & ((playerId: PlayerId, option: "usePlayAgainButton") => boolean);
+    setClientOptionToDefault: (<TOption extends keyof ClientOptions>(playerId: PlayerId, option: TOption) => void) & ((playerId: PlayerId, option: "canChange") => void) & ((playerId: PlayerId, option: "crouchingSpeed") => void) & ((playerId: PlayerId, option: "walkingSpeed") => void) & ((playerId: PlayerId, option: "runningSpeed") => void) & ((playerId: PlayerId, option: "speedMultiplier") => void) & ((playerId: PlayerId, option: "jumpAmount") => void) & ((playerId: PlayerId, option: "airJumpCount") => void) & ((playerId: PlayerId, option: "bunnyhopMaxMultiplier") => void) & ((playerId: PlayerId, option: "musicVolumeLevel") => void) & ((playerId: PlayerId, option: "showPlayersInUnloadedChunks") => void) & ((playerId: PlayerId, option: "useInventory") => void) & ((playerId: PlayerId, option: "useFullInventory") => void) & ((playerId: PlayerId, option: "canCraft") => void) & ((playerId: PlayerId, option: "canPickUpItems") => void) & ((playerId: PlayerId, option: "playerZoom") => void) & ((playerId: PlayerId, option: "zoomOutDistance") => void) & ((playerId: PlayerId, option: "maxPlayerZoom") => void) & ((playerId: PlayerId, option: "canCustomiseChar") => void) & ((playerId: PlayerId, option: "defaultBlock") => void) & ((playerId: PlayerId, option: "cantChangeError") => void) & ((playerId: PlayerId, option: "cantBreakError") => void) & ((playerId: PlayerId, option: "cantBuildError") => void) & ((playerId: PlayerId, option: "touchscreenActionButton") => void) & ((playerId: PlayerId, option: "strictFluidBuckets") => void) & ((playerId: PlayerId, option: "canUseZoomKey") => void) & ((playerId: PlayerId, option: "canAltAction") => void) & ((playerId: PlayerId, option: "canSeeNametagsThroughWalls") => void) & ((playerId: PlayerId, option: "showBasicMovementControls") => void) & ((playerId: PlayerId, option: "middleTextUpper") => void) & ((playerId: PlayerId, option: "middleTextLower") => void) & ((playerId: PlayerId, option: "crosshairText") => void) & ((playerId: PlayerId, option: "RightInfoText") => void) & ((playerId: PlayerId, option: "numClosestPlayersVisible") => void) & ((playerId: PlayerId, option: "showProgressBar") => void) & ((playerId: PlayerId, option: "showKillfeed") => void) & ((playerId: PlayerId, option: "chatChannels") => void) & ((playerId: PlayerId, option: "creative") => void) & ((playerId: PlayerId, option: "flySpeedMultiplier") => void) & ((playerId: PlayerId, option: "canPickBlocks") => void) & ((playerId: PlayerId, option: "compassTarget") => void) & ((playerId: PlayerId, option: "ttbMultiplier") => void) & ((playerId: PlayerId, option: "inventoryItemsMoveable") => void) & ((playerId: PlayerId, option: "invincible") => void) & ((playerId: PlayerId, option: "maxShield") => void) & ((playerId: PlayerId, option: "initialShield") => void) & ((playerId: PlayerId, option: "maxHealth") => void) & ((playerId: PlayerId, option: "initialHealth") => void) & ((playerId: PlayerId, option: "healthRegenAmount") => void) & ((playerId: PlayerId, option: "healthRegenInterval") => void) & ((playerId: PlayerId, option: "healthRegenStartAfter") => void) & ((playerId: PlayerId, option: "effectDamageDuration") => void) & ((playerId: PlayerId, option: "effectSpeedDuration") => void) & ((playerId: PlayerId, option: "effectDamageReductionDuration") => void) & ((playerId: PlayerId, option: "effectHealthRegenDuration") => void) & ((playerId: PlayerId, option: "potionEffectDuration") => void) & ((playerId: PlayerId, option: "splashPotionEffectDuration") => void) & ((playerId: PlayerId, option: "arrowPotionEffectDuration") => void) & ((playerId: PlayerId, option: "fogChunkDistanceOverride") => void) & ((playerId: PlayerId, option: "fogColourOverride") => void) & ((playerId: PlayerId, option: "airAccScale") => void) & ((playerId: PlayerId, option: "airFrictionScale") => void) & ((playerId: PlayerId, option: "airMomentumConservation") => void) & ((playerId: PlayerId, option: "auraPerLevel") => void) & ((playerId: PlayerId, option: "autoRespawn") => void) & ((playerId: PlayerId, option: "cameraTint") => void) & ((playerId: PlayerId, option: "dealingDamageDefaultMultiplier") => void) & ((playerId: PlayerId, option: "dealingDamageHeadMultiplier") => void) & ((playerId: PlayerId, option: "dealingDamageLegMultiplier") => void) & ((playerId: PlayerId, option: "dealingDamageMultiplier") => void) & ((playerId: PlayerId, option: "droppedItemScale") => void) & ((playerId: PlayerId, option: "fallDamage") => void) & ((playerId: PlayerId, option: "groundFrictionScale") => void) & ((playerId: PlayerId, option: "killstreakDuration") => void) & ((playerId: PlayerId, option: "maxAuraLevel") => void) & ((playerId: PlayerId, option: "movementBasedFovScale") => void) & ((playerId: PlayerId, option: "receivingDamageMultiplier") => void) & ((playerId: PlayerId, option: "respawnButtonText") => void) & ((playerId: PlayerId, option: "secsToRespawn") => void) & ((playerId: PlayerId, option: "usePlayAgainButton") => void);
+    setClientOptions: (playerId: PlayerId, options: Partial<ClientOptions>) => void;
+};
+
+// Warning: (ae-forgotten-export) The symbol "GenerateClientOptions" needs to be exported by the entry point index.d.ts
+// Warning: (ae-forgotten-export) The symbol "AllClientOptionUnion" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type ClientOptions = GenerateClientOptions<AllClientOptionUnion>;
+
+// @public (undocumented)
+export type CommonCosmetic = "chef" | "farmer" | "piggy_banker" | "portal_mage" | "trader" | "trader_black" | "trader_blue" | "wizard" | "zombie";
+
+// @public (undocumented)
+export type CommonMeshEntityOpts = {
+    hideDist?: number;
+    meshOffset?: number[];
+    autoRotate?: boolean;
+    lineToEId?: EntityId;
+};
+
+// @public (undocumented)
+export type Coordinate = [number, number, number];
+
+// @public (undocumented)
+export type CosmeticName<TCosmeticType extends CosmeticType> = {
+    hat: HatCosmetic;
+    head: HeadCosmetic;
+    body: BodyCosmetic;
+    legs: LegsCosmetic;
+    shoes: ShoesCosmetic;
+    eyebrows: EyebrowsCosmetic;
+    eyes: EyesCosmetic;
+    skin: SkinCosmetic;
+}[TCosmeticType] | CommonCosmetic;
+
+// @public (undocumented)
+export type CosmeticType = "hat" | "head" | "body" | "legs" | "shoes" | "eyebrows" | "eyes" | "skin";
+
+// @public (undocumented)
+export type CustomTextStyling = (string | EntityName | TranslatedText | StyledIcon | StyledText)[];
+
+// @public (undocumented)
+export type Direcrion = [number, number, number];
+
+// @public (undocumented)
+export type EntityId = Id;
+
+// @public (undocumented)
+export type EntityMeshScalingMap = Partial<Record<LifeformBodyPart, [number, number, number]>>;
+
+// @public (undocumented)
+export type EntityName = {
+    entityName: string;
+    style?: {
+        color?: StringColor;
+        colour?: StringColor;
+    };
+};
+
+// @public (undocumented)
+export const EntitySettingApis: {
+    setEveryoneSettingForPlayer: SetEveryoneSettingForPlayerType;
+    setTargetedPlayerSettingForEveryone: SetTargetedPlayerSettingForEveryoneType;
+    setOtherEntitySetting: SetOtherEntitySettingType;
+    getOtherEntitySetting: GetOtherEntitySettingType;
+};
+
+// Warning: (ae-forgotten-export) The symbol "GenerateClientOptions_2" needs to be exported by the entry point index.d.ts
+// Warning: (ae-forgotten-export) The symbol "AllEntitySettingUnion" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type EntitySettings = GenerateClientOptions_2<AllEntitySettingUnion>;
+
+// @public (undocumented)
+export type EntityType = [
+"Item" | "Mesh" | "Player" | "Fireball" | "Iceball" | "Cow" | "Sheep" | "Horse" | "Cave Golem" | "Draugr Zombie" | "Draugr Skeleton" | "Frost Golem" | "Frost Zombie" | "Frost Skeleton" | "Draugr Knight" | "Wolf" | "Bear" | "Deer" | "Stag" | "Gold Watermelon Stag" | "Gorilla" | "Wildcat" | "Magma Golem" | "Draugr Huntress" | "Spirit Golem" | "Spirit Wolf" | "Spirit Bear" | "Spirit Stag" | "Spirit Gorilla" | "Draugr Warper" | "Frost Wraith" | "Draugr Reaver" | "NPC" | string
+];
+
+// @public (undocumented)
+export type ExplosionType = number;
+
+// @public (undocumented)
+export type EyebrowsCosmetic = "eyebrows_0" | "eyebrows_1_0" | "eyebrows_1_1" | "eyebrows_1_2" | "eyebrows_1_3" | "eyebrows_1_4" | "eyebrows_2_0" | "eyebrows_2_1" | "eyebrows_2_2" | "eyebrows_2_3" | "eyebrows_2_4" | "eyebrows_3_0" | "eyebrows_3_1" | "eyebrows_3_2" | "eyebrows_3_3" | "eyebrows_3_4";
+
+// @public (undocumented)
+export type EyesCosmetic = "eyes_0_0" | "eyes_0_1" | "eyes_0_2" | "eyes_0_3" | "eyes_0_4" | "eyes_1_0" | "eyes_1_1" | "eyes_1_2" | "eyes_1_3" | "eyes_1_4" | "eyes_2_0" | "eyes_2_1" | "eyes_2_2" | "eyes_2_3" | "eyes_2_4" | "eyes_3_0" | "eyes_3_1" | "eyes_3_2" | "eyes_3_3" | "eyes_3_4" | "eyes_4_0" | "eyes_4_1" | "eyes_4_2" | "eyes_4_3" | "eyes_4_4" | "eyes_5_0" | "eyes_5_1" | "eyes_5_2" | "eyes_5_3" | "eyes_5_4" | "eyes_6_0" | "eyes_6_1" | "eyes_6_2" | "eyes_6_3" | "eyes_6_4" | "eyes_7_0" | "eyes_7_1" | "eyes_7_2" | "eyes_7_3" | "eyes_7_4" | "eyes_8_0" | "eyes_8_1" | "eyes_8_2" | "eyes_8_3" | "eyes_8_4" | "eyes_9_0" | "eyes_9_1" | "eyes_9_2" | "eyes_9_3" | "eyes_9_4";
+
+// Warning: (ae-forgotten-export) The symbol "GenerateClientOptionInterface" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type GetClientOption = GenerateClientOptionInterface<AllClientOptionUnion, "GetClientOption">;
+
+// Warning: (ae-forgotten-export) The symbol "GenerateEntitySettingInterface" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type GetOtherEntitySetting = GenerateEntitySettingInterface<AllEntitySettingUnion, "GetOtherEntitySetting">;
+
+// @public (undocumented)
+export type GravityBarQteParams = {
+    progressStartValue?: number;
+    catchZoneSize: number;
+    moverSpeed: number;
+    moverErraticness: number;
+    gravity: number;
+    riseSpeed: number;
+    progressGainPerSecond: number;
+    progressDrainPerSecond: number;
+    canFail: boolean;
+    description: CustomTextStyling;
+    icon?: Icon;
+};
+
+// @public (undocumented)
+export type HatCosmetic = "hat_none";
+
+// @public (undocumented)
+export type HeadCosmetic = "head_0" | "head_1_0" | "head_1_1" | "head_1_2" | "head_1_3" | "head_1_4" | "head_2_0" | "head_2_1" | "head_2_2" | "head_2_3" | "head_2_4" | "head_3_0" | "head_3_1" | "head_3_2" | "head_3_3" | "head_3_4" | "head_4_0" | "head_4_1" | "head_4_2" | "head_4_3" | "head_4_4" | "head_5_0" | "head_5_1" | "head_5_2" | "head_5_3" | "head_5_4" | "head_6_0" | "head_6_1" | "head_6_2" | "head_6_3" | "head_6_4" | "head_7_0" | "head_7_1" | "head_7_2" | "head_7_3" | "head_7_4" | "head_8_0" | "head_8_1" | "head_8_2" | "head_8_3" | "head_8_4" | "head_9_0" | "head_9_1" | "head_9_2" | "head_9_3" | "head_9_4";
+
+// @public (undocumented)
+export type Health = number;
+
+// Warning: (ae-forgotten-export) The symbol "HealthRegenDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type HealthRegen<K extends MobType> = HealthRegenDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "HeldItemNameDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type HeldItemName<K extends MobType> = HeldItemNameDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "HostilityRadiusDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type HostilityRadius<K extends MobType> = HostilityRadiusDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "HurtSoundDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type HurtSound<K extends MobType> = HurtSoundDictionary[K];
+
+// @public (undocumented)
+export type Icon = IngameIconName | ItemName | string;
+
+// @public (undocumented)
+export type Id = `-${number}`;
+
+// Warning: (ae-forgotten-export) The symbol "IdleSoundDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type IdleSound<K extends MobType> = IdleSoundDictionary[K];
+
+// @public (undocumented)
+export type InGameEffectName = "Damage" | "Damage Reduction" | "Speed" | "Jump Boost" | "Haste" | "Frozen" | "Hydrated" | "Invisible" | "Poisoned" | "Slowness" | "Weakness" | "Health Regen" | "Double Jump" | "Heat Resistance" | "Thief" | "X-Ray Vision" | "Mining Yield" | "Brain Rot" | "Feather Falling" | "Rested Damage" | "Rested Speed" | "Rested Haste" | "Rested Farming Yield" | "Rested Aura" | "Bounciness" | "Wall Climbing" | "Air Walk" | "Pickpocketer" | "Lifesteal" | "Blindness" | "Thorns" | "Poopy";
+
+// @public (undocumented)
+export type IngameIconName = "Damage" | "Damage Reduction" | "Speed" | "VoidJump" | "Fist" | "Frozen" | "Hydrated" | "Invisible" | "Jump Boost" | "Poisoned" | "Slowness" | "Weakness" | "Health Regen" | "Haste" | "Double Jump" | "Heat Resistance" | "Gliding" | "Boating" | "Obsidian Boating" | "Riding" | "Bunny Hop" | "FallDamage" | "Feather Falling" | "Thief" | "X-Ray Vision" | "Mining Yield" | "Brain Rot" | "Rested Damage" | "Rested Haste" | "Rested Speed" | "Rested Farming Yield" | "Rested Aura" | "Blindness" | "Pickpocketer" | "Lifesteal" | "Bounciness" | "Air Walk" | "Wall Climbing" | "Thorns" | "Poopy" | "Draugr Knight Head" | "Draugr Warper Head" | "Magma Golem Head" | "Mystery Fish" | "Damage Enchantment" | "Critical Damage Enchantment" | "Attack Speed Enchantment" | "Protection Enchantment" | "Health Enchantment" | "Health Regen Enchantment" | "Stomp Damage Enchantment" | "Knockback Resist Enchantment" | "Arrow Speed Enchantment" | "Arrow Damage Enchantment" | "Quick Charge Enchantment" | "Break Speed Enchantment" | "Momentum Enchantment" | "Mining Yield Enchantment" | "Farming Yield Enchantment" | "Mining Aura Enchantment" | "Digging Aura Enchantment" | "Lumber Aura Enchantment" | "Farming Aura Enchantment" | "Vertical Knockback Enchantment" | "Horizontal Knockback Enchantment" | "Self Yield" | "Friends" | "Riding Speed" | "Feed Aura" | "Double Poop" | "Mob Slayer" | "Rainbow Wool" | "Pack Leader" | "Max Health" | "Poison Claws" | "Mob Yield" | "Antlers Bonus" | "Health" | "HealthShield" | "Cross" | "Friendship" | "Dotted Friendship" | "Hunger" | "Empty Hunger" | "Pixelated Heart" | "Question Mark" | "Trader Black" | "Trader Blue" | "Trader Piggy";
+
+// Warning: (ae-forgotten-export) The symbol "InitialHealthDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type InitialHealth<K extends MobType> = InitialHealthDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "IsRideableDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type IsRideable<K extends MobType> = IsRideableDictionary[K];
+
+// @public (undocumented)
+export type Item = ItemName | ItemId;
+
+// @public (undocumented)
+export type ItemAttributes = {
+    customDisplayName?: string;
+    customDescription?: string;
+    customAttributes?: Record<string, any>;
+};
+
+// @public (undocumented)
+export type ItemEntityId = EntityId;
+
+// @public (undocumented)
+export type ItemId = AllItemId;
+
+// @public (undocumented)
+export type ItemMetaInfo = string;
+
+// @public (undocumented)
+export type ItemName = AllItemName;
+
+// @public (undocumented)
+export type ItemObject = {
+    name: string;
+    amount: number | null;
+    attributes: ItemAttributes;
+    typeObj: {
+        stackable: boolean;
+    };
+};
+
+// Warning: (ae-forgotten-export) The symbol "JumpCountDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type JumpCount<K extends MobType> = JumpCountDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "JumpMultiplierDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type JumpMultiplier<K extends MobType> = JumpMultiplierDictionary[K];
+
+// @public (undocumented)
+export type LeaderboardKey = string;
+
+// @public (undocumented)
+export type LegsCosmetic = "legs_0_0" | "legs_0_1" | "legs_0_2" | "legs_0_3" | "legs_0_4" | "legs_1_0" | "legs_1_1" | "legs_1_2" | "legs_1_3" | "legs_1_4" | "legs_2_0" | "legs_2_1" | "legs_2_2" | "legs_2_3" | "legs_2_4";
+
+// @public (undocumented)
+export type LifeformBodyPart = "TorsoNode" | "HeadMesh" | "ArmRightMesh" | "ArmLeftMesh" | "LegLeftMesh" | "LegRightMesh";
+
+// @public (undocumented)
+export type LifeformId = PlayerId | MobId;
+
+// @public (undocumented)
+export type LobbyLeaderboardValues = Record<LeaderboardKey, string | CustomTextStyling>;
+
+// @public (undocumented)
+export type LobbyType = string;
+
+// @public (undocumented)
+export type MargeObject<T> = {
+    [K in keyof T]: T[K];
+};
+
+// Warning: (ae-forgotten-export) The symbol "MaxFollowingRadiusDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type MaxFollowingRadius<K extends MobType> = MaxFollowingRadiusDictionary[K];
+
+// @public (undocumented)
+export type MeshEntityOpts = {
+    Box: BoxOpts;
+    BloxdBlock: BloxdBlockOpts;
+    Person: PersonOpts;
+    ParticleEmitter: MeshParticleSystemOpts;
+};
+
+// @public (undocumented)
+export type MeshEntityPhysicsOpts = {
+    doPhysics: boolean;
+    onCollideTerrain?: () => void;
+    collidesEntities?: boolean;
+    collideBits?: number;
+    collideMask?: number;
+    heightExpandAmt?: number;
+    widthExpandAmt?: number;
+    vehicleOpts?: MeshEntityVehicleOpts;
+};
+
+// @public (undocumented)
+export type MeshEntityVehicleOpts = object;
+
+// @public (undocumented)
+export type MeshParticleSystemOpts = ParticleEmitterOpts;
+
+// @public (undocumented)
+export type MeshType = keyof MeshEntityOpts;
+
+// Warning: (ae-forgotten-export) The symbol "MetaInfoDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type MetaInfo<K extends MobType> = MetaInfoDictionary[K];
+
+// Warning: (ae-forgotten-export) The symbol "MinFollowingRadiusDictionary" needs to be exported by the entry point index.d.ts
+//
+// @public (undocumented)
+export type MinFollowingRadius<K extends MobType> = MinFollowingRadiusDictionary[K];
+
+// @public (undocumented)
+export type MobAiState = keyof AllMobAiState;
+
+// @public (undocumented)
+export type MobAiStateParams<TState extends MobAiState> = AllMobAiState[TState];
+
+// @public (undocumented)
+export type MobDbId = string;
+
+// @public (undocumented)
+export type MobHerdId = `-${number}`;
+
+// @public (undocumented)
+export type MobId = EntityId;
+
+// @public (undocumented)
+export const MobSettingApis: {
+    getDefaultMobSetting: RootGetDefaultMobSetting;
+    setDefaultMobSetting: RootSetDefaultMobSetting;
+    getMobSetting: RootGetMobSetting;
+    setMobSetting: RootSetMobSetting;
+};
+
+// @public (undocumented)
+export type MobSettings<K extends MobType> = {
+    variation: Variation<K>;
+    name: Name<K>;
+    maxHealth: MaxHealth<K>;
+    initialHealth: InitialHealth<K>;
+    idleSound: IdleSound<K>;
+    attackSound: AttackSound<K>;
+    secondaryAttackSound: SecondaryAttackSound<K>;
+    hurtSound: HurtSound<K>;
+    onDeathAura: OnDeathAura<K>;
+    baseWalkingSpeed: BaseWalkingSpeed<K>;
+    baseRunningSpeed: BaseRunningSpeed<K>;
+    walkingSpeedMultiplier: WalkingSpeedMultiplier<K>;
+    runningSpeedMultiplier: RunningSpeedMultiplier<K>;
+    jumpCount: JumpCount<K>;
+    baseJumpImpulseXZ: BaseJumpImpulseXZ<K>;
+    baseJumpImpulseY: BaseJumpImpulseY<K>;
+    jumpMultiplier: JumpMultiplier<K>;
+    runAwayRadius: RunAwayRadius<K>;
+    chaseRadius: ChaseRadius<K>;
+    territoryRadius: TerritoryRadius<K>;
+    hostilityRadius: HostilityRadius<K>;
+    stoppingRadius: StoppingRadius<K>;
+    attackInterval: AttackInterval<K>;
+    attackRadius: AttackRadius<K>;
+    secondaryAttackRadius: SecondaryAttackRadius<K>;
+    attackDamage: AttackDamage<K>;
+    secondaryAttackDamage: SecondaryAttackDamage<K>;
+    attackImpulse: AttackImpulse<K>;
+    secondaryAttackImpulse: SecondaryAttackImpulse<K>;
+    burstAttackInfo: BurstAttackInfo<K>;
+    secondaryBurstAttackInfo: SecondaryBurstAttackInfo<K>;
+    heldItemName: HeldItemName<K>;
+    attackItemName: AttackItemName<K>;
+    secondaryAttackItemName: SecondaryAttackItemName<K>;
+    swingArmOnAttack: SwingArmOnAttack<K>;
+    swingArmOnSecondaryAttack: SwingArmOnSecondaryAttack<K>;
+    attackEffectName: AttackEffectName<K>;
+    attackEffectDuration: AttackEffectDuration<K>;
+    ownerDbId: OwnerDbId<K>;
+    minFollowingRadius: MinFollowingRadius<K>;
+    maxFollowingRadius: MaxFollowingRadius<K>;
+    isRideable: IsRideable<K>;
+    healthRegen: HealthRegen<K>;
+    ridingSpeedMult: RidingSpeedMult<K>;
+    metaInfo: MetaInfo<K>;
+    onTamedHealthMultiplier: OnTamedHealthMultiplier<K>;
+};
+
+// @public (undocumented)
+export type MobSpawnOpts<TMobType extends MobType> = Partial<{
+    mobHerdId: MobHerdId;
+    spawnerId: PlayerId;
+    mobDbId: MobDbId;
+    name: string;
+    playSoundOnSpawn: boolean;
+    variation: Variation<TMobType>;
+    physicsOpts: Partial<{
+        width: number;
+        height: number;
+        collidesEntities: boolean;
+    }>;
+}>;
+
+// @public (undocumented)
+export type MobType = "Pig" | "Cow" | "Sheep" | "Horse" | "Cave Golem" | "Draugr Zombie" | "Frost Golem" | "Frost Zombie" | "Frost Skeleton" | "Draugr Knight" | "Wolf" | "Bear" | "Deer" | "Stag" | "Gold Watermelon Stag" | "Gorilla" | "Wildcat" | "Magma Golem" | "Draugr Huntress" | "Spirit Golem" | "Spirit Wolf" | "Spirit Bear" | "Spirit Stag" | "Spirit Gorilla" | "Draugr Warper" | "Frost Wraith" | "Draugr Reaver" | "NPC";
+
+// @public (undocumented)
+export type NameTagInfo = {
+    backgroundColor?: string;
+    content?: StyledText[];
+    subtitle?: StyledText[];
+    subtitleBackgroundColor?: string;
+};
+
+// @public (undocumented)
+export type NonBlockMetadataItem = any;
+
+// @public (undocumented)
+export const NormalApis: {
     readonly getPlayerPhysicsState: (playerId: PlayerId_2) => PlayerPhysicsStateData_2;
     readonly setPlayerPhysicsState: (playerId: PlayerId_2, physicsState: PlayerPhysicsStateData_2, positionOffset?: [number, number, number]) => void;
     readonly attemptCreateMeshEntity: <TMeshType extends MeshType_2>(type: TMeshType, opts: MeshEntityOpts_2[TMeshType], name?: string, physicsOptions?: MeshEntityPhysicsOpts_2, initiatorId?: EntityId_2 | null) => EntityId_2 | null;
@@ -351,759 +1086,24 @@ export const Apis: {
     readonly setCallbackValueFallback: (callbackName: CallbackName_2, defaultValue: any) => void;
 };
 
-// @public (undocumented)
-export type applyMeleeHitOverrides = {
-    damage?: number | null;
-    heldItemName?: Item_2 | null;
-    horizontalKbMultiplier?: number;
-    verticalKbMultiplier?: number;
-};
-
-// @public
-export type Array255Color = [number, number, number];
-
-// @public
-export type Array255ColorWithA = [number, number, number, number];
-
-// Warning: (ae-forgotten-export) The symbol "AttackDamageDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackDamage<K extends MobType_2> = AttackDamageDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackEffectDurationDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackEffectDuration<K extends MobType_2> = AttackEffectDurationDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackEffectNameDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackEffectName<K extends MobType_2> = AttackEffectNameDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackImpulseDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackImpulse<K extends MobType_2> = AttackImpulseDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackIntervalDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackInterval<K extends MobType_2> = AttackIntervalDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackItemNameDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackItemName<K extends MobType_2> = AttackItemNameDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackRadiusDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackRadius<K extends MobType_2> = AttackRadiusDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "AttackSoundDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type AttackSound<K extends MobType_2> = AttackSoundDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "BaseJumpImpulseXZDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type BaseJumpImpulseXZ<K extends MobType_2> = BaseJumpImpulseXZDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "BaseJumpImpulseYDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type BaseJumpImpulseY<K extends MobType_2> = BaseJumpImpulseYDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "BaseRunningSpeedDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type BaseRunningSpeed<K extends MobType_2> = BaseRunningSpeedDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "BaseWalkingSpeedDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type BaseWalkingSpeed<K extends MobType_2> = BaseWalkingSpeedDictionary[K];
-
-// @public (undocumented)
-export type BlockId = AllBlockID;
-
-// @public (undocumented)
-export type BlockMetadataItem = any;
-
-// @public (undocumented)
-export type BlockName = AllBlockName;
-
-// @public (undocumented)
-export type BlockNameOrId = BlockId | BlockName;
-
-// @public (undocumented)
-export type BlockRaycastResult = any;
-
-// @public (undocumented)
-export type BloxdBlockOpts = {
-    hideDist?: number;
-    meshOffset?: number[];
-    autoRotate?: boolean;
-    lineToEId?: EntityId_2;
-    blockName: BlockNameOrId_2;
-    size: number | [number, number, number];
-};
-
-// @public (undocumented)
-export type BodyCosmetic = "body_0_0" | "body_0_1" | "body_0_2" | "body_0_3" | "body_0_4" | "body_0_5" | "body_0_6" | "body_0_7" | "body_1_0" | "body_1_1" | "body_1_2" | "body_1_3" | "body_1_4" | "body_1_5" | "body_1_6" | "body_1_7" | "body_2_0" | "body_2_1" | "body_2_2" | "body_2_3" | "body_2_4" | "body_2_5" | "body_2_6" | "body_2_7" | "body_3_0" | "body_3_1" | "body_3_2" | "body_3_3" | "body_3_4" | "body_3_5" | "body_3_6" | "body_3_7" | "body_4_0" | "body_4_1" | "body_4_2" | "body_4_3" | "body_4_4" | "body_4_5" | "body_4_6" | "body_4_7" | "body_5_0" | "body_5_1" | "body_5_2" | "body_5_3" | "body_5_4" | "body_5_5" | "body_5_6" | "body_5_7" | "body_6_0" | "body_6_1" | "body_6_2" | "body_6_3" | "body_6_4" | "body_6_5" | "body_6_6" | "body_6_7";
-
-// @public (undocumented)
-export type BoxOpts = {
-    hideDist?: number;
-    meshOffset?: number[];
-    autoRotate?: boolean;
-    lineToEId?: EntityId_2;
-    width: number;
-    height: number;
-    depth: number;
-    diffuseColor?: number[];
-    emissiveColor?: number[];
-    backFaceCulling?: boolean;
-    texture?: BlockName_2;
-    faceUV?: number[][];
-};
-
-// Warning: (ae-forgotten-export) The symbol "BurstAttackInfoDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type BurstAttackInfo<K extends MobType_2> = BurstAttackInfoDictionary[K];
-
-// @public (undocumented)
-export type CallbackName = "tick" | "onClose" | "onPlayerJoin" | "onPlayerLeave" | "onPlayerJump" | "onRespawnRequest" | "playerCommand" | "onPlayerChat" | "onPlayerChangeBlock" | "onPlayerDropItem" | "onPlayerPickedUpItem" | "onPlayerSelectInventorySlot" | "onBlockStand" | "onPlayerAttemptCraft" | "onPlayerCraft" | "onPlayerAttemptOpenChest" | "onPlayerOpenedChest" | "onPlayerMoveItemOutOfInventory" | "onPlayerMoveInvenItem" | "onPlayerMoveItemIntoIdxs" | "onPlayerSwapInvenSlots" | "onPlayerMoveInvenItemWithAmt" | "onPlayerAttemptAltAction" | "onPlayerAltAction" | "onPlayerClick" | "onClientOptionUpdated" | "onMobSettingUpdated" | "onInventoryUpdated" | "onChestUpdated" | "onWorldChangeBlock" | "onCreateBloxdMeshEntity" | "onEntityCollision" | "onPlayerAttemptSpawnMob" | "onWorldAttemptSpawnMob" | "onPlayerSpawnMob" | "onWorldSpawnMob" | "onWorldAttemptDespawnMob" | "onMobDespawned" | "onPlayerAttack" | "onPlayerDamagingOtherPlayer" | "onPlayerDamagingMob" | "onMobDamagingPlayer" | "onMobDamagingOtherMob" | "onAttemptKillPlayer" | "onPlayerKilledOtherPlayer" | "onMobKilledPlayer" | "onPlayerKilledMob" | "onMobKilledOtherMob" | "onPlayerPotionEffect" | "onPlayerDamagingMeshEntity" | "onPlayerBreakMeshEntity" | "onPlayerUsedThrowable" | "onPlayerThrowableHitTerrain" | "onTouchscreenActionButton" | "onTaskClaimed" | "onChunkLoaded" | "onPlayerRequestChunk" | "onItemDropCreated" | "onPlayerStartChargingItem" | "onPlayerFinishChargingItem" | "onPlayerFinishQTE" | "onPlayerBoughtShopItem" | "doPeriodicSave";
-
-// Warning: (ae-forgotten-export) The symbol "ChaseRadiusDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type ChaseRadius<K extends MobType_2> = ChaseRadiusDictionary[K];
-
-// @public (undocumented)
-export type ChunkId = `${number}|${number}|${number}`;
-
-// @public (undocumented)
-export const ClientOptionApis: {
-    setClientOption: (<TOption extends keyof ClientOptions>(playerId: PlayerId_2, option: TOption, value: ClientOptions[TOption]) => void) & {
-        (playerId: PlayerId_2, option: "canChange", value: true): void;
-        (playerId: PlayerId_2, option: "canChange", value: false): void;
-    } & ((playerId: PlayerId_2, option: "crouchingSpeed", value: number) => void) & ((playerId: PlayerId_2, option: "walkingSpeed", value: number) => void) & ((playerId: PlayerId_2, option: "runningSpeed", value: number) => void) & ((playerId: PlayerId_2, option: "speedMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "jumpAmount", value: number) => void) & ((playerId: PlayerId_2, option: "airJumpCount", value: number) => void) & ((playerId: PlayerId_2, option: "bunnyhopMaxMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "musicVolumeLevel", value: number) => void) & ((playerId: PlayerId_2, option: "showPlayersInUnloadedChunks", value: boolean) => void) & ((playerId: PlayerId_2, option: "useInventory", value: boolean) => void) & ((playerId: PlayerId_2, option: "useFullInventory", value: boolean) => void) & ((playerId: PlayerId_2, option: "canCraft", value: boolean) => void) & ((playerId: PlayerId_2, option: "canPickUpItems", value: boolean) => void) & ((playerId: PlayerId_2, option: "playerZoom", value: number) => void) & ((playerId: PlayerId_2, option: "zoomOutDistance", value: number) => void) & ((playerId: PlayerId_2, option: "maxPlayerZoom", value: number) => void) & ((playerId: PlayerId_2, option: "canCustomiseChar", value: boolean) => void) & ((playerId: PlayerId_2, option: "defaultBlock", value: string) => void) & ((playerId: PlayerId_2, option: "cantChangeError", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "cantBreakError", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "cantBuildError", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "touchscreenActionButton", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "strictFluidBuckets", value: boolean) => void) & ((playerId: PlayerId_2, option: "canUseZoomKey", value: boolean) => void) & ((playerId: PlayerId_2, option: "canAltAction", value: boolean) => void) & ((playerId: PlayerId_2, option: "canSeeNametagsThroughWalls", value: boolean) => void) & ((playerId: PlayerId_2, option: "showBasicMovementControls", value: boolean) => void) & ((playerId: PlayerId_2, option: "middleTextUpper", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "middleTextLower", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "crosshairText", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "RightInfoText", value: string | CustomTextStyling_2) => void) & ((playerId: PlayerId_2, option: "numClosestPlayersVisible", value: number) => void) & ((playerId: PlayerId_2, option: "showProgressBar", value: boolean) => void) & ((playerId: PlayerId_2, option: "showKillfeed", value: boolean) => void) & ((playerId: PlayerId_2, option: "chatChannels", value: {
-        channelName: string;
-        elementContent: string | CustomTextStyling_2;
-        elementBgColor: string;
-    }[]) => void) & ((playerId: PlayerId_2, option: "creative", value: boolean) => void) & ((playerId: PlayerId_2, option: "flySpeedMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "canPickBlocks", value: boolean) => void) & ((playerId: PlayerId_2, option: "compassTarget", value: string | number | number[]) => void) & ((playerId: PlayerId_2, option: "ttbMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "inventoryItemsMoveable", value: boolean) => void) & ((playerId: PlayerId_2, option: "invincible", value: boolean) => void) & ((playerId: PlayerId_2, option: "maxShield", value: number) => void) & ((playerId: PlayerId_2, option: "initialShield", value: number) => void) & ((playerId: PlayerId_2, option: "maxHealth", value: number) => void) & ((playerId: PlayerId_2, option: "initialHealth", value: number) => void) & ((playerId: PlayerId_2, option: "healthRegenAmount", value: number) => void) & ((playerId: PlayerId_2, option: "healthRegenInterval", value: number) => void) & ((playerId: PlayerId_2, option: "healthRegenStartAfter", value: number) => void) & ((playerId: PlayerId_2, option: "effectDamageDuration", value: number) => void) & ((playerId: PlayerId_2, option: "effectSpeedDuration", value: number) => void) & ((playerId: PlayerId_2, option: "effectDamageReductionDuration", value: number) => void) & ((playerId: PlayerId_2, option: "effectHealthRegenDuration", value: number) => void) & ((playerId: PlayerId_2, option: "potionEffectDuration", value: number) => void) & ((playerId: PlayerId_2, option: "splashPotionEffectDuration", value: number) => void) & ((playerId: PlayerId_2, option: "arrowPotionEffectDuration", value: number) => void) & ((playerId: PlayerId_2, option: "fogChunkDistanceOverride", value: number) => void) & ((playerId: PlayerId_2, option: "fogColourOverride", value: string) => void) & ((playerId: PlayerId_2, option: "airAccScale", value: number) => void) & ((playerId: PlayerId_2, option: "airFrictionScale", value: number) => void) & ((playerId: PlayerId_2, option: "airMomentumConservation", value: boolean) => void) & ((playerId: PlayerId_2, option: "auraPerLevel", value: number) => void) & ((playerId: PlayerId_2, option: "autoRespawn", value: boolean) => void) & ((playerId: PlayerId_2, option: "cameraTint", value: [number, number, number, number]) => void) & ((playerId: PlayerId_2, option: "dealingDamageDefaultMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "dealingDamageHeadMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "dealingDamageLegMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "dealingDamageMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "droppedItemScale", value: number) => void) & ((playerId: PlayerId_2, option: "fallDamage", value: boolean) => void) & ((playerId: PlayerId_2, option: "groundFrictionScale", value: number) => void) & ((playerId: PlayerId_2, option: "killstreakDuration", value: number) => void) & ((playerId: PlayerId_2, option: "maxAuraLevel", value: number) => void) & ((playerId: PlayerId_2, option: "movementBasedFovScale", value: number) => void) & ((playerId: PlayerId_2, option: "receivingDamageMultiplier", value: number) => void) & ((playerId: PlayerId_2, option: "respawnButtonText", value: string) => void) & ((playerId: PlayerId_2, option: "secsToRespawn", value: number) => void) & ((playerId: PlayerId_2, option: "usePlayAgainButton", value: boolean) => void);
-    getClientOption: (<TOption extends keyof ClientOptions>(playerId: PlayerId_2, option: TOption) => ClientOptions[TOption]) & ((playerId: PlayerId_2, option: "canChange") => boolean) & ((playerId: PlayerId_2, option: "crouchingSpeed") => number) & ((playerId: PlayerId_2, option: "walkingSpeed") => number) & ((playerId: PlayerId_2, option: "runningSpeed") => number) & ((playerId: PlayerId_2, option: "speedMultiplier") => number) & ((playerId: PlayerId_2, option: "jumpAmount") => number) & ((playerId: PlayerId_2, option: "airJumpCount") => number) & ((playerId: PlayerId_2, option: "bunnyhopMaxMultiplier") => number) & ((playerId: PlayerId_2, option: "musicVolumeLevel") => number) & ((playerId: PlayerId_2, option: "showPlayersInUnloadedChunks") => boolean) & ((playerId: PlayerId_2, option: "useInventory") => boolean) & ((playerId: PlayerId_2, option: "useFullInventory") => boolean) & ((playerId: PlayerId_2, option: "canCraft") => boolean) & ((playerId: PlayerId_2, option: "canPickUpItems") => boolean) & ((playerId: PlayerId_2, option: "playerZoom") => number) & ((playerId: PlayerId_2, option: "zoomOutDistance") => number) & ((playerId: PlayerId_2, option: "maxPlayerZoom") => number) & ((playerId: PlayerId_2, option: "canCustomiseChar") => boolean) & ((playerId: PlayerId_2, option: "defaultBlock") => string) & ((playerId: PlayerId_2, option: "cantChangeError") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "cantBreakError") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "cantBuildError") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "touchscreenActionButton") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "strictFluidBuckets") => boolean) & ((playerId: PlayerId_2, option: "canUseZoomKey") => boolean) & ((playerId: PlayerId_2, option: "canAltAction") => boolean) & ((playerId: PlayerId_2, option: "canSeeNametagsThroughWalls") => boolean) & ((playerId: PlayerId_2, option: "showBasicMovementControls") => boolean) & ((playerId: PlayerId_2, option: "middleTextUpper") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "middleTextLower") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "crosshairText") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "RightInfoText") => string | CustomTextStyling_2) & ((playerId: PlayerId_2, option: "numClosestPlayersVisible") => number) & ((playerId: PlayerId_2, option: "showProgressBar") => boolean) & ((playerId: PlayerId_2, option: "showKillfeed") => boolean) & ((playerId: PlayerId_2, option: "chatChannels") => {
-        channelName: string;
-        elementContent: string | CustomTextStyling_2;
-        elementBgColor: string;
-    }[]) & ((playerId: PlayerId_2, option: "creative") => boolean) & ((playerId: PlayerId_2, option: "flySpeedMultiplier") => number) & ((playerId: PlayerId_2, option: "canPickBlocks") => boolean) & ((playerId: PlayerId_2, option: "compassTarget") => string | number | number[]) & ((playerId: PlayerId_2, option: "ttbMultiplier") => number) & ((playerId: PlayerId_2, option: "inventoryItemsMoveable") => boolean) & ((playerId: PlayerId_2, option: "invincible") => boolean) & ((playerId: PlayerId_2, option: "maxShield") => number) & ((playerId: PlayerId_2, option: "initialShield") => number) & ((playerId: PlayerId_2, option: "maxHealth") => number) & ((playerId: PlayerId_2, option: "initialHealth") => number) & ((playerId: PlayerId_2, option: "healthRegenAmount") => number) & ((playerId: PlayerId_2, option: "healthRegenInterval") => number) & ((playerId: PlayerId_2, option: "healthRegenStartAfter") => number) & ((playerId: PlayerId_2, option: "effectDamageDuration") => number) & ((playerId: PlayerId_2, option: "effectSpeedDuration") => number) & ((playerId: PlayerId_2, option: "effectDamageReductionDuration") => number) & ((playerId: PlayerId_2, option: "effectHealthRegenDuration") => number) & ((playerId: PlayerId_2, option: "potionEffectDuration") => number) & ((playerId: PlayerId_2, option: "splashPotionEffectDuration") => number) & ((playerId: PlayerId_2, option: "arrowPotionEffectDuration") => number) & ((playerId: PlayerId_2, option: "fogChunkDistanceOverride") => number) & ((playerId: PlayerId_2, option: "fogColourOverride") => string) & ((playerId: PlayerId_2, option: "airAccScale") => number) & ((playerId: PlayerId_2, option: "airFrictionScale") => number) & ((playerId: PlayerId_2, option: "airMomentumConservation") => boolean) & ((playerId: PlayerId_2, option: "auraPerLevel") => number) & ((playerId: PlayerId_2, option: "autoRespawn") => boolean) & ((playerId: PlayerId_2, option: "cameraTint") => [number, number, number, number]) & ((playerId: PlayerId_2, option: "dealingDamageDefaultMultiplier") => number) & ((playerId: PlayerId_2, option: "dealingDamageHeadMultiplier") => number) & ((playerId: PlayerId_2, option: "dealingDamageLegMultiplier") => number) & ((playerId: PlayerId_2, option: "dealingDamageMultiplier") => number) & ((playerId: PlayerId_2, option: "droppedItemScale") => number) & ((playerId: PlayerId_2, option: "fallDamage") => boolean) & ((playerId: PlayerId_2, option: "groundFrictionScale") => number) & ((playerId: PlayerId_2, option: "killstreakDuration") => number) & ((playerId: PlayerId_2, option: "maxAuraLevel") => number) & ((playerId: PlayerId_2, option: "movementBasedFovScale") => number) & ((playerId: PlayerId_2, option: "receivingDamageMultiplier") => number) & ((playerId: PlayerId_2, option: "respawnButtonText") => string) & ((playerId: PlayerId_2, option: "secsToRespawn") => number) & ((playerId: PlayerId_2, option: "usePlayAgainButton") => boolean);
-    setClientOptionToDefault: (<TOption extends keyof ClientOptions>(playerId: PlayerId_2, option: TOption) => void) & ((playerId: PlayerId_2, option: "canChange") => void) & ((playerId: PlayerId_2, option: "crouchingSpeed") => void) & ((playerId: PlayerId_2, option: "walkingSpeed") => void) & ((playerId: PlayerId_2, option: "runningSpeed") => void) & ((playerId: PlayerId_2, option: "speedMultiplier") => void) & ((playerId: PlayerId_2, option: "jumpAmount") => void) & ((playerId: PlayerId_2, option: "airJumpCount") => void) & ((playerId: PlayerId_2, option: "bunnyhopMaxMultiplier") => void) & ((playerId: PlayerId_2, option: "musicVolumeLevel") => void) & ((playerId: PlayerId_2, option: "showPlayersInUnloadedChunks") => void) & ((playerId: PlayerId_2, option: "useInventory") => void) & ((playerId: PlayerId_2, option: "useFullInventory") => void) & ((playerId: PlayerId_2, option: "canCraft") => void) & ((playerId: PlayerId_2, option: "canPickUpItems") => void) & ((playerId: PlayerId_2, option: "playerZoom") => void) & ((playerId: PlayerId_2, option: "zoomOutDistance") => void) & ((playerId: PlayerId_2, option: "maxPlayerZoom") => void) & ((playerId: PlayerId_2, option: "canCustomiseChar") => void) & ((playerId: PlayerId_2, option: "defaultBlock") => void) & ((playerId: PlayerId_2, option: "cantChangeError") => void) & ((playerId: PlayerId_2, option: "cantBreakError") => void) & ((playerId: PlayerId_2, option: "cantBuildError") => void) & ((playerId: PlayerId_2, option: "touchscreenActionButton") => void) & ((playerId: PlayerId_2, option: "strictFluidBuckets") => void) & ((playerId: PlayerId_2, option: "canUseZoomKey") => void) & ((playerId: PlayerId_2, option: "canAltAction") => void) & ((playerId: PlayerId_2, option: "canSeeNametagsThroughWalls") => void) & ((playerId: PlayerId_2, option: "showBasicMovementControls") => void) & ((playerId: PlayerId_2, option: "middleTextUpper") => void) & ((playerId: PlayerId_2, option: "middleTextLower") => void) & ((playerId: PlayerId_2, option: "crosshairText") => void) & ((playerId: PlayerId_2, option: "RightInfoText") => void) & ((playerId: PlayerId_2, option: "numClosestPlayersVisible") => void) & ((playerId: PlayerId_2, option: "showProgressBar") => void) & ((playerId: PlayerId_2, option: "showKillfeed") => void) & ((playerId: PlayerId_2, option: "chatChannels") => void) & ((playerId: PlayerId_2, option: "creative") => void) & ((playerId: PlayerId_2, option: "flySpeedMultiplier") => void) & ((playerId: PlayerId_2, option: "canPickBlocks") => void) & ((playerId: PlayerId_2, option: "compassTarget") => void) & ((playerId: PlayerId_2, option: "ttbMultiplier") => void) & ((playerId: PlayerId_2, option: "inventoryItemsMoveable") => void) & ((playerId: PlayerId_2, option: "invincible") => void) & ((playerId: PlayerId_2, option: "maxShield") => void) & ((playerId: PlayerId_2, option: "initialShield") => void) & ((playerId: PlayerId_2, option: "maxHealth") => void) & ((playerId: PlayerId_2, option: "initialHealth") => void) & ((playerId: PlayerId_2, option: "healthRegenAmount") => void) & ((playerId: PlayerId_2, option: "healthRegenInterval") => void) & ((playerId: PlayerId_2, option: "healthRegenStartAfter") => void) & ((playerId: PlayerId_2, option: "effectDamageDuration") => void) & ((playerId: PlayerId_2, option: "effectSpeedDuration") => void) & ((playerId: PlayerId_2, option: "effectDamageReductionDuration") => void) & ((playerId: PlayerId_2, option: "effectHealthRegenDuration") => void) & ((playerId: PlayerId_2, option: "potionEffectDuration") => void) & ((playerId: PlayerId_2, option: "splashPotionEffectDuration") => void) & ((playerId: PlayerId_2, option: "arrowPotionEffectDuration") => void) & ((playerId: PlayerId_2, option: "fogChunkDistanceOverride") => void) & ((playerId: PlayerId_2, option: "fogColourOverride") => void) & ((playerId: PlayerId_2, option: "airAccScale") => void) & ((playerId: PlayerId_2, option: "airFrictionScale") => void) & ((playerId: PlayerId_2, option: "airMomentumConservation") => void) & ((playerId: PlayerId_2, option: "auraPerLevel") => void) & ((playerId: PlayerId_2, option: "autoRespawn") => void) & ((playerId: PlayerId_2, option: "cameraTint") => void) & ((playerId: PlayerId_2, option: "dealingDamageDefaultMultiplier") => void) & ((playerId: PlayerId_2, option: "dealingDamageHeadMultiplier") => void) & ((playerId: PlayerId_2, option: "dealingDamageLegMultiplier") => void) & ((playerId: PlayerId_2, option: "dealingDamageMultiplier") => void) & ((playerId: PlayerId_2, option: "droppedItemScale") => void) & ((playerId: PlayerId_2, option: "fallDamage") => void) & ((playerId: PlayerId_2, option: "groundFrictionScale") => void) & ((playerId: PlayerId_2, option: "killstreakDuration") => void) & ((playerId: PlayerId_2, option: "maxAuraLevel") => void) & ((playerId: PlayerId_2, option: "movementBasedFovScale") => void) & ((playerId: PlayerId_2, option: "receivingDamageMultiplier") => void) & ((playerId: PlayerId_2, option: "respawnButtonText") => void) & ((playerId: PlayerId_2, option: "secsToRespawn") => void) & ((playerId: PlayerId_2, option: "usePlayAgainButton") => void);
-    setClientOptions: (playerId: PlayerId_2, options: Partial<ClientOptions>) => void;
-};
-
-// Warning: (ae-forgotten-export) The symbol "GenerateClientOptions" needs to be exported by the entry point index.d.ts
-// Warning: (ae-forgotten-export) The symbol "AllClientOptionUnion" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type ClientOptions = GenerateClientOptions<AllClientOptionUnion>;
-
-// @public (undocumented)
-export type CommonCosmetic = "chef" | "farmer" | "piggy_banker" | "portal_mage" | "trader" | "trader_black" | "trader_blue" | "wizard" | "zombie";
-
-// @public (undocumented)
-export type CommonMeshEntityOpts = {
-    hideDist?: number;
-    meshOffset?: number[];
-    autoRotate?: boolean;
-    lineToEId?: EntityId_2;
-};
-
-// @public (undocumented)
-export type Coordinate = [number, number, number];
-
-// @public (undocumented)
-export type CosmeticName<TCosmeticType extends CosmeticType> = {
-    hat: HatCosmetic;
-    head: HeadCosmetic;
-    body: BodyCosmetic;
-    legs: LegsCosmetic;
-    shoes: ShoesCosmetic;
-    eyebrows: EyebrowsCosmetic;
-    eyes: EyesCosmetic;
-    skin: SkinCosmetic;
-}[TCosmeticType] | CommonCosmetic;
-
-// @public (undocumented)
-export type CosmeticType = "hat" | "head" | "body" | "legs" | "shoes" | "eyebrows" | "eyes" | "skin";
-
-// @public (undocumented)
-export type CustomTextStyling = (string | EntityName | TranslatedText | StyledIcon | StyledText)[];
-
-// @public (undocumented)
-export type Direcrion = [number, number, number];
-
-// @public (undocumented)
-export type EntityId = Id;
-
-// @public (undocumented)
-export type EntityMeshScalingMap = Partial<Record<LifeformBodyPart, [number, number, number]>>;
-
-// @public (undocumented)
-export type EntityName = {
-    entityName: string;
-    style?: {
-        color?: StringColor_2;
-        colour?: StringColor_2;
-    };
-};
-
-// @public (undocumented)
-export const EntitySettingApis: {
-    setEveryoneSettingForPlayer: SetEveryoneSettingForPlayerType;
-    setTargetedPlayerSettingForEveryone: SetTargetedPlayerSettingForEveryoneType;
-    setOtherEntitySetting: SetOtherEntitySettingType;
-    getOtherEntitySetting: GetOtherEntitySettingType;
-};
-
-// Warning: (ae-forgotten-export) The symbol "GenerateClientOptions_2" needs to be exported by the entry point index.d.ts
-// Warning: (ae-forgotten-export) The symbol "AllEntitySettingUnion" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type EntitySettings = GenerateClientOptions_2<AllEntitySettingUnion>;
-
-// @public (undocumented)
-export type EntityType = [
-"Item" | "Mesh" | "Player" | "Fireball" | "Iceball" | "Cow" | "Sheep" | "Horse" | "Cave Golem" | "Draugr Zombie" | "Draugr Skeleton" | "Frost Golem" | "Frost Zombie" | "Frost Skeleton" | "Draugr Knight" | "Wolf" | "Bear" | "Deer" | "Stag" | "Gold Watermelon Stag" | "Gorilla" | "Wildcat" | "Magma Golem" | "Draugr Huntress" | "Spirit Golem" | "Spirit Wolf" | "Spirit Bear" | "Spirit Stag" | "Spirit Gorilla" | "Draugr Warper" | "Frost Wraith" | "Draugr Reaver" | "NPC" | string
-];
-
-// @public (undocumented)
-export type ExplosionType = number;
-
-// @public (undocumented)
-export type EyebrowsCosmetic = "eyebrows_0" | "eyebrows_1_0" | "eyebrows_1_1" | "eyebrows_1_2" | "eyebrows_1_3" | "eyebrows_1_4" | "eyebrows_2_0" | "eyebrows_2_1" | "eyebrows_2_2" | "eyebrows_2_3" | "eyebrows_2_4" | "eyebrows_3_0" | "eyebrows_3_1" | "eyebrows_3_2" | "eyebrows_3_3" | "eyebrows_3_4";
-
-// @public (undocumented)
-export type EyesCosmetic = "eyes_0_0" | "eyes_0_1" | "eyes_0_2" | "eyes_0_3" | "eyes_0_4" | "eyes_1_0" | "eyes_1_1" | "eyes_1_2" | "eyes_1_3" | "eyes_1_4" | "eyes_2_0" | "eyes_2_1" | "eyes_2_2" | "eyes_2_3" | "eyes_2_4" | "eyes_3_0" | "eyes_3_1" | "eyes_3_2" | "eyes_3_3" | "eyes_3_4" | "eyes_4_0" | "eyes_4_1" | "eyes_4_2" | "eyes_4_3" | "eyes_4_4" | "eyes_5_0" | "eyes_5_1" | "eyes_5_2" | "eyes_5_3" | "eyes_5_4" | "eyes_6_0" | "eyes_6_1" | "eyes_6_2" | "eyes_6_3" | "eyes_6_4" | "eyes_7_0" | "eyes_7_1" | "eyes_7_2" | "eyes_7_3" | "eyes_7_4" | "eyes_8_0" | "eyes_8_1" | "eyes_8_2" | "eyes_8_3" | "eyes_8_4" | "eyes_9_0" | "eyes_9_1" | "eyes_9_2" | "eyes_9_3" | "eyes_9_4";
-
-// Warning: (ae-forgotten-export) The symbol "GenerateClientOptionInterface" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type GetClientOption = GenerateClientOptionInterface<AllClientOptionUnion, "GetClientOption">;
-
-// Warning: (ae-forgotten-export) The symbol "GenerateEntitySettingInterface" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type GetOtherEntitySetting = GenerateEntitySettingInterface<AllEntitySettingUnion, "GetOtherEntitySetting">;
-
-// @public (undocumented)
-export type GravityBarQteParams = {
-    progressStartValue?: number;
-    catchZoneSize: number;
-    moverSpeed: number;
-    moverErraticness: number;
-    gravity: number;
-    riseSpeed: number;
-    progressGainPerSecond: number;
-    progressDrainPerSecond: number;
-    canFail: boolean;
-    description: CustomTextStyling_2;
-    icon?: Icon_2;
-};
-
-// @public (undocumented)
-export type HatCosmetic = "hat_none";
-
-// @public (undocumented)
-export type HeadCosmetic = "head_0" | "head_1_0" | "head_1_1" | "head_1_2" | "head_1_3" | "head_1_4" | "head_2_0" | "head_2_1" | "head_2_2" | "head_2_3" | "head_2_4" | "head_3_0" | "head_3_1" | "head_3_2" | "head_3_3" | "head_3_4" | "head_4_0" | "head_4_1" | "head_4_2" | "head_4_3" | "head_4_4" | "head_5_0" | "head_5_1" | "head_5_2" | "head_5_3" | "head_5_4" | "head_6_0" | "head_6_1" | "head_6_2" | "head_6_3" | "head_6_4" | "head_7_0" | "head_7_1" | "head_7_2" | "head_7_3" | "head_7_4" | "head_8_0" | "head_8_1" | "head_8_2" | "head_8_3" | "head_8_4" | "head_9_0" | "head_9_1" | "head_9_2" | "head_9_3" | "head_9_4";
-
-// @public (undocumented)
-export type Health = number;
-
-// Warning: (ae-forgotten-export) The symbol "HealthRegenDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type HealthRegen<K extends MobType_2> = HealthRegenDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "HeldItemNameDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type HeldItemName<K extends MobType_2> = HeldItemNameDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "HostilityRadiusDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type HostilityRadius<K extends MobType_2> = HostilityRadiusDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "HurtSoundDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type HurtSound<K extends MobType_2> = HurtSoundDictionary[K];
-
-// @public (undocumented)
-export type Icon = IngameIconName_2 | ItemName_2 | string;
-
-// @public (undocumented)
-export type Id = `-${number}`;
-
-// Warning: (ae-forgotten-export) The symbol "IdleSoundDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type IdleSound<K extends MobType_2> = IdleSoundDictionary[K];
-
-// @public (undocumented)
-export type InGameEffectName = "Damage" | "Damage Reduction" | "Speed" | "Jump Boost" | "Haste" | "Frozen" | "Hydrated" | "Invisible" | "Poisoned" | "Slowness" | "Weakness" | "Health Regen" | "Double Jump" | "Heat Resistance" | "Thief" | "X-Ray Vision" | "Mining Yield" | "Brain Rot" | "Feather Falling" | "Rested Damage" | "Rested Speed" | "Rested Haste" | "Rested Farming Yield" | "Rested Aura" | "Bounciness" | "Wall Climbing" | "Air Walk" | "Pickpocketer" | "Lifesteal" | "Blindness" | "Thorns" | "Poopy";
-
-// @public (undocumented)
-export type IngameIconName = "Damage" | "Damage Reduction" | "Speed" | "VoidJump" | "Fist" | "Frozen" | "Hydrated" | "Invisible" | "Jump Boost" | "Poisoned" | "Slowness" | "Weakness" | "Health Regen" | "Haste" | "Double Jump" | "Heat Resistance" | "Gliding" | "Boating" | "Obsidian Boating" | "Riding" | "Bunny Hop" | "FallDamage" | "Feather Falling" | "Thief" | "X-Ray Vision" | "Mining Yield" | "Brain Rot" | "Rested Damage" | "Rested Haste" | "Rested Speed" | "Rested Farming Yield" | "Rested Aura" | "Blindness" | "Pickpocketer" | "Lifesteal" | "Bounciness" | "Air Walk" | "Wall Climbing" | "Thorns" | "Poopy" | "Draugr Knight Head" | "Draugr Warper Head" | "Magma Golem Head" | "Mystery Fish" | "Damage Enchantment" | "Critical Damage Enchantment" | "Attack Speed Enchantment" | "Protection Enchantment" | "Health Enchantment" | "Health Regen Enchantment" | "Stomp Damage Enchantment" | "Knockback Resist Enchantment" | "Arrow Speed Enchantment" | "Arrow Damage Enchantment" | "Quick Charge Enchantment" | "Break Speed Enchantment" | "Momentum Enchantment" | "Mining Yield Enchantment" | "Farming Yield Enchantment" | "Mining Aura Enchantment" | "Digging Aura Enchantment" | "Lumber Aura Enchantment" | "Farming Aura Enchantment" | "Vertical Knockback Enchantment" | "Horizontal Knockback Enchantment" | "Self Yield" | "Friends" | "Riding Speed" | "Feed Aura" | "Double Poop" | "Mob Slayer" | "Rainbow Wool" | "Pack Leader" | "Max Health" | "Poison Claws" | "Mob Yield" | "Antlers Bonus" | "Health" | "HealthShield" | "Cross" | "Friendship" | "Dotted Friendship" | "Hunger" | "Empty Hunger" | "Pixelated Heart" | "Question Mark" | "Trader Black" | "Trader Blue" | "Trader Piggy";
-
-// Warning: (ae-forgotten-export) The symbol "InitialHealthDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type InitialHealth<K extends MobType_2> = InitialHealthDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "IsRideableDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type IsRideable<K extends MobType_2> = IsRideableDictionary[K];
-
-// @public (undocumented)
-export type Item = ItemName | ItemId;
-
-// @public (undocumented)
-export type ItemAttributes = {
-    customDisplayName?: string;
-    customDescription?: string;
-    customAttributes?: Record<string, any>;
-};
-
-// @public (undocumented)
-export type ItemEntityId = EntityId;
-
-// @public (undocumented)
-export type ItemId = AllItemId;
-
-// @public (undocumented)
-export type ItemMetaInfo = string;
-
-// @public (undocumented)
-export type ItemName = AllItemName;
-
-// @public (undocumented)
-export type ItemObject = {
-    name: string;
-    amount: number | null;
-    attributes: ItemAttributes;
-    typeObj: {
-        stackable: boolean;
-    };
-};
-
-// Warning: (ae-forgotten-export) The symbol "JumpCountDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type JumpCount<K extends MobType_2> = JumpCountDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "JumpMultiplierDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type JumpMultiplier<K extends MobType_2> = JumpMultiplierDictionary[K];
-
-// @public (undocumented)
-export type LeaderboardKey = string;
-
-// @public (undocumented)
-export type LegsCosmetic = "legs_0_0" | "legs_0_1" | "legs_0_2" | "legs_0_3" | "legs_0_4" | "legs_1_0" | "legs_1_1" | "legs_1_2" | "legs_1_3" | "legs_1_4" | "legs_2_0" | "legs_2_1" | "legs_2_2" | "legs_2_3" | "legs_2_4";
-
-// @public (undocumented)
-export type LifeformBodyPart = "TorsoNode" | "HeadMesh" | "ArmRightMesh" | "ArmLeftMesh" | "LegLeftMesh" | "LegRightMesh";
-
-// @public (undocumented)
-export type LifeformId = PlayerId | MobId;
-
-// @public (undocumented)
-export type LobbyLeaderboardValues = Record<LeaderboardKey, string | CustomTextStyling>;
-
-// @public (undocumented)
-export type LobbyType = string;
-
-// @public (undocumented)
-export type MargeObject<T> = {
-    [K in keyof T]: T[K];
-};
-
-// Warning: (ae-forgotten-export) The symbol "MaxFollowingRadiusDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type MaxFollowingRadius<K extends MobType_2> = MaxFollowingRadiusDictionary[K];
-
-// @public (undocumented)
-export type MeshEntityOpts = {
-    Box: BoxOpts;
-    BloxdBlock: BloxdBlockOpts;
-    Person: PersonOpts;
-    ParticleEmitter: MeshParticleSystemOpts;
-};
-
-// @public (undocumented)
-export type MeshEntityPhysicsOpts = {
-    doPhysics: boolean;
-    onCollideTerrain?: () => void;
-    collidesEntities?: boolean;
-    collideBits?: number;
-    collideMask?: number;
-    heightExpandAmt?: number;
-    widthExpandAmt?: number;
-    vehicleOpts?: MeshEntityVehicleOpts_2;
-};
-
-// @public (undocumented)
-export type MeshEntityVehicleOpts = object;
-
-// @public (undocumented)
-export type MeshParticleSystemOpts = ParticleEmitterOpts;
-
-// @public (undocumented)
-export type MeshType = keyof MeshEntityOpts;
-
-// Warning: (ae-forgotten-export) The symbol "MetaInfoDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type MetaInfo<K extends MobType_2> = MetaInfoDictionary[K];
-
-// Warning: (ae-forgotten-export) The symbol "MinFollowingRadiusDictionary" needs to be exported by the entry point index.d.ts
-//
-// @public (undocumented)
-export type MinFollowingRadius<K extends MobType_2> = MinFollowingRadiusDictionary[K];
-
-// @public (undocumented)
-export type MobAiState = keyof AllMobAiState;
-
-// @public (undocumented)
-export type MobAiStateParams<TState extends MobAiState> = AllMobAiState[TState];
-
-// @public (undocumented)
-export type MobDbId = string;
-
-// @public (undocumented)
-export type MobHerdId = `-${number}`;
-
-// @public (undocumented)
-export type MobId = EntityId;
-
-// @public (undocumented)
-export const MobSettingApis: {
-    getDefaultMobSetting: RootGetDefaultMobSetting;
-    setDefaultMobSetting: RootSetDefaultMobSetting;
-    getMobSetting: RootGetMobSetting;
-    setMobSetting: RootSetMobSetting;
-};
-
-// @public (undocumented)
-export type MobSettings<K extends MobType_2> = {
-    variation: Variation<K>;
-    name: Name<K>;
-    maxHealth: MaxHealth<K>;
-    initialHealth: InitialHealth<K>;
-    idleSound: IdleSound<K>;
-    attackSound: AttackSound<K>;
-    secondaryAttackSound: SecondaryAttackSound<K>;
-    hurtSound: HurtSound<K>;
-    onDeathAura: OnDeathAura<K>;
-    baseWalkingSpeed: BaseWalkingSpeed<K>;
-    baseRunningSpeed: BaseRunningSpeed<K>;
-    walkingSpeedMultiplier: WalkingSpeedMultiplier<K>;
-    runningSpeedMultiplier: RunningSpeedMultiplier<K>;
-    jumpCount: JumpCount<K>;
-    baseJumpImpulseXZ: BaseJumpImpulseXZ<K>;
-    baseJumpImpulseY: BaseJumpImpulseY<K>;
-    jumpMultiplier: JumpMultiplier<K>;
-    runAwayRadius: RunAwayRadius<K>;
-    chaseRadius: ChaseRadius<K>;
-    territoryRadius: TerritoryRadius<K>;
-    hostilityRadius: HostilityRadius<K>;
-    stoppingRadius: StoppingRadius<K>;
-    attackInterval: AttackInterval<K>;
-    attackRadius: AttackRadius<K>;
-    secondaryAttackRadius: SecondaryAttackRadius<K>;
-    attackDamage: AttackDamage<K>;
-    secondaryAttackDamage: SecondaryAttackDamage<K>;
-    attackImpulse: AttackImpulse<K>;
-    secondaryAttackImpulse: SecondaryAttackImpulse<K>;
-    burstAttackInfo: BurstAttackInfo<K>;
-    secondaryBurstAttackInfo: SecondaryBurstAttackInfo<K>;
-    heldItemName: HeldItemName<K>;
-    attackItemName: AttackItemName<K>;
-    secondaryAttackItemName: SecondaryAttackItemName<K>;
-    swingArmOnAttack: SwingArmOnAttack<K>;
-    swingArmOnSecondaryAttack: SwingArmOnSecondaryAttack<K>;
-    attackEffectName: AttackEffectName<K>;
-    attackEffectDuration: AttackEffectDuration<K>;
-    ownerDbId: OwnerDbId<K>;
-    minFollowingRadius: MinFollowingRadius<K>;
-    maxFollowingRadius: MaxFollowingRadius<K>;
-    isRideable: IsRideable<K>;
-    healthRegen: HealthRegen<K>;
-    ridingSpeedMult: RidingSpeedMult<K>;
-    metaInfo: MetaInfo<K>;
-    onTamedHealthMultiplier: OnTamedHealthMultiplier<K>;
-};
-
-// @public (undocumented)
-export type MobSpawnOpts<TMobType extends MobType_2> = Partial<{
-    mobHerdId: MobHerdId_2;
-    spawnerId: PlayerId_2;
-    mobDbId: MobDbId_2;
-    name: string;
-    playSoundOnSpawn: boolean;
-    variation: Variation_2<TMobType>;
-    physicsOpts: Partial<{
-        width: number;
-        height: number;
-        collidesEntities: boolean;
-    }>;
-}>;
-
-// @public (undocumented)
-export type MobType = "Pig" | "Cow" | "Sheep" | "Horse" | "Cave Golem" | "Draugr Zombie" | "Frost Golem" | "Frost Zombie" | "Frost Skeleton" | "Draugr Knight" | "Wolf" | "Bear" | "Deer" | "Stag" | "Gold Watermelon Stag" | "Gorilla" | "Wildcat" | "Magma Golem" | "Draugr Huntress" | "Spirit Golem" | "Spirit Wolf" | "Spirit Bear" | "Spirit Stag" | "Spirit Gorilla" | "Draugr Warper" | "Frost Wraith" | "Draugr Reaver" | "NPC";
-
-// @public (undocumented)
-export type NameTagInfo = {
-    backgroundColor?: string;
-    content?: StyledText_2[];
-    subtitle?: StyledText_2[];
-    subtitleBackgroundColor?: string;
-};
-
-// @public (undocumented)
-export type NonBlockMetadataItem = any;
-
-// @public (undocumented)
-export const NormalApis: {
-    readonly getPlayerPhysicsState: (playerId: PlayerId_3) => PlayerPhysicsStateData_3;
-    readonly setPlayerPhysicsState: (playerId: PlayerId_3, physicsState: PlayerPhysicsStateData_3, positionOffset?: [number, number, number]) => void;
-    readonly attemptCreateMeshEntity: <TMeshType extends MeshType_3>(type: TMeshType, opts: MeshEntityOpts_3[TMeshType], name?: string, physicsOptions?: MeshEntityPhysicsOpts_3, initiatorId?: EntityId_3 | null) => EntityId_3 | null;
-    readonly deleteMeshEntity: (eId: EntityId_3) => boolean;
-    readonly updateMeshEntity: <TMeshType extends MeshType_3>(eId: EntityId_3, type: TMeshType, opts: MeshEntityOpts_3[TMeshType]) => void;
-    readonly editItemCraftingRecipes: (playerId: PlayerId_3, itemName: ItemName_3, recipesForItem: RecipesForItem_3) => void;
-    readonly removeItemCraftingRecipes: (playerId: PlayerId_3, itemName: null | ItemName_3) => void;
-    readonly resetItemCraftingRecipes: (playerId: PlayerId_3, itemName: ItemName_3 | null) => void;
-    readonly addQTE: (playerId: PlayerId_3, qteParameters: QTEClientParameters_3) => QTERequestId_3;
-    readonly deleteQTE: (playerId: PlayerId_3, id: QTERequestId_3) => void;
-    readonly hasActiveQTE: (playerId: PlayerId_3) => boolean;
-    readonly attemptCreateThrowable: (throwerEId: EntityId_3, itemName: ThrowableItem_3, position: Coordinate_3, direction: Direcrion_3, velocityMult?: number, damageMult?: number, gravityMult?: number, attributes?: ItemAttributes_3) => EntityId_3 | null;
-    readonly deleteThrowable: (eId: EntityId_3) => boolean;
-    readonly setPlayerOpacity: (playerId: PlayerId_3, opacity: number) => void;
-    readonly setPlayerOpacityForOnePlayer: (playerIdWhoViewsOpacityPlayer: PlayerId_3, playerIdOfOpacityPlayer: PlayerId_3, opacity: number) => void;
-    readonly getPlayerFacingInfo: (playerId: PlayerId_3) => {
-        camPos: Coordinate_3;
-        dir: Direcrion_3;
-        angleDir: AngleDir_3;
-        moveHeading: number;
-    };
-    readonly getPlayerTargetInfo: (playerId: PlayerId_3) => {
-        position: Coordinate_3;
-        normal: Coordinate_3;
-        adjacent: Coordinate_3;
-    };
-    readonly setCameraDirection: (playerId: PlayerId_3, direction: Direcrion_3) => void;
-    readonly setCameraZoom: (playerId: PlayerId_3, zoom: number) => void;
-    readonly initiateMiddleScreenBar: (playerId: PlayerId_3, duration: number, chargeExpiresAutomatically?: boolean, horizontalBarRemOffset?: number) => void;
-    readonly removeMiddleScreenBar: (playerId: PlayerId_3) => void;
-    readonly attemptSpawnMob: <TMobType extends MobType_3>(mobType: TMobType, x: number, y: number, z: number, opts: MobSpawnOpts_3<TMobType>) => MobId_3 | null;
-    readonly createMobHerd: () => MobHerdId_3;
-    readonly despawnMob: (mobId: MobId_3) => void;
-    readonly getMobAiState: (mobId: MobId_3) => {
-        state: MobAiState_3;
-        params: MobAiStateParams_3<MobAiState_3>;
-    };
-    readonly getMobIds: () => MobId_3[];
-    readonly getNumMobs: () => number;
-    readonly setMobAiState: <TState extends MobAiState_3>(mobId: MobId_3, state: TState, params: MobAiStateParams_3<TState>) => void;
-    readonly getLobbyName: () => null | string;
-    readonly getLobbyType: () => LobbyType_3;
-    readonly isPublicLobby: () => boolean;
-    readonly broadcastSound: (soundName: SoundName_3 | string, volume: number, rate: number, posSettings?: PosSettings_3, exceptPlayerId?: PlayerId_3) => void;
-    readonly playClientPredictedSound: (soundName: SoundName_3 | string, volume: number, rate: number, posSettings?: PosSettings_3, predictedBy?: PlayerId_3) => void;
-    readonly playSound: (playerId: PlayerId_3, soundName: SoundName_3 | string, volume: number, rate: number, posSettings?: PosSettings_3) => void;
-    readonly setVelocity: (eId: EntityId_3, x: number, y: number, z: number) => void;
-    readonly getVelocity: (eId: EntityId_3) => [number, number, number];
-    readonly applyImpulse: (eId: EntityId_3, xImpulse: number, yImpulse: number, zImpulse: number) => void;
-    readonly applyEffect: {
-        (lifeformId: LifeformId_3, effectName: InGameEffectName_3, duration: number | null, customEffectInfo: {
-            icon?: IngameIconName_3 | ItemName_3 | string;
-            onEndCb?: () => void;
-            displayName?: string | TranslatedText_3;
-            inbuildLevel?: number;
-        }): void;
-        (lifeformId: LifeformId_3, effectName: string, duration: number | null, customEffectInfo: {
-            icon?: IngameIconName_3 | ItemName_3 | string;
-            onEndCb?: () => void;
-            displayName?: string | TranslatedText_3;
-            inbuildLevel: number;
-        }): void;
-    };
-    readonly removeEffect: (lifeformId: LifeformId_3, name: string) => void;
-    readonly getEffects: (lifeformId: LifeformId_3) => string[];
-    readonly clearDirectionArrow: (playerId: PlayerId_3, id?: string | null) => void;
-    readonly setDirectionArrow: (playerId: PlayerId_3, id: string, position: Coordinate_3, text?: null | string | CustomTextStyling_3, showDistance?: boolean, style?: null | TextStyle_3) => void;
-    readonly getBlockData: (x: number, y: number, z: number) => object | null | undefined;
-    readonly setBlockData: (x: number, y: number, z: number, data: object) => void;
-    readonly calcExplosionForce: (eId: EntityId_3, explosionType: ExplosionType_3, knockbackFactor: number, explosionRadius: number, explosionPos: Coordinate_3, ignoreProjectiles: boolean) => {
-        force: Coordinate_3;
-        forceFrac: number;
-    };
-    readonly isInsideRect: (coordsToCheck: Coordinate_3, pos1: Coordinate_3, pos2: Coordinate_3, addOneToMax?: boolean) => boolean;
-    readonly now: () => number;
-    readonly raycastForBlock: (fromPos: Coordinate_3, dirVec: Direcrion_3) => BlockRaycastResult_3;
-    readonly applyAuraChange: (playerId: PlayerId_3, auraDiff: number) => number;
-    readonly getAuraInfo: (player: PlayerId_3) => {
-        level: number;
-        totalAura: number;
-        auraPerLevel: number;
-    };
-    readonly setTotalAura: (playerId: PlayerId_3, totalAura: number) => void;
-    readonly getMoonstoneChestItemSlot: (playerId: number, idx: number) => ItemObject_3 | null;
-    readonly getMoonstoneChestItems: (playerId: number) => (ItemObject_3 | null)[];
-    readonly setMoonstoneChestItemSlot: (playerId: number, idx: number, itemName: string, itemAmount?: number, attributes?: ItemAttributes_3) => void;
-    readonly canOpenStandardChest: (playerId: PlayerId_3, chestX: number, chestY: number, chestZ: number) => boolean | null;
-    readonly openChestForPlayer: (playerId: PlayerId_3, x: number, y: number, z: number) => void;
-    readonly closeChestForPlayer: (playerId: PlayerId_3) => void;
-    readonly giveStandardChestItem: (chestPos: Coordinate_3, itemName: ItemName_3, itemAmount?: number, playerId?: PlayerId_3, attributes?: ItemAttributes_3) => number;
-    readonly getStandardChestFreeSlotCount: (chestPos: Coordinate_3) => number | null;
-    readonly getStandardChestItemAmount: (chestPos: Coordinate_3, itemName: ItemName_3) => number;
-    readonly getStandardChestItemSlot: (chestPos: Coordinate_3, idx: number) => ItemObject_3 | null;
-    readonly getStandardChestItems: (chestPos: Coordinate_3) => (ItemObject_3 | null)[];
-    readonly setStandardChestItemSlot: (chestPos: Coordinate_3, idx: number, itemName: string, itemAmount?: number, playerId?: number, attributes?: any) => void;
-    readonly setWalkThroughRect: (playerId: PlayerId_3, pos1: Coordinate_3, pos2: Coordinate_3, updateType: WalkThroughType_3) => void;
-    readonly setWalkThroughType: (playerId: PlayerId_3, blockName: BlockName_3, disable?: boolean) => void;
-    readonly setCanChangeBlock: (playerId: PlayerId_3, x: number, y: number, z: null) => void;
-    readonly setCanChangeBlockRect: (playerId: PlayerId_3, pos1: Coordinate_3, pos2: Coordinate_3) => void;
-    readonly setCanChangeBlockType: (playerId: PlayerId_3, blockName: BlockNameOrId_3) => void;
-    readonly setCantChangeBlock: (playerId: PlayerId_3, x: number, y: number, z: number) => void;
-    readonly setCantChangeBlockRect: (playerId: PlayerId_3, pos1: Coordinate_3, pos2: Coordinate_3) => void;
-    readonly setCantChangeBlockType: (playerId: PlayerId_3, blockName: BlockNameOrId_3) => void;
-    readonly resetCanChangeBlockType: (playerId: PlayerId_3, blockName: BlockNameOrId_3) => void;
-    readonly resetCanChangeBlockRect: (playerId: PlayerId_3, pos1: Coordinate_3, pos2: Coordinate_3) => void;
-    readonly getEntityName: (entityId: EntityId_3) => string;
-    readonly checkValid: (entityId: EntityId_3 | null) => boolean;
-    readonly getUnitCoordinatesLifeformWithin: (lifeformId: LifeformId_3) => Coordinate_3[];
-    readonly getEntitiesInRect: (minCoords: Coordinate_3, maxCoords: Coordinate_3) => EntityId_3[];
-    readonly getEntityHeading: (entityId: EntityId_3) => Radian_3;
-    readonly getEntityRotation: (entityId: EntityId_3) => [Radian_3, Radian_3, Radian_3];
-    readonly getEntityType: (entityId: EntityId_3) => EntityType_3;
-    readonly setEntityHeading: (entityId: EntityId_3, newHeading: Radian_3) => void;
-    readonly setEntityRotation: (entityId: EntityId_3, xRotation: Radian_3, yRotation: Radian_3, zRotation: Radian_3) => void;
-    readonly updateEntityNodeMeshAttachment: {
-        <TMeshType extends MeshType_3>(eId: EntityId_3, node: LifeformBodyPart_3, type: TMeshType, opts?: MeshEntityOpts_3[TMeshType], offset?: [number, number, number], rotation?: Rotation_3): void;
-        (eId: EntityId_3, node: LifeformBodyPart_3, type: null): void;
-    };
-    readonly getPlayerIds: () => PlayerId_3[];
-    readonly getNumPlayers: () => number;
-    readonly getPlayerPartyWhenJoined: (playerId: PlayerId_3) => Party_3 | null;
-    readonly playerIsInGame: (playerId: PlayerId_3) => boolean;
-    readonly playerIsLoggedIn: (playerId: PlayerId_3) => boolean;
-    readonly getPlayerId: (playerName: string) => null | PlayerId_3;
-    readonly getPlayerDbId: (playerId: PlayerId_3) => PlayerDbId_3;
-    readonly getPlayerIdFromDbId: (dbId: PlayerDbId_3) => null | PlayerId_3;
-    readonly kickPlayer: (playerId: PlayerId_3, reason: string) => void;
-    readonly isMobile: (playerId: PlayerId_3) => boolean;
-    readonly forceRespawn: (playerId: PlayerId_3, respawnPos?: Readonly<Coordinate_3>) => void;
-    readonly getPlayerCosmetic: <TCosmeticType extends CosmeticType_3>(playerId: PlayerId_3, cosmeticType: TCosmeticType) => CosmeticName_3<TCosmeticType>;
-    readonly changePlayerIntoSkin: <TCosmeticType extends CosmeticType_3>(playerId: PlayerId_3, cosmeticType: TCosmeticType, cosmeticName: CosmeticName_3<TCosmeticType>) => void;
-    readonly setPlayerPose: (playerId: PlayerId_3, pose: PlayerPose_3, poseOffset?: [number, number, number]) => void;
-    readonly broadcastMessage: (message: string | CustomTextStyling_3, style?: {
-        fontWeight?: number | string;
-        color?: string;
-    }) => void;
-    readonly sendMessage: {
-        (playerId: PlayerId_3, message: string, style: {
-            fontWeight?: number | string;
-            color?: string;
-        }): void;
-        (playerId: PlayerId_3, message: CustomTextStyling_3): void;
-    };
-    readonly sendFlyingMiddleMessage: (playerId: PlayerId_3, message: string | CustomTextStyling_3, distanceFromAction?: number, lifetimeMs?: number) => void;
-    readonly sendTopRightHelper: (playerId: PlayerId_3, icon: string, text: string, opts: {
-        duration?: number;
-        width?: number;
-        height?: number;
-        color?: StringColor_3;
-        iconSizeMult?: number;
-        textAndIconColor?: string;
-        fontSize?: string;
-    }) => void;
-    readonly getCurrentKillstreak: (playerId: PlayerId_3) => number;
-    readonly clearKillstreak: (playerId: PlayerId_3) => void;
-    readonly createItemDrop: (x: number, y: number, z: number, itemName: ItemName_3, amount?: number | null, margeItems?: boolean, attributes?: ItemAttributes_3, timeTillDespawn?: number, dropperId?: LifeformId_3 | null, options?: never) => null | ItemEntityId_3;
-    readonly setCantPickUpItem: (playerId: PlayerId_3, itemId: ItemEntityId_3) => void;
-    readonly deleteItemDrop: (itemId: ItemEntityId_3) => void;
-    readonly giveItem: (playerId: PlayerId_3, itemName: ItemName_3, itemAmount: number, attributes: ItemAttributes_3) => void;
-    readonly inventoryIsFull: (playerId: PlayerId_3) => boolean;
-    readonly setItemSlot: (playerId: PlayerId_3, itemSlotIndex: number, itemName: ItemName_3, itemAmount: number, attributes: ItemAttributes_3, tellClient: boolean) => void;
-    readonly removeItemName: (playerId: PlayerId_3, itemName: ItemName_3, amount: number) => void;
-    readonly getItemSlot: (playerId: PlayerId_3, itemSlotIndex: number) => ItemObject_3 | null;
-    readonly clearInventory: (playerId: PlayerId_3) => void;
-    readonly hasItem: (playerId: PlayerId_3, itemName: Item_3) => boolean;
-    readonly getInventoryItemAmount: (playerId: PlayerId_3, itemName: Item_3) => number;
-    readonly getSelectedInventorySlotI: (playerId: PlayerId_3) => number;
-    readonly getHeldItem: (playerId: PlayerId_3) => ItemObject_3 | null;
-    readonly getInventoryFreeSlotCount: (playerId: PlayerId_3) => number;
-    readonly getInitialItemMetadata: (itemName: Item_3) => Partial<BlockMetadataItem_3 & NonBlockMetadataItem_3>;
-    readonly setItemAmount: (itemId: ItemId_3, newAmount: number) => void;
-    readonly setSelectedInventorySlotI: (playerId: PlayerId_3, newI: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9) => void;
-    readonly getItemStat: (lifeformId: LifeformId_3 | null, itemName: ItemName_3, stat: string) => AnyMetadataItem_3;
-    readonly getHealth: (entityId: EntityId_3) => Health_3;
-    readonly setHealth: (entityId: EntityId_3, newHealth: Health_3 | null, whoDidDamage?: Readonly<WhoDidDamage_3>, increaseMaxHealthIfNeeded?: boolean) => boolean;
-    readonly attemptApplyDamage: (options: Readonly<PlayerAttemptDamageOtherPlayerOpts_3>) => boolean;
-    readonly applyMeleeHit: (hittingEId: LifeformId_3, hitEId: LifeformId_3, dirFacing: Readonly<Direcrion_3>, bodyPartHit?: LifeformBodyPart_3 | null, overrides?: Readonly<applyMeleeHitOverrides_3>) => boolean;
-    readonly applyHealthChange: (lifeformId: LifeformId_3, changeAmount: number, whoDidDamage?: Readonly<WhoDidDamage_3>, broadcastLifeformHurt?: boolean) => boolean;
-    readonly killLifeform: (lifeformId: LifeformId_3, whoKilled?: WhoKilled_3) => void;
-    readonly isAlive: (lifeformId: LifeformId_3) => boolean;
-    readonly getBlockCoordinatesPlayerStandingOn: (playerId: PlayerId_3) => Coordinate_3[];
-    readonly getBlockTypesPlayerStandingOn: (playerId: PlayerId_3) => BlockName_3[];
-    readonly getPosition: (entityId: EntityId_3) => Coordinate_3;
-    readonly setPosition: {
-        (entityId: EntityId_3, x: number, y: number, z: number): void;
-        (entityId: EntityId_3, position: Readonly<Coordinate_3>): void;
-    };
-    readonly getShieldAmount: (entityId: EntityId_3) => ShieldAmount_3;
-    readonly setShieldAmount: (lifeformId: LifeformId_3, newShieldAmount: ShieldAmount_3) => void;
-    readonly showShopTutorial: (playerId: PlayerId_3) => void;
-    readonly createShopItem: (categoryKey: ShopCategoryKey_3, itemKey: ShopItemKey_3, item: ShopItem_3) => void;
-    readonly updateShopItem: (categoryKey: ShopCategoryKey_3, itemKey: ShopItemKey_3, changes: Partial<ShopItem_3>) => void;
-    readonly deleteShopItem: (categoryKey: ShopCategoryKey_3, itemKey: ShopItemKey_3) => void;
-    readonly configureShopCategory: (categoryKey: ShopCategoryKey_3, config: ShopCategoryConfig_3) => void;
-    readonly createShopItemForPlayer: (playerId: PlayerId_3, categoryKey: ShopCategoryKey_3, itemKey: ShopItemKey_3, item: ShopItem_3) => void;
-    readonly updateShopItemForPlayer: (playerId: PlayerId_3, categoryKey: ShopCategoryKey_3, itemKey: ShopItemKey_3, changes: Partial<ShopItem_3>) => void;
-    readonly resetShopItemForPlayer: (playerId: PlayerId_3, categoryKey: ShopCategoryKey_3, itemKey: ShopItemKey_3) => void;
-    readonly configureShopCategoryForPlayer: (playerId: PlayerId_3, categoryKey: ShopCategoryKey_3, config: ShopCategoryConfig_3) => void;
-    readonly sendOverShopInfo: (playerId: PlayerId_3, info: string | CustomTextStyling_3) => void;
-    readonly openShop: (playerId: PlayerId_3, toggle?: boolean, forceCategoryKey?: ShopCategoryKey_3 | null, onlyIfNonEmpty?: boolean) => void;
-    readonly playParticleEffect: (opts: TempParticleSystemOpts_3 | ParticlePresetOpts_3, clientPredictedBy?: PlayerId_3) => void;
-    readonly setCallbackValueFallback: (callbackName: CallbackName_3, defaultValue: any) => void;
-};
-
 // Warning: (ae-forgotten-export) The symbol "OnDeathAuraDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type OnDeathAura<K extends MobType_2> = OnDeathAuraDictionary[K];
+export type OnDeathAura<K extends MobType> = OnDeathAuraDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "OnTamedHealthMultiplierDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type OnTamedHealthMultiplier<K extends MobType_2> = OnTamedHealthMultiplierDictionary[K];
+export type OnTamedHealthMultiplier<K extends MobType> = OnTamedHealthMultiplierDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "OwnerDbIdDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type OwnerDbId<K extends MobType_2> = OwnerDbIdDictionary[K];
+export type OwnerDbId<K extends MobType> = OwnerDbIdDictionary[K];
 
 // @public (undocumented)
 export type ParticleEmitterOpts = {
-    texture: Texture_2;
+    texture: Texture;
     minLifeTime: number;
     maxLifeTime: number;
     minEmitPower: number;
@@ -1111,13 +1111,13 @@ export type ParticleEmitterOpts = {
     minSize: number;
     maxSize: number;
     gravity: number[];
-    velocityGradients: VelocityGradient_2[];
-    colorGradients: TimeColorGradient_2[] | RandomColorGradient_2[];
-    blendMode: ParticleSystemBlendMode_2;
+    velocityGradients: VelocityGradient[];
+    colorGradients: TimeColorGradient[] | RandomColorGradient[];
+    blendMode: ParticleSystemBlendMode;
     hideDist?: number;
     meshOffset?: number[];
     autoRotate?: boolean;
-    lineToEId?: EntityId_2;
+    lineToEId?: EntityId;
     height: number;
     width: number;
     depth: number;
@@ -1129,8 +1129,8 @@ export type ParticleEmitterOpts = {
 // @public
 export type ParticlePresetOpts = {
     presetId: PresetId;
-    pos1: Coordinate_2;
-    pos2: Coordinate_2;
+    pos1: Coordinate;
+    pos2: Coordinate;
 };
 
 // @public (undocumented)
@@ -1159,7 +1159,7 @@ export type ParticleSystemBlendMode =
 // @public (undocumented)
 export type Party = {
     partyCode: string;
-    playerDbIds: PlayerDbId_2[];
+    playerDbIds: PlayerDbId[];
 };
 
 // @public (undocumented)
@@ -1167,10 +1167,10 @@ export type PersonOpts = {
     hideDist?: number;
     meshOffset?: number[];
     autoRotate?: boolean;
-    lineToEId?: EntityId_2;
+    lineToEId?: EntityId;
     size?: number;
     textures?: Partial<object>;
-    pose?: PlayerPose_2;
+    pose?: PlayerPose;
 };
 
 // @public (undocumented)
@@ -1178,21 +1178,21 @@ export interface PlayerAttemptDamageOtherPlayerOpts {
     // (undocumented)
     attackCooldownSettings?: any;
     // (undocumented)
-    attackDir?: Direcrion_2;
+    attackDir?: Direcrion;
     // (undocumented)
     attemptedDmgAmt: number;
     // (undocumented)
-    bodyPartHit?: LifeformBodyPart_2;
+    bodyPartHit?: LifeformBodyPart;
     // (undocumented)
     broadcastEntityHurt?: boolean;
     // (undocumented)
     damagerDbId?: string;
     // (undocumented)
-    eId: EntityId_2;
+    eId: EntityId;
     // (undocumented)
-    hitEId: EntityId_2;
+    hitEId: EntityId;
     // (undocumented)
-    hittingSoundOverride?: SoundName_2;
+    hittingSoundOverride?: SoundName;
     // (undocumented)
     horizontalKbMultiplier?: number;
     // (undocumented)
@@ -1206,7 +1206,7 @@ export interface PlayerAttemptDamageOtherPlayerOpts {
     // (undocumented)
     verticalKbMultiplier?: number;
     // (undocumented)
-    withItem: Item_2;
+    withItem: Item;
 }
 
 // @public (undocumented)
@@ -1226,7 +1226,7 @@ export type PlayerPose = "standing" | "sitting" | "zombie" | "gliding" | "drivin
 
 // @public (undocumented)
 export type PosSettings = {
-    playerIdOrPos: PlayerId_2 | Coordinate;
+    playerIdOrPos: PlayerId | Coordinate;
     maxHearDist?: number;
     refDistance?: number;
 };
@@ -1235,8 +1235,8 @@ export type PosSettings = {
 export type PrecisionBarQteParams = {
     speed: number;
     successZoneSize: number;
-    label: CustomTextStyling_2;
-    icon?: Icon_2;
+    label: CustomTextStyling;
+    icon?: Icon;
     scale?: number;
     rotation?: number;
 };
@@ -1250,8 +1250,8 @@ export type ProgressBarQteParams = {
     progressDecreasePerTick: number;
     progressPerClick: number;
     canFail: boolean;
-    description: CustomTextStyling_2;
-    clickIcon: Icon_2;
+    description: CustomTextStyling;
+    clickIcon: Icon;
     scale?: number;
     rotation?: number;
 };
@@ -1259,19 +1259,19 @@ export type ProgressBarQteParams = {
 // @public (undocumented)
 export type QTEClientParameters = {
     type: "rhythmClick";
-    parameters: RhythmClickQteParams_2;
+    parameters: RhythmClickQteParams;
 } | {
     type: "percisionBar";
-    parameters: PrecisionBarQteParams_2;
+    parameters: PrecisionBarQteParams;
 } | {
     type: "gravityBar";
-    parameters: GravityBarQteParams_2;
+    parameters: GravityBarQteParams;
 } | {
     type: "timedClick";
-    parameters: TimedClickQteParams_2;
+    parameters: TimedClickQteParams;
 } | {
     type: "progressBar";
-    parameters: ProgressBarQteParams_2;
+    parameters: ProgressBarQteParams;
 };
 
 // @public (undocumented)
@@ -1286,7 +1286,7 @@ export type RandomColorGradient = number;
 // @public (undocumented)
 export type RecipesForItem = {
     requires: {
-        items: ItemName_2[];
+        items: ItemName[];
         amt: number;
     }[];
     produces: number;
@@ -1301,57 +1301,57 @@ export type RhythmClickQteParams = {
     shrinkDurationMs: number;
     toleranceFraction: number;
     maxMisses?: number;
-    label: CustomTextStyling_2;
-    icon?: Icon_2;
+    label: CustomTextStyling;
+    icon?: Icon;
 };
 
 // Warning: (ae-forgotten-export) The symbol "RidingSpeedMultDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type RidingSpeedMult<K extends MobType_2> = RidingSpeedMultDictionary[K];
+export type RidingSpeedMult<K extends MobType> = RidingSpeedMultDictionary[K];
 
 // @public (undocumented)
-export type Rotation = [Radian_2, Radian_2, Radian_2];
+export type Rotation = [Radian, Radian, Radian];
 
 // Warning: (ae-forgotten-export) The symbol "RunAwayRadiusDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type RunAwayRadius<K extends MobType_2> = RunAwayRadiusDictionary[K];
+export type RunAwayRadius<K extends MobType> = RunAwayRadiusDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "RunningSpeedMultiplierDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type RunningSpeedMultiplier<K extends MobType_2> = RunningSpeedMultiplierDictionary[K];
+export type RunningSpeedMultiplier<K extends MobType> = RunningSpeedMultiplierDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SecondaryAttackDamageDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SecondaryAttackDamage<K extends MobType_2> = SecondaryAttackDamageDictionary[K];
+export type SecondaryAttackDamage<K extends MobType> = SecondaryAttackDamageDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SecondaryAttackImpulseDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SecondaryAttackImpulse<K extends MobType_2> = SecondaryAttackImpulseDictionary[K];
+export type SecondaryAttackImpulse<K extends MobType> = SecondaryAttackImpulseDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SecondaryAttackItemNameDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SecondaryAttackItemName<K extends MobType_2> = SecondaryAttackItemNameDictionary[K];
+export type SecondaryAttackItemName<K extends MobType> = SecondaryAttackItemNameDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SecondaryAttackRadiusDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SecondaryAttackRadius<K extends MobType_2> = SecondaryAttackRadiusDictionary[K];
+export type SecondaryAttackRadius<K extends MobType> = SecondaryAttackRadiusDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SecondaryAttackSoundDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SecondaryAttackSound<K extends MobType_2> = SecondaryAttackSoundDictionary[K];
+export type SecondaryAttackSound<K extends MobType> = SecondaryAttackSoundDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SecondaryBurstAttackInfoDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SecondaryBurstAttackInfo<K extends MobType_2> = SecondaryBurstAttackInfoDictionary[K];
+export type SecondaryBurstAttackInfo<K extends MobType> = SecondaryBurstAttackInfoDictionary[K];
 
 // @public (undocumented)
 export type SetClientOption = GenerateClientOptionInterface<AllClientOptionUnion, "SetClientOption">;
@@ -1381,7 +1381,7 @@ export type ShopCategoryConfig = Partial<{
     redDot: boolean;
     forceRemoveRedDot: boolean;
     sortPriority: number;
-    description: string | CustomTextStyling_2;
+    description: string | CustomTextStyling;
 }>;
 
 // @public (undocumented)
@@ -1393,20 +1393,20 @@ export type ShopItem = {
     cost?: number;
     currency?: string;
     amount?: number;
-    imageColour?: StringColor_2;
+    imageColour?: StringColor;
     canBuy?: boolean;
     isSelected?: boolean;
-    buyButtonText?: string | CustomTextStyling_2;
-    customTitle?: string | CustomTextStyling_2;
-    description?: string | CustomTextStyling_2;
-    onBoughtMessage?: string | CustomTextStyling_2;
+    buyButtonText?: string | CustomTextStyling;
+    customTitle?: string | CustomTextStyling;
+    description?: string | CustomTextStyling;
+    onBoughtMessage?: string | CustomTextStyling;
     redDot?: boolean;
     forceRemoveRedDot?: boolean;
     badge?: {
-        text: string | CustomTextStyling_2;
-        type: ShopItemBadgeType_2;
+        text: string | CustomTextStyling;
+        type: ShopItemBadgeType;
     };
-    userInput?: ShopItemUserInput_2;
+    userInput?: ShopItemUserInput;
     sell?: boolean;
     sortPriority?: number;
     hidden?: boolean;
@@ -1438,7 +1438,7 @@ export type ShopItemUserInput = {
     initialValue?: string;
 } | {
     type: "player";
-    excludedPlayers?: PlayerId_2[];
+    excludedPlayers?: PlayerId[];
 } | {
     type: "color";
     initialValue?: string;
@@ -1453,17 +1453,17 @@ export type SoundName = AllSoundName;
 // Warning: (ae-forgotten-export) The symbol "StoppingRadiusDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type StoppingRadius<K extends MobType_2> = StoppingRadiusDictionary[K];
+export type StoppingRadius<K extends MobType> = StoppingRadiusDictionary[K];
 
 // @public
 export type StringColor = `#${string}` | `rgb(${string})` | `rgba(${string})` | `hsl(${string})` | `hsla(${string})` | `hwb(${string})` | `lab(${string})` | `lch(${string})` | `oklab(${string})` | `oklch(${string})` | `color(${string})` | "currentColor" | "transparent" | "aliceblue" | "antiquewhite" | "aqua" | "aquamarine" | "azure" | "beige" | "bisque" | "black" | "blanchedalmond" | "blue" | "blueviolet" | "brown" | "burlywood" | "cadetblue" | "chartreuse" | "chocolate" | "coral" | "cornflowerblue" | "cornsilk" | "crimson" | "cyan" | "darkblue" | "darkcyan" | "darkgoldenrod" | "darkgray" | "darkgreen" | "darkgrey" | "darkkhaki" | "darkmagenta" | "darkolivegreen" | "darkorange" | "darkorchid" | "darkred" | "darksalmon" | "darkseagreen" | "darkslateblue" | "darkslategray" | "darkslategrey" | "darkturquoise" | "darkviolet" | "deeppink" | "deepskyblue" | "dimgray" | "dimgrey" | "dodgerblue" | "firebrick" | "floralwhite" | "forestgreen" | "fuchsia" | "gainsboro" | "ghostwhite" | "gold" | "goldenrod" | "gray" | "green" | "greenyellow" | "grey" | "honeydew" | "hotpink" | "indianred" | "indigo" | "ivory" | "khaki" | "lavender" | "lavenderblush" | "lawngreen" | "lemonchiffon" | "lightblue" | "lightcoral" | "lightcyan" | "lightgoldenrodyellow" | "lightgray" | "lightgreen" | "lightgrey" | "lightpink" | "lightsalmon" | "lightseagreen" | "lightskyblue" | "lightslategray" | "lightslategrey" | "lightsteelblue" | "lightyellow" | "lime" | "limegreen" | "linen" | "magenta" | "maroon" | "mediumaquamarine" | "mediumblue" | "mediumorchid" | "mediumpurple" | "mediumseagreen" | "mediumslateblue" | "mediumspringgreen" | "mediumturquoise" | "mediumvioletred" | "midnightblue" | "mintcream" | "mistyrose" | "moccasin" | "navajowhite" | "navy" | "oldlace" | "olive" | "olivedrab" | "orange" | "orangered" | "orchid" | "palegoldenrod" | "palegreen" | "paleturquoise" | "palevioletred" | "papayawhip" | "peachpuff" | "peru" | "pink" | "plum" | "powderblue" | "purple" | "rebeccapurple" | "red" | "rosybrown" | "royalblue" | "saddlebrown" | "salmon" | "sandybrown" | "seagreen" | "seashell" | "sienna" | "silver" | "skyblue" | "slateblue" | "slategray" | "slategrey" | "snow" | "springgreen" | "steelblue" | "tan" | "teal" | "thistle" | "tomato" | "turquoise" | "violet" | "wheat" | "white" | "whitesmoke" | "yellow" | "yellowgreen" | string;
 
 // @public (undocumented)
 export type StyledIcon = {
-    icon: Icon_2;
+    icon: Icon;
     style?: {
-        color?: StringColor_2;
-        colour?: StringColor_2;
+        color?: StringColor;
+        colour?: StringColor;
         fontSize?: string;
         opacity?: number;
     };
@@ -1479,16 +1479,16 @@ export type StyledText = {
 // Warning: (ae-forgotten-export) The symbol "SwingArmOnAttackDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SwingArmOnAttack<K extends MobType_2> = SwingArmOnAttackDictionary[K];
+export type SwingArmOnAttack<K extends MobType> = SwingArmOnAttackDictionary[K];
 
 // Warning: (ae-forgotten-export) The symbol "SwingArmOnSecondaryAttackDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type SwingArmOnSecondaryAttack<K extends MobType_2> = SwingArmOnSecondaryAttackDictionary[K];
+export type SwingArmOnSecondaryAttack<K extends MobType> = SwingArmOnSecondaryAttackDictionary[K];
 
 // @public (undocumented)
 export type TempParticleSystemOpts = {
-    texture: Texture_2;
+    texture: Texture;
     minLifeTime: number;
     maxLifeTime: number;
     minEmitPower: number;
@@ -1503,16 +1503,16 @@ export type TempParticleSystemOpts = {
     }[];
     colorGradients: {
         timeFraction: number;
-        minColor: Array255ColorWithA_2;
-        maxColor?: Array255ColorWithA_2;
+        minColor: Array255ColorWithA;
+        maxColor?: Array255ColorWithA;
     }[] | {
-        color: Array255Color_2;
+        color: Array255Color;
     }[];
-    blendMode: ParticleSystemBlendMode_2;
-    dir1: Direcrion_2;
-    dir2: Direcrion_2;
-    pos1: Coordinate_2;
-    pos2: Coordinate_2;
+    blendMode: ParticleSystemBlendMode;
+    dir1: Direcrion;
+    dir2: Direcrion;
+    pos1: Coordinate;
+    pos2: Coordinate;
     manualEmitCount: number;
     hideDist: number;
 };
@@ -1520,12 +1520,12 @@ export type TempParticleSystemOpts = {
 // Warning: (ae-forgotten-export) The symbol "TerritoryRadiusDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type TerritoryRadius<K extends MobType_2> = TerritoryRadiusDictionary[K];
+export type TerritoryRadius<K extends MobType> = TerritoryRadiusDictionary[K];
 
 // @public (undocumented)
 export type TextStyle = {
-    color?: StringColor_2;
-    colour?: StringColor_2;
+    color?: StringColor;
+    colour?: StringColor;
     fontSize?: string;
     fontWeight?: number | string;
     opacity?: number;
@@ -1543,8 +1543,8 @@ export type TimeColorGradient = number;
 // @public (undocumented)
 export type TimedClickQteParams = {
     timeWindow: number;
-    icon: Icon_2;
-    label: CustomTextStyling_2;
+    icon: Icon;
+    label: CustomTextStyling;
     showTimer: boolean;
     scale?: number;
     rotation?: number;
@@ -1557,10 +1557,10 @@ export type TranslatedText = {
     params?: Record<string, string | number | boolean | EntityName>;
 };
 
-// Warning: (ae-forgotten-export) The symbol "VariationDictionary_2" needs to be exported by the entry point index.d.ts
+// Warning: (ae-forgotten-export) The symbol "VariationDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type Variation<K extends MobType_2> = VariationDictionary_2[K];
+export type Variation<K extends MobType> = VariationDictionary[K];
 
 // @public (undocumented)
 export type VelocityGradient = number;
@@ -1568,19 +1568,19 @@ export type VelocityGradient = number;
 // Warning: (ae-forgotten-export) The symbol "WalkingSpeedMultiplierDictionary" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-export type WalkingSpeedMultiplier<K extends MobType_2> = WalkingSpeedMultiplierDictionary[K];
+export type WalkingSpeedMultiplier<K extends MobType> = WalkingSpeedMultiplierDictionary[K];
 
 // @public (undocumented)
 export type WalkThroughType = 0 | 1 | 2;
 
 // @public (undocumented)
-export type WhoDidDamage = LifeformId_2 | {
-    lifeformId: LifeformId_2;
-    withItem: Item_2;
+export type WhoDidDamage = LifeformId | {
+    lifeformId: LifeformId;
+    withItem: Item;
 };
 
 // @public (undocumented)
-export type WhoKilled = WhoDidDamage_2;
+export type WhoKilled = WhoDidDamage;
 
 // @public (undocumented)
 export type WorldBlockChangedInfo = {
@@ -1593,98 +1593,12 @@ export type WorldBlockChangedInfo = {
 // src/api-type-def/entitySetting/index.ts:106:31 - (ae-forgotten-export) The symbol "SetTargetedPlayerSettingForEveryoneType" needs to be exported by the entry point index.d.ts
 // src/api-type-def/entitySetting/index.ts:106:31 - (ae-forgotten-export) The symbol "SetOtherEntitySettingType" needs to be exported by the entry point index.d.ts
 // src/api-type-def/entitySetting/index.ts:106:31 - (ae-forgotten-export) The symbol "GetOtherEntitySettingType" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MobType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MobId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "PlayerId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "NameTagInfo_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "LifeformBodyPart_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "LobbyLeaderboardValues_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "EntityId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "CustomTextStyling_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "PlayerPhysicsStateData_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MeshType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MeshEntityOpts_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MeshEntityPhysicsOpts_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "ItemName_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "RecipesForItem_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "QTEClientParameters_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "QTERequestId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "ThrowableItem_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "Coordinate_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "Direcrion_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "ItemAttributes_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "AngleDir_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MobSpawnOpts_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MobHerdId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MobAiState_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "MobAiStateParams_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "LobbyType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "SoundName_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "PosSettings_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "LifeformId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "InGameEffectName_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:7:18 - (ae-forgotten-export) The symbol "IngameIconName_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:615 - (ae-forgotten-export) The symbol "TranslatedText_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "TextStyle_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "ExplosionType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "BlockRaycastResult_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "ItemObject_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "WalkThroughType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "BlockName_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "BlockNameOrId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "Radian_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "EntityType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "Rotation_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "Party_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "PlayerDbId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "CosmeticType_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "CosmeticName_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:937 - (ae-forgotten-export) The symbol "PlayerPose_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:357 - (ae-forgotten-export) The symbol "StringColor_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ItemEntityId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "Item_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "BlockMetadataItem_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "NonBlockMetadataItem_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ItemId_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "AnyMetadataItem_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "Health_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "WhoDidDamage_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "PlayerAttemptDamageOtherPlayerOpts_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "applyMeleeHitOverrides_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "WhoKilled_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ShieldAmount_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ShopCategoryKey_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ShopItemKey_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ShopItem_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ShopCategoryConfig_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "TempParticleSystemOpts_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "ParticlePresetOpts_2" needs to be exported by the entry point index.d.ts
-// src/api-type-def/index.ts:18:467 - (ae-forgotten-export) The symbol "CallbackName_2" needs to be exported by the entry point index.d.ts
 // src/api-type-def/mobSetting/index.ts:69:28 - (ae-forgotten-export) The symbol "RootGetDefaultMobSetting" needs to be exported by the entry point index.d.ts
 // src/api-type-def/mobSetting/index.ts:69:28 - (ae-forgotten-export) The symbol "RootSetDefaultMobSetting" needs to be exported by the entry point index.d.ts
 // src/api-type-def/mobSetting/index.ts:69:28 - (ae-forgotten-export) The symbol "RootGetMobSetting" needs to be exported by the entry point index.d.ts
 // src/api-type-def/mobSetting/index.ts:69:28 - (ae-forgotten-export) The symbol "RootSetMobSetting" needs to be exported by the entry point index.d.ts
 // src/api-type-def/mobSetting/mobSettings/index.ts:50:3 - (ae-forgotten-export) The symbol "Name" needs to be exported by the entry point index.d.ts
 // src/api-type-def/mobSetting/mobSettings/index.ts:51:3 - (ae-forgotten-export) The symbol "MaxHealth" needs to be exported by the entry point index.d.ts
-// src/type/NameTagInfo.ts:5:3 - (ae-forgotten-export) The symbol "StyledText_2" needs to be exported by the entry point index.d.ts
-// src/type/mesh/MeshEntityPhysicsOpts.ts:11:3 - (ae-forgotten-export) The symbol "MeshEntityVehicleOpts_2" needs to be exported by the entry point index.d.ts
-// src/type/mesh/ParticleEmitterOpts.ts:11:3 - (ae-forgotten-export) The symbol "Texture_2" needs to be exported by the entry point index.d.ts
-// src/type/mesh/ParticleEmitterOpts.ts:19:3 - (ae-forgotten-export) The symbol "VelocityGradient_2" needs to be exported by the entry point index.d.ts
-// src/type/mesh/ParticleEmitterOpts.ts:20:3 - (ae-forgotten-export) The symbol "TimeColorGradient_2" needs to be exported by the entry point index.d.ts
-// src/type/mesh/ParticleEmitterOpts.ts:20:3 - (ae-forgotten-export) The symbol "RandomColorGradient_2" needs to be exported by the entry point index.d.ts
-// src/type/mesh/ParticleEmitterOpts.ts:21:3 - (ae-forgotten-export) The symbol "ParticleSystemBlendMode_2" needs to be exported by the entry point index.d.ts
-// src/type/mob/MobSpawnOpts.ts:7:3 - (ae-forgotten-export) The symbol "MobDbId_2" needs to be exported by the entry point index.d.ts
-// src/type/mob/MobSpawnOpts.ts:10:3 - (ae-forgotten-export) The symbol "Variation_2" needs to be exported by the entry point index.d.ts
-// src/type/particle/TempParticleSystemOpts.ts:25:9 - (ae-forgotten-export) The symbol "Array255ColorWithA_2" needs to be exported by the entry point index.d.ts
-// src/type/particle/TempParticleSystemOpts.ts:29:9 - (ae-forgotten-export) The symbol "Array255Color_2" needs to be exported by the entry point index.d.ts
-// src/type/qte/GravityBarQteParams.ts:14:3 - (ae-forgotten-export) The symbol "Icon_2" needs to be exported by the entry point index.d.ts
-// src/type/qte/QTEClientParameters.ts:12:7 - (ae-forgotten-export) The symbol "RhythmClickQteParams_2" needs to be exported by the entry point index.d.ts
-// src/type/qte/QTEClientParameters.ts:16:7 - (ae-forgotten-export) The symbol "PrecisionBarQteParams_2" needs to be exported by the entry point index.d.ts
-// src/type/qte/QTEClientParameters.ts:20:7 - (ae-forgotten-export) The symbol "GravityBarQteParams_2" needs to be exported by the entry point index.d.ts
-// src/type/qte/QTEClientParameters.ts:24:7 - (ae-forgotten-export) The symbol "TimedClickQteParams_2" needs to be exported by the entry point index.d.ts
-// src/type/qte/QTEClientParameters.ts:28:7 - (ae-forgotten-export) The symbol "ProgressBarQteParams_2" needs to be exported by the entry point index.d.ts
-// src/type/shop/ShopItem.ts:18:47 - (ae-forgotten-export) The symbol "ShopItemBadgeType_2" needs to be exported by the entry point index.d.ts
-// src/type/shop/ShopItem.ts:19:3 - (ae-forgotten-export) The symbol "ShopItemUserInput_2" needs to be exported by the entry point index.d.ts
 
 // (No @packageDocumentation comment for this package)
 

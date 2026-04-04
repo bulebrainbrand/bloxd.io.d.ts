@@ -20,7 +20,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc && api-extractor run --local"
+    "build": "tsc && tsc-alias && api-extractor run --local"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.33.0",

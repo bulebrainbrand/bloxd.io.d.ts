@@ -1,0 +1,3 @@
+import { IngameIconName, ItemName } from "../index";
+export type Icon = IngameIconName | ItemName | string;
+//# sourceMappingURL=Icon.d.ts.map

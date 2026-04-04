@@ -1,0 +1,9 @@
+import { MobType } from "../../../type/index";
+type HealthRegenDictionary = Record<MobType, {
+    amount: number;
+    interval: number;
+    startAfter: number;
+} | null>;
+export type HealthRegen<K extends MobType> = HealthRegenDictionary[K];
+export {};
+//# sourceMappingURL=healthRegen.d.ts.map

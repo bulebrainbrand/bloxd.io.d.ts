@@ -1,0 +1,16 @@
+import { LobbyType } from "../../../type/index";
+/**
+ * Returns if the current lobby the game is running in is special - e.g. a discord guild or dm, or simply a standard lobby
+ *
+ * @returns {LobbyType}
+ */
+declare const getLobbyType: () => LobbyType;
+export { getLobbyType };
+/**
+ * Returns if the current lobby the game is running in is special - e.g. a discord guild or dm, or simply a standard lobby
+ *
+ * @returns {LobbyType}
+ *
+ * getLobbyType();
+ */
+//# sourceMappingURL=getLobbyType.d.ts.map
